@@ -110,6 +110,11 @@ export class ASTBuilder
       isDeclaredConst = true
     }
 
+    let isStatic = false
+    if (ctx.StaticKeyword().length > 0) {
+      isStatic = true
+    }
+
     let override
     const overrideSpecifier = ctx.overrideSpecifier()
     if (overrideSpecifier.length === 0) {
@@ -138,6 +143,7 @@ export class ASTBuilder
       isImmutable,
       override,
       storageLocation: null,
+      isStatic
     }
 
     const node: AST.StateVariableDeclaration = {

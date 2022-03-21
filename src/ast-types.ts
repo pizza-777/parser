@@ -236,6 +236,7 @@ export interface VariableDeclaration extends BaseASTNode {
 export interface StateVariableDeclarationVariable extends VariableDeclaration {
   override: null | UserDefinedTypeName[]
   isImmutable: boolean
+  isStatic: boolean
 }
 export interface ArrayTypeName extends BaseASTNode {
   type: 'ArrayTypeName'

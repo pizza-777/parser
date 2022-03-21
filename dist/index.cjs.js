@@ -25081,7 +25081,7 @@ var require_antlr4 = __commonJS((exports) => {
 
 // src/antlr/Solidity.tokens
 var require_Solidity = __commonJS((exports, module2) => {
-  module2.exports = "./Solidity-2PFEZOHM.tokens";
+  module2.exports = "./Solidity-62P3XLVU.tokens";
 });
 
 // src/tokens-string.js
@@ -25240,43 +25240,45 @@ SolidityLexer.T__94 = 95;
 SolidityLexer.T__95 = 96;
 SolidityLexer.T__96 = 97;
 SolidityLexer.T__97 = 98;
-SolidityLexer.Int = 99;
-SolidityLexer.Uint = 100;
-SolidityLexer.Byte = 101;
-SolidityLexer.Fixed = 102;
-SolidityLexer.Ufixed = 103;
-SolidityLexer.TvmCell = 104;
-SolidityLexer.BooleanLiteral = 105;
-SolidityLexer.DecimalNumber = 106;
-SolidityLexer.HexNumber = 107;
-SolidityLexer.NumberUnit = 108;
-SolidityLexer.HexLiteralFragment = 109;
-SolidityLexer.ReservedKeyword = 110;
-SolidityLexer.AnonymousKeyword = 111;
-SolidityLexer.BreakKeyword = 112;
-SolidityLexer.ConstantKeyword = 113;
-SolidityLexer.ImmutableKeyword = 114;
-SolidityLexer.ContinueKeyword = 115;
-SolidityLexer.LeaveKeyword = 116;
-SolidityLexer.ExternalKeyword = 117;
-SolidityLexer.IndexedKeyword = 118;
-SolidityLexer.InternalKeyword = 119;
-SolidityLexer.PayableKeyword = 120;
-SolidityLexer.PrivateKeyword = 121;
-SolidityLexer.PublicKeyword = 122;
-SolidityLexer.VirtualKeyword = 123;
-SolidityLexer.PureKeyword = 124;
-SolidityLexer.TypeKeyword = 125;
-SolidityLexer.ViewKeyword = 126;
-SolidityLexer.ConstructorKeyword = 127;
-SolidityLexer.FallbackKeyword = 128;
-SolidityLexer.ReceiveKeyword = 129;
-SolidityLexer.Identifier = 130;
-SolidityLexer.StringLiteralFragment = 131;
-SolidityLexer.VersionLiteral = 132;
-SolidityLexer.WS = 133;
-SolidityLexer.COMMENT = 134;
-SolidityLexer.LINE_COMMENT = 135;
+SolidityLexer.T__98 = 99;
+SolidityLexer.Int = 100;
+SolidityLexer.Uint = 101;
+SolidityLexer.Byte = 102;
+SolidityLexer.Fixed = 103;
+SolidityLexer.Ufixed = 104;
+SolidityLexer.TvmCell = 105;
+SolidityLexer.BooleanLiteral = 106;
+SolidityLexer.DecimalNumber = 107;
+SolidityLexer.HexNumber = 108;
+SolidityLexer.NumberUnit = 109;
+SolidityLexer.HexLiteralFragment = 110;
+SolidityLexer.ReservedKeyword = 111;
+SolidityLexer.AnonymousKeyword = 112;
+SolidityLexer.BreakKeyword = 113;
+SolidityLexer.ConstantKeyword = 114;
+SolidityLexer.ImmutableKeyword = 115;
+SolidityLexer.ContinueKeyword = 116;
+SolidityLexer.LeaveKeyword = 117;
+SolidityLexer.ExternalKeyword = 118;
+SolidityLexer.IndexedKeyword = 119;
+SolidityLexer.InternalKeyword = 120;
+SolidityLexer.PayableKeyword = 121;
+SolidityLexer.PrivateKeyword = 122;
+SolidityLexer.PublicKeyword = 123;
+SolidityLexer.StaticKeyword = 124;
+SolidityLexer.VirtualKeyword = 125;
+SolidityLexer.PureKeyword = 126;
+SolidityLexer.TypeKeyword = 127;
+SolidityLexer.ViewKeyword = 128;
+SolidityLexer.ConstructorKeyword = 129;
+SolidityLexer.FallbackKeyword = 130;
+SolidityLexer.ReceiveKeyword = 131;
+SolidityLexer.Identifier = 132;
+SolidityLexer.StringLiteralFragment = 133;
+SolidityLexer.VersionLiteral = 134;
+SolidityLexer.WS = 135;
+SolidityLexer.COMMENT = 136;
+SolidityLexer.LINE_COMMENT = 137;
 SolidityLexer.channelNames = [
   "DEFAULT_TOKEN_CHANNEL",
   "HIDDEN"
@@ -25383,6 +25385,7 @@ SolidityLexer.ruleNames = [
   "T__95",
   "T__96",
   "T__97",
+  "T__98",
   "Int",
   "Uint",
   "Byte",
@@ -25411,6 +25414,7 @@ SolidityLexer.ruleNames = [
   "PayableKeyword",
   "PrivateKeyword",
   "PublicKeyword",
+  "StaticKeyword",
   "VirtualKeyword",
   "PureKeyword",
   "TypeKeyword",
@@ -25433,6 +25437,8 @@ SolidityLexer._LITERAL_NAMES = [
   void 0,
   "'pragma'",
   "';'",
+  "'solidity'",
+  "'ton-solidity'",
   "'||'",
   "'^'",
   "'~'",
@@ -25455,7 +25461,6 @@ SolidityLexer._LITERAL_NAMES = [
   "'is'",
   "'('",
   "')'",
-  "'static'",
   "'error'",
   "'using'",
   "'for'",
@@ -25553,6 +25558,7 @@ SolidityLexer._LITERAL_NAMES = [
   "'payable'",
   "'private'",
   "'public'",
+  "'static'",
   "'virtual'",
   "'pure'",
   "'type'",
@@ -25661,6 +25667,7 @@ SolidityLexer._SYMBOLIC_NAMES = [
   void 0,
   void 0,
   void 0,
+  void 0,
   "Int",
   "Uint",
   "Byte",
@@ -25685,6 +25692,7 @@ SolidityLexer._SYMBOLIC_NAMES = [
   "PayableKeyword",
   "PrivateKeyword",
   "PublicKeyword",
+  "StaticKeyword",
   "VirtualKeyword",
   "PureKeyword",
   "TypeKeyword",
@@ -25701,10 +25709,52 @@ SolidityLexer._SYMBOLIC_NAMES = [
 ];
 SolidityLexer.VOCABULARY = new import_VocabularyImpl.VocabularyImpl(_SolidityLexer._LITERAL_NAMES, _SolidityLexer._SYMBOLIC_NAMES, []);
 SolidityLexer._serializedATNSegments = 4;
-SolidityLexer._serializedATNSegment0 = '\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x89\u0761\b					\x07	\x07\b	\b			\n	\n\v	\v\f	\f\r	\r																		 	 !	!"	"#	#$	$%	%&	&\'	\'(	()	)*	*+	+,	,-	-.	./	/0	01	12	23	34	45	56	67	78	89	9:	:;	;<	<=	=>	>?	?@	@A	AB	BC	CD	DE	EF	FG	GH	HI	IJ	JK	KL	LM	MN	NO	OP	PQ	QR	RS	ST	TU	UV	VW	WX	XY	YZ	Z[	[\\	\\]	]^	^_	_`	`a	ab	bc	cd	de	ef	fg	gh	hi	ij	jk	kl	lm	mn	no	op	pq	qr	rs	st	tu	uv	vw	wx	xy	yz	z{	{|	|}	}~	~\x7F	\x7F\x80	\x80\x81	\x81\x82	\x82\x83	\x83\x84	\x84\x85	\x85\x86	\x86\x87	\x87\x88	\x88\x89	\x89\x8A	\x8A\x8B	\x8B\x8C	\x8C\x8D	\x8D\x8E	\x8E\x8F	\x8F\x90	\x90\x07\x07\x07\b\b		\n\n\n\v\v\f\f\f\r\r\r\r\r\r\r         !!!!!!!!""""""#####$$%%&&&&&&&&\'\'(((((((()))*******++++++++,,,,,,,,,---.....////000000111111222222222233333333344455555556666667777788888889999:::::;;;;;;;<<<<<===>>>????@@AABBCCCCCCDDDDDDDEEFFFGGHHIIIJJJKKLLMMMNNNOOOPPQQQRRRSSSTTTTUUUUVVVWWWXXXYYYZZZ[[[[\\\\\\]]]^^^^^^^_____````````aaabbbbbbbbbcccccccccddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\u0394\ndeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\u046D\nefffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\u054B\nfggggggggggggg\u0559\ng\rgg\u055Aggg\u055F\ng\rgg\u0560g\u0563\nghhhhhhhhhhhhhhh\u0573\nh\rhh\u0574hhh\u0579\nh\rhh\u057Ah\u057D\nhiiiiiiiijjjjjjjjjj\u0590\njkkk\u0594\nkkkk\u0598\nkkkk\u059C\nklll\u05A0\nll\x07l\u05A3\nl\fll\u05A6\vlmmmmnnn\u05AE\nnn\x07n\u05B1\nn\fnn\u05B4\vnooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\u05EE\noppppppp\u05F6\nppppp\u05FB\nppp\u05FE\npqqqrrsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss\u065D\nsttttttttttuuuuuuvvvvvvvvvwwwwwwwwwwxxxxxxxxxyyyyyyzzzzzzzzz{{{{{{{{|||||||||}}}}}}}}~~~~~~~~\x7F\x7F\x7F\x7F\x7F\x7F\x7F\x80\x80\x80\x80\x80\x80\x80\x80\x81\x81\x81\x81\x81\x82\x82\x82\x82\x82\x83\x83\x83\x83\x83\x84\x84\x84\x84\x84\x84\x84\x84\x84\x84\x84\x84\x85\x85\x85\x85\x85\x85\x85\x85\x85\x86\x86\x86\x86\x86\x86\x86\x86\x87\x87\x07\x87\u06F8\n\x87\f\x87\x87\u06FB\v\x87\x88\x88\x89\x89\x8A\x8A\x8A\x8A\x8A\x8A\x8A\x8A\u0708\n\x8A\x8A\x8A\x07\x8A\u070C\n\x8A\f\x8A\x8A\u070F\v\x8A\x8A\x8A\x8A\x8A\x8A\x8A\x8A\x8A\x8A\u0719\n\x8A\x8A\x8A\x07\x8A\u071D\n\x8A\f\x8A\x8A\u0720\v\x8A\x8A\x8A\u0723\n\x8A\x8B\x8B\x8B\x8B\u0728\n\x8B\x8C\x8C\x8C\x8C\u072D\n\x8C\x8D\x8D\u0730\n\x8D\r\x8D\x8D\u0731\x8D\x8D\x8D\u0736\n\x8D\r\x8D\x8D\u0737\x8D\x8D\x8D\u073C\n\x8D\r\x8D\x8D\u073D\x8D\u0740\n\x8D\x8E\x8E\u0743\n\x8E\r\x8E\x8E\u0744\x8E\x8E\x8F\x8F\x8F\x8F\x07\x8F\u074D\n\x8F\f\x8F\x8F\u0750\v\x8F\x8F\x8F\x8F\x8F\x8F\x90\x90\x90\x90\x07\x90\u075B\n\x90\f\x90\x90\u075E\v\x90\x90\x90\u074E\x91\x07	\v\x07\r\b	\n\v\f\r!#%\')+-/13579;= ?!A"C#E$G%I&K\'M(O)Q*S+U,W-Y.[/]0_1a2c3e4g5i6k7m8o9q:s;u<w=y>{?}@\x7FA\x81B\x83C\x85D\x87E\x89F\x8BG\x8DH\x8FI\x91J\x93K\x95L\x97M\x99N\x9BO\x9DP\x9FQ\xA1R\xA3S\xA5T\xA7U\xA9V\xABW\xADX\xAFY\xB1Z\xB3[\xB5\\\xB7]\xB9^\xBB_\xBD`\xBFa\xC1b\xC3c\xC5d\xC7e\xC9f\xCBg\xCDh\xCFi\xD1j\xD3k\xD5l\xD7\xD9m\xDB\xDDn\xDFo\xE1\xE3\xE5p\xE7q\xE9r\xEBs\xEDt\xEFu\xF1v\xF3w\xF5x\xF7y\xF9z\xFB{\xFD|\xFF}\u0101~\u0103\x7F\u0105\x80\u0107\x81\u0109\x82\u010B\x83\u010D\x84\u010F\u0111\u0113\x85\u0115\u0117\u0119\x86\u011B\x87\u011D\x88\u011F\x89\f2;GGggZZzz2;CHch&&C\\aac|\b&&//2;C\\aac|\f\f$$^^\f\f))^^\v\f""\f\f\u07F2\x07	\v\r!#%\')+-/13579;=?ACEGIKMOQSUWY[]_acegikmoqsuwy{}\x7F\x81\x83\x85\x87\x89\x8B\x8D\x8F\x91\x93\x95\x97\x99\x9B\x9D\x9F\xA1\xA3\xA5\xA7\xA9\xAB\xAD\xAF\xB1\xB3\xB5\xB7\xB9\xBB\xBD\xBF\xC1\xC3\xC5\xC7\xC9\xCB\xCD\xCF\xD1\xD3\xD5\xD9';
-SolidityLexer._serializedATNSegment1 = "\xDD\xDF\xE5\xE7\xE9\xEB\xED\xEF\xF1\xF3\xF5\xF7\xF9\xFB\xFD\xFF\u0101\u0103\u0105\u0107\u0109\u010B\u010D\u0113\u0119\u011B\u011D\u011F\u0121\u0128\x07\u012A	\u012D\v\u012F\r\u0131\u0134\u0136\u0138\u013B\u013D\u0140\u0147\u0149\u014E!\u0150#\u0152%\u0154'\u015D)\u0166+\u0170-\u0178/\u017B1\u017D3\u017F5\u01867\u018C9\u0192;\u0196=\u019D?\u01A6A\u01AFC\u01B7E\u01BDG\u01C2I\u01C4K\u01C6M\u01CEO\u01D0Q\u01D8S\u01DBU\u01E2W\u01EAY\u01F3[\u01F6]\u01FB_\u01FFa\u0205c\u020Be\u0215g\u021Ei\u0221k\u0228m\u022Eo\u0233q\u023As\u023Eu\u0243w\u024Ay\u024F{\u0252}\u0255\x7F\u0259\x81\u025B\x83\u025D\x85\u025F\x87\u0265\x89\u026C\x8B\u026E\x8D\u0271\x8F\u0273\x91\u0275\x93\u0278\x95\u027B\x97\u027D\x99\u027F\x9B\u0282\x9D\u0285\x9F\u0288\xA1\u028A\xA3\u028D\xA5\u0290\xA7\u0293\xA9\u0297\xAB\u029B\xAD\u029E\xAF\u02A1\xB1\u02A4\xB3\u02A7\xB5\u02AA\xB7\u02AE\xB9\u02B1\xBB\u02B4\xBD\u02BB\xBF\u02C0\xC1\u02C8\xC3\u02CB\xC5\u02D4\xC7\u0393\xC9\u046C\xCB\u054A\xCD\u0562\xCF\u057C\xD1\u057E\xD3\u058F\xD5\u0597\xD7\u059D\xD9\u05A7\xDB\u05AB\xDD\u05ED\xDF\u05EF\xE1\u05FF\xE3\u0602\xE5\u065C\xE7\u065E\xE9\u0668\xEB\u066E\xED\u0677\xEF\u0681\xF1\u068A\xF3\u0690\xF5\u0699\xF7\u06A1\xF9\u06AA\xFB\u06B2\xFD\u06BA\xFF\u06C1\u0101\u06C9\u0103\u06CE\u0105\u06D3\u0107\u06D8\u0109\u06E4\u010B\u06ED\u010D\u06F5\u010F\u06FC\u0111\u06FE\u0113\u0722\u0115\u0727\u0117\u072C\u0119\u072F\u011B\u0742\u011D\u0748\u011F\u0756\u0121\u0122\x07r\u0122\u0123\x07t\u0123\u0124\x07c\u0124\u0125\x07i\u0125\u0126\x07o\u0126\u0127\x07c\u0127\u0128\u0129\x07=\u0129\u012A\u012B\x07~\u012B\u012C\x07~\u012C\b\u012D\u012E\x07`\u012E\n\u012F\u0130\x07\x80\u0130\f\u0131\u0132\x07@\u0132\u0133\x07?\u0133\u0134\u0135\x07@\u0135\u0136\u0137\x07>\u0137\u0138\u0139\x07>\u0139\u013A\x07?\u013A\u013B\u013C\x07?\u013C\u013D\u013E\x07c\u013E\u013F\x07u\u013F\u0140\u0141\x07k\u0141\u0142\x07o\u0142\u0143\x07r\u0143\u0144\x07q\u0144\u0145\x07t\u0145\u0146\x07v\u0146\u0147\u0148\x07,\u0148\u0149\u014A\x07h\u014A\u014B\x07t\u014B\u014C\x07q\u014C\u014D\x07o\u014D\u014E\u014F\x07}\u014F \u0150\u0151\x07.\u0151\"\u0152\u0153\x07\x7F\u0153$\u0154\u0155\x07c\u0155\u0156\x07d\u0156\u0157\x07u\u0157\u0158\x07v\u0158\u0159\x07t\u0159\u015A\x07c\u015A\u015B\x07e\u015B\u015C\x07v\u015C&\u015D\u015E\x07e\u015E\u015F\x07q\u015F\u0160\x07p\u0160\u0161\x07v\u0161\u0162\x07t\u0162\u0163\x07c\u0163\u0164\x07e\u0164\u0165\x07v\u0165(\u0166\u0167\x07k\u0167\u0168\x07p\u0168\u0169\x07v\u0169\u016A\x07g\u016A\u016B\x07t\u016B\u016C\x07h\u016C\u016D\x07c\u016D\u016E\x07e\u016E\u016F\x07g\u016F*\u0170\u0171\x07n\u0171\u0172\x07k\u0172\u0173\x07d\u0173\u0174\x07t\u0174\u0175\x07c\u0175\u0176\x07t\u0176\u0177\x07{\u0177,\u0178\u0179\x07k\u0179\u017A\x07u\u017A.\u017B\u017C\x07*\u017C0\u017D\u017E\x07+\u017E2\u017F\u0180\x07u\u0180\u0181\x07v\u0181\u0182\x07c\u0182\u0183\x07v\u0183\u0184\x07k\u0184\u0185\x07e\u01854\u0186\u0187\x07g\u0187\u0188\x07t\u0188\u0189\x07t\u0189\u018A\x07q\u018A\u018B\x07t\u018B6\u018C\u018D\x07w\u018D\u018E\x07u\u018E\u018F\x07k\u018F\u0190\x07p\u0190\u0191\x07i\u01918\u0192\u0193\x07h\u0193\u0194\x07q\u0194\u0195\x07t\u0195:\u0196\u0197\x07u\u0197\u0198\x07v\u0198\u0199\x07t\u0199\u019A\x07w\u019A\u019B\x07e\u019B\u019C\x07v\u019C<\u019D\u019E\x07o\u019E\u019F\x07q\u019F\u01A0\x07f\u01A0\u01A1\x07k\u01A1\u01A2\x07h\u01A2\u01A3\x07k\u01A3\u01A4\x07g\u01A4\u01A5\x07t\u01A5>\u01A6\u01A7\x07h\u01A7\u01A8\x07w\u01A8\u01A9\x07p\u01A9\u01AA\x07e\u01AA\u01AB\x07v\u01AB\u01AC\x07k\u01AC\u01AD\x07q\u01AD\u01AE\x07p\u01AE@\u01AF\u01B0\x07t\u01B0\u01B1\x07g\u01B1\u01B2\x07v\u01B2\u01B3\x07w\u01B3\u01B4\x07t\u01B4\u01B5\x07p\u01B5\u01B6\x07u\u01B6B\u01B7\u01B8\x07g\u01B8\u01B9\x07x\u01B9\u01BA\x07g\u01BA\u01BB\x07p\u01BB\u01BC\x07v\u01BCD\u01BD\u01BE\x07g\u01BE\u01BF\x07p\u01BF\u01C0\x07w\u01C0\u01C1\x07o\u01C1F\u01C2\u01C3\x07]\u01C3H\u01C4\u01C5\x07_\u01C5J\u01C6\u01C7\x07c\u01C7\u01C8\x07f\u01C8\u01C9\x07f\u01C9\u01CA\x07t\u01CA\u01CB\x07g\u01CB\u01CC\x07u\u01CC\u01CD\x07u\u01CDL\u01CE\u01CF\x070\u01CFN\u01D0\u01D1\x07o\u01D1\u01D2\x07c\u01D2\u01D3\x07r\u01D3\u01D4\x07r\u01D4\u01D5\x07k\u01D5\u01D6\x07p\u01D6\u01D7\x07i\u01D7P\u01D8\u01D9\x07?\u01D9\u01DA\x07@\u01DAR\u01DB\u01DC\x07o\u01DC\u01DD\x07g\u01DD\u01DE\x07o\u01DE\u01DF\x07q\u01DF\u01E0\x07t\u01E0\u01E1\x07{\u01E1T\u01E2\u01E3\x07u\u01E3\u01E4\x07v\u01E4\u01E5\x07q\u01E5\u01E6\x07t\u01E6\u01E7\x07c\u01E7\u01E8\x07i\u01E8\u01E9\x07g\u01E9V\u01EA\u01EB\x07e\u01EB\u01EC\x07c\u01EC\u01ED\x07n\u01ED\u01EE\x07n\u01EE\u01EF\x07f\u01EF\u01F0\x07c\u01F0\u01F1\x07v\u01F1\u01F2\x07c\u01F2X\u01F3\u01F4\x07k\u01F4\u01F5\x07h\u01F5Z\u01F6\u01F7\x07g\u01F7\u01F8\x07n\u01F8\u01F9\x07u\u01F9\u01FA\x07g\u01FA\\\u01FB\u01FC\x07v\u01FC\u01FD\x07t\u01FD\u01FE\x07{\u01FE^\u01FF\u0200\x07e\u0200\u0201\x07c\u0201\u0202\x07v\u0202\u0203\x07e\u0203\u0204\x07j\u0204`\u0205\u0206\x07y\u0206\u0207\x07j\u0207\u0208\x07k\u0208\u0209\x07n\u0209\u020A\x07g\u020Ab\u020B\u020C\x07w\u020C\u020D\x07p\u020D\u020E\x07e\u020E\u020F\x07j\u020F\u0210\x07g\u0210\u0211\x07e\u0211\u0212\x07m\u0212\u0213\x07g\u0213\u0214\x07f\u0214d\u0215\u0216\x07c\u0216\u0217\x07u\u0217\u0218\x07u\u0218\u0219\x07g\u0219\u021A\x07o\u021A\u021B\x07d\u021B\u021C\x07n\u021C\u021D\x07{\u021Df\u021E\u021F\x07f\u021F\u0220\x07q\u0220h\u0221\u0222\x07t\u0222\u0223\x07g\u0223\u0224\x07v\u0224\u0225\x07w\u0225\u0226\x07t\u0226\u0227\x07p\u0227j\u0228\u0229\x07v\u0229\u022A\x07j\u022A\u022B\x07t\u022B\u022C\x07q\u022C\u022D\x07y\u022Dl\u022E\u022F\x07g\u022F\u0230\x07o\u0230\u0231\x07k\u0231\u0232\x07v\u0232n\u0233\u0234\x07t\u0234\u0235\x07g\u0235\u0236\x07x\u0236\u0237\x07g\u0237\u0238\x07t\u0238\u0239\x07v\u0239p\u023A\u023B\x07x\u023B\u023C\x07c\u023C\u023D\x07t\u023Dr\u023E\u023F\x07d\u023F\u0240\x07q\u0240\u0241\x07q\u0241\u0242\x07n\u0242t\u0243\u0244\x07u\u0244\u0245\x07v\u0245\u0246\x07t\u0246\u0247\x07k\u0247\u0248\x07p\u0248\u0249\x07i\u0249v\u024A\u024B\x07d\u024B\u024C\x07{\u024C\u024D\x07v\u024D\u024E\x07g\u024Ex\u024F\u0250\x07-\u0250\u0251\x07-\u0251z\u0252\u0253\x07/\u0253\u0254\x07/\u0254|\u0255\u0256\x07p\u0256\u0257\x07g\u0257\u0258\x07y\u0258~\u0259\u025A\x07<\u025A\x80\u025B\u025C\x07-\u025C\x82\u025D\u025E\x07/\u025E\x84\u025F\u0260\x07c\u0260\u0261\x07h\u0261\u0262\x07v\u0262\u0263\x07g\u0263\u0264\x07t\u0264\x86\u0265\u0266\x07f\u0266\u0267\x07g\u0267\u0268\x07n\u0268\u0269\x07g\u0269\u026A\x07v\u026A\u026B\x07g\u026B\x88\u026C\u026D\x07#\u026D\x8A\u026E\u026F\x07,\u026F\u0270\x07,\u0270\x8C\u0271\u0272\x071\u0272\x8E\u0273\u0274\x07'\u0274\x90\u0275\u0276\x07>\u0276\u0277\x07>\u0277\x92\u0278\u0279\x07@\u0279\u027A\x07@\u027A\x94\u027B\u027C\x07(\u027C\x96\u027D\u027E\x07~\u027E\x98\u027F\u0280\x07?\u0280\u0281\x07?\u0281\x9A\u0282\u0283\x07#\u0283\u0284\x07?\u0284\x9C\u0285\u0286\x07(\u0286\u0287\x07(\u0287\x9E\u0288\u0289\x07A\u0289\xA0\u028A\u028B\x07~\u028B\u028C\x07?\u028C\xA2\u028D\u028E\x07`\u028E\u028F\x07?\u028F\xA4\u0290\u0291\x07(\u0291\u0292\x07?\u0292\xA6\u0293\u0294\x07>\u0294\u0295\x07>\u0295\u0296\x07?\u0296\xA8\u0297\u0298\x07@\u0298\u0299\x07@\u0299\u029A\x07?\u029A\xAA\u029B\u029C\x07-\u029C\u029D\x07?\u029D\xAC\u029E\u029F\x07/\u029F\u02A0\x07?\u02A0\xAE\u02A1\u02A2\x07,\u02A2\u02A3\x07?\u02A3\xB0\u02A4\u02A5\x071\u02A5\u02A6\x07?\u02A6\xB2\u02A7\u02A8\x07'\u02A8\u02A9\x07?\u02A9\xB4\u02AA\u02AB\x07n\u02AB\u02AC\x07g\u02AC\u02AD\x07v\u02AD\xB6\u02AE\u02AF\x07<\u02AF\u02B0\x07?\u02B0\xB8\u02B1\u02B2\x07?\u02B2\u02B3\x07<\u02B3\xBA\u02B4\u02B5\x07u\u02B5\u02B6\x07y\u02B6\u02B7\x07k\u02B7\u02B8\x07v\u02B8\u02B9\x07e\u02B9\u02BA\x07j\u02BA\xBC\u02BB\u02BC\x07e\u02BC\u02BD\x07c\u02BD\u02BE\x07u\u02BE\u02BF\x07g\u02BF\xBE\u02C0\u02C1\x07f\u02C1\u02C2\x07g\u02C2\u02C3\x07h\u02C3\u02C4\x07c\u02C4\u02C5\x07w\u02C5\u02C6\x07n\u02C6\u02C7\x07v\u02C7\xC0\u02C8\u02C9\x07/\u02C9\u02CA\x07@\u02CA\xC2\u02CB\u02CC\x07e\u02CC\u02CD\x07c\u02CD\u02CE\x07n\u02CE\u02CF\x07n\u02CF\u02D0\x07d\u02D0\u02D1\x07c\u02D1\u02D2\x07e\u02D2\u02D3\x07m\u02D3\xC4\u02D4\u02D5\x07q\u02D5\u02D6\x07x\u02D6\u02D7\x07g\u02D7\u02D8\x07t\u02D8\u02D9\x07t\u02D9\u02DA\x07k\u02DA\u02DB\x07f\u02DB\u02DC\x07g\u02DC\xC6\u02DD\u02DE\x07k\u02DE\u02DF\x07p\u02DF\u0394\x07v\u02E0\u02E1\x07k\u02E1\u02E2\x07p\u02E2\u02E3\x07v\u02E3\u0394\x07:\u02E4\u02E5\x07k\u02E5\u02E6\x07p\u02E6\u02E7\x07v\u02E7\u02E8\x073\u02E8\u0394\x078\u02E9\u02EA\x07k\u02EA\u02EB\x07p\u02EB\u02EC\x07v\u02EC\u02ED\x074\u02ED\u0394\x076\u02EE\u02EF\x07k\u02EF\u02F0\x07p\u02F0\u02F1\x07v\u02F1\u02F2\x075\u02F2\u0394\x074\u02F3\u02F4\x07k\u02F4\u02F5\x07p\u02F5\u02F6\x07v\u02F6\u02F7\x076\u02F7\u0394\x072\u02F8\u02F9\x07k\u02F9\u02FA\x07p\u02FA\u02FB\x07v\u02FB\u02FC\x076\u02FC\u0394\x07:\u02FD\u02FE\x07k\u02FE\u02FF\x07p\u02FF\u0300\x07v\u0300\u0301\x077\u0301\u0394\x078\u0302\u0303\x07k\u0303\u0304\x07p\u0304\u0305\x07v\u0305\u0306\x078\u0306\u0394\x076\u0307\u0308\x07k\u0308\u0309\x07p\u0309\u030A\x07v\u030A\u030B\x079\u030B\u0394\x074\u030C\u030D\x07k\u030D\u030E\x07p\u030E\u030F\x07v\u030F\u0310\x07:\u0310\u0394\x072\u0311\u0312\x07k\u0312\u0313\x07p\u0313\u0314\x07v\u0314\u0315\x07:\u0315\u0394\x07:\u0316\u0317\x07k\u0317\u0318\x07p\u0318\u0319\x07v\u0319\u031A\x07;\u031A\u0394\x078\u031B\u031C\x07k\u031C\u031D\x07p\u031D\u031E\x07v\u031E\u031F\x073\u031F\u0320\x072\u0320\u0394\x076\u0321\u0322\x07k\u0322\u0323\x07p\u0323\u0324\x07v\u0324\u0325\x073\u0325\u0326\x073\u0326\u0394\x074\u0327\u0328\x07k\u0328\u0329\x07p\u0329\u032A\x07v\u032A\u032B\x073\u032B\u032C\x074\u032C\u0394\x072\u032D\u032E\x07k\u032E\u032F\x07p\u032F\u0330\x07v\u0330\u0331\x073\u0331\u0332\x074\u0332\u0394\x07:\u0333\u0334\x07k\u0334\u0335\x07p\u0335\u0336\x07v\u0336\u0337\x073\u0337\u0338\x075\u0338\u0394\x078\u0339\u033A\x07k\u033A\u033B\x07p\u033B\u033C\x07v\u033C\u033D\x073\u033D\u033E\x076\u033E\u0394\x076\u033F\u0340\x07k\u0340\u0341\x07p\u0341\u0342\x07v\u0342\u0343\x073\u0343\u0344\x077\u0344\u0394\x074\u0345\u0346\x07k\u0346\u0347\x07p\u0347\u0348\x07v\u0348\u0349\x073\u0349\u034A\x078\u034A\u0394\x072\u034B\u034C\x07k\u034C\u034D\x07p\u034D\u034E\x07v\u034E\u034F\x073\u034F\u0350\x078\u0350\u0394\x07:\u0351\u0352\x07k\u0352\u0353\x07p\u0353\u0354\x07v\u0354\u0355\x073\u0355\u0356\x079\u0356\u0394\x078\u0357\u0358\x07k\u0358\u0359\x07p\u0359\u035A\x07v\u035A\u035B\x073\u035B\u035C\x07:\u035C\u0394\x076\u035D\u035E\x07k\u035E\u035F\x07p\u035F\u0360\x07v\u0360\u0361\x073\u0361\u0362\x07;\u0362\u0394\x074\u0363\u0364\x07k\u0364\u0365\x07p\u0365\u0366\x07v\u0366\u0367\x074\u0367\u0368\x072\u0368\u0394\x072\u0369\u036A\x07k\u036A\u036B\x07p\u036B\u036C\x07v\u036C\u036D\x074\u036D\u036E\x072\u036E\u0394\x07:\u036F\u0370\x07k\u0370\u0371\x07p\u0371\u0372\x07v\u0372\u0373\x074\u0373\u0374\x073\u0374\u0394\x078\u0375\u0376\x07k\u0376\u0377\x07p\u0377\u0378\x07v\u0378\u0379\x074\u0379\u037A\x074\u037A\u0394\x076\u037B\u037C\x07k\u037C\u037D\x07p\u037D\u037E\x07v\u037E\u037F\x074\u037F\u0380\x075\u0380\u0394\x074\u0381\u0382\x07k\u0382\u0383\x07p\u0383\u0384\x07v\u0384\u0385\x074\u0385\u0386\x076\u0386\u0394\x072\u0387\u0388\x07k\u0388\u0389\x07p\u0389\u038A\x07v\u038A\u038B\x074\u038B\u038C\x076\u038C\u0394\x07:\u038D\u038E\x07k\u038E\u038F\x07p\u038F\u0390\x07v\u0390\u0391\x074\u0391\u0392\x077\u0392\u0394\x078\u0393\u02DD\u0393\u02E0\u0393\u02E4\u0393\u02E9\u0393\u02EE\u0393\u02F3\u0393\u02F8\u0393\u02FD\u0393\u0302\u0393\u0307\u0393\u030C\u0393\u0311\u0393\u0316\u0393\u031B\u0393\u0321\u0393\u0327\u0393\u032D\u0393\u0333\u0393\u0339\u0393\u033F\u0393\u0345\u0393\u034B\u0393\u0351\u0393\u0357\u0393\u035D\u0393\u0363\u0393\u0369\u0393\u036F\u0393\u0375\u0393\u037B\u0393\u0381\u0393\u0387\u0393\u038D\u0394\xC8\u0395\u0396\x07w\u0396\u0397\x07k\u0397";
-SolidityLexer._serializedATNSegment2 = "\u0398\x07p\u0398\u046D\x07v\u0399\u039A\x07w\u039A\u039B\x07k\u039B\u039C\x07p\u039C\u039D\x07v\u039D\u046D\x07:\u039E\u039F\x07w\u039F\u03A0\x07k\u03A0\u03A1\x07p\u03A1\u03A2\x07v\u03A2\u03A3\x073\u03A3\u046D\x078\u03A4\u03A5\x07w\u03A5\u03A6\x07k\u03A6\u03A7\x07p\u03A7\u03A8\x07v\u03A8\u03A9\x074\u03A9\u046D\x076\u03AA\u03AB\x07w\u03AB\u03AC\x07k\u03AC\u03AD\x07p\u03AD\u03AE\x07v\u03AE\u03AF\x075\u03AF\u046D\x074\u03B0\u03B1\x07w\u03B1\u03B2\x07k\u03B2\u03B3\x07p\u03B3\u03B4\x07v\u03B4\u03B5\x076\u03B5\u046D\x072\u03B6\u03B7\x07w\u03B7\u03B8\x07k\u03B8\u03B9\x07p\u03B9\u03BA\x07v\u03BA\u03BB\x076\u03BB\u046D\x07:\u03BC\u03BD\x07w\u03BD\u03BE\x07k\u03BE\u03BF\x07p\u03BF\u03C0\x07v\u03C0\u03C1\x077\u03C1\u046D\x078\u03C2\u03C3\x07w\u03C3\u03C4\x07k\u03C4\u03C5\x07p\u03C5\u03C6\x07v\u03C6\u03C7\x078\u03C7\u046D\x076\u03C8\u03C9\x07w\u03C9\u03CA\x07k\u03CA\u03CB\x07p\u03CB\u03CC\x07v\u03CC\u03CD\x079\u03CD\u046D\x074\u03CE\u03CF\x07w\u03CF\u03D0\x07k\u03D0\u03D1\x07p\u03D1\u03D2\x07v\u03D2\u03D3\x07:\u03D3\u046D\x072\u03D4\u03D5\x07w\u03D5\u03D6\x07k\u03D6\u03D7\x07p\u03D7\u03D8\x07v\u03D8\u03D9\x07:\u03D9\u046D\x07:\u03DA\u03DB\x07w\u03DB\u03DC\x07k\u03DC\u03DD\x07p\u03DD\u03DE\x07v\u03DE\u03DF\x07;\u03DF\u046D\x078\u03E0\u03E1\x07w\u03E1\u03E2\x07k\u03E2\u03E3\x07p\u03E3\u03E4\x07v\u03E4\u03E5\x073\u03E5\u03E6\x072\u03E6\u046D\x076\u03E7\u03E8\x07w\u03E8\u03E9\x07k\u03E9\u03EA\x07p\u03EA\u03EB\x07v\u03EB\u03EC\x073\u03EC\u03ED\x073\u03ED\u046D\x074\u03EE\u03EF\x07w\u03EF\u03F0\x07k\u03F0\u03F1\x07p\u03F1\u03F2\x07v\u03F2\u03F3\x073\u03F3\u03F4\x074\u03F4\u046D\x072\u03F5\u03F6\x07w\u03F6\u03F7\x07k\u03F7\u03F8\x07p\u03F8\u03F9\x07v\u03F9\u03FA\x073\u03FA\u03FB\x074\u03FB\u046D\x07:\u03FC\u03FD\x07w\u03FD\u03FE\x07k\u03FE\u03FF\x07p\u03FF\u0400\x07v\u0400\u0401\x073\u0401\u0402\x075\u0402\u046D\x078\u0403\u0404\x07w\u0404\u0405\x07k\u0405\u0406\x07p\u0406\u0407\x07v\u0407\u0408\x073\u0408\u0409\x076\u0409\u046D\x076\u040A\u040B\x07w\u040B\u040C\x07k\u040C\u040D\x07p\u040D\u040E\x07v\u040E\u040F\x073\u040F\u0410\x077\u0410\u046D\x074\u0411\u0412\x07w\u0412\u0413\x07k\u0413\u0414\x07p\u0414\u0415\x07v\u0415\u0416\x073\u0416\u0417\x078\u0417\u046D\x072\u0418\u0419\x07w\u0419\u041A\x07k\u041A\u041B\x07p\u041B\u041C\x07v\u041C\u041D\x073\u041D\u041E\x078\u041E\u046D\x07:\u041F\u0420\x07w\u0420\u0421\x07k\u0421\u0422\x07p\u0422\u0423\x07v\u0423\u0424\x073\u0424\u0425\x079\u0425\u046D\x078\u0426\u0427\x07w\u0427\u0428\x07k\u0428\u0429\x07p\u0429\u042A\x07v\u042A\u042B\x073\u042B\u042C\x07:\u042C\u046D\x076\u042D\u042E\x07w\u042E\u042F\x07k\u042F\u0430\x07p\u0430\u0431\x07v\u0431\u0432\x073\u0432\u0433\x07;\u0433\u046D\x074\u0434\u0435\x07w\u0435\u0436\x07k\u0436\u0437\x07p\u0437\u0438\x07v\u0438\u0439\x074\u0439\u043A\x072\u043A\u046D\x072\u043B\u043C\x07w\u043C\u043D\x07k\u043D\u043E\x07p\u043E\u043F\x07v\u043F\u0440\x074\u0440\u0441\x072\u0441\u046D\x07:\u0442\u0443\x07w\u0443\u0444\x07k\u0444\u0445\x07p\u0445\u0446\x07v\u0446\u0447\x074\u0447\u0448\x073\u0448\u046D\x078\u0449\u044A\x07w\u044A\u044B\x07k\u044B\u044C\x07p\u044C\u044D\x07v\u044D\u044E\x074\u044E\u044F\x074\u044F\u046D\x076\u0450\u0451\x07w\u0451\u0452\x07k\u0452\u0453\x07p\u0453\u0454\x07v\u0454\u0455\x074\u0455\u0456\x075\u0456\u046D\x074\u0457\u0458\x07w\u0458\u0459\x07k\u0459\u045A\x07p\u045A\u045B\x07v\u045B\u045C\x074\u045C\u045D\x076\u045D\u046D\x072\u045E\u045F\x07w\u045F\u0460\x07k\u0460\u0461\x07p\u0461\u0462\x07v\u0462\u0463\x074\u0463\u0464\x076\u0464\u046D\x07:\u0465\u0466\x07w\u0466\u0467\x07k\u0467\u0468\x07p\u0468\u0469\x07v\u0469\u046A\x074\u046A\u046B\x077\u046B\u046D\x078\u046C\u0395\u046C\u0399\u046C\u039E\u046C\u03A4\u046C\u03AA\u046C\u03B0\u046C\u03B6\u046C\u03BC\u046C\u03C2\u046C\u03C8\u046C\u03CE\u046C\u03D4\u046C\u03DA\u046C\u03E0\u046C\u03E7\u046C\u03EE\u046C\u03F5\u046C\u03FC\u046C\u0403\u046C\u040A\u046C\u0411\u046C\u0418\u046C\u041F\u046C\u0426\u046C\u042D\u046C\u0434\u046C\u043B\u046C\u0442\u046C\u0449\u046C\u0450\u046C\u0457\u046C\u045E\u046C\u0465\u046D\xCA\u046E\u046F\x07d\u046F\u0470\x07{\u0470\u0471\x07v\u0471\u0472\x07g\u0472\u054B\x07u\u0473\u0474\x07d\u0474\u0475\x07{\u0475\u0476\x07v\u0476\u0477\x07g\u0477\u0478\x07u\u0478\u054B\x073\u0479\u047A\x07d\u047A\u047B\x07{\u047B\u047C\x07v\u047C\u047D\x07g\u047D\u047E\x07u\u047E\u054B\x074\u047F\u0480\x07d\u0480\u0481\x07{\u0481\u0482\x07v\u0482\u0483\x07g\u0483\u0484\x07u\u0484\u054B\x075\u0485\u0486\x07d\u0486\u0487\x07{\u0487\u0488\x07v\u0488\u0489\x07g\u0489\u048A\x07u\u048A\u054B\x076\u048B\u048C\x07d\u048C\u048D\x07{\u048D\u048E\x07v\u048E\u048F\x07g\u048F\u0490\x07u\u0490\u054B\x077\u0491\u0492\x07d\u0492\u0493\x07{\u0493\u0494\x07v\u0494\u0495\x07g\u0495\u0496\x07u\u0496\u054B\x078\u0497\u0498\x07d\u0498\u0499\x07{\u0499\u049A\x07v\u049A\u049B\x07g\u049B\u049C\x07u\u049C\u054B\x079\u049D\u049E\x07d\u049E\u049F\x07{\u049F\u04A0\x07v\u04A0\u04A1\x07g\u04A1\u04A2\x07u\u04A2\u054B\x07:\u04A3\u04A4\x07d\u04A4\u04A5\x07{\u04A5\u04A6\x07v\u04A6\u04A7\x07g\u04A7\u04A8\x07u\u04A8\u054B\x07;\u04A9\u04AA\x07d\u04AA\u04AB\x07{\u04AB\u04AC\x07v\u04AC\u04AD\x07g\u04AD\u04AE\x07u\u04AE\u04AF\x073\u04AF\u054B\x072\u04B0\u04B1\x07d\u04B1\u04B2\x07{\u04B2\u04B3\x07v\u04B3\u04B4\x07g\u04B4\u04B5\x07u\u04B5\u04B6\x073\u04B6\u054B\x073\u04B7\u04B8\x07d\u04B8\u04B9\x07{\u04B9\u04BA\x07v\u04BA\u04BB\x07g\u04BB\u04BC\x07u\u04BC\u04BD\x073\u04BD\u054B\x074\u04BE\u04BF\x07d\u04BF\u04C0\x07{\u04C0\u04C1\x07v\u04C1\u04C2\x07g\u04C2\u04C3\x07u\u04C3\u04C4\x073\u04C4\u054B\x075\u04C5\u04C6\x07d\u04C6\u04C7\x07{\u04C7\u04C8\x07v\u04C8\u04C9\x07g\u04C9\u04CA\x07u\u04CA\u04CB\x073\u04CB\u054B\x076\u04CC\u04CD\x07d\u04CD\u04CE\x07{\u04CE\u04CF\x07v\u04CF\u04D0\x07g\u04D0\u04D1\x07u\u04D1\u04D2\x073\u04D2\u054B\x077\u04D3\u04D4\x07d\u04D4\u04D5\x07{\u04D5\u04D6\x07v\u04D6\u04D7\x07g\u04D7\u04D8\x07u\u04D8\u04D9\x073\u04D9\u054B\x078\u04DA\u04DB\x07d\u04DB\u04DC\x07{\u04DC\u04DD\x07v\u04DD\u04DE\x07g\u04DE\u04DF\x07u\u04DF\u04E0\x073\u04E0\u054B\x079\u04E1\u04E2\x07d\u04E2\u04E3\x07{\u04E3\u04E4\x07v\u04E4\u04E5\x07g\u04E5\u04E6\x07u\u04E6\u04E7\x073\u04E7\u054B\x07:\u04E8\u04E9\x07d\u04E9\u04EA\x07{\u04EA\u04EB\x07v\u04EB\u04EC\x07g\u04EC\u04ED\x07u\u04ED\u04EE\x073\u04EE\u054B\x07;\u04EF\u04F0\x07d\u04F0\u04F1\x07{\u04F1\u04F2\x07v\u04F2\u04F3\x07g\u04F3\u04F4\x07u\u04F4\u04F5\x074\u04F5\u054B\x072\u04F6\u04F7\x07d\u04F7\u04F8\x07{\u04F8\u04F9\x07v\u04F9\u04FA\x07g\u04FA\u04FB\x07u\u04FB\u04FC\x074\u04FC\u054B\x073\u04FD\u04FE\x07d\u04FE\u04FF\x07{\u04FF\u0500\x07v\u0500\u0501\x07g\u0501\u0502\x07u\u0502\u0503\x074\u0503\u054B\x074\u0504\u0505\x07d\u0505\u0506\x07{\u0506\u0507\x07v\u0507\u0508\x07g\u0508\u0509\x07u\u0509\u050A\x074\u050A\u054B\x075\u050B\u050C\x07d\u050C\u050D\x07{\u050D\u050E\x07v\u050E\u050F\x07g\u050F\u0510\x07u\u0510\u0511\x074\u0511\u054B\x076\u0512\u0513\x07d\u0513\u0514\x07{\u0514\u0515\x07v\u0515\u0516\x07g\u0516\u0517\x07u\u0517\u0518\x074\u0518\u054B\x077\u0519\u051A\x07d\u051A\u051B\x07{\u051B\u051C\x07v\u051C\u051D\x07g\u051D\u051E\x07u\u051E\u051F\x074\u051F\u054B\x078\u0520\u0521\x07d\u0521\u0522\x07{\u0522\u0523\x07v\u0523\u0524\x07g\u0524\u0525\x07u\u0525\u0526\x074\u0526\u054B\x079\u0527\u0528\x07d\u0528\u0529\x07{\u0529\u052A\x07v\u052A\u052B\x07g\u052B\u052C\x07u\u052C\u052D\x074\u052D\u054B\x07:\u052E\u052F\x07d\u052F\u0530\x07{\u0530\u0531\x07v\u0531\u0532\x07g\u0532\u0533\x07u\u0533\u0534\x074\u0534\u054B\x07;\u0535\u0536\x07d\u0536\u0537\x07{\u0537\u0538\x07v\u0538\u0539\x07g\u0539\u053A\x07u\u053A\u053B\x075\u053B\u054B\x072\u053C\u053D\x07d\u053D\u053E\x07{\u053E\u053F\x07v\u053F\u0540\x07g\u0540\u0541\x07u\u0541\u0542\x075\u0542\u054B\x073\u0543\u0544\x07d\u0544\u0545\x07{\u0545\u0546\x07v\u0546\u0547\x07g\u0547\u0548\x07u\u0548\u0549\x075\u0549\u054B\x074\u054A\u046E\u054A\u0473\u054A\u0479\u054A\u047F\u054A\u0485\u054A\u048B\u054A\u0491\u054A\u0497\u054A\u049D\u054A\u04A3\u054A\u04A9\u054A\u04B0\u054A\u04B7\u054A\u04BE\u054A\u04C5\u054A\u04CC\u054A\u04D3\u054A\u04DA\u054A\u04E1\u054A\u04E8\u054A\u04EF\u054A\u04F6\u054A\u04FD\u054A\u0504\u054A\u050B\u054A\u0512\u054A\u0519\u054A\u0520\u054A\u0527\u054A\u052E\u054A\u0535\u054A\u053C\u054A\u0543\u054B\xCC\u054C\u054D\x07h\u054D\u054E\x07k\u054E\u054F\x07z\u054F\u0550\x07g\u0550\u0563\x07f\u0551\u0552\x07h\u0552\u0553\x07k\u0553\u0554\x07z\u0554\u0555\x07g\u0555\u0556\x07f\u0556\u0558\u0557\u0559	\u0558\u0557\u0559\u055A\u055A\u0558\u055A\u055B\u055B\u055C\u055C\u055E\x07z\u055D\u055F	\u055E\u055D\u055F\u0560\u0560\u055E\u0560\u0561\u0561\u0563\u0562\u054C\u0562\u0551\u0563\xCE\u0564\u0565\x07w\u0565\u0566\x07h\u0566\u0567\x07k\u0567\u0568\x07z\u0568\u0569\x07g\u0569\u057D\x07f\u056A\u056B\x07w\u056B\u056C\x07h\u056C\u056D\x07k\u056D\u056E\x07z\u056E\u056F\x07g\u056F\u0570\x07f\u0570\u0572\u0571\u0573	\u0572\u0571\u0573\u0574\u0574\u0572\u0574\u0575\u0575\u0576\u0576\u0578\x07z\u0577\u0579	\u0578\u0577\u0579\u057A\u057A\u0578\u057A\u057B\u057B\u057D\u057C\u0564\u057C\u056A\u057D\xD0\u057E\u057F\x07V\u057F\u0580\x07x\u0580\u0581\x07o\u0581\u0582\x07E\u0582\u0583\x07g\u0583\u0584\x07n\u0584\u0585\x07n\u0585\xD2\u0586\u0587\x07v\u0587\u0588\x07t\u0588\u0589\x07w\u0589\u0590\x07g\u058A\u058B\x07h\u058B\u058C\x07c\u058C\u058D\x07n\u058D\u058E\x07u\u058E\u0590\x07g\u058F\u0586\u058F\u058A\u0590\xD4\u0591\u0598\xD7l\u0592\u0594\xD7l\u0593\u0592\u0593\u0594\u0594\u0595\u0595\u0596\x070\u0596\u0598\xD7l\u0597\u0591\u0597\u0593\u0598\u059B\u0599\u059A	\u059A\u059C\xD7l\u059B\u0599\u059B\u059C\u059C\xD6\u059D\u05A4	\u059E\u05A0\x07a\u059F\u059E\u059F\u05A0\u05A0\u05A1\u05A1\u05A3	\u05A2\u059F\u05A3\u05A6\u05A4\u05A2\u05A4\u05A5\u05A5\xD8\u05A6\u05A4\u05A7\u05A8\x072\u05A8\u05A9	\u05A9\u05AA\xDBn\u05AA\xDA\u05AB\u05B2\xE3r\u05AC\u05AE\x07a\u05AD\u05AC\u05AD\u05AE\u05AE\u05AF\u05AF\u05B1\xE3r\u05B0\u05AD\u05B1\u05B4\u05B2\u05B0\u05B2\u05B3\u05B3\xDC\u05B4\u05B2\u05B5\u05B6\x07y\u05B6\u05B7\x07g\u05B7\u05EE\x07k\u05B8\u05B9\x07i\u05B9\u05BA\x07y\u05BA\u05BB\x07g\u05BB\u05EE\x07k\u05BC\u05BD\x07u\u05BD\u05BE\x07|\u05BE\u05BF\x07c\u05BF\u05C0\x07d\u05C0\u05EE\x07q\u05C1\u05C2\x07h\u05C2\u05C3\x07k\u05C3\u05C4\x07p\u05C4\u05C5\x07p\u05C5\u05C6\x07g\u05C6\u05EE\x07{\u05C7\u05C8\x07g\u05C8\u05C9\x07v\u05C9\u05CA\x07j\u05CA\u05CB\x07g\u05CB\u05EE\x07t\u05CC\u05CD\x07u\u05CD\u05CE\x07g\u05CE\u05CF\x07e\u05CF\u05D0\x07q\u05D0\u05D1\x07p\u05D1\u05D2\x07f\u05D2\u05EE\x07u\u05D3\u05D4\x07o\u05D4\u05D5\x07k\u05D5\u05D6\x07p\u05D6\u05D7\x07w\u05D7\u05D8\x07v\u05D8\u05D9\x07g\u05D9\u05EE\x07u\u05DA\u05DB\x07j\u05DB\u05DC\x07q\u05DC\u05DD\x07w\u05DD\u05DE\x07t\u05DE\u05EE\x07u\u05DF\u05E0\x07f\u05E0\u05E1\x07c\u05E1\u05E2\x07{\u05E2\u05EE\x07u\u05E3\u05E4\x07y\u05E4\u05E5\x07g\u05E5\u05E6\x07g\u05E6\u05E7\x07m\u05E7\u05EE\x07u\u05E8\u05E9\x07{\u05E9\u05EA\x07g\u05EA\u05EB\x07c\u05EB\u05EC\x07t\u05EC\u05EE\x07u\u05ED\u05B5\u05ED\u05B8\u05ED\u05BC\u05ED\u05C1\u05ED\u05C7\u05ED\u05CC\u05ED\u05D3\u05ED\u05DA\u05ED\u05DF\u05ED\u05E3\u05ED\u05E8\u05EE\xDE\u05EF\u05F0\x07j\u05F0\u05F1\x07g\u05F1\u05F2\x07z\u05F2\u05FD\u05F3\u05F5\x07$\u05F4\u05F6\xDBn\u05F5\u05F4\u05F5\u05F6\u05F6\u05F7\u05F7\u05FE\x07$\u05F8\u05FA\x07)\u05F9\u05FB\xDBn\u05FA\u05F9\u05FA\u05FB\u05FB\u05FC\u05FC\u05FE\x07)\u05FD\u05F3\u05FD\u05F8\u05FE\xE0\u05FF\u0600\xE3r\u0600\u0601\xE3r\u0601\xE2\u0602\u0603	\u0603\xE4\u0604\u0605\x07c\u0605\u0606\x07d\u0606\u0607\x07u\u0607\u0608\x07v\u0608\u0609\x07t\u0609\u060A\x07c\u060A\u060B\x07e\u060B\u065D\x07v\u060C\u060D\x07c\u060D\u060E\x07h\u060E\u060F\x07v\u060F\u0610\x07g\u0610\u065D\x07t\u0611\u0612\x07e\u0612\u0613\x07c\u0613\u0614\x07u\u0614\u065D\x07g\u0615\u0616\x07e\u0616\u0617\x07c\u0617\u0618\x07v\u0618\u0619\x07e\u0619\u065D\x07j\u061A\u061B\x07f\u061B\u061C\x07g\u061C\u061D\x07h\u061D\u061E\x07c\u061E\u061F\x07w\u061F\u0620\x07n\u0620\u065D\x07v\u0621\u0622\x07h\u0622\u0623\x07k\u0623\u0624\x07p\u0624\u0625\x07c\u0625\u065D\x07n\u0626\u0627\x07k\u0627\u065D\x07p\u0628\u0629\x07k\u0629\u062A\x07p\u062A\u062B\x07n\u062B\u062C\x07k\u062C\u062D\x07p\u062D\u065D\x07g\u062E\u062F\x07n\u062F\u0630\x07g\u0630\u065D\x07v\u0631\u0632\x07o\u0632\u0633\x07c\u0633\u0634\x07v\u0634\u0635\x07e\u0635\u065D\x07j\u0636\u0637\x07p\u0637\u0638\x07w\u0638\u0639\x07n\u0639\u065D\x07n\u063A\u063B\x07q\u063B\u065D\x07h\u063C\u063D\x07t\u063D\u063E\x07g\u063E\u063F\x07n\u063F\u0640\x07q\u0640\u0641\x07e\u0641\u0642\x07c\u0642\u0643\x07v\u0643\u0644\x07c\u0644\u0645\x07d\u0645\u0646\x07n\u0646\u065D\x07g\u0647\u0648\x07u\u0648\u0649\x07v\u0649\u064A\x07c\u064A\u064B\x07v\u064B\u064C\x07k\u064C\u065D\x07e\u064D\u064E\x07u\u064E\u064F\x07y\u064F\u0650\x07k\u0650\u0651\x07v\u0651\u0652\x07e\u0652\u065D\x07j\u0653\u0654\x07v\u0654\u0655\x07t\u0655\u065D\x07{\u0656\u0657\x07v\u0657\u0658\x07{\u0658\u0659\x07r\u0659\u065A\x07g\u065A\u065B\x07q\u065B\u065D\x07h\u065C\u0604\u065C\u060C\u065C\u0611\u065C\u0615\u065C\u061A\u065C\u0621\u065C\u0626\u065C\u0628\u065C\u062E\u065C\u0631\u065C\u0636\u065C\u063A\u065C\u063C\u065C\u0647\u065C\u064D\u065C\u0653\u065C\u0656\u065D\xE6\u065E\u065F\x07c\u065F\u0660\x07p\u0660\u0661\x07q\u0661\u0662\x07p\u0662\u0663\x07{\u0663\u0664\x07o\u0664\u0665\x07q\u0665\u0666\x07w\u0666\u0667\x07u\u0667\xE8\u0668\u0669\x07d\u0669\u066A\x07t\u066A\u066B\x07g\u066B\u066C\x07c\u066C\u066D\x07m\u066D\xEA";
-SolidityLexer._serializedATNSegment3 = "\u066E\u066F\x07e\u066F\u0670\x07q\u0670\u0671\x07p\u0671\u0672\x07u\u0672\u0673\x07v\u0673\u0674\x07c\u0674\u0675\x07p\u0675\u0676\x07v\u0676\xEC\u0677\u0678\x07k\u0678\u0679\x07o\u0679\u067A\x07o\u067A\u067B\x07w\u067B\u067C\x07v\u067C\u067D\x07c\u067D\u067E\x07d\u067E\u067F\x07n\u067F\u0680\x07g\u0680\xEE\u0681\u0682\x07e\u0682\u0683\x07q\u0683\u0684\x07p\u0684\u0685\x07v\u0685\u0686\x07k\u0686\u0687\x07p\u0687\u0688\x07w\u0688\u0689\x07g\u0689\xF0\u068A\u068B\x07n\u068B\u068C\x07g\u068C\u068D\x07c\u068D\u068E\x07x\u068E\u068F\x07g\u068F\xF2\u0690\u0691\x07g\u0691\u0692\x07z\u0692\u0693\x07v\u0693\u0694\x07g\u0694\u0695\x07t\u0695\u0696\x07p\u0696\u0697\x07c\u0697\u0698\x07n\u0698\xF4\u0699\u069A\x07k\u069A\u069B\x07p\u069B\u069C\x07f\u069C\u069D\x07g\u069D\u069E\x07z\u069E\u069F\x07g\u069F\u06A0\x07f\u06A0\xF6\u06A1\u06A2\x07k\u06A2\u06A3\x07p\u06A3\u06A4\x07v\u06A4\u06A5\x07g\u06A5\u06A6\x07t\u06A6\u06A7\x07p\u06A7\u06A8\x07c\u06A8\u06A9\x07n\u06A9\xF8\u06AA\u06AB\x07r\u06AB\u06AC\x07c\u06AC\u06AD\x07{\u06AD\u06AE\x07c\u06AE\u06AF\x07d\u06AF\u06B0\x07n\u06B0\u06B1\x07g\u06B1\xFA\u06B2\u06B3\x07r\u06B3\u06B4\x07t\u06B4\u06B5\x07k\u06B5\u06B6\x07x\u06B6\u06B7\x07c\u06B7\u06B8\x07v\u06B8\u06B9\x07g\u06B9\xFC\u06BA\u06BB\x07r\u06BB\u06BC\x07w\u06BC\u06BD\x07d\u06BD\u06BE\x07n\u06BE\u06BF\x07k\u06BF\u06C0\x07e\u06C0\xFE\u06C1\u06C2\x07x\u06C2\u06C3\x07k\u06C3\u06C4\x07t\u06C4\u06C5\x07v\u06C5\u06C6\x07w\u06C6\u06C7\x07c\u06C7\u06C8\x07n\u06C8\u0100\u06C9\u06CA\x07r\u06CA\u06CB\x07w\u06CB\u06CC\x07t\u06CC\u06CD\x07g\u06CD\u0102\u06CE\u06CF\x07v\u06CF\u06D0\x07{\u06D0\u06D1\x07r\u06D1\u06D2\x07g\u06D2\u0104\u06D3\u06D4\x07x\u06D4\u06D5\x07k\u06D5\u06D6\x07g\u06D6\u06D7\x07y\u06D7\u0106\u06D8\u06D9\x07e\u06D9\u06DA\x07q\u06DA\u06DB\x07p\u06DB\u06DC\x07u\u06DC\u06DD\x07v\u06DD\u06DE\x07t\u06DE\u06DF\x07w\u06DF\u06E0\x07e\u06E0\u06E1\x07v\u06E1\u06E2\x07q\u06E2\u06E3\x07t\u06E3\u0108\u06E4\u06E5\x07h\u06E5\u06E6\x07c\u06E6\u06E7\x07n\u06E7\u06E8\x07n\u06E8\u06E9\x07d\u06E9\u06EA\x07c\u06EA\u06EB\x07e\u06EB\u06EC\x07m\u06EC\u010A\u06ED\u06EE\x07t\u06EE\u06EF\x07g\u06EF\u06F0\x07e\u06F0\u06F1\x07g\u06F1\u06F2\x07k\u06F2\u06F3\x07x\u06F3\u06F4\x07g\u06F4\u010C\u06F5\u06F9\u010F\x88\u06F6\u06F8\u0111\x89\u06F7\u06F6\u06F8\u06FB\u06F9\u06F7\u06F9\u06FA\u06FA\u010E\u06FB\u06F9\u06FC\u06FD	\u06FD\u0110\u06FE\u06FF	\x07\u06FF\u0112\u0700\u0701\x07w\u0701\u0702\x07p\u0702\u0703\x07k\u0703\u0704\x07e\u0704\u0705\x07q\u0705\u0706\x07f\u0706\u0708\x07g\u0707\u0700\u0707\u0708\u0708\u0709\u0709\u070D\x07$\u070A\u070C\u0115\x8B\u070B\u070A\u070C\u070F\u070D\u070B\u070D\u070E\u070E\u0710\u070F\u070D\u0710\u0723\x07$\u0711\u0712\x07w\u0712\u0713\x07p\u0713\u0714\x07k\u0714\u0715\x07e\u0715\u0716\x07q\u0716\u0717\x07f\u0717\u0719\x07g\u0718\u0711\u0718\u0719\u0719\u071A\u071A\u071E\x07)\u071B\u071D\u0117\x8C\u071C\u071B\u071D\u0720\u071E\u071C\u071E\u071F\u071F\u0721\u0720\u071E\u0721\u0723\x07)\u0722\u0707\u0722\u0718\u0723\u0114\u0724\u0728\n\b\u0725\u0726\x07^\u0726\u0728\v\u0727\u0724\u0727\u0725\u0728\u0116\u0729\u072D\n	\u072A\u072B\x07^\u072B\u072D\v\u072C\u0729\u072C\u072A\u072D\u0118\u072E\u0730	\u072F\u072E\u0730\u0731\u0731\u072F\u0731\u0732\u0732\u0733\u0733\u0735\x070\u0734\u0736	\u0735\u0734\u0736\u0737\u0737\u0735\u0737\u0738\u0738\u073F\u0739\u073B\x070\u073A\u073C	\u073B\u073A\u073C\u073D\u073D\u073B\u073D\u073E\u073E\u0740\u073F\u0739\u073F\u0740\u0740\u011A\u0741\u0743	\n\u0742\u0741\u0743\u0744\u0744\u0742\u0744\u0745\u0745\u0746\u0746\u0747\b\x8E\u0747\u011C\u0748\u0749\x071\u0749\u074A\x07,\u074A\u074E\u074B\u074D\v\u074C\u074B\u074D\u0750\u074E\u074F\u074E\u074C\u074F\u0751\u0750\u074E\u0751\u0752\x07,\u0752\u0753\x071\u0753\u0754\u0754\u0755\b\x8F\u0755\u011E\u0756\u0757\x071\u0757\u0758\x071\u0758\u075C\u0759\u075B\n\v\u075A\u0759\u075B\u075E\u075C\u075A\u075C\u075D\u075D\u075F\u075E\u075C\u075F\u0760\b\x90\u0760\u0120(\u0393\u046C\u054A\u055A\u0560\u0562\u0574\u057A\u057C\u058F\u0593\u0597\u059B\u059F\u05A4\u05AD\u05B2\u05ED\u05F5\u05FA\u05FD\u065C\u06F9\u0707\u070D\u0718\u071E\u0722\u0727\u072C\u0731\u0737\u073D\u073F\u0744\u074E\u075C\b";
+SolidityLexer._serializedATNSegment0 = `\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x8B\u0775\b					\x07	\x07\b	\b			
+	
+\v	\v\f	\f\r	\r																		 	 !	!"	"#	#$	$%	%&	&'	'(	()	)*	*+	+,	,-	-.	./	/0	01	12	23	34	45	56	67	78	89	9:	:;	;<	<=	=>	>?	?@	@A	AB	BC	CD	DE	EF	FG	GH	HI	IJ	JK	KL	LM	MN	NO	OP	PQ	QR	RS	ST	TU	UV	VW	WX	XY	YZ	Z[	[\\	\\]	]^	^_	_\`	\`a	ab	bc	cd	de	ef	fg	gh	hi	ij	jk	kl	lm	mn	no	op	pq	qr	rs	st	tu	uv	vw	wx	xy	yz	z{	{|	|}	}~	~\x7F	\x7F\x80	\x80\x81	\x81\x82	\x82\x83	\x83\x84	\x84\x85	\x85\x86	\x86\x87	\x87\x88	\x88\x89	\x89\x8A	\x8A\x8B	\x8B\x8C	\x8C\x8D	\x8D\x8E	\x8E\x8F	\x8F\x90	\x90\x91	\x91\x92	\x92\x07\x07\b\b			
+
+\v\v\f\f\f\r\r         !!!!!!!!!""""""""######$$$$$%%&&''''''''(())))))))***+++++++,,,,,,,,---------.../////000011111122222233333333334444444445556666666777777888889999999::::;;;;;<<<<<<<=====>>>???@@@@AABBCCDDDDDDEEEEEEEFFGGGHHIIJJJKKKLLMMNNNOOOPPPQQRRRSSSTTTUUUUVVVVWWWXXXYYYZZZ[[[\\\\\\\\]]]^^^_______\`\`\`\`\`aaaaaaaabbbcccccccccdddddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\u03A7
+effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\u0480
+fggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg\u055E
+ghhhhhhhhhhhhh\u056C
+h\rhh\u056Dhhh\u0572
+h\rhh\u0573h\u0576
+hiiiiiiiiiiiiiii\u0586
+i\rii\u0587iii\u058C
+i\rii\u058Di\u0590
+ijjjjjjjjkkkkkkkkkk\u05A3
+klll\u05A7
+llll\u05AB
+llll\u05AF
+lmmm\u05B3
+mm\x07m\u05B6
+m\fmm\u05B9\vmnnnnooo\u05C1
+oo\x07o\u05C4
+o\foo\u05C7\voppppppppppppppppppppppppppppppppppppppppppppppppppppppppp\u0601
+pqqqqqqq\u0609
+qqqqq\u060E
+qqq\u0611
+qrrrssttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt\u066A
+tuuuuuuuuuuvvvvvvwwwwwwwwwxxxxxxxxxxyyyyyyyyyzzzzzz{{{{{{{{{||||||||}}}}}}}}}~~~~~~~~\x7F\x7F\x7F\x7F\x7F\x7F\x7F\x7F\x80\x80\x80\x80\x80\x80\x80\x81\x81\x81\x81\x81\x81\x81\x82\x82\x82\x82\x82\x82\x82\x82\x83\x83\x83\x83\x83\x84\x84\x84\x84\x84\x85\x85\x85\x85\x85\x86\x86\x86\x86\x86\x86\x86\x86\x86\x86\x86\x86\x87\x87\x87\x87\x87\x87\x87\x87\x87\x88\x88\x88\x88\x88\x88\x88\x88\x89\x89\x07\x89\u070C
+\x89\f\x89\x89\u070F\v\x89\x8A\x8A\x8B\x8B\x8C\x8C\x8C\x8C\x8C\x8C\x8C\x8C\u071C
+\x8C\x8C\x8C\x07\x8C\u0720
+\x8C\f\x8C\x8C\u0723\v\x8C\x8C\x8C\x8C\x8C\x8C\x8C\x8C\x8C\x8C\u072D
+\x8C\x8C\x8C\x07\x8C\u0731
+\x8C\f\x8C\x8C\u0734\v\x8C\x8C\x8C\u0737
+\x8C\x8D\x8D\x8D\x8D\u073C
+\x8D\x8E\x8E\x8E\x8E\u0741
+\x8E\x8F\x8F\u0744
+\x8F\r\x8F\x8F\u0745\x8F\x8F\x8F\u074A
+\x8F\r\x8F\x8F\u074B\x8F\x8F\x8F\u0750
+\x8F\r\x8F\x8F\u0751\x8F\u0754
+\x8F\x90\x90\u0757
+\x90\r\x90\x90\u0758\x90\x90\x91\x91\x91\x91\x07\x91\u0761
+\x91\f\x91\x91\u0764\v\x91\x91\x91\x91\x91\x91\x92\x92\x92\x92\x07\x92\u076F
+\x92\f\x92\x92\u0772\v\x92\x92\x92\u0762\x93\x07	\v\x07\r\b	
+\v\f\r!#%')+-/13579;= ?!A"C#E$G%I&K'M(O)Q*S+U,W-Y.[/]0_1a2c3e4g5i6k7m8o9q:s;u<w=y>{?}@\x7FA\x81B\x83C\x85D\x87E\x89F\x8BG\x8DH\x8FI\x91J\x93K\x95L\x97M\x99N\x9BO\x9DP\x9FQ\xA1R\xA3S\xA5T\xA7U\xA9V\xABW\xADX\xAFY\xB1Z\xB3[\xB5\\\xB7]\xB9^\xBB_\xBD\`\xBFa\xC1b\xC3c\xC5d\xC7e\xC9f\xCBg\xCDh\xCFi\xD1j\xD3k\xD5l\xD7m\xD9\xDBn\xDD\xDFo\xE1p\xE3\xE5\xE7q\xE9r\xEBs\xEDt\xEFu\xF1v\xF3w\xF5x\xF7y\xF9z\xFB{\xFD|\xFF}\u0101~\u0103\x7F\u0105\x80\u0107\x81\u0109\x82\u010B\x83\u010D\x84\u010F\x85\u0111\x86\u0113\u0115\u0117\x87\u0119\u011B\u011D\x88\u011F\x89\u0121\x8A\u0123\x8B\f2;GGggZZzz2;CHch&&C\\aac|\x07&&2;C\\aac|\f\f$$^^\f\f))^^\v\f""\f\f\u0805\x07	\v\r!#%')+-/13579;=?ACEGIKMOQSUWY[]_acegikmoqsuwy{}\x7F\x81\x83\x85\x87\x89\x8B\x8D\x8F\x91\x93\x95\x97\x99\x9B\x9D\x9F\xA1\xA3\xA5\xA7\xA9\xAB\xAD\xAF\xB1\xB3\xB5\xB7\xB9\xBB\xBD\xBF\xC1\xC3\xC5\xC7\xC9`;
+SolidityLexer._serializedATNSegment1 = "\xCB\xCD\xCF\xD1\xD3\xD5\xD7\xDB\xDF\xE1\xE7\xE9\xEB\xED\xEF\xF1\xF3\xF5\xF7\xF9\xFB\xFD\xFF\u0101\u0103\u0105\u0107\u0109\u010B\u010D\u010F\u0111\u0117\u011D\u011F\u0121\u0123\u0125\u012C\x07\u012E	\u0137\v\u0144\r\u0147\u0149\u014B\u014E\u0150\u0152\u0155\u0157\u015A\u0161!\u0163#\u0168%\u016A'\u016C)\u016E+\u0177-\u0180/\u018A1\u01923\u01955\u01977\u01999\u019F;\u01A5=\u01A9?\u01B0A\u01B9C\u01C2E\u01CAG\u01D0I\u01D5K\u01D7M\u01D9O\u01E1Q\u01E3S\u01EBU\u01EEW\u01F5Y\u01FD[\u0206]\u0209_\u020Ea\u0212c\u0218e\u021Eg\u0228i\u0231k\u0234m\u023Bo\u0241q\u0246s\u024Du\u0251w\u0256y\u025D{\u0262}\u0265\x7F\u0268\x81\u026C\x83\u026E\x85\u0270\x87\u0272\x89\u0278\x8B\u027F\x8D\u0281\x8F\u0284\x91\u0286\x93\u0288\x95\u028B\x97\u028E\x99\u0290\x9B\u0292\x9D\u0295\x9F\u0298\xA1\u029B\xA3\u029D\xA5\u02A0\xA7\u02A3\xA9\u02A6\xAB\u02AA\xAD\u02AE\xAF\u02B1\xB1\u02B4\xB3\u02B7\xB5\u02BA\xB7\u02BD\xB9\u02C1\xBB\u02C4\xBD\u02C7\xBF\u02CE\xC1\u02D3\xC3\u02DB\xC5\u02DE\xC7\u02E7\xC9\u03A6\xCB\u047F\xCD\u055D\xCF\u0575\xD1\u058F\xD3\u0591\xD5\u05A2\xD7\u05AA\xD9\u05B0\xDB\u05BA\xDD\u05BE\xDF\u0600\xE1\u0602\xE3\u0612\xE5\u0615\xE7\u0669\xE9\u066B\xEB\u0675\xED\u067B\xEF\u0684\xF1\u068E\xF3\u0697\xF5\u069D\xF7\u06A6\xF9\u06AE\xFB\u06B7\xFD\u06BF\xFF\u06C7\u0101\u06CE\u0103\u06D5\u0105\u06DD\u0107\u06E2\u0109\u06E7\u010B\u06EC\u010D\u06F8\u010F\u0701\u0111\u0709\u0113\u0710\u0115\u0712\u0117\u0736\u0119\u073B\u011B\u0740\u011D\u0743\u011F\u0756\u0121\u075C\u0123\u076A\u0125\u0126\x07r\u0126\u0127\x07t\u0127\u0128\x07c\u0128\u0129\x07i\u0129\u012A\x07o\u012A\u012B\x07c\u012B\u012C\u012D\x07=\u012D\u012E\u012F\x07u\u012F\u0130\x07q\u0130\u0131\x07n\u0131\u0132\x07k\u0132\u0133\x07f\u0133\u0134\x07k\u0134\u0135\x07v\u0135\u0136\x07{\u0136\b\u0137\u0138\x07v\u0138\u0139\x07q\u0139\u013A\x07p\u013A\u013B\x07/\u013B\u013C\x07u\u013C\u013D\x07q\u013D\u013E\x07n\u013E\u013F\x07k\u013F\u0140\x07f\u0140\u0141\x07k\u0141\u0142\x07v\u0142\u0143\x07{\u0143\n\u0144\u0145\x07~\u0145\u0146\x07~\u0146\f\u0147\u0148\x07`\u0148\u0149\u014A\x07\x80\u014A\u014B\u014C\x07@\u014C\u014D\x07?\u014D\u014E\u014F\x07@\u014F\u0150\u0151\x07>\u0151\u0152\u0153\x07>\u0153\u0154\x07?\u0154\u0155\u0156\x07?\u0156\u0157\u0158\x07c\u0158\u0159\x07u\u0159\u015A\u015B\x07k\u015B\u015C\x07o\u015C\u015D\x07r\u015D\u015E\x07q\u015E\u015F\x07t\u015F\u0160\x07v\u0160\u0161\u0162\x07,\u0162 \u0163\u0164\x07h\u0164\u0165\x07t\u0165\u0166\x07q\u0166\u0167\x07o\u0167\"\u0168\u0169\x07}\u0169$\u016A\u016B\x07.\u016B&\u016C\u016D\x07\x7F\u016D(\u016E\u016F\x07c\u016F\u0170\x07d\u0170\u0171\x07u\u0171\u0172\x07v\u0172\u0173\x07t\u0173\u0174\x07c\u0174\u0175\x07e\u0175\u0176\x07v\u0176*\u0177\u0178\x07e\u0178\u0179\x07q\u0179\u017A\x07p\u017A\u017B\x07v\u017B\u017C\x07t\u017C\u017D\x07c\u017D\u017E\x07e\u017E\u017F\x07v\u017F,\u0180\u0181\x07k\u0181\u0182\x07p\u0182\u0183\x07v\u0183\u0184\x07g\u0184\u0185\x07t\u0185\u0186\x07h\u0186\u0187\x07c\u0187\u0188\x07e\u0188\u0189\x07g\u0189.\u018A\u018B\x07n\u018B\u018C\x07k\u018C\u018D\x07d\u018D\u018E\x07t\u018E\u018F\x07c\u018F\u0190\x07t\u0190\u0191\x07{\u01910\u0192\u0193\x07k\u0193\u0194\x07u\u01942\u0195\u0196\x07*\u01964\u0197\u0198\x07+\u01986\u0199\u019A\x07g\u019A\u019B\x07t\u019B\u019C\x07t\u019C\u019D\x07q\u019D\u019E\x07t\u019E8\u019F\u01A0\x07w\u01A0\u01A1\x07u\u01A1\u01A2\x07k\u01A2\u01A3\x07p\u01A3\u01A4\x07i\u01A4:\u01A5\u01A6\x07h\u01A6\u01A7\x07q\u01A7\u01A8\x07t\u01A8<\u01A9\u01AA\x07u\u01AA\u01AB\x07v\u01AB\u01AC\x07t\u01AC\u01AD\x07w\u01AD\u01AE\x07e\u01AE\u01AF\x07v\u01AF>\u01B0\u01B1\x07o\u01B1\u01B2\x07q\u01B2\u01B3\x07f\u01B3\u01B4\x07k\u01B4\u01B5\x07h\u01B5\u01B6\x07k\u01B6\u01B7\x07g\u01B7\u01B8\x07t\u01B8@\u01B9\u01BA\x07h\u01BA\u01BB\x07w\u01BB\u01BC\x07p\u01BC\u01BD\x07e\u01BD\u01BE\x07v\u01BE\u01BF\x07k\u01BF\u01C0\x07q\u01C0\u01C1\x07p\u01C1B\u01C2\u01C3\x07t\u01C3\u01C4\x07g\u01C4\u01C5\x07v\u01C5\u01C6\x07w\u01C6\u01C7\x07t\u01C7\u01C8\x07p\u01C8\u01C9\x07u\u01C9D\u01CA\u01CB\x07g\u01CB\u01CC\x07x\u01CC\u01CD\x07g\u01CD\u01CE\x07p\u01CE\u01CF\x07v\u01CFF\u01D0\u01D1\x07g\u01D1\u01D2\x07p\u01D2\u01D3\x07w\u01D3\u01D4\x07o\u01D4H\u01D5\u01D6\x07]\u01D6J\u01D7\u01D8\x07_\u01D8L\u01D9\u01DA\x07c\u01DA\u01DB\x07f\u01DB\u01DC\x07f\u01DC\u01DD\x07t\u01DD\u01DE\x07g\u01DE\u01DF\x07u\u01DF\u01E0\x07u\u01E0N\u01E1\u01E2\x070\u01E2P\u01E3\u01E4\x07o\u01E4\u01E5\x07c\u01E5\u01E6\x07r\u01E6\u01E7\x07r\u01E7\u01E8\x07k\u01E8\u01E9\x07p\u01E9\u01EA\x07i\u01EAR\u01EB\u01EC\x07?\u01EC\u01ED\x07@\u01EDT\u01EE\u01EF\x07o\u01EF\u01F0\x07g\u01F0\u01F1\x07o\u01F1\u01F2\x07q\u01F2\u01F3\x07t\u01F3\u01F4\x07{\u01F4V\u01F5\u01F6\x07u\u01F6\u01F7\x07v\u01F7\u01F8\x07q\u01F8\u01F9\x07t\u01F9\u01FA\x07c\u01FA\u01FB\x07i\u01FB\u01FC\x07g\u01FCX\u01FD\u01FE\x07e\u01FE\u01FF\x07c\u01FF\u0200\x07n\u0200\u0201\x07n\u0201\u0202\x07f\u0202\u0203\x07c\u0203\u0204\x07v\u0204\u0205\x07c\u0205Z\u0206\u0207\x07k\u0207\u0208\x07h\u0208\\\u0209\u020A\x07g\u020A\u020B\x07n\u020B\u020C\x07u\u020C\u020D\x07g\u020D^\u020E\u020F\x07v\u020F\u0210\x07t\u0210\u0211\x07{\u0211`\u0212\u0213\x07e\u0213\u0214\x07c\u0214\u0215\x07v\u0215\u0216\x07e\u0216\u0217\x07j\u0217b\u0218\u0219\x07y\u0219\u021A\x07j\u021A\u021B\x07k\u021B\u021C\x07n\u021C\u021D\x07g\u021Dd\u021E\u021F\x07w\u021F\u0220\x07p\u0220\u0221\x07e\u0221\u0222\x07j\u0222\u0223\x07g\u0223\u0224\x07e\u0224\u0225\x07m\u0225\u0226\x07g\u0226\u0227\x07f\u0227f\u0228\u0229\x07c\u0229\u022A\x07u\u022A\u022B\x07u\u022B\u022C\x07g\u022C\u022D\x07o\u022D\u022E\x07d\u022E\u022F\x07n\u022F\u0230\x07{\u0230h\u0231\u0232\x07f\u0232\u0233\x07q\u0233j\u0234\u0235\x07t\u0235\u0236\x07g\u0236\u0237\x07v\u0237\u0238\x07w\u0238\u0239\x07t\u0239\u023A\x07p\u023Al\u023B\u023C\x07v\u023C\u023D\x07j\u023D\u023E\x07t\u023E\u023F\x07q\u023F\u0240\x07y\u0240n\u0241\u0242\x07g\u0242\u0243\x07o\u0243\u0244\x07k\u0244\u0245\x07v\u0245p\u0246\u0247\x07t\u0247\u0248\x07g\u0248\u0249\x07x\u0249\u024A\x07g\u024A\u024B\x07t\u024B\u024C\x07v\u024Cr\u024D\u024E\x07x\u024E\u024F\x07c\u024F\u0250\x07t\u0250t\u0251\u0252\x07d\u0252\u0253\x07q\u0253\u0254\x07q\u0254\u0255\x07n\u0255v\u0256\u0257\x07u\u0257\u0258\x07v\u0258\u0259\x07t\u0259\u025A\x07k\u025A\u025B\x07p\u025B\u025C\x07i\u025Cx\u025D\u025E\x07d\u025E\u025F\x07{\u025F\u0260\x07v\u0260\u0261\x07g\u0261z\u0262\u0263\x07-\u0263\u0264\x07-\u0264|\u0265\u0266\x07/\u0266\u0267\x07/\u0267~\u0268\u0269\x07p\u0269\u026A\x07g\u026A\u026B\x07y\u026B\x80\u026C\u026D\x07<\u026D\x82\u026E\u026F\x07-\u026F\x84\u0270\u0271\x07/\u0271\x86\u0272\u0273\x07c\u0273\u0274\x07h\u0274\u0275\x07v\u0275\u0276\x07g\u0276\u0277\x07t\u0277\x88\u0278\u0279\x07f\u0279\u027A\x07g\u027A\u027B\x07n\u027B\u027C\x07g\u027C\u027D\x07v\u027D\u027E\x07g\u027E\x8A\u027F\u0280\x07#\u0280\x8C\u0281\u0282\x07,\u0282\u0283\x07,\u0283\x8E\u0284\u0285\x071\u0285\x90\u0286\u0287\x07'\u0287\x92\u0288\u0289\x07>\u0289\u028A\x07>\u028A\x94\u028B\u028C\x07@\u028C\u028D\x07@\u028D\x96\u028E\u028F\x07(\u028F\x98\u0290\u0291\x07~\u0291\x9A\u0292\u0293\x07?\u0293\u0294\x07?\u0294\x9C\u0295\u0296\x07#\u0296\u0297\x07?\u0297\x9E\u0298\u0299\x07(\u0299\u029A\x07(\u029A\xA0\u029B\u029C\x07A\u029C\xA2\u029D\u029E\x07~\u029E\u029F\x07?\u029F\xA4\u02A0\u02A1\x07`\u02A1\u02A2\x07?\u02A2\xA6\u02A3\u02A4\x07(\u02A4\u02A5\x07?\u02A5\xA8\u02A6\u02A7\x07>\u02A7\u02A8\x07>\u02A8\u02A9\x07?\u02A9\xAA\u02AA\u02AB\x07@\u02AB\u02AC\x07@\u02AC\u02AD\x07?\u02AD\xAC\u02AE\u02AF\x07-\u02AF\u02B0\x07?\u02B0\xAE\u02B1\u02B2\x07/\u02B2\u02B3\x07?\u02B3\xB0\u02B4\u02B5\x07,\u02B5\u02B6\x07?\u02B6\xB2\u02B7\u02B8\x071\u02B8\u02B9\x07?\u02B9\xB4\u02BA\u02BB\x07'\u02BB\u02BC\x07?\u02BC\xB6\u02BD\u02BE\x07n\u02BE\u02BF\x07g\u02BF\u02C0\x07v\u02C0\xB8\u02C1\u02C2\x07<\u02C2\u02C3\x07?\u02C3\xBA\u02C4\u02C5\x07?\u02C5\u02C6\x07<\u02C6\xBC\u02C7\u02C8\x07u\u02C8\u02C9\x07y\u02C9\u02CA\x07k\u02CA\u02CB\x07v\u02CB\u02CC\x07e\u02CC\u02CD\x07j\u02CD\xBE\u02CE\u02CF\x07e\u02CF\u02D0\x07c\u02D0\u02D1\x07u\u02D1\u02D2\x07g\u02D2\xC0\u02D3\u02D4\x07f\u02D4\u02D5\x07g\u02D5\u02D6\x07h\u02D6\u02D7\x07c\u02D7\u02D8\x07w\u02D8\u02D9\x07n\u02D9\u02DA\x07v\u02DA\xC2\u02DB\u02DC\x07/\u02DC\u02DD\x07@\u02DD\xC4\u02DE\u02DF\x07e\u02DF\u02E0\x07c\u02E0\u02E1\x07n\u02E1\u02E2\x07n\u02E2\u02E3\x07d\u02E3\u02E4\x07c\u02E4\u02E5\x07e\u02E5\u02E6\x07m\u02E6\xC6\u02E7\u02E8\x07q\u02E8\u02E9\x07x\u02E9\u02EA\x07g\u02EA\u02EB\x07t\u02EB\u02EC\x07t\u02EC\u02ED\x07k\u02ED\u02EE\x07f\u02EE\u02EF\x07g\u02EF\xC8\u02F0\u02F1\x07k\u02F1\u02F2\x07p\u02F2\u03A7\x07v\u02F3\u02F4\x07k\u02F4\u02F5\x07p\u02F5\u02F6\x07v\u02F6\u03A7\x07:\u02F7\u02F8\x07k\u02F8\u02F9\x07p\u02F9\u02FA\x07v\u02FA\u02FB\x073\u02FB\u03A7\x078\u02FC\u02FD\x07k\u02FD\u02FE\x07p\u02FE\u02FF\x07v\u02FF\u0300\x074\u0300\u03A7\x076\u0301\u0302\x07k\u0302\u0303\x07p\u0303\u0304\x07v\u0304\u0305\x075\u0305\u03A7\x074\u0306\u0307\x07k\u0307\u0308\x07p\u0308\u0309\x07v\u0309\u030A\x076\u030A\u03A7\x072\u030B\u030C\x07k\u030C\u030D\x07p\u030D\u030E\x07v\u030E\u030F\x076\u030F\u03A7\x07:\u0310\u0311\x07k\u0311\u0312\x07p\u0312\u0313\x07v\u0313\u0314\x077\u0314\u03A7\x078\u0315\u0316\x07k\u0316\u0317\x07p\u0317\u0318\x07v\u0318\u0319\x078\u0319\u03A7\x076\u031A\u031B\x07k\u031B\u031C\x07p\u031C\u031D\x07v\u031D\u031E\x079\u031E\u03A7\x074\u031F\u0320\x07k\u0320\u0321\x07p\u0321\u0322\x07v\u0322\u0323\x07:\u0323\u03A7\x072\u0324\u0325\x07k\u0325\u0326\x07p\u0326\u0327\x07v\u0327\u0328\x07:\u0328\u03A7\x07:\u0329\u032A\x07k\u032A\u032B\x07p\u032B\u032C\x07v\u032C\u032D\x07;\u032D\u03A7\x078\u032E\u032F\x07k\u032F\u0330\x07p\u0330\u0331\x07v\u0331\u0332\x073\u0332\u0333\x072\u0333\u03A7\x076\u0334\u0335\x07k\u0335\u0336\x07p\u0336\u0337\x07v\u0337\u0338\x073\u0338\u0339\x073\u0339\u03A7\x074\u033A\u033B\x07k\u033B\u033C\x07p\u033C\u033D\x07v\u033D\u033E\x073\u033E\u033F\x074\u033F\u03A7\x072\u0340\u0341\x07k\u0341\u0342\x07p\u0342\u0343\x07v\u0343\u0344\x073\u0344\u0345\x074\u0345\u03A7\x07:\u0346\u0347\x07k\u0347\u0348\x07p\u0348\u0349\x07v\u0349\u034A\x073\u034A\u034B\x075\u034B\u03A7\x078\u034C\u034D\x07k\u034D\u034E\x07p\u034E\u034F\x07v\u034F\u0350\x073\u0350\u0351\x076\u0351\u03A7\x076\u0352\u0353\x07k\u0353\u0354\x07p\u0354\u0355\x07v\u0355\u0356\x073\u0356\u0357\x077\u0357\u03A7\x074\u0358\u0359\x07k\u0359\u035A\x07p\u035A\u035B\x07v\u035B\u035C\x073\u035C\u035D\x078\u035D\u03A7\x072\u035E\u035F\x07k\u035F\u0360\x07p\u0360\u0361\x07v\u0361\u0362\x073\u0362\u0363\x078\u0363\u03A7\x07:\u0364\u0365\x07k\u0365\u0366\x07p\u0366\u0367\x07v\u0367\u0368\x073\u0368\u0369\x079\u0369\u03A7\x078\u036A\u036B\x07k\u036B\u036C\x07p\u036C\u036D\x07v\u036D\u036E\x073\u036E\u036F\x07:\u036F\u03A7\x076\u0370\u0371\x07k\u0371\u0372\x07p\u0372\u0373\x07v\u0373\u0374\x073\u0374\u0375\x07;\u0375\u03A7\x074\u0376\u0377\x07k\u0377\u0378\x07p\u0378\u0379\x07v\u0379\u037A\x074\u037A\u037B\x072\u037B\u03A7\x072\u037C\u037D\x07k\u037D\u037E\x07p\u037E\u037F\x07v\u037F\u0380\x074\u0380\u0381\x072\u0381\u03A7\x07:\u0382\u0383\x07k\u0383\u0384\x07p\u0384\u0385\x07v\u0385\u0386\x074\u0386\u0387\x073\u0387\u03A7\x078\u0388\u0389\x07k\u0389\u038A\x07p\u038A\u038B\x07v\u038B\u038C\x074\u038C\u038D\x074\u038D\u03A7\x076\u038E\u038F\x07k\u038F\u0390\x07p\u0390\u0391\x07v\u0391\u0392\x074\u0392\u0393\x075\u0393\u03A7\x074\u0394\u0395\x07k\u0395\u0396\x07p\u0396\u0397\x07v\u0397\u0398\x074\u0398\u0399\x076\u0399\u03A7\x072\u039A\u039B\x07k\u039B\u039C\x07p\u039C\u039D\x07v\u039D\u039E\x074\u039E\u039F\x076\u039F\u03A7\x07:\u03A0\u03A1\x07k\u03A1\u03A2\x07p\u03A2\u03A3\x07v\u03A3\u03A4\x074\u03A4\u03A5\x077\u03A5\u03A7\x078\u03A6\u02F0\u03A6\u02F3\u03A6\u02F7\u03A6\u02FC\u03A6\u0301\u03A6\u0306\u03A6\u030B\u03A6\u0310\u03A6\u0315\u03A6\u031A";
+SolidityLexer._serializedATNSegment2 = "\u03A6\u031F\u03A6\u0324\u03A6\u0329\u03A6\u032E\u03A6\u0334\u03A6\u033A\u03A6\u0340\u03A6\u0346\u03A6\u034C\u03A6\u0352\u03A6\u0358\u03A6\u035E\u03A6\u0364\u03A6\u036A\u03A6\u0370\u03A6\u0376\u03A6\u037C\u03A6\u0382\u03A6\u0388\u03A6\u038E\u03A6\u0394\u03A6\u039A\u03A6\u03A0\u03A7\xCA\u03A8\u03A9\x07w\u03A9\u03AA\x07k\u03AA\u03AB\x07p\u03AB\u0480\x07v\u03AC\u03AD\x07w\u03AD\u03AE\x07k\u03AE\u03AF\x07p\u03AF\u03B0\x07v\u03B0\u0480\x07:\u03B1\u03B2\x07w\u03B2\u03B3\x07k\u03B3\u03B4\x07p\u03B4\u03B5\x07v\u03B5\u03B6\x073\u03B6\u0480\x078\u03B7\u03B8\x07w\u03B8\u03B9\x07k\u03B9\u03BA\x07p\u03BA\u03BB\x07v\u03BB\u03BC\x074\u03BC\u0480\x076\u03BD\u03BE\x07w\u03BE\u03BF\x07k\u03BF\u03C0\x07p\u03C0\u03C1\x07v\u03C1\u03C2\x075\u03C2\u0480\x074\u03C3\u03C4\x07w\u03C4\u03C5\x07k\u03C5\u03C6\x07p\u03C6\u03C7\x07v\u03C7\u03C8\x076\u03C8\u0480\x072\u03C9\u03CA\x07w\u03CA\u03CB\x07k\u03CB\u03CC\x07p\u03CC\u03CD\x07v\u03CD\u03CE\x076\u03CE\u0480\x07:\u03CF\u03D0\x07w\u03D0\u03D1\x07k\u03D1\u03D2\x07p\u03D2\u03D3\x07v\u03D3\u03D4\x077\u03D4\u0480\x078\u03D5\u03D6\x07w\u03D6\u03D7\x07k\u03D7\u03D8\x07p\u03D8\u03D9\x07v\u03D9\u03DA\x078\u03DA\u0480\x076\u03DB\u03DC\x07w\u03DC\u03DD\x07k\u03DD\u03DE\x07p\u03DE\u03DF\x07v\u03DF\u03E0\x079\u03E0\u0480\x074\u03E1\u03E2\x07w\u03E2\u03E3\x07k\u03E3\u03E4\x07p\u03E4\u03E5\x07v\u03E5\u03E6\x07:\u03E6\u0480\x072\u03E7\u03E8\x07w\u03E8\u03E9\x07k\u03E9\u03EA\x07p\u03EA\u03EB\x07v\u03EB\u03EC\x07:\u03EC\u0480\x07:\u03ED\u03EE\x07w\u03EE\u03EF\x07k\u03EF\u03F0\x07p\u03F0\u03F1\x07v\u03F1\u03F2\x07;\u03F2\u0480\x078\u03F3\u03F4\x07w\u03F4\u03F5\x07k\u03F5\u03F6\x07p\u03F6\u03F7\x07v\u03F7\u03F8\x073\u03F8\u03F9\x072\u03F9\u0480\x076\u03FA\u03FB\x07w\u03FB\u03FC\x07k\u03FC\u03FD\x07p\u03FD\u03FE\x07v\u03FE\u03FF\x073\u03FF\u0400\x073\u0400\u0480\x074\u0401\u0402\x07w\u0402\u0403\x07k\u0403\u0404\x07p\u0404\u0405\x07v\u0405\u0406\x073\u0406\u0407\x074\u0407\u0480\x072\u0408\u0409\x07w\u0409\u040A\x07k\u040A\u040B\x07p\u040B\u040C\x07v\u040C\u040D\x073\u040D\u040E\x074\u040E\u0480\x07:\u040F\u0410\x07w\u0410\u0411\x07k\u0411\u0412\x07p\u0412\u0413\x07v\u0413\u0414\x073\u0414\u0415\x075\u0415\u0480\x078\u0416\u0417\x07w\u0417\u0418\x07k\u0418\u0419\x07p\u0419\u041A\x07v\u041A\u041B\x073\u041B\u041C\x076\u041C\u0480\x076\u041D\u041E\x07w\u041E\u041F\x07k\u041F\u0420\x07p\u0420\u0421\x07v\u0421\u0422\x073\u0422\u0423\x077\u0423\u0480\x074\u0424\u0425\x07w\u0425\u0426\x07k\u0426\u0427\x07p\u0427\u0428\x07v\u0428\u0429\x073\u0429\u042A\x078\u042A\u0480\x072\u042B\u042C\x07w\u042C\u042D\x07k\u042D\u042E\x07p\u042E\u042F\x07v\u042F\u0430\x073\u0430\u0431\x078\u0431\u0480\x07:\u0432\u0433\x07w\u0433\u0434\x07k\u0434\u0435\x07p\u0435\u0436\x07v\u0436\u0437\x073\u0437\u0438\x079\u0438\u0480\x078\u0439\u043A\x07w\u043A\u043B\x07k\u043B\u043C\x07p\u043C\u043D\x07v\u043D\u043E\x073\u043E\u043F\x07:\u043F\u0480\x076\u0440\u0441\x07w\u0441\u0442\x07k\u0442\u0443\x07p\u0443\u0444\x07v\u0444\u0445\x073\u0445\u0446\x07;\u0446\u0480\x074\u0447\u0448\x07w\u0448\u0449\x07k\u0449\u044A\x07p\u044A\u044B\x07v\u044B\u044C\x074\u044C\u044D\x072\u044D\u0480\x072\u044E\u044F\x07w\u044F\u0450\x07k\u0450\u0451\x07p\u0451\u0452\x07v\u0452\u0453\x074\u0453\u0454\x072\u0454\u0480\x07:\u0455\u0456\x07w\u0456\u0457\x07k\u0457\u0458\x07p\u0458\u0459\x07v\u0459\u045A\x074\u045A\u045B\x073\u045B\u0480\x078\u045C\u045D\x07w\u045D\u045E\x07k\u045E\u045F\x07p\u045F\u0460\x07v\u0460\u0461\x074\u0461\u0462\x074\u0462\u0480\x076\u0463\u0464\x07w\u0464\u0465\x07k\u0465\u0466\x07p\u0466\u0467\x07v\u0467\u0468\x074\u0468\u0469\x075\u0469\u0480\x074\u046A\u046B\x07w\u046B\u046C\x07k\u046C\u046D\x07p\u046D\u046E\x07v\u046E\u046F\x074\u046F\u0470\x076\u0470\u0480\x072\u0471\u0472\x07w\u0472\u0473\x07k\u0473\u0474\x07p\u0474\u0475\x07v\u0475\u0476\x074\u0476\u0477\x076\u0477\u0480\x07:\u0478\u0479\x07w\u0479\u047A\x07k\u047A\u047B\x07p\u047B\u047C\x07v\u047C\u047D\x074\u047D\u047E\x077\u047E\u0480\x078\u047F\u03A8\u047F\u03AC\u047F\u03B1\u047F\u03B7\u047F\u03BD\u047F\u03C3\u047F\u03C9\u047F\u03CF\u047F\u03D5\u047F\u03DB\u047F\u03E1\u047F\u03E7\u047F\u03ED\u047F\u03F3\u047F\u03FA\u047F\u0401\u047F\u0408\u047F\u040F\u047F\u0416\u047F\u041D\u047F\u0424\u047F\u042B\u047F\u0432\u047F\u0439\u047F\u0440\u047F\u0447\u047F\u044E\u047F\u0455\u047F\u045C\u047F\u0463\u047F\u046A\u047F\u0471\u047F\u0478\u0480\xCC\u0481\u0482\x07d\u0482\u0483\x07{\u0483\u0484\x07v\u0484\u0485\x07g\u0485\u055E\x07u\u0486\u0487\x07d\u0487\u0488\x07{\u0488\u0489\x07v\u0489\u048A\x07g\u048A\u048B\x07u\u048B\u055E\x073\u048C\u048D\x07d\u048D\u048E\x07{\u048E\u048F\x07v\u048F\u0490\x07g\u0490\u0491\x07u\u0491\u055E\x074\u0492\u0493\x07d\u0493\u0494\x07{\u0494\u0495\x07v\u0495\u0496\x07g\u0496\u0497\x07u\u0497\u055E\x075\u0498\u0499\x07d\u0499\u049A\x07{\u049A\u049B\x07v\u049B\u049C\x07g\u049C\u049D\x07u\u049D\u055E\x076\u049E\u049F\x07d\u049F\u04A0\x07{\u04A0\u04A1\x07v\u04A1\u04A2\x07g\u04A2\u04A3\x07u\u04A3\u055E\x077\u04A4\u04A5\x07d\u04A5\u04A6\x07{\u04A6\u04A7\x07v\u04A7\u04A8\x07g\u04A8\u04A9\x07u\u04A9\u055E\x078\u04AA\u04AB\x07d\u04AB\u04AC\x07{\u04AC\u04AD\x07v\u04AD\u04AE\x07g\u04AE\u04AF\x07u\u04AF\u055E\x079\u04B0\u04B1\x07d\u04B1\u04B2\x07{\u04B2\u04B3\x07v\u04B3\u04B4\x07g\u04B4\u04B5\x07u\u04B5\u055E\x07:\u04B6\u04B7\x07d\u04B7\u04B8\x07{\u04B8\u04B9\x07v\u04B9\u04BA\x07g\u04BA\u04BB\x07u\u04BB\u055E\x07;\u04BC\u04BD\x07d\u04BD\u04BE\x07{\u04BE\u04BF\x07v\u04BF\u04C0\x07g\u04C0\u04C1\x07u\u04C1\u04C2\x073\u04C2\u055E\x072\u04C3\u04C4\x07d\u04C4\u04C5\x07{\u04C5\u04C6\x07v\u04C6\u04C7\x07g\u04C7\u04C8\x07u\u04C8\u04C9\x073\u04C9\u055E\x073\u04CA\u04CB\x07d\u04CB\u04CC\x07{\u04CC\u04CD\x07v\u04CD\u04CE\x07g\u04CE\u04CF\x07u\u04CF\u04D0\x073\u04D0\u055E\x074\u04D1\u04D2\x07d\u04D2\u04D3\x07{\u04D3\u04D4\x07v\u04D4\u04D5\x07g\u04D5\u04D6\x07u\u04D6\u04D7\x073\u04D7\u055E\x075\u04D8\u04D9\x07d\u04D9\u04DA\x07{\u04DA\u04DB\x07v\u04DB\u04DC\x07g\u04DC\u04DD\x07u\u04DD\u04DE\x073\u04DE\u055E\x076\u04DF\u04E0\x07d\u04E0\u04E1\x07{\u04E1\u04E2\x07v\u04E2\u04E3\x07g\u04E3\u04E4\x07u\u04E4\u04E5\x073\u04E5\u055E\x077\u04E6\u04E7\x07d\u04E7\u04E8\x07{\u04E8\u04E9\x07v\u04E9\u04EA\x07g\u04EA\u04EB\x07u\u04EB\u04EC\x073\u04EC\u055E\x078\u04ED\u04EE\x07d\u04EE\u04EF\x07{\u04EF\u04F0\x07v\u04F0\u04F1\x07g\u04F1\u04F2\x07u\u04F2\u04F3\x073\u04F3\u055E\x079\u04F4\u04F5\x07d\u04F5\u04F6\x07{\u04F6\u04F7\x07v\u04F7\u04F8\x07g\u04F8\u04F9\x07u\u04F9\u04FA\x073\u04FA\u055E\x07:\u04FB\u04FC\x07d\u04FC\u04FD\x07{\u04FD\u04FE\x07v\u04FE\u04FF\x07g\u04FF\u0500\x07u\u0500\u0501\x073\u0501\u055E\x07;\u0502\u0503\x07d\u0503\u0504\x07{\u0504\u0505\x07v\u0505\u0506\x07g\u0506\u0507\x07u\u0507\u0508\x074\u0508\u055E\x072\u0509\u050A\x07d\u050A\u050B\x07{\u050B\u050C\x07v\u050C\u050D\x07g\u050D\u050E\x07u\u050E\u050F\x074\u050F\u055E\x073\u0510\u0511\x07d\u0511\u0512\x07{\u0512\u0513\x07v\u0513\u0514\x07g\u0514\u0515\x07u\u0515\u0516\x074\u0516\u055E\x074\u0517\u0518\x07d\u0518\u0519\x07{\u0519\u051A\x07v\u051A\u051B\x07g\u051B\u051C\x07u\u051C\u051D\x074\u051D\u055E\x075\u051E\u051F\x07d\u051F\u0520\x07{\u0520\u0521\x07v\u0521\u0522\x07g\u0522\u0523\x07u\u0523\u0524\x074\u0524\u055E\x076\u0525\u0526\x07d\u0526\u0527\x07{\u0527\u0528\x07v\u0528\u0529\x07g\u0529\u052A\x07u\u052A\u052B\x074\u052B\u055E\x077\u052C\u052D\x07d\u052D\u052E\x07{\u052E\u052F\x07v\u052F\u0530\x07g\u0530\u0531\x07u\u0531\u0532\x074\u0532\u055E\x078\u0533\u0534\x07d\u0534\u0535\x07{\u0535\u0536\x07v\u0536\u0537\x07g\u0537\u0538\x07u\u0538\u0539\x074\u0539\u055E\x079\u053A\u053B\x07d\u053B\u053C\x07{\u053C\u053D\x07v\u053D\u053E\x07g\u053E\u053F\x07u\u053F\u0540\x074\u0540\u055E\x07:\u0541\u0542\x07d\u0542\u0543\x07{\u0543\u0544\x07v\u0544\u0545\x07g\u0545\u0546\x07u\u0546\u0547\x074\u0547\u055E\x07;\u0548\u0549\x07d\u0549\u054A\x07{\u054A\u054B\x07v\u054B\u054C\x07g\u054C\u054D\x07u\u054D\u054E\x075\u054E\u055E\x072\u054F\u0550\x07d\u0550\u0551\x07{\u0551\u0552\x07v\u0552\u0553\x07g\u0553\u0554\x07u\u0554\u0555\x075\u0555\u055E\x073\u0556\u0557\x07d\u0557\u0558\x07{\u0558\u0559\x07v\u0559\u055A\x07g\u055A\u055B\x07u\u055B\u055C\x075\u055C\u055E\x074\u055D\u0481\u055D\u0486\u055D\u048C\u055D\u0492\u055D\u0498\u055D\u049E\u055D\u04A4\u055D\u04AA\u055D\u04B0\u055D\u04B6\u055D\u04BC\u055D\u04C3\u055D\u04CA\u055D\u04D1\u055D\u04D8\u055D\u04DF\u055D\u04E6\u055D\u04ED\u055D\u04F4\u055D\u04FB\u055D\u0502\u055D\u0509\u055D\u0510\u055D\u0517\u055D\u051E\u055D\u0525\u055D\u052C\u055D\u0533\u055D\u053A\u055D\u0541\u055D\u0548\u055D\u054F\u055D\u0556\u055E\xCE\u055F\u0560\x07h\u0560\u0561\x07k\u0561\u0562\x07z\u0562\u0563\x07g\u0563\u0576\x07f\u0564\u0565\x07h\u0565\u0566\x07k\u0566\u0567\x07z\u0567\u0568\x07g\u0568\u0569\x07f\u0569\u056B\u056A\u056C	\u056B\u056A\u056C\u056D\u056D\u056B\u056D\u056E\u056E\u056F\u056F\u0571\x07z\u0570\u0572	\u0571\u0570\u0572\u0573\u0573\u0571\u0573\u0574\u0574\u0576\u0575\u055F\u0575\u0564\u0576\xD0\u0577\u0578\x07w\u0578\u0579\x07h\u0579\u057A\x07k\u057A\u057B\x07z\u057B\u057C\x07g\u057C\u0590\x07f\u057D\u057E\x07w\u057E\u057F\x07h\u057F\u0580\x07k\u0580\u0581\x07z\u0581\u0582\x07g\u0582\u0583\x07f\u0583\u0585\u0584\u0586	\u0585\u0584\u0586\u0587\u0587\u0585\u0587\u0588\u0588\u0589\u0589\u058B\x07z\u058A\u058C	\u058B\u058A\u058C\u058D\u058D\u058B\u058D\u058E\u058E\u0590\u058F\u0577\u058F\u057D\u0590\xD2\u0591\u0592\x07V\u0592\u0593\x07x\u0593\u0594\x07o\u0594\u0595\x07E\u0595\u0596\x07g\u0596\u0597\x07n\u0597\u0598\x07n\u0598\xD4\u0599\u059A\x07v\u059A\u059B\x07t\u059B\u059C\x07w\u059C\u05A3\x07g\u059D\u059E\x07h\u059E\u059F\x07c\u059F\u05A0\x07n\u05A0\u05A1\x07u\u05A1\u05A3\x07g\u05A2\u0599\u05A2\u059D\u05A3\xD6\u05A4\u05AB\xD9m\u05A5\u05A7\xD9m\u05A6\u05A5\u05A6\u05A7\u05A7\u05A8\u05A8\u05A9\x070\u05A9\u05AB\xD9m\u05AA\u05A4\u05AA\u05A6\u05AB\u05AE\u05AC\u05AD	\u05AD\u05AF\xD9m\u05AE\u05AC\u05AE\u05AF\u05AF\xD8\u05B0\u05B7	\u05B1\u05B3\x07a\u05B2\u05B1\u05B2\u05B3\u05B3\u05B4\u05B4\u05B6	\u05B5\u05B2\u05B6\u05B9\u05B7\u05B5\u05B7\u05B8\u05B8\xDA\u05B9\u05B7\u05BA\u05BB\x072\u05BB\u05BC	\u05BC\u05BD\xDDo\u05BD\xDC\u05BE\u05C5\xE5s\u05BF\u05C1\x07a\u05C0\u05BF\u05C0\u05C1\u05C1\u05C2\u05C2\u05C4\xE5s\u05C3\u05C0\u05C4\u05C7\u05C5\u05C3\u05C5\u05C6\u05C6\xDE\u05C7\u05C5\u05C8\u05C9\x07y\u05C9\u05CA\x07g\u05CA\u0601\x07k\u05CB\u05CC\x07i\u05CC\u05CD\x07y\u05CD\u05CE\x07g\u05CE\u0601\x07k\u05CF\u05D0\x07u\u05D0\u05D1\x07|\u05D1\u05D2\x07c\u05D2\u05D3\x07d\u05D3\u0601\x07q\u05D4\u05D5\x07h\u05D5\u05D6\x07k\u05D6\u05D7\x07p\u05D7\u05D8\x07p\u05D8\u05D9\x07g\u05D9\u0601\x07{\u05DA\u05DB\x07g\u05DB\u05DC\x07v\u05DC\u05DD\x07j\u05DD\u05DE\x07g\u05DE\u0601\x07t\u05DF\u05E0\x07u\u05E0\u05E1\x07g\u05E1\u05E2\x07e\u05E2\u05E3\x07q\u05E3\u05E4\x07p\u05E4\u05E5\x07f\u05E5\u0601\x07u\u05E6\u05E7\x07o\u05E7\u05E8\x07k\u05E8\u05E9\x07p\u05E9\u05EA\x07w\u05EA\u05EB\x07v\u05EB\u05EC\x07g\u05EC\u0601\x07u\u05ED\u05EE\x07j\u05EE\u05EF\x07q\u05EF\u05F0\x07w\u05F0\u05F1\x07t\u05F1\u0601\x07u\u05F2\u05F3\x07f\u05F3\u05F4\x07c\u05F4\u05F5\x07{\u05F5\u0601\x07u\u05F6\u05F7\x07y\u05F7\u05F8\x07g\u05F8\u05F9\x07g\u05F9\u05FA\x07m\u05FA\u0601\x07u\u05FB\u05FC\x07{\u05FC\u05FD\x07g\u05FD\u05FE\x07c\u05FE\u05FF\x07t\u05FF\u0601\x07u\u0600\u05C8\u0600\u05CB\u0600\u05CF\u0600\u05D4\u0600\u05DA\u0600\u05DF\u0600\u05E6\u0600\u05ED\u0600\u05F2\u0600\u05F6\u0600\u05FB\u0601\xE0\u0602\u0603\x07j\u0603\u0604\x07g\u0604\u0605\x07z\u0605\u0610\u0606\u0608\x07$\u0607\u0609\xDDo\u0608\u0607\u0608\u0609\u0609\u060A\u060A\u0611\x07$\u060B\u060D\x07)\u060C\u060E\xDDo\u060D\u060C\u060D\u060E\u060E\u060F\u060F\u0611\x07)\u0610\u0606\u0610\u060B\u0611\xE2\u0612\u0613\xE5s\u0613\u0614\xE5s\u0614\xE4\u0615\u0616	\u0616\xE6\u0617\u0618\x07c\u0618\u0619\x07d\u0619\u061A\x07u\u061A\u061B\x07v\u061B\u061C\x07t\u061C\u061D\x07c\u061D\u061E\x07e\u061E\u066A\x07v\u061F\u0620\x07c\u0620\u0621\x07h\u0621\u0622\x07v\u0622\u0623\x07g\u0623\u066A\x07t\u0624\u0625\x07e\u0625\u0626\x07c\u0626\u0627\x07u\u0627\u066A\x07g\u0628\u0629\x07e\u0629\u062A\x07c\u062A\u062B\x07v\u062B\u062C\x07e\u062C\u066A\x07j\u062D\u062E\x07f\u062E\u062F\x07g\u062F\u0630\x07h\u0630\u0631\x07c\u0631\u0632\x07w\u0632\u0633\x07n\u0633\u066A\x07v\u0634\u0635\x07h\u0635\u0636\x07k\u0636\u0637\x07p\u0637\u0638\x07c\u0638\u066A\x07n\u0639\u063A\x07k\u063A\u066A\x07p\u063B\u063C\x07k\u063C\u063D\x07p\u063D\u063E\x07n\u063E\u063F\x07k\u063F\u0640\x07p\u0640\u066A\x07g\u0641\u0642\x07n\u0642\u0643\x07g\u0643\u066A\x07v\u0644\u0645\x07o\u0645\u0646\x07c\u0646\u0647\x07v\u0647\u0648\x07e\u0648\u066A\x07j\u0649\u064A\x07p\u064A\u064B\x07w\u064B\u064C\x07n\u064C\u066A\x07n\u064D\u064E\x07q\u064E\u066A\x07h\u064F\u0650\x07t\u0650\u0651\x07g\u0651\u0652\x07n\u0652\u0653\x07q\u0653\u0654\x07e\u0654\u0655\x07c\u0655\u0656\x07v\u0656\u0657\x07c\u0657\u0658\x07d\u0658\u0659\x07n\u0659\u066A\x07g\u065A\u065B\x07u\u065B\u065C\x07y\u065C\u065D\x07k\u065D\u065E\x07v\u065E\u065F\x07e\u065F\u066A\x07j\u0660\u0661\x07v\u0661\u0662\x07t\u0662\u066A\x07{\u0663\u0664\x07v\u0664\u0665\x07{\u0665\u0666\x07r\u0666\u0667\x07g\u0667\u0668\x07q\u0668\u066A\x07h\u0669\u0617\u0669\u061F\u0669\u0624\u0669\u0628\u0669\u062D\u0669\u0634\u0669\u0639\u0669\u063B\u0669\u0641\u0669\u0644\u0669\u0649\u0669\u064D\u0669\u064F\u0669";
+SolidityLexer._serializedATNSegment3 = "\u065A\u0669\u0660\u0669\u0663\u066A\xE8\u066B\u066C\x07c\u066C\u066D\x07p\u066D\u066E\x07q\u066E\u066F\x07p\u066F\u0670\x07{\u0670\u0671\x07o\u0671\u0672\x07q\u0672\u0673\x07w\u0673\u0674\x07u\u0674\xEA\u0675\u0676\x07d\u0676\u0677\x07t\u0677\u0678\x07g\u0678\u0679\x07c\u0679\u067A\x07m\u067A\xEC\u067B\u067C\x07e\u067C\u067D\x07q\u067D\u067E\x07p\u067E\u067F\x07u\u067F\u0680\x07v\u0680\u0681\x07c\u0681\u0682\x07p\u0682\u0683\x07v\u0683\xEE\u0684\u0685\x07k\u0685\u0686\x07o\u0686\u0687\x07o\u0687\u0688\x07w\u0688\u0689\x07v\u0689\u068A\x07c\u068A\u068B\x07d\u068B\u068C\x07n\u068C\u068D\x07g\u068D\xF0\u068E\u068F\x07e\u068F\u0690\x07q\u0690\u0691\x07p\u0691\u0692\x07v\u0692\u0693\x07k\u0693\u0694\x07p\u0694\u0695\x07w\u0695\u0696\x07g\u0696\xF2\u0697\u0698\x07n\u0698\u0699\x07g\u0699\u069A\x07c\u069A\u069B\x07x\u069B\u069C\x07g\u069C\xF4\u069D\u069E\x07g\u069E\u069F\x07z\u069F\u06A0\x07v\u06A0\u06A1\x07g\u06A1\u06A2\x07t\u06A2\u06A3\x07p\u06A3\u06A4\x07c\u06A4\u06A5\x07n\u06A5\xF6\u06A6\u06A7\x07k\u06A7\u06A8\x07p\u06A8\u06A9\x07f\u06A9\u06AA\x07g\u06AA\u06AB\x07z\u06AB\u06AC\x07g\u06AC\u06AD\x07f\u06AD\xF8\u06AE\u06AF\x07k\u06AF\u06B0\x07p\u06B0\u06B1\x07v\u06B1\u06B2\x07g\u06B2\u06B3\x07t\u06B3\u06B4\x07p\u06B4\u06B5\x07c\u06B5\u06B6\x07n\u06B6\xFA\u06B7\u06B8\x07r\u06B8\u06B9\x07c\u06B9\u06BA\x07{\u06BA\u06BB\x07c\u06BB\u06BC\x07d\u06BC\u06BD\x07n\u06BD\u06BE\x07g\u06BE\xFC\u06BF\u06C0\x07r\u06C0\u06C1\x07t\u06C1\u06C2\x07k\u06C2\u06C3\x07x\u06C3\u06C4\x07c\u06C4\u06C5\x07v\u06C5\u06C6\x07g\u06C6\xFE\u06C7\u06C8\x07r\u06C8\u06C9\x07w\u06C9\u06CA\x07d\u06CA\u06CB\x07n\u06CB\u06CC\x07k\u06CC\u06CD\x07e\u06CD\u0100\u06CE\u06CF\x07u\u06CF\u06D0\x07v\u06D0\u06D1\x07c\u06D1\u06D2\x07v\u06D2\u06D3\x07k\u06D3\u06D4\x07e\u06D4\u0102\u06D5\u06D6\x07x\u06D6\u06D7\x07k\u06D7\u06D8\x07t\u06D8\u06D9\x07v\u06D9\u06DA\x07w\u06DA\u06DB\x07c\u06DB\u06DC\x07n\u06DC\u0104\u06DD\u06DE\x07r\u06DE\u06DF\x07w\u06DF\u06E0\x07t\u06E0\u06E1\x07g\u06E1\u0106\u06E2\u06E3\x07v\u06E3\u06E4\x07{\u06E4\u06E5\x07r\u06E5\u06E6\x07g\u06E6\u0108\u06E7\u06E8\x07x\u06E8\u06E9\x07k\u06E9\u06EA\x07g\u06EA\u06EB\x07y\u06EB\u010A\u06EC\u06ED\x07e\u06ED\u06EE\x07q\u06EE\u06EF\x07p\u06EF\u06F0\x07u\u06F0\u06F1\x07v\u06F1\u06F2\x07t\u06F2\u06F3\x07w\u06F3\u06F4\x07e\u06F4\u06F5\x07v\u06F5\u06F6\x07q\u06F6\u06F7\x07t\u06F7\u010C\u06F8\u06F9\x07h\u06F9\u06FA\x07c\u06FA\u06FB\x07n\u06FB\u06FC\x07n\u06FC\u06FD\x07d\u06FD\u06FE\x07c\u06FE\u06FF\x07e\u06FF\u0700\x07m\u0700\u010E\u0701\u0702\x07t\u0702\u0703\x07g\u0703\u0704\x07e\u0704\u0705\x07g\u0705\u0706\x07k\u0706\u0707\x07x\u0707\u0708\x07g\u0708\u0110\u0709\u070D\u0113\x8A\u070A\u070C\u0115\x8B\u070B\u070A\u070C\u070F\u070D\u070B\u070D\u070E\u070E\u0112\u070F\u070D\u0710\u0711	\u0711\u0114\u0712\u0713	\x07\u0713\u0116\u0714\u0715\x07w\u0715\u0716\x07p\u0716\u0717\x07k\u0717\u0718\x07e\u0718\u0719\x07q\u0719\u071A\x07f\u071A\u071C\x07g\u071B\u0714\u071B\u071C\u071C\u071D\u071D\u0721\x07$\u071E\u0720\u0119\x8D\u071F\u071E\u0720\u0723\u0721\u071F\u0721\u0722\u0722\u0724\u0723\u0721\u0724\u0737\x07$\u0725\u0726\x07w\u0726\u0727\x07p\u0727\u0728\x07k\u0728\u0729\x07e\u0729\u072A\x07q\u072A\u072B\x07f\u072B\u072D\x07g\u072C\u0725\u072C\u072D\u072D\u072E\u072E\u0732\x07)\u072F\u0731\u011B\x8E\u0730\u072F\u0731\u0734\u0732\u0730\u0732\u0733\u0733\u0735\u0734\u0732\u0735\u0737\x07)\u0736\u071B\u0736\u072C\u0737\u0118\u0738\u073C\n\b\u0739\u073A\x07^\u073A\u073C\v\u073B\u0738\u073B\u0739\u073C\u011A\u073D\u0741\n	\u073E\u073F\x07^\u073F\u0741\v\u0740\u073D\u0740\u073E\u0741\u011C\u0742\u0744	\u0743\u0742\u0744\u0745\u0745\u0743\u0745\u0746\u0746\u0747\u0747\u0749\x070\u0748\u074A	\u0749\u0748\u074A\u074B\u074B\u0749\u074B\u074C\u074C\u0753\u074D\u074F\x070\u074E\u0750	\u074F\u074E\u0750\u0751\u0751\u074F\u0751\u0752\u0752\u0754\u0753\u074D\u0753\u0754\u0754\u011E\u0755\u0757	\n\u0756\u0755\u0757\u0758\u0758\u0756\u0758\u0759\u0759\u075A\u075A\u075B\b\x90\u075B\u0120\u075C\u075D\x071\u075D\u075E\x07,\u075E\u0762\u075F\u0761\v\u0760\u075F\u0761\u0764\u0762\u0763\u0762\u0760\u0763\u0765\u0764\u0762\u0765\u0766\x07,\u0766\u0767\x071\u0767\u0768\u0768\u0769\b\x91\u0769\u0122\u076A\u076B\x071\u076B\u076C\x071\u076C\u0770\u076D\u076F\n\v\u076E\u076D\u076F\u0772\u0770\u076E\u0770\u0771\u0771\u0773\u0772\u0770\u0773\u0774\b\x92\u0774\u0124(\u03A6\u047F\u055D\u056D\u0573\u0575\u0587\u058D\u058F\u05A2\u05A6\u05AA\u05AE\u05B2\u05B7\u05C0\u05C5\u0600\u0608\u060D\u0610\u0669\u070D\u071B\u0721\u072C\u0732\u0736\u073B\u0740\u0745\u074B\u0751\u0753\u0758\u0762\u0770\b";
 SolidityLexer._serializedATN = Utils.join([
   _SolidityLexer._serializedATNSegment0,
   _SolidityLexer._serializedATNSegment1,
@@ -25754,7 +25804,7 @@ var _SolidityParser = class extends import_Parser.Parser {
         this.state = 205;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        while ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__0 | 1 << _SolidityParser.T__11 | 1 << _SolidityParser.T__13 | 1 << _SolidityParser.T__14 | 1 << _SolidityParser.T__17 | 1 << _SolidityParser.T__18 | 1 << _SolidityParser.T__19 | 1 << _SolidityParser.T__20 | 1 << _SolidityParser.T__25 | 1 << _SolidityParser.T__28 | 1 << _SolidityParser.T__30)) !== 0 || (_la - 34 & ~31) === 0 && (1 << _la - 34 & (1 << _SolidityParser.T__33 - 34 | 1 << _SolidityParser.T__36 - 34 | 1 << _SolidityParser.T__38 - 34 | 1 << _SolidityParser.T__42 - 34 | 1 << _SolidityParser.T__54 - 34 | 1 << _SolidityParser.T__55 - 34 | 1 << _SolidityParser.T__56 - 34 | 1 << _SolidityParser.T__57 - 34 | 1 << _SolidityParser.T__58 - 34)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.TypeKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97 | 1 << _SolidityParser.FallbackKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+        while ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__0 | 1 << _SolidityParser.T__13 | 1 << _SolidityParser.T__15 | 1 << _SolidityParser.T__16 | 1 << _SolidityParser.T__19 | 1 << _SolidityParser.T__20 | 1 << _SolidityParser.T__21 | 1 << _SolidityParser.T__22 | 1 << _SolidityParser.T__26 | 1 << _SolidityParser.T__29)) !== 0 || (_la - 32 & ~31) === 0 && (1 << _la - 32 & (1 << _SolidityParser.T__31 - 32 | 1 << _SolidityParser.T__34 - 32 | 1 << _SolidityParser.T__37 - 32 | 1 << _SolidityParser.T__39 - 32 | 1 << _SolidityParser.T__43 - 32 | 1 << _SolidityParser.T__55 - 32 | 1 << _SolidityParser.T__56 - 32 | 1 << _SolidityParser.T__57 - 32 | 1 << _SolidityParser.T__58 - 32 | 1 << _SolidityParser.T__59 - 32)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.TypeKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || (_la - 130 & ~31) === 0 && (1 << _la - 130 & (1 << _SolidityParser.FallbackKeyword - 130 | 1 << _SolidityParser.ReceiveKeyword - 130 | 1 << _SolidityParser.Identifier - 130)) !== 0) {
           {
             this.state = 203;
             this._errHandler.sync(this);
@@ -25866,11 +25916,21 @@ var _SolidityParser = class extends import_Parser.Parser {
   pragmaName() {
     let _localctx = new PragmaNameContext(this._ctx, this.state);
     this.enterRule(_localctx, 4, _SolidityParser.RULE_pragmaName);
+    let _la;
     try {
       this.enterOuterAlt(_localctx, 1);
       {
         this.state = 215;
-        this.identifier();
+        _la = this._input.LA(1);
+        if (!(_la === _SolidityParser.T__2 || _la === _SolidityParser.T__3)) {
+          this._errHandler.recoverInline(this);
+        } else {
+          if (this._input.LA(1) === import_Token.Token.EOF) {
+            this.matchedEOF = true;
+          }
+          this._errHandler.reportMatch(this);
+          this.consume();
+        }
       }
     } catch (re) {
       if (re instanceof import_RecognitionException.RecognitionException) {
@@ -25932,16 +25992,16 @@ var _SolidityParser = class extends import_Parser.Parser {
         this.state = 228;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        while ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__2 | 1 << _SolidityParser.T__3 | 1 << _SolidityParser.T__4 | 1 << _SolidityParser.T__5 | 1 << _SolidityParser.T__6 | 1 << _SolidityParser.T__7 | 1 << _SolidityParser.T__8 | 1 << _SolidityParser.T__9)) !== 0 || _la === _SolidityParser.DecimalNumber || _la === _SolidityParser.VersionLiteral) {
+        while ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__4 | 1 << _SolidityParser.T__5 | 1 << _SolidityParser.T__6 | 1 << _SolidityParser.T__7 | 1 << _SolidityParser.T__8 | 1 << _SolidityParser.T__9 | 1 << _SolidityParser.T__10 | 1 << _SolidityParser.T__11)) !== 0 || _la === _SolidityParser.DecimalNumber || _la === _SolidityParser.VersionLiteral) {
           {
             {
               this.state = 223;
               this._errHandler.sync(this);
               _la = this._input.LA(1);
-              if (_la === _SolidityParser.T__2) {
+              if (_la === _SolidityParser.T__4) {
                 {
                   this.state = 222;
-                  this.match(_SolidityParser.T__2);
+                  this.match(_SolidityParser.T__4);
                 }
               }
               this.state = 225;
@@ -25975,7 +26035,7 @@ var _SolidityParser = class extends import_Parser.Parser {
       {
         this.state = 231;
         _la = this._input.LA(1);
-        if (!((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__3 | 1 << _SolidityParser.T__4 | 1 << _SolidityParser.T__5 | 1 << _SolidityParser.T__6 | 1 << _SolidityParser.T__7 | 1 << _SolidityParser.T__8 | 1 << _SolidityParser.T__9)) !== 0)) {
+        if (!((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__5 | 1 << _SolidityParser.T__6 | 1 << _SolidityParser.T__7 | 1 << _SolidityParser.T__8 | 1 << _SolidityParser.T__9 | 1 << _SolidityParser.T__10 | 1 << _SolidityParser.T__11)) !== 0)) {
           this._errHandler.recoverInline(this);
         } else {
           if (this._input.LA(1) === import_Token.Token.EOF) {
@@ -26012,7 +26072,7 @@ var _SolidityParser = class extends import_Parser.Parser {
             this.state = 234;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__3 | 1 << _SolidityParser.T__4 | 1 << _SolidityParser.T__5 | 1 << _SolidityParser.T__6 | 1 << _SolidityParser.T__7 | 1 << _SolidityParser.T__8 | 1 << _SolidityParser.T__9)) !== 0) {
+            if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__5 | 1 << _SolidityParser.T__6 | 1 << _SolidityParser.T__7 | 1 << _SolidityParser.T__8 | 1 << _SolidityParser.T__9 | 1 << _SolidityParser.T__10 | 1 << _SolidityParser.T__11)) !== 0) {
               {
                 this.state = 233;
                 this.versionOperator();
@@ -26028,7 +26088,7 @@ var _SolidityParser = class extends import_Parser.Parser {
             this.state = 238;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__3 | 1 << _SolidityParser.T__4 | 1 << _SolidityParser.T__5 | 1 << _SolidityParser.T__6 | 1 << _SolidityParser.T__7 | 1 << _SolidityParser.T__8 | 1 << _SolidityParser.T__9)) !== 0) {
+            if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__5 | 1 << _SolidityParser.T__6 | 1 << _SolidityParser.T__7 | 1 << _SolidityParser.T__8 | 1 << _SolidityParser.T__9 | 1 << _SolidityParser.T__10 | 1 << _SolidityParser.T__11)) !== 0) {
               {
                 this.state = 237;
                 this.versionOperator();
@@ -26064,10 +26124,10 @@ var _SolidityParser = class extends import_Parser.Parser {
         this.state = 246;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__10) {
+        if (_la === _SolidityParser.T__12) {
           {
             this.state = 244;
-            this.match(_SolidityParser.T__10);
+            this.match(_SolidityParser.T__12);
             this.state = 245;
             this.identifier();
           }
@@ -26098,16 +26158,16 @@ var _SolidityParser = class extends import_Parser.Parser {
           this.enterOuterAlt(_localctx, 1);
           {
             this.state = 248;
-            this.match(_SolidityParser.T__11);
+            this.match(_SolidityParser.T__13);
             this.state = 249;
             this.importPath();
             this.state = 252;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            if (_la === _SolidityParser.T__10) {
+            if (_la === _SolidityParser.T__12) {
               {
                 this.state = 250;
-                this.match(_SolidityParser.T__10);
+                this.match(_SolidityParser.T__12);
                 this.state = 251;
                 this.identifier();
               }
@@ -26120,21 +26180,21 @@ var _SolidityParser = class extends import_Parser.Parser {
           this.enterOuterAlt(_localctx, 2);
           {
             this.state = 256;
-            this.match(_SolidityParser.T__11);
+            this.match(_SolidityParser.T__13);
             this.state = 259;
             this._errHandler.sync(this);
             switch (this._input.LA(1)) {
-              case _SolidityParser.T__12:
+              case _SolidityParser.T__14:
                 {
                   this.state = 257;
-                  this.match(_SolidityParser.T__12);
+                  this.match(_SolidityParser.T__14);
                 }
                 break;
-              case _SolidityParser.T__13:
-              case _SolidityParser.T__25:
-              case _SolidityParser.T__42:
-              case _SolidityParser.T__54:
-              case _SolidityParser.T__96:
+              case _SolidityParser.T__15:
+              case _SolidityParser.T__26:
+              case _SolidityParser.T__43:
+              case _SolidityParser.T__55:
+              case _SolidityParser.T__97:
               case _SolidityParser.LeaveKeyword:
               case _SolidityParser.PayableKeyword:
               case _SolidityParser.ConstructorKeyword:
@@ -26151,16 +26211,16 @@ var _SolidityParser = class extends import_Parser.Parser {
             this.state = 263;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            if (_la === _SolidityParser.T__10) {
+            if (_la === _SolidityParser.T__12) {
               {
                 this.state = 261;
-                this.match(_SolidityParser.T__10);
+                this.match(_SolidityParser.T__12);
                 this.state = 262;
                 this.identifier();
               }
             }
             this.state = 265;
-            this.match(_SolidityParser.T__13);
+            this.match(_SolidityParser.T__15);
             this.state = 266;
             this.importPath();
             this.state = 267;
@@ -26171,19 +26231,19 @@ var _SolidityParser = class extends import_Parser.Parser {
           this.enterOuterAlt(_localctx, 3);
           {
             this.state = 269;
-            this.match(_SolidityParser.T__11);
+            this.match(_SolidityParser.T__13);
             this.state = 270;
-            this.match(_SolidityParser.T__14);
+            this.match(_SolidityParser.T__16);
             this.state = 271;
             this.importDeclaration();
             this.state = 276;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            while (_la === _SolidityParser.T__15) {
+            while (_la === _SolidityParser.T__17) {
               {
                 {
                   this.state = 272;
-                  this.match(_SolidityParser.T__15);
+                  this.match(_SolidityParser.T__17);
                   this.state = 273;
                   this.importDeclaration();
                 }
@@ -26193,9 +26253,9 @@ var _SolidityParser = class extends import_Parser.Parser {
               _la = this._input.LA(1);
             }
             this.state = 279;
-            this.match(_SolidityParser.T__16);
+            this.match(_SolidityParser.T__18);
             this.state = 280;
-            this.match(_SolidityParser.T__13);
+            this.match(_SolidityParser.T__15);
             this.state = 281;
             this.importPath();
             this.state = 282;
@@ -26248,15 +26308,15 @@ var _SolidityParser = class extends import_Parser.Parser {
         this.state = 289;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__17) {
+        if (_la === _SolidityParser.T__19) {
           {
             this.state = 288;
-            this.match(_SolidityParser.T__17);
+            this.match(_SolidityParser.T__19);
           }
         }
         this.state = 291;
         _la = this._input.LA(1);
-        if (!((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__18 | 1 << _SolidityParser.T__19 | 1 << _SolidityParser.T__20)) !== 0)) {
+        if (!((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__20 | 1 << _SolidityParser.T__21 | 1 << _SolidityParser.T__22)) !== 0)) {
           this._errHandler.recoverInline(this);
         } else {
           if (this._input.LA(1) === import_Token.Token.EOF) {
@@ -26270,20 +26330,20 @@ var _SolidityParser = class extends import_Parser.Parser {
         this.state = 302;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__21) {
+        if (_la === _SolidityParser.T__23) {
           {
             this.state = 293;
-            this.match(_SolidityParser.T__21);
+            this.match(_SolidityParser.T__23);
             this.state = 294;
             this.inheritanceSpecifier();
             this.state = 299;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            while (_la === _SolidityParser.T__15) {
+            while (_la === _SolidityParser.T__17) {
               {
                 {
                   this.state = 295;
-                  this.match(_SolidityParser.T__15);
+                  this.match(_SolidityParser.T__17);
                   this.state = 296;
                   this.inheritanceSpecifier();
                 }
@@ -26295,11 +26355,11 @@ var _SolidityParser = class extends import_Parser.Parser {
           }
         }
         this.state = 304;
-        this.match(_SolidityParser.T__14);
+        this.match(_SolidityParser.T__16);
         this.state = 308;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        while ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__13 | 1 << _SolidityParser.T__14 | 1 << _SolidityParser.T__25 | 1 << _SolidityParser.T__26 | 1 << _SolidityParser.T__28 | 1 << _SolidityParser.T__29 | 1 << _SolidityParser.T__30)) !== 0 || (_la - 33 & ~31) === 0 && (1 << _la - 33 & (1 << _SolidityParser.T__32 - 33 | 1 << _SolidityParser.T__33 - 33 | 1 << _SolidityParser.T__36 - 33 | 1 << _SolidityParser.T__38 - 33 | 1 << _SolidityParser.T__42 - 33 | 1 << _SolidityParser.T__54 - 33 | 1 << _SolidityParser.T__55 - 33 | 1 << _SolidityParser.T__56 - 33 | 1 << _SolidityParser.T__57 - 33 | 1 << _SolidityParser.T__58 - 33)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.TypeKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97 | 1 << _SolidityParser.FallbackKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+        while ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__15 | 1 << _SolidityParser.T__16 | 1 << _SolidityParser.T__26 | 1 << _SolidityParser.T__27 | 1 << _SolidityParser.T__29 | 1 << _SolidityParser.T__30)) !== 0 || (_la - 32 & ~31) === 0 && (1 << _la - 32 & (1 << _SolidityParser.T__31 - 32 | 1 << _SolidityParser.T__33 - 32 | 1 << _SolidityParser.T__34 - 32 | 1 << _SolidityParser.T__37 - 32 | 1 << _SolidityParser.T__39 - 32 | 1 << _SolidityParser.T__43 - 32 | 1 << _SolidityParser.T__55 - 32 | 1 << _SolidityParser.T__56 - 32 | 1 << _SolidityParser.T__57 - 32 | 1 << _SolidityParser.T__58 - 32 | 1 << _SolidityParser.T__59 - 32)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.TypeKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || (_la - 130 & ~31) === 0 && (1 << _la - 130 & (1 << _SolidityParser.FallbackKeyword - 130 | 1 << _SolidityParser.ReceiveKeyword - 130 | 1 << _SolidityParser.Identifier - 130)) !== 0) {
           {
             {
               this.state = 305;
@@ -26311,7 +26371,7 @@ var _SolidityParser = class extends import_Parser.Parser {
           _la = this._input.LA(1);
         }
         this.state = 311;
-        this.match(_SolidityParser.T__16);
+        this.match(_SolidityParser.T__18);
       }
     } catch (re) {
       if (re instanceof import_RecognitionException.RecognitionException) {
@@ -26338,21 +26398,21 @@ var _SolidityParser = class extends import_Parser.Parser {
         this.state = 319;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__22) {
+        if (_la === _SolidityParser.T__24) {
           {
             this.state = 314;
-            this.match(_SolidityParser.T__22);
+            this.match(_SolidityParser.T__24);
             this.state = 316;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            if ((_la - 5 & ~31) === 0 && (1 << _la - 5 & (1 << _SolidityParser.T__4 - 5 | 1 << _SolidityParser.T__13 - 5 | 1 << _SolidityParser.T__14 - 5 | 1 << _SolidityParser.T__22 - 5 | 1 << _SolidityParser.T__25 - 5 | 1 << _SolidityParser.T__34 - 5)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37 | 1 << _SolidityParser.T__59 - 37 | 1 << _SolidityParser.T__60 - 37 | 1 << _SolidityParser.T__61 - 37 | 1 << _SolidityParser.T__63 - 37 | 1 << _SolidityParser.T__64 - 37 | 1 << _SolidityParser.T__65 - 37 | 1 << _SolidityParser.T__66 - 37 | 1 << _SolidityParser.T__67 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.BooleanLiteral - 97 | 1 << _SolidityParser.DecimalNumber - 97 | 1 << _SolidityParser.HexNumber - 97 | 1 << _SolidityParser.HexLiteralFragment - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.TypeKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || (_la - 129 & ~31) === 0 && (1 << _la - 129 & (1 << _SolidityParser.ReceiveKeyword - 129 | 1 << _SolidityParser.Identifier - 129 | 1 << _SolidityParser.StringLiteralFragment - 129)) !== 0) {
+            if ((_la - 7 & ~31) === 0 && (1 << _la - 7 & (1 << _SolidityParser.T__6 - 7 | 1 << _SolidityParser.T__15 - 7 | 1 << _SolidityParser.T__16 - 7 | 1 << _SolidityParser.T__24 - 7 | 1 << _SolidityParser.T__26 - 7 | 1 << _SolidityParser.T__35 - 7 | 1 << _SolidityParser.T__37 - 7)) !== 0 || (_la - 44 & ~31) === 0 && (1 << _la - 44 & (1 << _SolidityParser.T__43 - 44 | 1 << _SolidityParser.T__55 - 44 | 1 << _SolidityParser.T__56 - 44 | 1 << _SolidityParser.T__57 - 44 | 1 << _SolidityParser.T__58 - 44 | 1 << _SolidityParser.T__59 - 44 | 1 << _SolidityParser.T__60 - 44 | 1 << _SolidityParser.T__61 - 44 | 1 << _SolidityParser.T__62 - 44 | 1 << _SolidityParser.T__64 - 44 | 1 << _SolidityParser.T__65 - 44 | 1 << _SolidityParser.T__66 - 44 | 1 << _SolidityParser.T__67 - 44 | 1 << _SolidityParser.T__68 - 44)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.BooleanLiteral - 98 | 1 << _SolidityParser.DecimalNumber - 98 | 1 << _SolidityParser.HexNumber - 98 | 1 << _SolidityParser.HexLiteralFragment - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.TypeKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || (_la - 131 & ~31) === 0 && (1 << _la - 131 & (1 << _SolidityParser.ReceiveKeyword - 131 | 1 << _SolidityParser.Identifier - 131 | 1 << _SolidityParser.StringLiteralFragment - 131)) !== 0) {
               {
                 this.state = 315;
                 this.expressionList();
               }
             }
             this.state = 318;
-            this.match(_SolidityParser.T__23);
+            this.match(_SolidityParser.T__25);
           }
         }
       }
@@ -26462,47 +26522,53 @@ var _SolidityParser = class extends import_Parser.Parser {
       {
         this.state = 332;
         this.typeName(0);
-        this.state = 341;
+        this.state = 342;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        while ((_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.ConstantKeyword - 98 | 1 << _SolidityParser.ImmutableKeyword - 98 | 1 << _SolidityParser.InternalKeyword - 98 | 1 << _SolidityParser.PrivateKeyword - 98 | 1 << _SolidityParser.PublicKeyword - 98)) !== 0) {
+        while ((_la - 99 & ~31) === 0 && (1 << _la - 99 & (1 << _SolidityParser.T__98 - 99 | 1 << _SolidityParser.ConstantKeyword - 99 | 1 << _SolidityParser.ImmutableKeyword - 99 | 1 << _SolidityParser.InternalKeyword - 99 | 1 << _SolidityParser.PrivateKeyword - 99 | 1 << _SolidityParser.PublicKeyword - 99 | 1 << _SolidityParser.StaticKeyword - 99)) !== 0) {
           {
-            this.state = 339;
+            this.state = 340;
             this._errHandler.sync(this);
             switch (this._input.LA(1)) {
-              case _SolidityParser.PublicKeyword:
+              case _SolidityParser.StaticKeyword:
                 {
                   this.state = 333;
+                  this.match(_SolidityParser.StaticKeyword);
+                }
+                break;
+              case _SolidityParser.PublicKeyword:
+                {
+                  this.state = 334;
                   this.match(_SolidityParser.PublicKeyword);
                 }
                 break;
               case _SolidityParser.InternalKeyword:
                 {
-                  this.state = 334;
+                  this.state = 335;
                   this.match(_SolidityParser.InternalKeyword);
                 }
                 break;
               case _SolidityParser.PrivateKeyword:
                 {
-                  this.state = 335;
+                  this.state = 336;
                   this.match(_SolidityParser.PrivateKeyword);
                 }
                 break;
               case _SolidityParser.ConstantKeyword:
                 {
-                  this.state = 336;
+                  this.state = 337;
                   this.match(_SolidityParser.ConstantKeyword);
                 }
                 break;
               case _SolidityParser.ImmutableKeyword:
                 {
-                  this.state = 337;
+                  this.state = 338;
                   this.match(_SolidityParser.ImmutableKeyword);
                 }
                 break;
-              case _SolidityParser.T__97:
+              case _SolidityParser.T__98:
                 {
-                  this.state = 338;
+                  this.state = 339;
                   this.overrideSpecifier();
                 }
                 break;
@@ -26510,33 +26576,24 @@ var _SolidityParser = class extends import_Parser.Parser {
                 throw new import_NoViableAltException.NoViableAltException(this);
             }
           }
-          this.state = 343;
+          this.state = 344;
           this._errHandler.sync(this);
           _la = this._input.LA(1);
         }
         this.state = 345;
-        this._errHandler.sync(this);
-        _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__24) {
-          {
-            this.state = 344;
-            this.match(_SolidityParser.T__24);
-          }
-        }
-        this.state = 347;
         this.identifier();
-        this.state = 350;
+        this.state = 348;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__9) {
+        if (_la === _SolidityParser.T__11) {
           {
-            this.state = 348;
-            this.match(_SolidityParser.T__9);
-            this.state = 349;
+            this.state = 346;
+            this.match(_SolidityParser.T__11);
+            this.state = 347;
             this.expression(0);
           }
         }
-        this.state = 352;
+        this.state = 350;
         this.match(_SolidityParser.T__1);
       }
     } catch (re) {
@@ -26558,17 +26615,17 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 354;
+        this.state = 352;
         this.typeName(0);
-        this.state = 355;
+        this.state = 353;
         this.match(_SolidityParser.ConstantKeyword);
-        this.state = 356;
+        this.state = 354;
         this.identifier();
-        this.state = 357;
-        this.match(_SolidityParser.T__9);
-        this.state = 358;
+        this.state = 355;
+        this.match(_SolidityParser.T__11);
+        this.state = 356;
         this.expression(0);
-        this.state = 359;
+        this.state = 357;
         this.match(_SolidityParser.T__1);
       }
     } catch (re) {
@@ -26590,13 +26647,13 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 361;
-        this.match(_SolidityParser.T__25);
-        this.state = 362;
+        this.state = 359;
+        this.match(_SolidityParser.T__26);
+        this.state = 360;
         this.identifier();
-        this.state = 363;
+        this.state = 361;
         this.parameterList();
-        this.state = 364;
+        this.state = 362;
         this.match(_SolidityParser.T__1);
       }
     } catch (re) {
@@ -26618,15 +26675,15 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 366;
+        this.state = 364;
         this.match(_SolidityParser.TypeKeyword);
-        this.state = 367;
+        this.state = 365;
         this.identifier();
-        this.state = 368;
-        this.match(_SolidityParser.T__21);
-        this.state = 369;
+        this.state = 366;
+        this.match(_SolidityParser.T__23);
+        this.state = 367;
         this.elementaryTypeName();
-        this.state = 370;
+        this.state = 368;
         this.match(_SolidityParser.T__1);
       }
     } catch (re) {
@@ -26648,34 +26705,34 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 372;
-        this.match(_SolidityParser.T__26);
-        this.state = 373;
-        this.userDefinedTypeName();
-        this.state = 374;
+        this.state = 370;
         this.match(_SolidityParser.T__27);
-        this.state = 377;
+        this.state = 371;
+        this.userDefinedTypeName();
+        this.state = 372;
+        this.match(_SolidityParser.T__28);
+        this.state = 375;
         this._errHandler.sync(this);
         switch (this._input.LA(1)) {
-          case _SolidityParser.T__12:
+          case _SolidityParser.T__14:
             {
-              this.state = 375;
-              this.match(_SolidityParser.T__12);
+              this.state = 373;
+              this.match(_SolidityParser.T__14);
             }
             break;
-          case _SolidityParser.T__13:
-          case _SolidityParser.T__14:
-          case _SolidityParser.T__25:
-          case _SolidityParser.T__30:
-          case _SolidityParser.T__36:
-          case _SolidityParser.T__38:
-          case _SolidityParser.T__42:
-          case _SolidityParser.T__54:
+          case _SolidityParser.T__15:
+          case _SolidityParser.T__16:
+          case _SolidityParser.T__26:
+          case _SolidityParser.T__31:
+          case _SolidityParser.T__37:
+          case _SolidityParser.T__39:
+          case _SolidityParser.T__43:
           case _SolidityParser.T__55:
           case _SolidityParser.T__56:
           case _SolidityParser.T__57:
           case _SolidityParser.T__58:
-          case _SolidityParser.T__96:
+          case _SolidityParser.T__59:
+          case _SolidityParser.T__97:
           case _SolidityParser.Int:
           case _SolidityParser.Uint:
           case _SolidityParser.Byte:
@@ -26688,14 +26745,14 @@ var _SolidityParser = class extends import_Parser.Parser {
           case _SolidityParser.ReceiveKeyword:
           case _SolidityParser.Identifier:
             {
-              this.state = 376;
+              this.state = 374;
               this.typeName(0);
             }
             break;
           default:
             throw new import_NoViableAltException.NoViableAltException(this);
         }
-        this.state = 379;
+        this.state = 377;
         this.match(_SolidityParser.T__1);
       }
     } catch (re) {
@@ -26718,41 +26775,41 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 381;
-        this.match(_SolidityParser.T__28);
-        this.state = 382;
+        this.state = 379;
+        this.match(_SolidityParser.T__29);
+        this.state = 380;
         this.identifier();
-        this.state = 383;
-        this.match(_SolidityParser.T__14);
-        this.state = 394;
+        this.state = 381;
+        this.match(_SolidityParser.T__16);
+        this.state = 392;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__13 | 1 << _SolidityParser.T__14 | 1 << _SolidityParser.T__25 | 1 << _SolidityParser.T__30)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__38 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+        if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__15 | 1 << _SolidityParser.T__16 | 1 << _SolidityParser.T__26)) !== 0 || (_la - 32 & ~31) === 0 && (1 << _la - 32 & (1 << _SolidityParser.T__31 - 32 | 1 << _SolidityParser.T__37 - 32 | 1 << _SolidityParser.T__39 - 32 | 1 << _SolidityParser.T__43 - 32 | 1 << _SolidityParser.T__55 - 32 | 1 << _SolidityParser.T__56 - 32 | 1 << _SolidityParser.T__57 - 32 | 1 << _SolidityParser.T__58 - 32 | 1 << _SolidityParser.T__59 - 32)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
           {
-            this.state = 384;
+            this.state = 382;
             this.variableDeclaration();
-            this.state = 385;
+            this.state = 383;
             this.match(_SolidityParser.T__1);
-            this.state = 391;
+            this.state = 389;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            while ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__13 | 1 << _SolidityParser.T__14 | 1 << _SolidityParser.T__25 | 1 << _SolidityParser.T__30)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__38 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+            while ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__15 | 1 << _SolidityParser.T__16 | 1 << _SolidityParser.T__26)) !== 0 || (_la - 32 & ~31) === 0 && (1 << _la - 32 & (1 << _SolidityParser.T__31 - 32 | 1 << _SolidityParser.T__37 - 32 | 1 << _SolidityParser.T__39 - 32 | 1 << _SolidityParser.T__43 - 32 | 1 << _SolidityParser.T__55 - 32 | 1 << _SolidityParser.T__56 - 32 | 1 << _SolidityParser.T__57 - 32 | 1 << _SolidityParser.T__58 - 32 | 1 << _SolidityParser.T__59 - 32)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
               {
                 {
-                  this.state = 386;
+                  this.state = 384;
                   this.variableDeclaration();
-                  this.state = 387;
+                  this.state = 385;
                   this.match(_SolidityParser.T__1);
                 }
               }
-              this.state = 393;
+              this.state = 391;
               this._errHandler.sync(this);
               _la = this._input.LA(1);
             }
           }
         }
-        this.state = 396;
-        this.match(_SolidityParser.T__16);
+        this.state = 394;
+        this.match(_SolidityParser.T__18);
       }
     } catch (re) {
       if (re instanceof import_RecognitionException.RecognitionException) {
@@ -26774,36 +26831,36 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 398;
-        this.match(_SolidityParser.T__29);
-        this.state = 399;
+        this.state = 396;
+        this.match(_SolidityParser.T__30);
+        this.state = 397;
         this.identifier();
-        this.state = 401;
+        this.state = 399;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__22) {
+        if (_la === _SolidityParser.T__24) {
           {
-            this.state = 400;
+            this.state = 398;
             this.parameterList();
           }
         }
-        this.state = 407;
+        this.state = 405;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        while (_la === _SolidityParser.T__97 || _la === _SolidityParser.VirtualKeyword) {
+        while (_la === _SolidityParser.T__98 || _la === _SolidityParser.VirtualKeyword) {
           {
-            this.state = 405;
+            this.state = 403;
             this._errHandler.sync(this);
             switch (this._input.LA(1)) {
               case _SolidityParser.VirtualKeyword:
                 {
-                  this.state = 403;
+                  this.state = 401;
                   this.match(_SolidityParser.VirtualKeyword);
                 }
                 break;
-              case _SolidityParser.T__97:
+              case _SolidityParser.T__98:
                 {
-                  this.state = 404;
+                  this.state = 402;
                   this.overrideSpecifier();
                 }
                 break;
@@ -26811,22 +26868,22 @@ var _SolidityParser = class extends import_Parser.Parser {
                 throw new import_NoViableAltException.NoViableAltException(this);
             }
           }
-          this.state = 409;
+          this.state = 407;
           this._errHandler.sync(this);
           _la = this._input.LA(1);
         }
-        this.state = 412;
+        this.state = 410;
         this._errHandler.sync(this);
         switch (this._input.LA(1)) {
           case _SolidityParser.T__1:
             {
-              this.state = 410;
+              this.state = 408;
               this.match(_SolidityParser.T__1);
             }
             break;
-          case _SolidityParser.T__14:
+          case _SolidityParser.T__16:
             {
-              this.state = 411;
+              this.state = 409;
               this.block();
             }
             break;
@@ -26854,26 +26911,26 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 414;
+        this.state = 412;
         this.identifier();
-        this.state = 420;
+        this.state = 418;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__22) {
+        if (_la === _SolidityParser.T__24) {
           {
+            this.state = 413;
+            this.match(_SolidityParser.T__24);
             this.state = 415;
-            this.match(_SolidityParser.T__22);
-            this.state = 417;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            if ((_la - 5 & ~31) === 0 && (1 << _la - 5 & (1 << _SolidityParser.T__4 - 5 | 1 << _SolidityParser.T__13 - 5 | 1 << _SolidityParser.T__14 - 5 | 1 << _SolidityParser.T__22 - 5 | 1 << _SolidityParser.T__25 - 5 | 1 << _SolidityParser.T__34 - 5)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37 | 1 << _SolidityParser.T__59 - 37 | 1 << _SolidityParser.T__60 - 37 | 1 << _SolidityParser.T__61 - 37 | 1 << _SolidityParser.T__63 - 37 | 1 << _SolidityParser.T__64 - 37 | 1 << _SolidityParser.T__65 - 37 | 1 << _SolidityParser.T__66 - 37 | 1 << _SolidityParser.T__67 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.BooleanLiteral - 97 | 1 << _SolidityParser.DecimalNumber - 97 | 1 << _SolidityParser.HexNumber - 97 | 1 << _SolidityParser.HexLiteralFragment - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.TypeKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || (_la - 129 & ~31) === 0 && (1 << _la - 129 & (1 << _SolidityParser.ReceiveKeyword - 129 | 1 << _SolidityParser.Identifier - 129 | 1 << _SolidityParser.StringLiteralFragment - 129)) !== 0) {
+            if ((_la - 7 & ~31) === 0 && (1 << _la - 7 & (1 << _SolidityParser.T__6 - 7 | 1 << _SolidityParser.T__15 - 7 | 1 << _SolidityParser.T__16 - 7 | 1 << _SolidityParser.T__24 - 7 | 1 << _SolidityParser.T__26 - 7 | 1 << _SolidityParser.T__35 - 7 | 1 << _SolidityParser.T__37 - 7)) !== 0 || (_la - 44 & ~31) === 0 && (1 << _la - 44 & (1 << _SolidityParser.T__43 - 44 | 1 << _SolidityParser.T__55 - 44 | 1 << _SolidityParser.T__56 - 44 | 1 << _SolidityParser.T__57 - 44 | 1 << _SolidityParser.T__58 - 44 | 1 << _SolidityParser.T__59 - 44 | 1 << _SolidityParser.T__60 - 44 | 1 << _SolidityParser.T__61 - 44 | 1 << _SolidityParser.T__62 - 44 | 1 << _SolidityParser.T__64 - 44 | 1 << _SolidityParser.T__65 - 44 | 1 << _SolidityParser.T__66 - 44 | 1 << _SolidityParser.T__67 - 44 | 1 << _SolidityParser.T__68 - 44)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.BooleanLiteral - 98 | 1 << _SolidityParser.DecimalNumber - 98 | 1 << _SolidityParser.HexNumber - 98 | 1 << _SolidityParser.HexLiteralFragment - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.TypeKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || (_la - 131 & ~31) === 0 && (1 << _la - 131 & (1 << _SolidityParser.ReceiveKeyword - 131 | 1 << _SolidityParser.Identifier - 131 | 1 << _SolidityParser.StringLiteralFragment - 131)) !== 0) {
               {
-                this.state = 416;
+                this.state = 414;
                 this.expressionList();
               }
             }
-            this.state = 419;
-            this.match(_SolidityParser.T__23);
+            this.state = 417;
+            this.match(_SolidityParser.T__25);
           }
         }
       }
@@ -26897,33 +26954,33 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 422;
+        this.state = 420;
         this.functionDescriptor();
-        this.state = 423;
+        this.state = 421;
         this.parameterList();
-        this.state = 424;
+        this.state = 422;
         this.modifierList();
-        this.state = 426;
+        this.state = 424;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__31) {
+        if (_la === _SolidityParser.T__32) {
           {
-            this.state = 425;
+            this.state = 423;
             this.returnParameters();
           }
         }
-        this.state = 430;
+        this.state = 428;
         this._errHandler.sync(this);
         switch (this._input.LA(1)) {
           case _SolidityParser.T__1:
             {
-              this.state = 428;
+              this.state = 426;
               this.match(_SolidityParser.T__1);
             }
             break;
-          case _SolidityParser.T__14:
+          case _SolidityParser.T__16:
             {
-              this.state = 429;
+              this.state = 427;
               this.block();
             }
             break;
@@ -26949,20 +27006,20 @@ var _SolidityParser = class extends import_Parser.Parser {
     this.enterRule(_localctx, 44, _SolidityParser.RULE_functionDescriptor);
     let _la;
     try {
-      this.state = 439;
+      this.state = 437;
       this._errHandler.sync(this);
       switch (this._input.LA(1)) {
-        case _SolidityParser.T__30:
+        case _SolidityParser.T__31:
           this.enterOuterAlt(_localctx, 1);
           {
+            this.state = 430;
+            this.match(_SolidityParser.T__31);
             this.state = 432;
-            this.match(_SolidityParser.T__30);
-            this.state = 434;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            if (_la === _SolidityParser.T__13 || _la === _SolidityParser.T__25 || _la === _SolidityParser.T__42 || _la === _SolidityParser.T__54 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+            if (_la === _SolidityParser.T__15 || _la === _SolidityParser.T__26 || _la === _SolidityParser.T__43 || _la === _SolidityParser.T__55 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
               {
-                this.state = 433;
+                this.state = 431;
                 this.identifier();
               }
             }
@@ -26971,21 +27028,21 @@ var _SolidityParser = class extends import_Parser.Parser {
         case _SolidityParser.ConstructorKeyword:
           this.enterOuterAlt(_localctx, 2);
           {
-            this.state = 436;
+            this.state = 434;
             this.match(_SolidityParser.ConstructorKeyword);
           }
           break;
         case _SolidityParser.FallbackKeyword:
           this.enterOuterAlt(_localctx, 3);
           {
-            this.state = 437;
+            this.state = 435;
             this.match(_SolidityParser.FallbackKeyword);
           }
           break;
         case _SolidityParser.ReceiveKeyword:
           this.enterOuterAlt(_localctx, 4);
           {
-            this.state = 438;
+            this.state = 436;
             this.match(_SolidityParser.ReceiveKeyword);
           }
           break;
@@ -27011,9 +27068,9 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 441;
-        this.match(_SolidityParser.T__31);
-        this.state = 442;
+        this.state = 439;
+        this.match(_SolidityParser.T__32);
+        this.state = 440;
         this.parameterList();
       }
     } catch (re) {
@@ -27036,65 +27093,65 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 454;
+        this.state = 452;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        while (_la === _SolidityParser.T__13 || _la === _SolidityParser.T__25 || _la === _SolidityParser.T__42 || _la === _SolidityParser.T__54 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.T__97 - 97 | 1 << _SolidityParser.ConstantKeyword - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.ExternalKeyword - 97 | 1 << _SolidityParser.InternalKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.PrivateKeyword - 97 | 1 << _SolidityParser.PublicKeyword - 97 | 1 << _SolidityParser.VirtualKeyword - 97 | 1 << _SolidityParser.PureKeyword - 97 | 1 << _SolidityParser.ViewKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+        while (_la === _SolidityParser.T__15 || _la === _SolidityParser.T__26 || _la === _SolidityParser.T__43 || _la === _SolidityParser.T__55 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.T__98 - 98 | 1 << _SolidityParser.ConstantKeyword - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.ExternalKeyword - 98 | 1 << _SolidityParser.InternalKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.PrivateKeyword - 98 | 1 << _SolidityParser.PublicKeyword - 98 | 1 << _SolidityParser.VirtualKeyword - 98 | 1 << _SolidityParser.PureKeyword - 98 | 1 << _SolidityParser.ViewKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
           {
-            this.state = 452;
+            this.state = 450;
             this._errHandler.sync(this);
-            switch (this.interpreter.adaptivePredict(this._input, 38, this._ctx)) {
+            switch (this.interpreter.adaptivePredict(this._input, 37, this._ctx)) {
               case 1:
                 {
-                  this.state = 444;
+                  this.state = 442;
                   this.match(_SolidityParser.ExternalKeyword);
                 }
                 break;
               case 2:
                 {
-                  this.state = 445;
+                  this.state = 443;
                   this.match(_SolidityParser.PublicKeyword);
                 }
                 break;
               case 3:
                 {
-                  this.state = 446;
+                  this.state = 444;
                   this.match(_SolidityParser.InternalKeyword);
                 }
                 break;
               case 4:
                 {
-                  this.state = 447;
+                  this.state = 445;
                   this.match(_SolidityParser.PrivateKeyword);
                 }
                 break;
               case 5:
                 {
-                  this.state = 448;
+                  this.state = 446;
                   this.match(_SolidityParser.VirtualKeyword);
                 }
                 break;
               case 6:
                 {
-                  this.state = 449;
+                  this.state = 447;
                   this.stateMutability();
                 }
                 break;
               case 7:
                 {
-                  this.state = 450;
+                  this.state = 448;
                   this.modifierInvocation();
                 }
                 break;
               case 8:
                 {
-                  this.state = 451;
+                  this.state = 449;
                   this.overrideSpecifier();
                 }
                 break;
             }
           }
-          this.state = 456;
+          this.state = 454;
           this._errHandler.sync(this);
           _la = this._input.LA(1);
         }
@@ -27119,22 +27176,22 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 457;
-        this.match(_SolidityParser.T__32);
-        this.state = 458;
+        this.state = 455;
+        this.match(_SolidityParser.T__33);
+        this.state = 456;
         this.identifier();
-        this.state = 459;
+        this.state = 457;
         this.eventParameterList();
-        this.state = 461;
+        this.state = 459;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
         if (_la === _SolidityParser.AnonymousKeyword) {
           {
-            this.state = 460;
+            this.state = 458;
             this.match(_SolidityParser.AnonymousKeyword);
           }
         }
-        this.state = 463;
+        this.state = 461;
         this.match(_SolidityParser.T__1);
       }
     } catch (re) {
@@ -27156,7 +27213,7 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 465;
+        this.state = 463;
         this.identifier();
       }
     } catch (re) {
@@ -27179,39 +27236,39 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 467;
-        this.match(_SolidityParser.T__33);
-        this.state = 468;
+        this.state = 465;
+        this.match(_SolidityParser.T__34);
+        this.state = 466;
         this.identifier();
+        this.state = 467;
+        this.match(_SolidityParser.T__16);
         this.state = 469;
-        this.match(_SolidityParser.T__14);
-        this.state = 471;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__13 || _la === _SolidityParser.T__25 || _la === _SolidityParser.T__42 || _la === _SolidityParser.T__54 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+        if (_la === _SolidityParser.T__15 || _la === _SolidityParser.T__26 || _la === _SolidityParser.T__43 || _la === _SolidityParser.T__55 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
           {
-            this.state = 470;
+            this.state = 468;
             this.enumValue();
           }
         }
-        this.state = 477;
+        this.state = 475;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        while (_la === _SolidityParser.T__15) {
+        while (_la === _SolidityParser.T__17) {
           {
             {
-              this.state = 473;
-              this.match(_SolidityParser.T__15);
-              this.state = 474;
+              this.state = 471;
+              this.match(_SolidityParser.T__17);
+              this.state = 472;
               this.enumValue();
             }
           }
-          this.state = 479;
+          this.state = 477;
           this._errHandler.sync(this);
           _la = this._input.LA(1);
         }
-        this.state = 480;
-        this.match(_SolidityParser.T__16);
+        this.state = 478;
+        this.match(_SolidityParser.T__18);
       }
     } catch (re) {
       if (re instanceof import_RecognitionException.RecognitionException) {
@@ -27233,35 +27290,35 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 482;
-        this.match(_SolidityParser.T__22);
-        this.state = 491;
+        this.state = 480;
+        this.match(_SolidityParser.T__24);
+        this.state = 489;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__13 | 1 << _SolidityParser.T__14 | 1 << _SolidityParser.T__25 | 1 << _SolidityParser.T__30)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__38 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+        if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__15 | 1 << _SolidityParser.T__16 | 1 << _SolidityParser.T__26)) !== 0 || (_la - 32 & ~31) === 0 && (1 << _la - 32 & (1 << _SolidityParser.T__31 - 32 | 1 << _SolidityParser.T__37 - 32 | 1 << _SolidityParser.T__39 - 32 | 1 << _SolidityParser.T__43 - 32 | 1 << _SolidityParser.T__55 - 32 | 1 << _SolidityParser.T__56 - 32 | 1 << _SolidityParser.T__57 - 32 | 1 << _SolidityParser.T__58 - 32 | 1 << _SolidityParser.T__59 - 32)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
           {
-            this.state = 483;
+            this.state = 481;
             this.parameter();
-            this.state = 488;
+            this.state = 486;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            while (_la === _SolidityParser.T__15) {
+            while (_la === _SolidityParser.T__17) {
               {
                 {
-                  this.state = 484;
-                  this.match(_SolidityParser.T__15);
-                  this.state = 485;
+                  this.state = 482;
+                  this.match(_SolidityParser.T__17);
+                  this.state = 483;
                   this.parameter();
                 }
               }
-              this.state = 490;
+              this.state = 488;
               this._errHandler.sync(this);
               _la = this._input.LA(1);
             }
           }
         }
-        this.state = 493;
-        this.match(_SolidityParser.T__23);
+        this.state = 491;
+        this.match(_SolidityParser.T__25);
       }
     } catch (re) {
       if (re instanceof import_RecognitionException.RecognitionException) {
@@ -27283,24 +27340,24 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 495;
+        this.state = 493;
         this.typeName(0);
-        this.state = 497;
+        this.state = 495;
         this._errHandler.sync(this);
-        switch (this.interpreter.adaptivePredict(this._input, 45, this._ctx)) {
+        switch (this.interpreter.adaptivePredict(this._input, 44, this._ctx)) {
           case 1:
             {
-              this.state = 496;
+              this.state = 494;
               this.storageLocation();
             }
             break;
         }
-        this.state = 500;
+        this.state = 498;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__13 || _la === _SolidityParser.T__25 || _la === _SolidityParser.T__42 || _la === _SolidityParser.T__54 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+        if (_la === _SolidityParser.T__15 || _la === _SolidityParser.T__26 || _la === _SolidityParser.T__43 || _la === _SolidityParser.T__55 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
           {
-            this.state = 499;
+            this.state = 497;
             this.identifier();
           }
         }
@@ -27325,35 +27382,35 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 502;
-        this.match(_SolidityParser.T__22);
-        this.state = 511;
+        this.state = 500;
+        this.match(_SolidityParser.T__24);
+        this.state = 509;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__13 | 1 << _SolidityParser.T__14 | 1 << _SolidityParser.T__25 | 1 << _SolidityParser.T__30)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__38 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+        if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__15 | 1 << _SolidityParser.T__16 | 1 << _SolidityParser.T__26)) !== 0 || (_la - 32 & ~31) === 0 && (1 << _la - 32 & (1 << _SolidityParser.T__31 - 32 | 1 << _SolidityParser.T__37 - 32 | 1 << _SolidityParser.T__39 - 32 | 1 << _SolidityParser.T__43 - 32 | 1 << _SolidityParser.T__55 - 32 | 1 << _SolidityParser.T__56 - 32 | 1 << _SolidityParser.T__57 - 32 | 1 << _SolidityParser.T__58 - 32 | 1 << _SolidityParser.T__59 - 32)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
           {
-            this.state = 503;
+            this.state = 501;
             this.eventParameter();
-            this.state = 508;
+            this.state = 506;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            while (_la === _SolidityParser.T__15) {
+            while (_la === _SolidityParser.T__17) {
               {
                 {
-                  this.state = 504;
-                  this.match(_SolidityParser.T__15);
-                  this.state = 505;
+                  this.state = 502;
+                  this.match(_SolidityParser.T__17);
+                  this.state = 503;
                   this.eventParameter();
                 }
               }
-              this.state = 510;
+              this.state = 508;
               this._errHandler.sync(this);
               _la = this._input.LA(1);
             }
           }
         }
-        this.state = 513;
-        this.match(_SolidityParser.T__23);
+        this.state = 511;
+        this.match(_SolidityParser.T__25);
       }
     } catch (re) {
       if (re instanceof import_RecognitionException.RecognitionException) {
@@ -27375,23 +27432,23 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 515;
+        this.state = 513;
         this.typeName(0);
-        this.state = 517;
+        this.state = 515;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
         if (_la === _SolidityParser.IndexedKeyword) {
           {
-            this.state = 516;
+            this.state = 514;
             this.match(_SolidityParser.IndexedKeyword);
           }
         }
-        this.state = 520;
+        this.state = 518;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__13 || _la === _SolidityParser.T__25 || _la === _SolidityParser.T__42 || _la === _SolidityParser.T__54 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+        if (_la === _SolidityParser.T__15 || _la === _SolidityParser.T__26 || _la === _SolidityParser.T__43 || _la === _SolidityParser.T__55 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
           {
-            this.state = 519;
+            this.state = 517;
             this.identifier();
           }
         }
@@ -27416,35 +27473,35 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 522;
-        this.match(_SolidityParser.T__22);
-        this.state = 531;
+        this.state = 520;
+        this.match(_SolidityParser.T__24);
+        this.state = 529;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__13 | 1 << _SolidityParser.T__14 | 1 << _SolidityParser.T__25 | 1 << _SolidityParser.T__30)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__38 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+        if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__15 | 1 << _SolidityParser.T__16 | 1 << _SolidityParser.T__26)) !== 0 || (_la - 32 & ~31) === 0 && (1 << _la - 32 & (1 << _SolidityParser.T__31 - 32 | 1 << _SolidityParser.T__37 - 32 | 1 << _SolidityParser.T__39 - 32 | 1 << _SolidityParser.T__43 - 32 | 1 << _SolidityParser.T__55 - 32 | 1 << _SolidityParser.T__56 - 32 | 1 << _SolidityParser.T__57 - 32 | 1 << _SolidityParser.T__58 - 32 | 1 << _SolidityParser.T__59 - 32)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
           {
-            this.state = 523;
+            this.state = 521;
             this.functionTypeParameter();
-            this.state = 528;
+            this.state = 526;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            while (_la === _SolidityParser.T__15) {
+            while (_la === _SolidityParser.T__17) {
               {
                 {
-                  this.state = 524;
-                  this.match(_SolidityParser.T__15);
-                  this.state = 525;
+                  this.state = 522;
+                  this.match(_SolidityParser.T__17);
+                  this.state = 523;
                   this.functionTypeParameter();
                 }
               }
-              this.state = 530;
+              this.state = 528;
               this._errHandler.sync(this);
               _la = this._input.LA(1);
             }
           }
         }
-        this.state = 533;
-        this.match(_SolidityParser.T__23);
+        this.state = 531;
+        this.match(_SolidityParser.T__25);
       }
     } catch (re) {
       if (re instanceof import_RecognitionException.RecognitionException) {
@@ -27466,14 +27523,14 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 535;
+        this.state = 533;
         this.typeName(0);
-        this.state = 537;
+        this.state = 535;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if ((_la - 41 & ~31) === 0 && (1 << _la - 41 & (1 << _SolidityParser.T__40 - 41 | 1 << _SolidityParser.T__41 - 41 | 1 << _SolidityParser.T__42 - 41)) !== 0) {
+        if ((_la - 42 & ~31) === 0 && (1 << _la - 42 & (1 << _SolidityParser.T__41 - 42 | 1 << _SolidityParser.T__42 - 42 | 1 << _SolidityParser.T__43 - 42)) !== 0) {
           {
-            this.state = 536;
+            this.state = 534;
             this.storageLocation();
           }
         }
@@ -27497,19 +27554,19 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 539;
+        this.state = 537;
         this.typeName(0);
-        this.state = 541;
+        this.state = 539;
         this._errHandler.sync(this);
-        switch (this.interpreter.adaptivePredict(this._input, 54, this._ctx)) {
+        switch (this.interpreter.adaptivePredict(this._input, 53, this._ctx)) {
           case 1:
             {
-              this.state = 540;
+              this.state = 538;
               this.storageLocation();
             }
             break;
         }
-        this.state = 543;
+        this.state = 541;
         this.identifier();
       }
     } catch (re) {
@@ -27540,46 +27597,46 @@ var _SolidityParser = class extends import_Parser.Parser {
       let _alt;
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 552;
+        this.state = 550;
         this._errHandler.sync(this);
-        switch (this.interpreter.adaptivePredict(this._input, 55, this._ctx)) {
+        switch (this.interpreter.adaptivePredict(this._input, 54, this._ctx)) {
           case 1:
             {
-              this.state = 546;
+              this.state = 544;
               this.elementaryTypeName();
             }
             break;
           case 2:
             {
-              this.state = 547;
+              this.state = 545;
               this.userDefinedTypeName();
             }
             break;
           case 3:
             {
-              this.state = 548;
+              this.state = 546;
               this.mapping();
             }
             break;
           case 4:
             {
-              this.state = 549;
+              this.state = 547;
               this.functionTypeName();
             }
             break;
           case 5:
             {
-              this.state = 550;
-              this.match(_SolidityParser.T__36);
-              this.state = 551;
+              this.state = 548;
+              this.match(_SolidityParser.T__37);
+              this.state = 549;
               this.match(_SolidityParser.PayableKeyword);
             }
             break;
         }
         this._ctx._stop = this._input.tryLT(-1);
-        this.state = 562;
+        this.state = 560;
         this._errHandler.sync(this);
-        _alt = this.interpreter.adaptivePredict(this._input, 57, this._ctx);
+        _alt = this.interpreter.adaptivePredict(this._input, 56, this._ctx);
         while (_alt !== 2 && _alt !== import_ATN.ATN.INVALID_ALT_NUMBER) {
           if (_alt === 1) {
             if (this._parseListeners != null) {
@@ -27590,29 +27647,29 @@ var _SolidityParser = class extends import_Parser.Parser {
               {
                 _localctx = new TypeNameContext(_parentctx, _parentState);
                 this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_typeName);
-                this.state = 554;
+                this.state = 552;
                 if (!this.precpred(this._ctx, 3)) {
                   throw this.createFailedPredicateException("this.precpred(this._ctx, 3)");
                 }
+                this.state = 553;
+                this.match(_SolidityParser.T__35);
                 this.state = 555;
-                this.match(_SolidityParser.T__34);
-                this.state = 557;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                if ((_la - 5 & ~31) === 0 && (1 << _la - 5 & (1 << _SolidityParser.T__4 - 5 | 1 << _SolidityParser.T__13 - 5 | 1 << _SolidityParser.T__14 - 5 | 1 << _SolidityParser.T__22 - 5 | 1 << _SolidityParser.T__25 - 5 | 1 << _SolidityParser.T__34 - 5)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37 | 1 << _SolidityParser.T__59 - 37 | 1 << _SolidityParser.T__60 - 37 | 1 << _SolidityParser.T__61 - 37 | 1 << _SolidityParser.T__63 - 37 | 1 << _SolidityParser.T__64 - 37 | 1 << _SolidityParser.T__65 - 37 | 1 << _SolidityParser.T__66 - 37 | 1 << _SolidityParser.T__67 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.BooleanLiteral - 97 | 1 << _SolidityParser.DecimalNumber - 97 | 1 << _SolidityParser.HexNumber - 97 | 1 << _SolidityParser.HexLiteralFragment - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.TypeKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || (_la - 129 & ~31) === 0 && (1 << _la - 129 & (1 << _SolidityParser.ReceiveKeyword - 129 | 1 << _SolidityParser.Identifier - 129 | 1 << _SolidityParser.StringLiteralFragment - 129)) !== 0) {
+                if ((_la - 7 & ~31) === 0 && (1 << _la - 7 & (1 << _SolidityParser.T__6 - 7 | 1 << _SolidityParser.T__15 - 7 | 1 << _SolidityParser.T__16 - 7 | 1 << _SolidityParser.T__24 - 7 | 1 << _SolidityParser.T__26 - 7 | 1 << _SolidityParser.T__35 - 7 | 1 << _SolidityParser.T__37 - 7)) !== 0 || (_la - 44 & ~31) === 0 && (1 << _la - 44 & (1 << _SolidityParser.T__43 - 44 | 1 << _SolidityParser.T__55 - 44 | 1 << _SolidityParser.T__56 - 44 | 1 << _SolidityParser.T__57 - 44 | 1 << _SolidityParser.T__58 - 44 | 1 << _SolidityParser.T__59 - 44 | 1 << _SolidityParser.T__60 - 44 | 1 << _SolidityParser.T__61 - 44 | 1 << _SolidityParser.T__62 - 44 | 1 << _SolidityParser.T__64 - 44 | 1 << _SolidityParser.T__65 - 44 | 1 << _SolidityParser.T__66 - 44 | 1 << _SolidityParser.T__67 - 44 | 1 << _SolidityParser.T__68 - 44)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.BooleanLiteral - 98 | 1 << _SolidityParser.DecimalNumber - 98 | 1 << _SolidityParser.HexNumber - 98 | 1 << _SolidityParser.HexLiteralFragment - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.TypeKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || (_la - 131 & ~31) === 0 && (1 << _la - 131 & (1 << _SolidityParser.ReceiveKeyword - 131 | 1 << _SolidityParser.Identifier - 131 | 1 << _SolidityParser.StringLiteralFragment - 131)) !== 0) {
                   {
-                    this.state = 556;
+                    this.state = 554;
                     this.expression(0);
                   }
                 }
-                this.state = 559;
-                this.match(_SolidityParser.T__35);
+                this.state = 557;
+                this.match(_SolidityParser.T__36);
               }
             }
           }
-          this.state = 564;
+          this.state = 562;
           this._errHandler.sync(this);
-          _alt = this.interpreter.adaptivePredict(this._input, 57, this._ctx);
+          _alt = this.interpreter.adaptivePredict(this._input, 56, this._ctx);
         }
       }
     } catch (re) {
@@ -27633,14 +27690,14 @@ var _SolidityParser = class extends import_Parser.Parser {
     this.enterRule(_localctx, 72, _SolidityParser.RULE_userDefinedTypeName);
     try {
       let _alt;
-      this.state = 577;
+      this.state = 575;
       this._errHandler.sync(this);
       switch (this._input.LA(1)) {
-        case _SolidityParser.T__13:
-        case _SolidityParser.T__25:
-        case _SolidityParser.T__42:
-        case _SolidityParser.T__54:
-        case _SolidityParser.T__96:
+        case _SolidityParser.T__15:
+        case _SolidityParser.T__26:
+        case _SolidityParser.T__43:
+        case _SolidityParser.T__55:
+        case _SolidityParser.T__97:
         case _SolidityParser.LeaveKeyword:
         case _SolidityParser.PayableKeyword:
         case _SolidityParser.ConstructorKeyword:
@@ -27648,37 +27705,37 @@ var _SolidityParser = class extends import_Parser.Parser {
         case _SolidityParser.Identifier:
           this.enterOuterAlt(_localctx, 1);
           {
-            this.state = 565;
+            this.state = 563;
             this.identifier();
-            this.state = 570;
+            this.state = 568;
             this._errHandler.sync(this);
-            _alt = this.interpreter.adaptivePredict(this._input, 58, this._ctx);
+            _alt = this.interpreter.adaptivePredict(this._input, 57, this._ctx);
             while (_alt !== 2 && _alt !== import_ATN.ATN.INVALID_ALT_NUMBER) {
               if (_alt === 1) {
                 {
                   {
-                    this.state = 566;
-                    this.match(_SolidityParser.T__37);
-                    this.state = 567;
+                    this.state = 564;
+                    this.match(_SolidityParser.T__38);
+                    this.state = 565;
                     this.identifier();
                   }
                 }
               }
-              this.state = 572;
+              this.state = 570;
               this._errHandler.sync(this);
-              _alt = this.interpreter.adaptivePredict(this._input, 58, this._ctx);
+              _alt = this.interpreter.adaptivePredict(this._input, 57, this._ctx);
             }
           }
           break;
-        case _SolidityParser.T__14:
+        case _SolidityParser.T__16:
           this.enterOuterAlt(_localctx, 2);
           {
-            this.state = 573;
-            this.match(_SolidityParser.T__14);
-            this.state = 574;
-            this.nameValueList();
-            this.state = 575;
+            this.state = 571;
             this.match(_SolidityParser.T__16);
+            this.state = 572;
+            this.nameValueList();
+            this.state = 573;
+            this.match(_SolidityParser.T__18);
           }
           break;
         default:
@@ -27701,14 +27758,14 @@ var _SolidityParser = class extends import_Parser.Parser {
     let _localctx = new MappingKeyContext(this._ctx, this.state);
     this.enterRule(_localctx, 74, _SolidityParser.RULE_mappingKey);
     try {
-      this.state = 581;
+      this.state = 579;
       this._errHandler.sync(this);
       switch (this._input.LA(1)) {
-        case _SolidityParser.T__36:
-        case _SolidityParser.T__55:
+        case _SolidityParser.T__37:
         case _SolidityParser.T__56:
         case _SolidityParser.T__57:
         case _SolidityParser.T__58:
+        case _SolidityParser.T__59:
         case _SolidityParser.Int:
         case _SolidityParser.Uint:
         case _SolidityParser.Byte:
@@ -27717,16 +27774,16 @@ var _SolidityParser = class extends import_Parser.Parser {
         case _SolidityParser.TvmCell:
           this.enterOuterAlt(_localctx, 1);
           {
-            this.state = 579;
+            this.state = 577;
             this.elementaryTypeName();
           }
           break;
-        case _SolidityParser.T__13:
-        case _SolidityParser.T__14:
-        case _SolidityParser.T__25:
-        case _SolidityParser.T__42:
-        case _SolidityParser.T__54:
-        case _SolidityParser.T__96:
+        case _SolidityParser.T__15:
+        case _SolidityParser.T__16:
+        case _SolidityParser.T__26:
+        case _SolidityParser.T__43:
+        case _SolidityParser.T__55:
+        case _SolidityParser.T__97:
         case _SolidityParser.LeaveKeyword:
         case _SolidityParser.PayableKeyword:
         case _SolidityParser.ConstructorKeyword:
@@ -27734,7 +27791,7 @@ var _SolidityParser = class extends import_Parser.Parser {
         case _SolidityParser.Identifier:
           this.enterOuterAlt(_localctx, 2);
           {
-            this.state = 580;
+            this.state = 578;
             this.userDefinedTypeName();
           }
           break;
@@ -27760,18 +27817,18 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 583;
-        this.match(_SolidityParser.T__38);
-        this.state = 584;
-        this.match(_SolidityParser.T__22);
-        this.state = 585;
-        this.mappingKey();
-        this.state = 586;
+        this.state = 581;
         this.match(_SolidityParser.T__39);
-        this.state = 587;
+        this.state = 582;
+        this.match(_SolidityParser.T__24);
+        this.state = 583;
+        this.mappingKey();
+        this.state = 584;
+        this.match(_SolidityParser.T__40);
+        this.state = 585;
         this.typeName(0);
-        this.state = 588;
-        this.match(_SolidityParser.T__23);
+        this.state = 586;
+        this.match(_SolidityParser.T__25);
       }
     } catch (re) {
       if (re instanceof import_RecognitionException.RecognitionException) {
@@ -27793,28 +27850,28 @@ var _SolidityParser = class extends import_Parser.Parser {
       let _alt;
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 590;
-        this.match(_SolidityParser.T__30);
-        this.state = 591;
+        this.state = 588;
+        this.match(_SolidityParser.T__31);
+        this.state = 589;
         this.functionTypeParameterList();
-        this.state = 597;
+        this.state = 595;
         this._errHandler.sync(this);
-        _alt = this.interpreter.adaptivePredict(this._input, 62, this._ctx);
+        _alt = this.interpreter.adaptivePredict(this._input, 61, this._ctx);
         while (_alt !== 2 && _alt !== import_ATN.ATN.INVALID_ALT_NUMBER) {
           if (_alt === 1) {
             {
-              this.state = 595;
+              this.state = 593;
               this._errHandler.sync(this);
               switch (this._input.LA(1)) {
                 case _SolidityParser.InternalKeyword:
                   {
-                    this.state = 592;
+                    this.state = 590;
                     this.match(_SolidityParser.InternalKeyword);
                   }
                   break;
                 case _SolidityParser.ExternalKeyword:
                   {
-                    this.state = 593;
+                    this.state = 591;
                     this.match(_SolidityParser.ExternalKeyword);
                   }
                   break;
@@ -27823,7 +27880,7 @@ var _SolidityParser = class extends import_Parser.Parser {
                 case _SolidityParser.PureKeyword:
                 case _SolidityParser.ViewKeyword:
                   {
-                    this.state = 594;
+                    this.state = 592;
                     this.stateMutability();
                   }
                   break;
@@ -27832,18 +27889,18 @@ var _SolidityParser = class extends import_Parser.Parser {
               }
             }
           }
-          this.state = 599;
+          this.state = 597;
           this._errHandler.sync(this);
-          _alt = this.interpreter.adaptivePredict(this._input, 62, this._ctx);
+          _alt = this.interpreter.adaptivePredict(this._input, 61, this._ctx);
         }
-        this.state = 602;
+        this.state = 600;
         this._errHandler.sync(this);
-        switch (this.interpreter.adaptivePredict(this._input, 63, this._ctx)) {
+        switch (this.interpreter.adaptivePredict(this._input, 62, this._ctx)) {
           case 1:
             {
-              this.state = 600;
-              this.match(_SolidityParser.T__31);
-              this.state = 601;
+              this.state = 598;
+              this.match(_SolidityParser.T__32);
+              this.state = 599;
               this.functionTypeParameterList();
             }
             break;
@@ -27869,9 +27926,9 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 604;
+        this.state = 602;
         _la = this._input.LA(1);
-        if (!((_la - 41 & ~31) === 0 && (1 << _la - 41 & (1 << _SolidityParser.T__40 - 41 | 1 << _SolidityParser.T__41 - 41 | 1 << _SolidityParser.T__42 - 41)) !== 0)) {
+        if (!((_la - 42 & ~31) === 0 && (1 << _la - 42 & (1 << _SolidityParser.T__41 - 42 | 1 << _SolidityParser.T__42 - 42 | 1 << _SolidityParser.T__43 - 42)) !== 0)) {
           this._errHandler.recoverInline(this);
         } else {
           if (this._input.LA(1) === import_Token.Token.EOF) {
@@ -27901,9 +27958,9 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 606;
+        this.state = 604;
         _la = this._input.LA(1);
-        if (!((_la - 113 & ~31) === 0 && (1 << _la - 113 & (1 << _SolidityParser.ConstantKeyword - 113 | 1 << _SolidityParser.PayableKeyword - 113 | 1 << _SolidityParser.PureKeyword - 113 | 1 << _SolidityParser.ViewKeyword - 113)) !== 0)) {
+        if (!((_la - 114 & ~31) === 0 && (1 << _la - 114 & (1 << _SolidityParser.ConstantKeyword - 114 | 1 << _SolidityParser.PayableKeyword - 114 | 1 << _SolidityParser.PureKeyword - 114 | 1 << _SolidityParser.ViewKeyword - 114)) !== 0)) {
           this._errHandler.recoverInline(this);
         } else {
           if (this._input.LA(1) === import_Token.Token.EOF) {
@@ -27933,24 +27990,24 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 608;
-        this.match(_SolidityParser.T__14);
-        this.state = 612;
+        this.state = 606;
+        this.match(_SolidityParser.T__16);
+        this.state = 610;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        while ((_la - 5 & ~31) === 0 && (1 << _la - 5 & (1 << _SolidityParser.T__4 - 5 | 1 << _SolidityParser.T__13 - 5 | 1 << _SolidityParser.T__14 - 5 | 1 << _SolidityParser.T__22 - 5 | 1 << _SolidityParser.T__25 - 5 | 1 << _SolidityParser.T__27 - 5 | 1 << _SolidityParser.T__30 - 5 | 1 << _SolidityParser.T__34 - 5)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__38 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__43 - 37 | 1 << _SolidityParser.T__45 - 37 | 1 << _SolidityParser.T__47 - 37 | 1 << _SolidityParser.T__48 - 37 | 1 << _SolidityParser.T__49 - 37 | 1 << _SolidityParser.T__50 - 37 | 1 << _SolidityParser.T__51 - 37 | 1 << _SolidityParser.T__52 - 37 | 1 << _SolidityParser.T__53 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37 | 1 << _SolidityParser.T__59 - 37 | 1 << _SolidityParser.T__60 - 37 | 1 << _SolidityParser.T__61 - 37 | 1 << _SolidityParser.T__63 - 37 | 1 << _SolidityParser.T__64 - 37 | 1 << _SolidityParser.T__65 - 37 | 1 << _SolidityParser.T__66 - 37 | 1 << _SolidityParser.T__67 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.BooleanLiteral - 97 | 1 << _SolidityParser.DecimalNumber - 97 | 1 << _SolidityParser.HexNumber - 97 | 1 << _SolidityParser.HexLiteralFragment - 97 | 1 << _SolidityParser.BreakKeyword - 97 | 1 << _SolidityParser.ContinueKeyword - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.TypeKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || (_la - 129 & ~31) === 0 && (1 << _la - 129 & (1 << _SolidityParser.ReceiveKeyword - 129 | 1 << _SolidityParser.Identifier - 129 | 1 << _SolidityParser.StringLiteralFragment - 129)) !== 0) {
+        while ((_la - 7 & ~31) === 0 && (1 << _la - 7 & (1 << _SolidityParser.T__6 - 7 | 1 << _SolidityParser.T__15 - 7 | 1 << _SolidityParser.T__16 - 7 | 1 << _SolidityParser.T__24 - 7 | 1 << _SolidityParser.T__26 - 7 | 1 << _SolidityParser.T__28 - 7 | 1 << _SolidityParser.T__31 - 7 | 1 << _SolidityParser.T__35 - 7 | 1 << _SolidityParser.T__37 - 7)) !== 0 || (_la - 40 & ~31) === 0 && (1 << _la - 40 & (1 << _SolidityParser.T__39 - 40 | 1 << _SolidityParser.T__43 - 40 | 1 << _SolidityParser.T__44 - 40 | 1 << _SolidityParser.T__46 - 40 | 1 << _SolidityParser.T__48 - 40 | 1 << _SolidityParser.T__49 - 40 | 1 << _SolidityParser.T__50 - 40 | 1 << _SolidityParser.T__51 - 40 | 1 << _SolidityParser.T__52 - 40 | 1 << _SolidityParser.T__53 - 40 | 1 << _SolidityParser.T__54 - 40 | 1 << _SolidityParser.T__55 - 40 | 1 << _SolidityParser.T__56 - 40 | 1 << _SolidityParser.T__57 - 40 | 1 << _SolidityParser.T__58 - 40 | 1 << _SolidityParser.T__59 - 40 | 1 << _SolidityParser.T__60 - 40 | 1 << _SolidityParser.T__61 - 40 | 1 << _SolidityParser.T__62 - 40 | 1 << _SolidityParser.T__64 - 40 | 1 << _SolidityParser.T__65 - 40 | 1 << _SolidityParser.T__66 - 40 | 1 << _SolidityParser.T__67 - 40 | 1 << _SolidityParser.T__68 - 40)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.BooleanLiteral - 98 | 1 << _SolidityParser.DecimalNumber - 98 | 1 << _SolidityParser.HexNumber - 98 | 1 << _SolidityParser.HexLiteralFragment - 98 | 1 << _SolidityParser.BreakKeyword - 98 | 1 << _SolidityParser.ContinueKeyword - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.TypeKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || (_la - 131 & ~31) === 0 && (1 << _la - 131 & (1 << _SolidityParser.ReceiveKeyword - 131 | 1 << _SolidityParser.Identifier - 131 | 1 << _SolidityParser.StringLiteralFragment - 131)) !== 0) {
           {
             {
-              this.state = 609;
+              this.state = 607;
               this.statement();
             }
           }
-          this.state = 614;
+          this.state = 612;
           this._errHandler.sync(this);
           _la = this._input.LA(1);
         }
-        this.state = 615;
-        this.match(_SolidityParser.T__16);
+        this.state = 613;
+        this.match(_SolidityParser.T__18);
       }
     } catch (re) {
       if (re instanceof import_RecognitionException.RecognitionException) {
@@ -27969,111 +28026,111 @@ var _SolidityParser = class extends import_Parser.Parser {
     let _localctx = new StatementContext(this._ctx, this.state);
     this.enterRule(_localctx, 86, _SolidityParser.RULE_statement);
     try {
-      this.state = 632;
+      this.state = 630;
       this._errHandler.sync(this);
-      switch (this.interpreter.adaptivePredict(this._input, 65, this._ctx)) {
+      switch (this.interpreter.adaptivePredict(this._input, 64, this._ctx)) {
         case 1:
           this.enterOuterAlt(_localctx, 1);
           {
-            this.state = 617;
+            this.state = 615;
             this.ifStatement();
           }
           break;
         case 2:
           this.enterOuterAlt(_localctx, 2);
           {
-            this.state = 618;
+            this.state = 616;
             this.tryStatement();
           }
           break;
         case 3:
           this.enterOuterAlt(_localctx, 3);
           {
-            this.state = 619;
+            this.state = 617;
             this.whileStatement();
           }
           break;
         case 4:
           this.enterOuterAlt(_localctx, 4);
           {
-            this.state = 620;
+            this.state = 618;
             this.forStatement();
           }
           break;
         case 5:
           this.enterOuterAlt(_localctx, 5);
           {
-            this.state = 621;
+            this.state = 619;
             this.block();
           }
           break;
         case 6:
           this.enterOuterAlt(_localctx, 6);
           {
-            this.state = 622;
+            this.state = 620;
             this.inlineAssemblyStatement();
           }
           break;
         case 7:
           this.enterOuterAlt(_localctx, 7);
           {
-            this.state = 623;
+            this.state = 621;
             this.doWhileStatement();
           }
           break;
         case 8:
           this.enterOuterAlt(_localctx, 8);
           {
-            this.state = 624;
+            this.state = 622;
             this.continueStatement();
           }
           break;
         case 9:
           this.enterOuterAlt(_localctx, 9);
           {
-            this.state = 625;
+            this.state = 623;
             this.breakStatement();
           }
           break;
         case 10:
           this.enterOuterAlt(_localctx, 10);
           {
-            this.state = 626;
+            this.state = 624;
             this.returnStatement();
           }
           break;
         case 11:
           this.enterOuterAlt(_localctx, 11);
           {
-            this.state = 627;
+            this.state = 625;
             this.throwStatement();
           }
           break;
         case 12:
           this.enterOuterAlt(_localctx, 12);
           {
-            this.state = 628;
+            this.state = 626;
             this.emitStatement();
           }
           break;
         case 13:
           this.enterOuterAlt(_localctx, 13);
           {
-            this.state = 629;
+            this.state = 627;
             this.simpleStatement();
           }
           break;
         case 14:
           this.enterOuterAlt(_localctx, 14);
           {
-            this.state = 630;
+            this.state = 628;
             this.uncheckedStatement();
           }
           break;
         case 15:
           this.enterOuterAlt(_localctx, 15);
           {
-            this.state = 631;
+            this.state = 629;
             this.revertStatement();
           }
           break;
@@ -28097,9 +28154,9 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 634;
+        this.state = 632;
         this.expression(0);
-        this.state = 635;
+        this.state = 633;
         this.match(_SolidityParser.T__1);
       }
     } catch (re) {
@@ -28121,24 +28178,24 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
+        this.state = 635;
+        this.match(_SolidityParser.T__44);
+        this.state = 636;
+        this.match(_SolidityParser.T__24);
         this.state = 637;
-        this.match(_SolidityParser.T__43);
-        this.state = 638;
-        this.match(_SolidityParser.T__22);
-        this.state = 639;
         this.expression(0);
-        this.state = 640;
-        this.match(_SolidityParser.T__23);
-        this.state = 641;
+        this.state = 638;
+        this.match(_SolidityParser.T__25);
+        this.state = 639;
         this.statement();
-        this.state = 644;
+        this.state = 642;
         this._errHandler.sync(this);
-        switch (this.interpreter.adaptivePredict(this._input, 66, this._ctx)) {
+        switch (this.interpreter.adaptivePredict(this._input, 65, this._ctx)) {
           case 1:
             {
-              this.state = 642;
-              this.match(_SolidityParser.T__44);
-              this.state = 643;
+              this.state = 640;
+              this.match(_SolidityParser.T__45);
+              this.state = 641;
               this.statement();
             }
             break;
@@ -28164,35 +28221,35 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 646;
-        this.match(_SolidityParser.T__45);
-        this.state = 647;
+        this.state = 644;
+        this.match(_SolidityParser.T__46);
+        this.state = 645;
         this.expression(0);
-        this.state = 649;
+        this.state = 647;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__31) {
+        if (_la === _SolidityParser.T__32) {
           {
-            this.state = 648;
+            this.state = 646;
             this.returnParameters();
           }
         }
-        this.state = 651;
+        this.state = 649;
         this.block();
-        this.state = 653;
+        this.state = 651;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
         do {
           {
             {
-              this.state = 652;
+              this.state = 650;
               this.catchClause();
             }
           }
-          this.state = 655;
+          this.state = 653;
           this._errHandler.sync(this);
           _la = this._input.LA(1);
-        } while (_la === _SolidityParser.T__46);
+        } while (_la === _SolidityParser.T__47);
       }
     } catch (re) {
       if (re instanceof import_RecognitionException.RecognitionException) {
@@ -28214,27 +28271,27 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 657;
-        this.match(_SolidityParser.T__46);
-        this.state = 662;
+        this.state = 655;
+        this.match(_SolidityParser.T__47);
+        this.state = 660;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__13 | 1 << _SolidityParser.T__22 | 1 << _SolidityParser.T__25)) !== 0 || _la === _SolidityParser.T__42 || _la === _SolidityParser.T__54 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+        if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__15 | 1 << _SolidityParser.T__24 | 1 << _SolidityParser.T__26)) !== 0 || _la === _SolidityParser.T__43 || _la === _SolidityParser.T__55 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
           {
-            this.state = 659;
+            this.state = 657;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            if (_la === _SolidityParser.T__13 || _la === _SolidityParser.T__25 || _la === _SolidityParser.T__42 || _la === _SolidityParser.T__54 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+            if (_la === _SolidityParser.T__15 || _la === _SolidityParser.T__26 || _la === _SolidityParser.T__43 || _la === _SolidityParser.T__55 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
               {
-                this.state = 658;
+                this.state = 656;
                 this.identifier();
               }
             }
-            this.state = 661;
+            this.state = 659;
             this.parameterList();
           }
         }
-        this.state = 664;
+        this.state = 662;
         this.block();
       }
     } catch (re) {
@@ -28256,15 +28313,15 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
+        this.state = 664;
+        this.match(_SolidityParser.T__48);
+        this.state = 665;
+        this.match(_SolidityParser.T__24);
         this.state = 666;
-        this.match(_SolidityParser.T__47);
-        this.state = 667;
-        this.match(_SolidityParser.T__22);
-        this.state = 668;
         this.expression(0);
-        this.state = 669;
-        this.match(_SolidityParser.T__23);
-        this.state = 670;
+        this.state = 667;
+        this.match(_SolidityParser.T__25);
+        this.state = 668;
         this.statement();
       }
     } catch (re) {
@@ -28286,18 +28343,18 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 674;
+        this.state = 672;
         this._errHandler.sync(this);
-        switch (this.interpreter.adaptivePredict(this._input, 71, this._ctx)) {
+        switch (this.interpreter.adaptivePredict(this._input, 70, this._ctx)) {
           case 1:
             {
-              this.state = 672;
+              this.state = 670;
               this.variableDeclarationStatement();
             }
             break;
           case 2:
             {
-              this.state = 673;
+              this.state = 671;
               this.expressionStatement();
             }
             break;
@@ -28322,9 +28379,9 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 676;
-        this.match(_SolidityParser.T__48);
-        this.state = 677;
+        this.state = 674;
+        this.match(_SolidityParser.T__49);
+        this.state = 675;
         this.block();
       }
     } catch (re) {
@@ -28347,24 +28404,23 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 679;
-        this.match(_SolidityParser.T__27);
-        this.state = 680;
-        this.match(_SolidityParser.T__22);
-        this.state = 683;
+        this.state = 677;
+        this.match(_SolidityParser.T__28);
+        this.state = 678;
+        this.match(_SolidityParser.T__24);
+        this.state = 681;
         this._errHandler.sync(this);
         switch (this._input.LA(1)) {
-          case _SolidityParser.T__4:
-          case _SolidityParser.T__13:
-          case _SolidityParser.T__14:
-          case _SolidityParser.T__22:
-          case _SolidityParser.T__25:
-          case _SolidityParser.T__30:
-          case _SolidityParser.T__34:
-          case _SolidityParser.T__36:
-          case _SolidityParser.T__38:
-          case _SolidityParser.T__42:
-          case _SolidityParser.T__54:
+          case _SolidityParser.T__6:
+          case _SolidityParser.T__15:
+          case _SolidityParser.T__16:
+          case _SolidityParser.T__24:
+          case _SolidityParser.T__26:
+          case _SolidityParser.T__31:
+          case _SolidityParser.T__35:
+          case _SolidityParser.T__37:
+          case _SolidityParser.T__39:
+          case _SolidityParser.T__43:
           case _SolidityParser.T__55:
           case _SolidityParser.T__56:
           case _SolidityParser.T__57:
@@ -28372,12 +28428,13 @@ var _SolidityParser = class extends import_Parser.Parser {
           case _SolidityParser.T__59:
           case _SolidityParser.T__60:
           case _SolidityParser.T__61:
-          case _SolidityParser.T__63:
+          case _SolidityParser.T__62:
           case _SolidityParser.T__64:
           case _SolidityParser.T__65:
           case _SolidityParser.T__66:
           case _SolidityParser.T__67:
-          case _SolidityParser.T__96:
+          case _SolidityParser.T__68:
+          case _SolidityParser.T__97:
           case _SolidityParser.Int:
           case _SolidityParser.Uint:
           case _SolidityParser.Byte:
@@ -28396,31 +28453,30 @@ var _SolidityParser = class extends import_Parser.Parser {
           case _SolidityParser.Identifier:
           case _SolidityParser.StringLiteralFragment:
             {
-              this.state = 681;
+              this.state = 679;
               this.simpleStatement();
             }
             break;
           case _SolidityParser.T__1:
             {
-              this.state = 682;
+              this.state = 680;
               this.match(_SolidityParser.T__1);
             }
             break;
           default:
             throw new import_NoViableAltException.NoViableAltException(this);
         }
-        this.state = 687;
+        this.state = 685;
         this._errHandler.sync(this);
         switch (this._input.LA(1)) {
-          case _SolidityParser.T__4:
-          case _SolidityParser.T__13:
-          case _SolidityParser.T__14:
-          case _SolidityParser.T__22:
-          case _SolidityParser.T__25:
-          case _SolidityParser.T__34:
-          case _SolidityParser.T__36:
-          case _SolidityParser.T__42:
-          case _SolidityParser.T__54:
+          case _SolidityParser.T__6:
+          case _SolidityParser.T__15:
+          case _SolidityParser.T__16:
+          case _SolidityParser.T__24:
+          case _SolidityParser.T__26:
+          case _SolidityParser.T__35:
+          case _SolidityParser.T__37:
+          case _SolidityParser.T__43:
           case _SolidityParser.T__55:
           case _SolidityParser.T__56:
           case _SolidityParser.T__57:
@@ -28428,12 +28484,13 @@ var _SolidityParser = class extends import_Parser.Parser {
           case _SolidityParser.T__59:
           case _SolidityParser.T__60:
           case _SolidityParser.T__61:
-          case _SolidityParser.T__63:
+          case _SolidityParser.T__62:
           case _SolidityParser.T__64:
           case _SolidityParser.T__65:
           case _SolidityParser.T__66:
           case _SolidityParser.T__67:
-          case _SolidityParser.T__96:
+          case _SolidityParser.T__68:
+          case _SolidityParser.T__97:
           case _SolidityParser.Int:
           case _SolidityParser.Uint:
           case _SolidityParser.Byte:
@@ -28452,31 +28509,31 @@ var _SolidityParser = class extends import_Parser.Parser {
           case _SolidityParser.Identifier:
           case _SolidityParser.StringLiteralFragment:
             {
-              this.state = 685;
+              this.state = 683;
               this.expressionStatement();
             }
             break;
           case _SolidityParser.T__1:
             {
-              this.state = 686;
+              this.state = 684;
               this.match(_SolidityParser.T__1);
             }
             break;
           default:
             throw new import_NoViableAltException.NoViableAltException(this);
         }
-        this.state = 690;
+        this.state = 688;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if ((_la - 5 & ~31) === 0 && (1 << _la - 5 & (1 << _SolidityParser.T__4 - 5 | 1 << _SolidityParser.T__13 - 5 | 1 << _SolidityParser.T__14 - 5 | 1 << _SolidityParser.T__22 - 5 | 1 << _SolidityParser.T__25 - 5 | 1 << _SolidityParser.T__34 - 5)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37 | 1 << _SolidityParser.T__59 - 37 | 1 << _SolidityParser.T__60 - 37 | 1 << _SolidityParser.T__61 - 37 | 1 << _SolidityParser.T__63 - 37 | 1 << _SolidityParser.T__64 - 37 | 1 << _SolidityParser.T__65 - 37 | 1 << _SolidityParser.T__66 - 37 | 1 << _SolidityParser.T__67 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.BooleanLiteral - 97 | 1 << _SolidityParser.DecimalNumber - 97 | 1 << _SolidityParser.HexNumber - 97 | 1 << _SolidityParser.HexLiteralFragment - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.TypeKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || (_la - 129 & ~31) === 0 && (1 << _la - 129 & (1 << _SolidityParser.ReceiveKeyword - 129 | 1 << _SolidityParser.Identifier - 129 | 1 << _SolidityParser.StringLiteralFragment - 129)) !== 0) {
+        if ((_la - 7 & ~31) === 0 && (1 << _la - 7 & (1 << _SolidityParser.T__6 - 7 | 1 << _SolidityParser.T__15 - 7 | 1 << _SolidityParser.T__16 - 7 | 1 << _SolidityParser.T__24 - 7 | 1 << _SolidityParser.T__26 - 7 | 1 << _SolidityParser.T__35 - 7 | 1 << _SolidityParser.T__37 - 7)) !== 0 || (_la - 44 & ~31) === 0 && (1 << _la - 44 & (1 << _SolidityParser.T__43 - 44 | 1 << _SolidityParser.T__55 - 44 | 1 << _SolidityParser.T__56 - 44 | 1 << _SolidityParser.T__57 - 44 | 1 << _SolidityParser.T__58 - 44 | 1 << _SolidityParser.T__59 - 44 | 1 << _SolidityParser.T__60 - 44 | 1 << _SolidityParser.T__61 - 44 | 1 << _SolidityParser.T__62 - 44 | 1 << _SolidityParser.T__64 - 44 | 1 << _SolidityParser.T__65 - 44 | 1 << _SolidityParser.T__66 - 44 | 1 << _SolidityParser.T__67 - 44 | 1 << _SolidityParser.T__68 - 44)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.BooleanLiteral - 98 | 1 << _SolidityParser.DecimalNumber - 98 | 1 << _SolidityParser.HexNumber - 98 | 1 << _SolidityParser.HexLiteralFragment - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.TypeKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || (_la - 131 & ~31) === 0 && (1 << _la - 131 & (1 << _SolidityParser.ReceiveKeyword - 131 | 1 << _SolidityParser.Identifier - 131 | 1 << _SolidityParser.StringLiteralFragment - 131)) !== 0) {
           {
-            this.state = 689;
+            this.state = 687;
             this.expression(0);
           }
         }
-        this.state = 692;
-        this.match(_SolidityParser.T__23);
-        this.state = 693;
+        this.state = 690;
+        this.match(_SolidityParser.T__25);
+        this.state = 691;
         this.statement();
       }
     } catch (re) {
@@ -28499,18 +28556,18 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
+        this.state = 693;
+        this.match(_SolidityParser.T__50);
         this.state = 695;
-        this.match(_SolidityParser.T__49);
-        this.state = 697;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
         if (_la === _SolidityParser.StringLiteralFragment) {
           {
-            this.state = 696;
+            this.state = 694;
             this.match(_SolidityParser.StringLiteralFragment);
           }
         }
-        this.state = 699;
+        this.state = 697;
         this.assemblyBlock();
       }
     } catch (re) {
@@ -28532,19 +28589,19 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 701;
-        this.match(_SolidityParser.T__50);
-        this.state = 702;
+        this.state = 699;
+        this.match(_SolidityParser.T__51);
+        this.state = 700;
         this.statement();
+        this.state = 701;
+        this.match(_SolidityParser.T__48);
+        this.state = 702;
+        this.match(_SolidityParser.T__24);
         this.state = 703;
-        this.match(_SolidityParser.T__47);
-        this.state = 704;
-        this.match(_SolidityParser.T__22);
-        this.state = 705;
         this.expression(0);
-        this.state = 706;
-        this.match(_SolidityParser.T__23);
-        this.state = 707;
+        this.state = 704;
+        this.match(_SolidityParser.T__25);
+        this.state = 705;
         this.match(_SolidityParser.T__1);
       }
     } catch (re) {
@@ -28566,9 +28623,9 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 709;
+        this.state = 707;
         this.match(_SolidityParser.ContinueKeyword);
-        this.state = 710;
+        this.state = 708;
         this.match(_SolidityParser.T__1);
       }
     } catch (re) {
@@ -28590,9 +28647,9 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 712;
+        this.state = 710;
         this.match(_SolidityParser.BreakKeyword);
-        this.state = 713;
+        this.state = 711;
         this.match(_SolidityParser.T__1);
       }
     } catch (re) {
@@ -28615,18 +28672,32 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 715;
-        this.match(_SolidityParser.T__51);
-        this.state = 717;
+        this.state = 713;
+        this.match(_SolidityParser.T__52);
+        this.state = 718;
+        this._errHandler.sync(this);
+        switch (this.interpreter.adaptivePredict(this._input, 75, this._ctx)) {
+          case 1:
+            {
+              this.state = 714;
+              this.match(_SolidityParser.T__16);
+              this.state = 715;
+              this.nameValueList();
+              this.state = 716;
+              this.match(_SolidityParser.T__18);
+            }
+            break;
+        }
+        this.state = 721;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if ((_la - 5 & ~31) === 0 && (1 << _la - 5 & (1 << _SolidityParser.T__4 - 5 | 1 << _SolidityParser.T__13 - 5 | 1 << _SolidityParser.T__14 - 5 | 1 << _SolidityParser.T__22 - 5 | 1 << _SolidityParser.T__25 - 5 | 1 << _SolidityParser.T__34 - 5)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37 | 1 << _SolidityParser.T__59 - 37 | 1 << _SolidityParser.T__60 - 37 | 1 << _SolidityParser.T__61 - 37 | 1 << _SolidityParser.T__63 - 37 | 1 << _SolidityParser.T__64 - 37 | 1 << _SolidityParser.T__65 - 37 | 1 << _SolidityParser.T__66 - 37 | 1 << _SolidityParser.T__67 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.BooleanLiteral - 97 | 1 << _SolidityParser.DecimalNumber - 97 | 1 << _SolidityParser.HexNumber - 97 | 1 << _SolidityParser.HexLiteralFragment - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.TypeKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || (_la - 129 & ~31) === 0 && (1 << _la - 129 & (1 << _SolidityParser.ReceiveKeyword - 129 | 1 << _SolidityParser.Identifier - 129 | 1 << _SolidityParser.StringLiteralFragment - 129)) !== 0) {
+        if ((_la - 7 & ~31) === 0 && (1 << _la - 7 & (1 << _SolidityParser.T__6 - 7 | 1 << _SolidityParser.T__15 - 7 | 1 << _SolidityParser.T__16 - 7 | 1 << _SolidityParser.T__24 - 7 | 1 << _SolidityParser.T__26 - 7 | 1 << _SolidityParser.T__35 - 7 | 1 << _SolidityParser.T__37 - 7)) !== 0 || (_la - 44 & ~31) === 0 && (1 << _la - 44 & (1 << _SolidityParser.T__43 - 44 | 1 << _SolidityParser.T__55 - 44 | 1 << _SolidityParser.T__56 - 44 | 1 << _SolidityParser.T__57 - 44 | 1 << _SolidityParser.T__58 - 44 | 1 << _SolidityParser.T__59 - 44 | 1 << _SolidityParser.T__60 - 44 | 1 << _SolidityParser.T__61 - 44 | 1 << _SolidityParser.T__62 - 44 | 1 << _SolidityParser.T__64 - 44 | 1 << _SolidityParser.T__65 - 44 | 1 << _SolidityParser.T__66 - 44 | 1 << _SolidityParser.T__67 - 44 | 1 << _SolidityParser.T__68 - 44)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.BooleanLiteral - 98 | 1 << _SolidityParser.DecimalNumber - 98 | 1 << _SolidityParser.HexNumber - 98 | 1 << _SolidityParser.HexLiteralFragment - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.TypeKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || (_la - 131 & ~31) === 0 && (1 << _la - 131 & (1 << _SolidityParser.ReceiveKeyword - 131 | 1 << _SolidityParser.Identifier - 131 | 1 << _SolidityParser.StringLiteralFragment - 131)) !== 0) {
           {
-            this.state = 716;
+            this.state = 720;
             this.expression(0);
           }
         }
-        this.state = 719;
+        this.state = 723;
         this.match(_SolidityParser.T__1);
       }
     } catch (re) {
@@ -28648,9 +28719,9 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 721;
-        this.match(_SolidityParser.T__52);
-        this.state = 722;
+        this.state = 725;
+        this.match(_SolidityParser.T__53);
+        this.state = 726;
         this.match(_SolidityParser.T__1);
       }
     } catch (re) {
@@ -28669,32 +28740,6 @@ var _SolidityParser = class extends import_Parser.Parser {
   emitStatement() {
     let _localctx = new EmitStatementContext(this._ctx, this.state);
     this.enterRule(_localctx, 116, _SolidityParser.RULE_emitStatement);
-    try {
-      this.enterOuterAlt(_localctx, 1);
-      {
-        this.state = 724;
-        this.match(_SolidityParser.T__53);
-        this.state = 725;
-        this.functionCall();
-        this.state = 726;
-        this.match(_SolidityParser.T__1);
-      }
-    } catch (re) {
-      if (re instanceof import_RecognitionException.RecognitionException) {
-        _localctx.exception = re;
-        this._errHandler.reportError(this, re);
-        this._errHandler.recover(this, re);
-      } else {
-        throw re;
-      }
-    } finally {
-      this.exitRule();
-    }
-    return _localctx;
-  }
-  revertStatement() {
-    let _localctx = new RevertStatementContext(this._ctx, this.state);
-    this.enterRule(_localctx, 118, _SolidityParser.RULE_revertStatement);
     try {
       this.enterOuterAlt(_localctx, 1);
       {
@@ -28718,6 +28763,32 @@ var _SolidityParser = class extends import_Parser.Parser {
     }
     return _localctx;
   }
+  revertStatement() {
+    let _localctx = new RevertStatementContext(this._ctx, this.state);
+    this.enterRule(_localctx, 118, _SolidityParser.RULE_revertStatement);
+    try {
+      this.enterOuterAlt(_localctx, 1);
+      {
+        this.state = 732;
+        this.match(_SolidityParser.T__55);
+        this.state = 733;
+        this.functionCall();
+        this.state = 734;
+        this.match(_SolidityParser.T__1);
+      }
+    } catch (re) {
+      if (re instanceof import_RecognitionException.RecognitionException) {
+        _localctx.exception = re;
+        this._errHandler.reportError(this, re);
+        this._errHandler.recover(this, re);
+      } else {
+        throw re;
+      }
+    } finally {
+      this.exitRule();
+    }
+    return _localctx;
+  }
   variableDeclarationStatement() {
     let _localctx = new VariableDeclarationStatementContext(this._ctx, this.state);
     this.enterRule(_localctx, 120, _SolidityParser.RULE_variableDeclarationStatement);
@@ -28725,46 +28796,46 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 739;
+        this.state = 743;
         this._errHandler.sync(this);
         switch (this.interpreter.adaptivePredict(this._input, 77, this._ctx)) {
           case 1:
             {
-              this.state = 732;
-              this.match(_SolidityParser.T__55);
-              this.state = 733;
+              this.state = 736;
+              this.match(_SolidityParser.T__56);
+              this.state = 737;
               this.identifierList();
             }
             break;
           case 2:
             {
-              this.state = 734;
+              this.state = 738;
               this.variableDeclaration();
             }
             break;
           case 3:
             {
-              this.state = 735;
-              this.match(_SolidityParser.T__22);
-              this.state = 736;
+              this.state = 739;
+              this.match(_SolidityParser.T__24);
+              this.state = 740;
               this.variableDeclarationList();
-              this.state = 737;
-              this.match(_SolidityParser.T__23);
+              this.state = 741;
+              this.match(_SolidityParser.T__25);
             }
             break;
         }
-        this.state = 743;
+        this.state = 747;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__9) {
+        if (_la === _SolidityParser.T__11) {
           {
-            this.state = 741;
-            this.match(_SolidityParser.T__9);
-            this.state = 742;
+            this.state = 745;
+            this.match(_SolidityParser.T__11);
+            this.state = 746;
             this.expression(0);
           }
         }
-        this.state = 745;
+        this.state = 749;
         this.match(_SolidityParser.T__1);
       }
     } catch (re) {
@@ -28787,35 +28858,35 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 748;
+        this.state = 752;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__13 | 1 << _SolidityParser.T__14 | 1 << _SolidityParser.T__25 | 1 << _SolidityParser.T__30)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__38 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+        if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__15 | 1 << _SolidityParser.T__16 | 1 << _SolidityParser.T__26)) !== 0 || (_la - 32 & ~31) === 0 && (1 << _la - 32 & (1 << _SolidityParser.T__31 - 32 | 1 << _SolidityParser.T__37 - 32 | 1 << _SolidityParser.T__39 - 32 | 1 << _SolidityParser.T__43 - 32 | 1 << _SolidityParser.T__55 - 32 | 1 << _SolidityParser.T__56 - 32 | 1 << _SolidityParser.T__57 - 32 | 1 << _SolidityParser.T__58 - 32 | 1 << _SolidityParser.T__59 - 32)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
           {
-            this.state = 747;
+            this.state = 751;
             this.variableDeclaration();
           }
         }
-        this.state = 756;
+        this.state = 760;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        while (_la === _SolidityParser.T__15) {
+        while (_la === _SolidityParser.T__17) {
           {
             {
-              this.state = 750;
-              this.match(_SolidityParser.T__15);
-              this.state = 752;
+              this.state = 754;
+              this.match(_SolidityParser.T__17);
+              this.state = 756;
               this._errHandler.sync(this);
               _la = this._input.LA(1);
-              if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__13 | 1 << _SolidityParser.T__14 | 1 << _SolidityParser.T__25 | 1 << _SolidityParser.T__30)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__38 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+              if ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__15 | 1 << _SolidityParser.T__16 | 1 << _SolidityParser.T__26)) !== 0 || (_la - 32 & ~31) === 0 && (1 << _la - 32 & (1 << _SolidityParser.T__31 - 32 | 1 << _SolidityParser.T__37 - 32 | 1 << _SolidityParser.T__39 - 32 | 1 << _SolidityParser.T__43 - 32 | 1 << _SolidityParser.T__55 - 32 | 1 << _SolidityParser.T__56 - 32 | 1 << _SolidityParser.T__57 - 32 | 1 << _SolidityParser.T__58 - 32 | 1 << _SolidityParser.T__59 - 32)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
                 {
-                  this.state = 751;
+                  this.state = 755;
                   this.variableDeclaration();
                 }
               }
             }
           }
-          this.state = 758;
+          this.state = 762;
           this._errHandler.sync(this);
           _la = this._input.LA(1);
         }
@@ -28841,44 +28912,44 @@ var _SolidityParser = class extends import_Parser.Parser {
       let _alt;
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 759;
-        this.match(_SolidityParser.T__22);
-        this.state = 766;
+        this.state = 763;
+        this.match(_SolidityParser.T__24);
+        this.state = 770;
         this._errHandler.sync(this);
         _alt = this.interpreter.adaptivePredict(this._input, 83, this._ctx);
         while (_alt !== 2 && _alt !== import_ATN.ATN.INVALID_ALT_NUMBER) {
           if (_alt === 1) {
             {
               {
-                this.state = 761;
+                this.state = 765;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                if (_la === _SolidityParser.T__13 || _la === _SolidityParser.T__25 || _la === _SolidityParser.T__42 || _la === _SolidityParser.T__54 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+                if (_la === _SolidityParser.T__15 || _la === _SolidityParser.T__26 || _la === _SolidityParser.T__43 || _la === _SolidityParser.T__55 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
                   {
-                    this.state = 760;
+                    this.state = 764;
                     this.identifier();
                   }
                 }
-                this.state = 763;
-                this.match(_SolidityParser.T__15);
+                this.state = 767;
+                this.match(_SolidityParser.T__17);
               }
             }
           }
-          this.state = 768;
+          this.state = 772;
           this._errHandler.sync(this);
           _alt = this.interpreter.adaptivePredict(this._input, 83, this._ctx);
         }
-        this.state = 770;
+        this.state = 774;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__13 || _la === _SolidityParser.T__25 || _la === _SolidityParser.T__42 || _la === _SolidityParser.T__54 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+        if (_la === _SolidityParser.T__15 || _la === _SolidityParser.T__26 || _la === _SolidityParser.T__43 || _la === _SolidityParser.T__55 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
           {
-            this.state = 769;
+            this.state = 773;
             this.identifier();
           }
         }
-        this.state = 772;
-        this.match(_SolidityParser.T__23);
+        this.state = 776;
+        this.match(_SolidityParser.T__25);
       }
     } catch (re) {
       if (re instanceof import_RecognitionException.RecognitionException) {
@@ -28900,9 +28971,9 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 774;
+        this.state = 778;
         _la = this._input.LA(1);
-        if (!((_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37)) !== 0 || (_la - 99 & ~31) === 0 && (1 << _la - 99 & (1 << _SolidityParser.Int - 99 | 1 << _SolidityParser.Uint - 99 | 1 << _SolidityParser.Byte - 99 | 1 << _SolidityParser.Fixed - 99 | 1 << _SolidityParser.Ufixed - 99 | 1 << _SolidityParser.TvmCell - 99)) !== 0)) {
+        if (!((_la - 38 & ~31) === 0 && (1 << _la - 38 & (1 << _SolidityParser.T__37 - 38 | 1 << _SolidityParser.T__56 - 38 | 1 << _SolidityParser.T__57 - 38 | 1 << _SolidityParser.T__58 - 38 | 1 << _SolidityParser.T__59 - 38)) !== 0 || (_la - 100 & ~31) === 0 && (1 << _la - 100 & (1 << _SolidityParser.Int - 100 | 1 << _SolidityParser.Uint - 100 | 1 << _SolidityParser.Byte - 100 | 1 << _SolidityParser.Fixed - 100 | 1 << _SolidityParser.Ufixed - 100 | 1 << _SolidityParser.TvmCell - 100)) !== 0)) {
           this._errHandler.recoverInline(this);
         } else {
           if (this._input.LA(1) === import_Token.Token.EOF) {
@@ -28940,66 +29011,32 @@ var _SolidityParser = class extends import_Parser.Parser {
       let _alt;
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 794;
+        this.state = 798;
         this._errHandler.sync(this);
         switch (this.interpreter.adaptivePredict(this._input, 85, this._ctx)) {
           case 1:
             {
-              this.state = 777;
-              this.match(_SolidityParser.T__61);
-              this.state = 778;
+              this.state = 781;
+              this.match(_SolidityParser.T__62);
+              this.state = 782;
               this.typeName(0);
             }
             break;
           case 2:
             {
-              this.state = 779;
-              this.match(_SolidityParser.T__22);
-              this.state = 780;
+              this.state = 783;
+              this.match(_SolidityParser.T__24);
+              this.state = 784;
               this.expression(0);
-              this.state = 781;
-              this.match(_SolidityParser.T__23);
+              this.state = 785;
+              this.match(_SolidityParser.T__25);
             }
             break;
           case 3:
             {
-              this.state = 783;
-              _la = this._input.LA(1);
-              if (!(_la === _SolidityParser.T__59 || _la === _SolidityParser.T__60)) {
-                this._errHandler.recoverInline(this);
-              } else {
-                if (this._input.LA(1) === import_Token.Token.EOF) {
-                  this.matchedEOF = true;
-                }
-                this._errHandler.reportMatch(this);
-                this.consume();
-              }
-              this.state = 784;
-              this.expression(19);
-            }
-            break;
-          case 4:
-            {
-              this.state = 785;
-              _la = this._input.LA(1);
-              if (!(_la === _SolidityParser.T__63 || _la === _SolidityParser.T__64)) {
-                this._errHandler.recoverInline(this);
-              } else {
-                if (this._input.LA(1) === import_Token.Token.EOF) {
-                  this.matchedEOF = true;
-                }
-                this._errHandler.reportMatch(this);
-                this.consume();
-              }
-              this.state = 786;
-              this.expression(18);
-            }
-            break;
-          case 5:
-            {
               this.state = 787;
               _la = this._input.LA(1);
-              if (!(_la === _SolidityParser.T__65 || _la === _SolidityParser.T__66)) {
+              if (!(_la === _SolidityParser.T__60 || _la === _SolidityParser.T__61)) {
                 this._errHandler.recoverInline(this);
               } else {
                 if (this._input.LA(1) === import_Token.Token.EOF) {
@@ -29009,34 +29046,68 @@ var _SolidityParser = class extends import_Parser.Parser {
                 this.consume();
               }
               this.state = 788;
+              this.expression(19);
+            }
+            break;
+          case 4:
+            {
+              this.state = 789;
+              _la = this._input.LA(1);
+              if (!(_la === _SolidityParser.T__64 || _la === _SolidityParser.T__65)) {
+                this._errHandler.recoverInline(this);
+              } else {
+                if (this._input.LA(1) === import_Token.Token.EOF) {
+                  this.matchedEOF = true;
+                }
+                this._errHandler.reportMatch(this);
+                this.consume();
+              }
+              this.state = 790;
+              this.expression(18);
+            }
+            break;
+          case 5:
+            {
+              this.state = 791;
+              _la = this._input.LA(1);
+              if (!(_la === _SolidityParser.T__66 || _la === _SolidityParser.T__67)) {
+                this._errHandler.recoverInline(this);
+              } else {
+                if (this._input.LA(1) === import_Token.Token.EOF) {
+                  this.matchedEOF = true;
+                }
+                this._errHandler.reportMatch(this);
+                this.consume();
+              }
+              this.state = 792;
               this.expression(17);
             }
             break;
           case 6:
             {
-              this.state = 789;
-              this.match(_SolidityParser.T__67);
-              this.state = 790;
+              this.state = 793;
+              this.match(_SolidityParser.T__68);
+              this.state = 794;
               this.expression(16);
             }
             break;
           case 7:
             {
-              this.state = 791;
-              this.match(_SolidityParser.T__4);
-              this.state = 792;
+              this.state = 795;
+              this.match(_SolidityParser.T__6);
+              this.state = 796;
               this.expression(15);
             }
             break;
           case 8:
             {
-              this.state = 793;
+              this.state = 797;
               this.primaryExpression();
             }
             break;
         }
         this._ctx._stop = this._input.tryLT(-1);
-        this.state = 870;
+        this.state = 874;
         this._errHandler.sync(this);
         _alt = this.interpreter.adaptivePredict(this._input, 89, this._ctx);
         while (_alt !== 2 && _alt !== import_ATN.ATN.INVALID_ALT_NUMBER) {
@@ -29046,20 +29117,20 @@ var _SolidityParser = class extends import_Parser.Parser {
             }
             _prevctx = _localctx;
             {
-              this.state = 868;
+              this.state = 872;
               this._errHandler.sync(this);
               switch (this.interpreter.adaptivePredict(this._input, 88, this._ctx)) {
                 case 1:
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 796;
+                    this.state = 800;
                     if (!this.precpred(this._ctx, 14)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 14)");
                     }
-                    this.state = 797;
-                    this.match(_SolidityParser.T__68);
-                    this.state = 798;
+                    this.state = 801;
+                    this.match(_SolidityParser.T__69);
+                    this.state = 802;
                     this.expression(15);
                   }
                   break;
@@ -29067,13 +29138,13 @@ var _SolidityParser = class extends import_Parser.Parser {
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 799;
+                    this.state = 803;
                     if (!this.precpred(this._ctx, 13)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 13)");
                     }
-                    this.state = 800;
+                    this.state = 804;
                     _la = this._input.LA(1);
-                    if (!(_la === _SolidityParser.T__12 || _la === _SolidityParser.T__69 || _la === _SolidityParser.T__70)) {
+                    if (!(_la === _SolidityParser.T__14 || _la === _SolidityParser.T__70 || _la === _SolidityParser.T__71)) {
                       this._errHandler.recoverInline(this);
                     } else {
                       if (this._input.LA(1) === import_Token.Token.EOF) {
@@ -29082,7 +29153,7 @@ var _SolidityParser = class extends import_Parser.Parser {
                       this._errHandler.reportMatch(this);
                       this.consume();
                     }
-                    this.state = 801;
+                    this.state = 805;
                     this.expression(14);
                   }
                   break;
@@ -29090,13 +29161,13 @@ var _SolidityParser = class extends import_Parser.Parser {
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 802;
+                    this.state = 806;
                     if (!this.precpred(this._ctx, 12)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 12)");
                     }
-                    this.state = 803;
+                    this.state = 807;
                     _la = this._input.LA(1);
-                    if (!(_la === _SolidityParser.T__63 || _la === _SolidityParser.T__64)) {
+                    if (!(_la === _SolidityParser.T__64 || _la === _SolidityParser.T__65)) {
                       this._errHandler.recoverInline(this);
                     } else {
                       if (this._input.LA(1) === import_Token.Token.EOF) {
@@ -29105,7 +29176,7 @@ var _SolidityParser = class extends import_Parser.Parser {
                       this._errHandler.reportMatch(this);
                       this.consume();
                     }
-                    this.state = 804;
+                    this.state = 808;
                     this.expression(13);
                   }
                   break;
@@ -29113,13 +29184,13 @@ var _SolidityParser = class extends import_Parser.Parser {
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 805;
+                    this.state = 809;
                     if (!this.precpred(this._ctx, 11)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 11)");
                     }
-                    this.state = 806;
+                    this.state = 810;
                     _la = this._input.LA(1);
-                    if (!(_la === _SolidityParser.T__71 || _la === _SolidityParser.T__72)) {
+                    if (!(_la === _SolidityParser.T__72 || _la === _SolidityParser.T__73)) {
                       this._errHandler.recoverInline(this);
                     } else {
                       if (this._input.LA(1) === import_Token.Token.EOF) {
@@ -29128,7 +29199,7 @@ var _SolidityParser = class extends import_Parser.Parser {
                       this._errHandler.reportMatch(this);
                       this.consume();
                     }
-                    this.state = 807;
+                    this.state = 811;
                     this.expression(12);
                   }
                   break;
@@ -29136,13 +29207,13 @@ var _SolidityParser = class extends import_Parser.Parser {
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 808;
+                    this.state = 812;
                     if (!this.precpred(this._ctx, 10)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 10)");
                     }
-                    this.state = 809;
-                    this.match(_SolidityParser.T__73);
-                    this.state = 810;
+                    this.state = 813;
+                    this.match(_SolidityParser.T__74);
+                    this.state = 814;
                     this.expression(11);
                   }
                   break;
@@ -29150,13 +29221,13 @@ var _SolidityParser = class extends import_Parser.Parser {
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 811;
+                    this.state = 815;
                     if (!this.precpred(this._ctx, 9)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 9)");
                     }
-                    this.state = 812;
-                    this.match(_SolidityParser.T__3);
-                    this.state = 813;
+                    this.state = 816;
+                    this.match(_SolidityParser.T__5);
+                    this.state = 817;
                     this.expression(10);
                   }
                   break;
@@ -29164,13 +29235,13 @@ var _SolidityParser = class extends import_Parser.Parser {
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 814;
+                    this.state = 818;
                     if (!this.precpred(this._ctx, 8)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 8)");
                     }
-                    this.state = 815;
-                    this.match(_SolidityParser.T__74);
-                    this.state = 816;
+                    this.state = 819;
+                    this.match(_SolidityParser.T__75);
+                    this.state = 820;
                     this.expression(9);
                   }
                   break;
@@ -29178,13 +29249,13 @@ var _SolidityParser = class extends import_Parser.Parser {
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 817;
+                    this.state = 821;
                     if (!this.precpred(this._ctx, 7)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 7)");
                     }
-                    this.state = 818;
+                    this.state = 822;
                     _la = this._input.LA(1);
-                    if (!((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__5 | 1 << _SolidityParser.T__6 | 1 << _SolidityParser.T__7 | 1 << _SolidityParser.T__8)) !== 0)) {
+                    if (!((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__7 | 1 << _SolidityParser.T__8 | 1 << _SolidityParser.T__9 | 1 << _SolidityParser.T__10)) !== 0)) {
                       this._errHandler.recoverInline(this);
                     } else {
                       if (this._input.LA(1) === import_Token.Token.EOF) {
@@ -29193,7 +29264,7 @@ var _SolidityParser = class extends import_Parser.Parser {
                       this._errHandler.reportMatch(this);
                       this.consume();
                     }
-                    this.state = 819;
+                    this.state = 823;
                     this.expression(8);
                   }
                   break;
@@ -29201,13 +29272,13 @@ var _SolidityParser = class extends import_Parser.Parser {
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 820;
+                    this.state = 824;
                     if (!this.precpred(this._ctx, 6)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 6)");
                     }
-                    this.state = 821;
+                    this.state = 825;
                     _la = this._input.LA(1);
-                    if (!(_la === _SolidityParser.T__75 || _la === _SolidityParser.T__76)) {
+                    if (!(_la === _SolidityParser.T__76 || _la === _SolidityParser.T__77)) {
                       this._errHandler.recoverInline(this);
                     } else {
                       if (this._input.LA(1) === import_Token.Token.EOF) {
@@ -29216,7 +29287,7 @@ var _SolidityParser = class extends import_Parser.Parser {
                       this._errHandler.reportMatch(this);
                       this.consume();
                     }
-                    this.state = 822;
+                    this.state = 826;
                     this.expression(7);
                   }
                   break;
@@ -29224,13 +29295,13 @@ var _SolidityParser = class extends import_Parser.Parser {
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 823;
+                    this.state = 827;
                     if (!this.precpred(this._ctx, 5)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 5)");
                     }
-                    this.state = 824;
-                    this.match(_SolidityParser.T__77);
-                    this.state = 825;
+                    this.state = 828;
+                    this.match(_SolidityParser.T__78);
+                    this.state = 829;
                     this.expression(6);
                   }
                   break;
@@ -29238,13 +29309,13 @@ var _SolidityParser = class extends import_Parser.Parser {
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 826;
+                    this.state = 830;
                     if (!this.precpred(this._ctx, 4)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 4)");
                     }
-                    this.state = 827;
-                    this.match(_SolidityParser.T__2);
-                    this.state = 828;
+                    this.state = 831;
+                    this.match(_SolidityParser.T__4);
+                    this.state = 832;
                     this.expression(5);
                   }
                   break;
@@ -29252,17 +29323,17 @@ var _SolidityParser = class extends import_Parser.Parser {
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 829;
+                    this.state = 833;
                     if (!this.precpred(this._ctx, 3)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 3)");
                     }
-                    this.state = 830;
-                    this.match(_SolidityParser.T__78);
-                    this.state = 831;
+                    this.state = 834;
+                    this.match(_SolidityParser.T__79);
+                    this.state = 835;
                     this.expression(0);
-                    this.state = 832;
-                    this.match(_SolidityParser.T__62);
-                    this.state = 833;
+                    this.state = 836;
+                    this.match(_SolidityParser.T__63);
+                    this.state = 837;
                     this.expression(4);
                   }
                   break;
@@ -29270,13 +29341,13 @@ var _SolidityParser = class extends import_Parser.Parser {
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 835;
+                    this.state = 839;
                     if (!this.precpred(this._ctx, 2)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 2)");
                     }
-                    this.state = 836;
+                    this.state = 840;
                     _la = this._input.LA(1);
-                    if (!(_la === _SolidityParser.T__9 || (_la - 80 & ~31) === 0 && (1 << _la - 80 & (1 << _SolidityParser.T__79 - 80 | 1 << _SolidityParser.T__80 - 80 | 1 << _SolidityParser.T__81 - 80 | 1 << _SolidityParser.T__82 - 80 | 1 << _SolidityParser.T__83 - 80 | 1 << _SolidityParser.T__84 - 80 | 1 << _SolidityParser.T__85 - 80 | 1 << _SolidityParser.T__86 - 80 | 1 << _SolidityParser.T__87 - 80 | 1 << _SolidityParser.T__88 - 80)) !== 0)) {
+                    if (!(_la === _SolidityParser.T__11 || (_la - 81 & ~31) === 0 && (1 << _la - 81 & (1 << _SolidityParser.T__80 - 81 | 1 << _SolidityParser.T__81 - 81 | 1 << _SolidityParser.T__82 - 81 | 1 << _SolidityParser.T__83 - 81 | 1 << _SolidityParser.T__84 - 81 | 1 << _SolidityParser.T__85 - 81 | 1 << _SolidityParser.T__86 - 81 | 1 << _SolidityParser.T__87 - 81 | 1 << _SolidityParser.T__88 - 81 | 1 << _SolidityParser.T__89 - 81)) !== 0)) {
                       this._errHandler.recoverInline(this);
                     } else {
                       if (this._input.LA(1) === import_Token.Token.EOF) {
@@ -29285,7 +29356,7 @@ var _SolidityParser = class extends import_Parser.Parser {
                       this._errHandler.reportMatch(this);
                       this.consume();
                     }
-                    this.state = 837;
+                    this.state = 841;
                     this.expression(3);
                   }
                   break;
@@ -29293,13 +29364,13 @@ var _SolidityParser = class extends import_Parser.Parser {
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 838;
+                    this.state = 842;
                     if (!this.precpred(this._ctx, 27)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 27)");
                     }
-                    this.state = 839;
+                    this.state = 843;
                     _la = this._input.LA(1);
-                    if (!(_la === _SolidityParser.T__59 || _la === _SolidityParser.T__60)) {
+                    if (!(_la === _SolidityParser.T__60 || _la === _SolidityParser.T__61)) {
                       this._errHandler.recoverInline(this);
                     } else {
                       if (this._input.LA(1) === import_Token.Token.EOF) {
@@ -29314,63 +29385,63 @@ var _SolidityParser = class extends import_Parser.Parser {
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 840;
+                    this.state = 844;
                     if (!this.precpred(this._ctx, 25)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 25)");
                     }
-                    this.state = 841;
-                    this.match(_SolidityParser.T__34);
-                    this.state = 842;
-                    this.expression(0);
-                    this.state = 843;
+                    this.state = 845;
                     this.match(_SolidityParser.T__35);
+                    this.state = 846;
+                    this.expression(0);
+                    this.state = 847;
+                    this.match(_SolidityParser.T__36);
                   }
                   break;
                 case 16:
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 845;
+                    this.state = 849;
                     if (!this.precpred(this._ctx, 24)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 24)");
                     }
-                    this.state = 846;
-                    this.match(_SolidityParser.T__34);
-                    this.state = 848;
-                    this._errHandler.sync(this);
-                    _la = this._input.LA(1);
-                    if ((_la - 5 & ~31) === 0 && (1 << _la - 5 & (1 << _SolidityParser.T__4 - 5 | 1 << _SolidityParser.T__13 - 5 | 1 << _SolidityParser.T__14 - 5 | 1 << _SolidityParser.T__22 - 5 | 1 << _SolidityParser.T__25 - 5 | 1 << _SolidityParser.T__34 - 5)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37 | 1 << _SolidityParser.T__59 - 37 | 1 << _SolidityParser.T__60 - 37 | 1 << _SolidityParser.T__61 - 37 | 1 << _SolidityParser.T__63 - 37 | 1 << _SolidityParser.T__64 - 37 | 1 << _SolidityParser.T__65 - 37 | 1 << _SolidityParser.T__66 - 37 | 1 << _SolidityParser.T__67 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.BooleanLiteral - 97 | 1 << _SolidityParser.DecimalNumber - 97 | 1 << _SolidityParser.HexNumber - 97 | 1 << _SolidityParser.HexLiteralFragment - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.TypeKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || (_la - 129 & ~31) === 0 && (1 << _la - 129 & (1 << _SolidityParser.ReceiveKeyword - 129 | 1 << _SolidityParser.Identifier - 129 | 1 << _SolidityParser.StringLiteralFragment - 129)) !== 0) {
-                      {
-                        this.state = 847;
-                        this.expression(0);
-                      }
-                    }
                     this.state = 850;
-                    this.match(_SolidityParser.T__62);
+                    this.match(_SolidityParser.T__35);
                     this.state = 852;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                    if ((_la - 5 & ~31) === 0 && (1 << _la - 5 & (1 << _SolidityParser.T__4 - 5 | 1 << _SolidityParser.T__13 - 5 | 1 << _SolidityParser.T__14 - 5 | 1 << _SolidityParser.T__22 - 5 | 1 << _SolidityParser.T__25 - 5 | 1 << _SolidityParser.T__34 - 5)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37 | 1 << _SolidityParser.T__59 - 37 | 1 << _SolidityParser.T__60 - 37 | 1 << _SolidityParser.T__61 - 37 | 1 << _SolidityParser.T__63 - 37 | 1 << _SolidityParser.T__64 - 37 | 1 << _SolidityParser.T__65 - 37 | 1 << _SolidityParser.T__66 - 37 | 1 << _SolidityParser.T__67 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.BooleanLiteral - 97 | 1 << _SolidityParser.DecimalNumber - 97 | 1 << _SolidityParser.HexNumber - 97 | 1 << _SolidityParser.HexLiteralFragment - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.TypeKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || (_la - 129 & ~31) === 0 && (1 << _la - 129 & (1 << _SolidityParser.ReceiveKeyword - 129 | 1 << _SolidityParser.Identifier - 129 | 1 << _SolidityParser.StringLiteralFragment - 129)) !== 0) {
+                    if ((_la - 7 & ~31) === 0 && (1 << _la - 7 & (1 << _SolidityParser.T__6 - 7 | 1 << _SolidityParser.T__15 - 7 | 1 << _SolidityParser.T__16 - 7 | 1 << _SolidityParser.T__24 - 7 | 1 << _SolidityParser.T__26 - 7 | 1 << _SolidityParser.T__35 - 7 | 1 << _SolidityParser.T__37 - 7)) !== 0 || (_la - 44 & ~31) === 0 && (1 << _la - 44 & (1 << _SolidityParser.T__43 - 44 | 1 << _SolidityParser.T__55 - 44 | 1 << _SolidityParser.T__56 - 44 | 1 << _SolidityParser.T__57 - 44 | 1 << _SolidityParser.T__58 - 44 | 1 << _SolidityParser.T__59 - 44 | 1 << _SolidityParser.T__60 - 44 | 1 << _SolidityParser.T__61 - 44 | 1 << _SolidityParser.T__62 - 44 | 1 << _SolidityParser.T__64 - 44 | 1 << _SolidityParser.T__65 - 44 | 1 << _SolidityParser.T__66 - 44 | 1 << _SolidityParser.T__67 - 44 | 1 << _SolidityParser.T__68 - 44)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.BooleanLiteral - 98 | 1 << _SolidityParser.DecimalNumber - 98 | 1 << _SolidityParser.HexNumber - 98 | 1 << _SolidityParser.HexLiteralFragment - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.TypeKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || (_la - 131 & ~31) === 0 && (1 << _la - 131 & (1 << _SolidityParser.ReceiveKeyword - 131 | 1 << _SolidityParser.Identifier - 131 | 1 << _SolidityParser.StringLiteralFragment - 131)) !== 0) {
                       {
                         this.state = 851;
                         this.expression(0);
                       }
                     }
                     this.state = 854;
-                    this.match(_SolidityParser.T__35);
+                    this.match(_SolidityParser.T__63);
+                    this.state = 856;
+                    this._errHandler.sync(this);
+                    _la = this._input.LA(1);
+                    if ((_la - 7 & ~31) === 0 && (1 << _la - 7 & (1 << _SolidityParser.T__6 - 7 | 1 << _SolidityParser.T__15 - 7 | 1 << _SolidityParser.T__16 - 7 | 1 << _SolidityParser.T__24 - 7 | 1 << _SolidityParser.T__26 - 7 | 1 << _SolidityParser.T__35 - 7 | 1 << _SolidityParser.T__37 - 7)) !== 0 || (_la - 44 & ~31) === 0 && (1 << _la - 44 & (1 << _SolidityParser.T__43 - 44 | 1 << _SolidityParser.T__55 - 44 | 1 << _SolidityParser.T__56 - 44 | 1 << _SolidityParser.T__57 - 44 | 1 << _SolidityParser.T__58 - 44 | 1 << _SolidityParser.T__59 - 44 | 1 << _SolidityParser.T__60 - 44 | 1 << _SolidityParser.T__61 - 44 | 1 << _SolidityParser.T__62 - 44 | 1 << _SolidityParser.T__64 - 44 | 1 << _SolidityParser.T__65 - 44 | 1 << _SolidityParser.T__66 - 44 | 1 << _SolidityParser.T__67 - 44 | 1 << _SolidityParser.T__68 - 44)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.BooleanLiteral - 98 | 1 << _SolidityParser.DecimalNumber - 98 | 1 << _SolidityParser.HexNumber - 98 | 1 << _SolidityParser.HexLiteralFragment - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.TypeKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || (_la - 131 & ~31) === 0 && (1 << _la - 131 & (1 << _SolidityParser.ReceiveKeyword - 131 | 1 << _SolidityParser.Identifier - 131 | 1 << _SolidityParser.StringLiteralFragment - 131)) !== 0) {
+                      {
+                        this.state = 855;
+                        this.expression(0);
+                      }
+                    }
+                    this.state = 858;
+                    this.match(_SolidityParser.T__36);
                   }
                   break;
                 case 17:
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 855;
+                    this.state = 859;
                     if (!this.precpred(this._ctx, 23)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 23)");
                     }
-                    this.state = 856;
-                    this.match(_SolidityParser.T__37);
-                    this.state = 857;
+                    this.state = 860;
+                    this.match(_SolidityParser.T__38);
+                    this.state = 861;
                     this.identifier();
                   }
                   break;
@@ -29378,38 +29449,38 @@ var _SolidityParser = class extends import_Parser.Parser {
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 858;
+                    this.state = 862;
                     if (!this.precpred(this._ctx, 22)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 22)");
                     }
-                    this.state = 859;
-                    this.match(_SolidityParser.T__14);
-                    this.state = 860;
-                    this.nameValueList();
-                    this.state = 861;
+                    this.state = 863;
                     this.match(_SolidityParser.T__16);
+                    this.state = 864;
+                    this.nameValueList();
+                    this.state = 865;
+                    this.match(_SolidityParser.T__18);
                   }
                   break;
                 case 19:
                   {
                     _localctx = new ExpressionContext(_parentctx, _parentState);
                     this.pushNewRecursionContext(_localctx, _startState, _SolidityParser.RULE_expression);
-                    this.state = 863;
+                    this.state = 867;
                     if (!this.precpred(this._ctx, 21)) {
                       throw this.createFailedPredicateException("this.precpred(this._ctx, 21)");
                     }
-                    this.state = 864;
-                    this.match(_SolidityParser.T__22);
-                    this.state = 865;
+                    this.state = 868;
+                    this.match(_SolidityParser.T__24);
+                    this.state = 869;
                     this.functionCallArguments();
-                    this.state = 866;
-                    this.match(_SolidityParser.T__23);
+                    this.state = 870;
+                    this.match(_SolidityParser.T__25);
                   }
                   break;
               }
             }
           }
-          this.state = 872;
+          this.state = 876;
           this._errHandler.sync(this);
           _alt = this.interpreter.adaptivePredict(this._input, 89, this._ctx);
         }
@@ -29431,51 +29502,51 @@ var _SolidityParser = class extends import_Parser.Parser {
     let _localctx = new PrimaryExpressionContext(this._ctx, this.state);
     this.enterRule(_localctx, 130, _SolidityParser.RULE_primaryExpression);
     try {
-      this.state = 890;
+      this.state = 894;
       this._errHandler.sync(this);
       switch (this.interpreter.adaptivePredict(this._input, 92, this._ctx)) {
         case 1:
           this.enterOuterAlt(_localctx, 1);
           {
-            this.state = 873;
+            this.state = 877;
             this.match(_SolidityParser.BooleanLiteral);
           }
           break;
         case 2:
           this.enterOuterAlt(_localctx, 2);
           {
-            this.state = 874;
+            this.state = 878;
             this.numberLiteral();
           }
           break;
         case 3:
           this.enterOuterAlt(_localctx, 3);
           {
-            this.state = 875;
+            this.state = 879;
             this.hexLiteral();
           }
           break;
         case 4:
           this.enterOuterAlt(_localctx, 4);
           {
-            this.state = 876;
+            this.state = 880;
             this.stringLiteral();
           }
           break;
         case 5:
           this.enterOuterAlt(_localctx, 5);
           {
-            this.state = 877;
+            this.state = 881;
             this.identifier();
-            this.state = 880;
+            this.state = 884;
             this._errHandler.sync(this);
             switch (this.interpreter.adaptivePredict(this._input, 90, this._ctx)) {
               case 1:
                 {
-                  this.state = 878;
-                  this.match(_SolidityParser.T__34);
-                  this.state = 879;
+                  this.state = 882;
                   this.match(_SolidityParser.T__35);
+                  this.state = 883;
+                  this.match(_SolidityParser.T__36);
                 }
                 break;
             }
@@ -29484,38 +29555,38 @@ var _SolidityParser = class extends import_Parser.Parser {
         case 6:
           this.enterOuterAlt(_localctx, 6);
           {
-            this.state = 882;
+            this.state = 886;
             this.match(_SolidityParser.TypeKeyword);
           }
           break;
         case 7:
           this.enterOuterAlt(_localctx, 7);
           {
-            this.state = 883;
+            this.state = 887;
             this.match(_SolidityParser.PayableKeyword);
           }
           break;
         case 8:
           this.enterOuterAlt(_localctx, 8);
           {
-            this.state = 884;
+            this.state = 888;
             this.tupleExpression();
           }
           break;
         case 9:
           this.enterOuterAlt(_localctx, 9);
           {
-            this.state = 885;
+            this.state = 889;
             this.typeNameExpression();
-            this.state = 888;
+            this.state = 892;
             this._errHandler.sync(this);
             switch (this.interpreter.adaptivePredict(this._input, 91, this._ctx)) {
               case 1:
                 {
-                  this.state = 886;
-                  this.match(_SolidityParser.T__34);
-                  this.state = 887;
+                  this.state = 890;
                   this.match(_SolidityParser.T__35);
+                  this.state = 891;
+                  this.match(_SolidityParser.T__36);
                 }
                 break;
             }
@@ -29542,21 +29613,21 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 892;
+        this.state = 896;
         this.expression(0);
-        this.state = 897;
+        this.state = 901;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        while (_la === _SolidityParser.T__15) {
+        while (_la === _SolidityParser.T__17) {
           {
             {
-              this.state = 893;
-              this.match(_SolidityParser.T__15);
-              this.state = 894;
+              this.state = 897;
+              this.match(_SolidityParser.T__17);
+              this.state = 898;
               this.expression(0);
             }
           }
-          this.state = 899;
+          this.state = 903;
           this._errHandler.sync(this);
           _la = this._input.LA(1);
         }
@@ -29582,33 +29653,33 @@ var _SolidityParser = class extends import_Parser.Parser {
       let _alt;
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 900;
+        this.state = 904;
         this.nameValue();
-        this.state = 905;
+        this.state = 909;
         this._errHandler.sync(this);
         _alt = this.interpreter.adaptivePredict(this._input, 94, this._ctx);
         while (_alt !== 2 && _alt !== import_ATN.ATN.INVALID_ALT_NUMBER) {
           if (_alt === 1) {
             {
               {
-                this.state = 901;
-                this.match(_SolidityParser.T__15);
-                this.state = 902;
+                this.state = 905;
+                this.match(_SolidityParser.T__17);
+                this.state = 906;
                 this.nameValue();
               }
             }
           }
-          this.state = 907;
+          this.state = 911;
           this._errHandler.sync(this);
           _alt = this.interpreter.adaptivePredict(this._input, 94, this._ctx);
         }
-        this.state = 909;
+        this.state = 913;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__15) {
+        if (_la === _SolidityParser.T__17) {
           {
-            this.state = 908;
-            this.match(_SolidityParser.T__15);
+            this.state = 912;
+            this.match(_SolidityParser.T__17);
           }
         }
       }
@@ -29631,11 +29702,11 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 911;
+        this.state = 915;
         this.identifier();
-        this.state = 912;
-        this.match(_SolidityParser.T__62);
-        this.state = 913;
+        this.state = 916;
+        this.match(_SolidityParser.T__63);
+        this.state = 917;
         this.expression(0);
       }
     } catch (re) {
@@ -29656,36 +29727,36 @@ var _SolidityParser = class extends import_Parser.Parser {
     this.enterRule(_localctx, 138, _SolidityParser.RULE_functionCallArguments);
     let _la;
     try {
-      this.state = 923;
+      this.state = 927;
       this._errHandler.sync(this);
       switch (this.interpreter.adaptivePredict(this._input, 98, this._ctx)) {
         case 1:
           this.enterOuterAlt(_localctx, 1);
           {
-            this.state = 915;
-            this.match(_SolidityParser.T__14);
-            this.state = 917;
+            this.state = 919;
+            this.match(_SolidityParser.T__16);
+            this.state = 921;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            if (_la === _SolidityParser.T__13 || _la === _SolidityParser.T__25 || _la === _SolidityParser.T__42 || _la === _SolidityParser.T__54 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
+            if (_la === _SolidityParser.T__15 || _la === _SolidityParser.T__26 || _la === _SolidityParser.T__43 || _la === _SolidityParser.T__55 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
               {
-                this.state = 916;
+                this.state = 920;
                 this.nameValueList();
               }
             }
-            this.state = 919;
-            this.match(_SolidityParser.T__16);
+            this.state = 923;
+            this.match(_SolidityParser.T__18);
           }
           break;
         case 2:
           this.enterOuterAlt(_localctx, 2);
           {
-            this.state = 921;
+            this.state = 925;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            if ((_la - 5 & ~31) === 0 && (1 << _la - 5 & (1 << _SolidityParser.T__4 - 5 | 1 << _SolidityParser.T__13 - 5 | 1 << _SolidityParser.T__14 - 5 | 1 << _SolidityParser.T__22 - 5 | 1 << _SolidityParser.T__25 - 5 | 1 << _SolidityParser.T__34 - 5)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37 | 1 << _SolidityParser.T__59 - 37 | 1 << _SolidityParser.T__60 - 37 | 1 << _SolidityParser.T__61 - 37 | 1 << _SolidityParser.T__63 - 37 | 1 << _SolidityParser.T__64 - 37 | 1 << _SolidityParser.T__65 - 37 | 1 << _SolidityParser.T__66 - 37 | 1 << _SolidityParser.T__67 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.BooleanLiteral - 97 | 1 << _SolidityParser.DecimalNumber - 97 | 1 << _SolidityParser.HexNumber - 97 | 1 << _SolidityParser.HexLiteralFragment - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.TypeKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || (_la - 129 & ~31) === 0 && (1 << _la - 129 & (1 << _SolidityParser.ReceiveKeyword - 129 | 1 << _SolidityParser.Identifier - 129 | 1 << _SolidityParser.StringLiteralFragment - 129)) !== 0) {
+            if ((_la - 7 & ~31) === 0 && (1 << _la - 7 & (1 << _SolidityParser.T__6 - 7 | 1 << _SolidityParser.T__15 - 7 | 1 << _SolidityParser.T__16 - 7 | 1 << _SolidityParser.T__24 - 7 | 1 << _SolidityParser.T__26 - 7 | 1 << _SolidityParser.T__35 - 7 | 1 << _SolidityParser.T__37 - 7)) !== 0 || (_la - 44 & ~31) === 0 && (1 << _la - 44 & (1 << _SolidityParser.T__43 - 44 | 1 << _SolidityParser.T__55 - 44 | 1 << _SolidityParser.T__56 - 44 | 1 << _SolidityParser.T__57 - 44 | 1 << _SolidityParser.T__58 - 44 | 1 << _SolidityParser.T__59 - 44 | 1 << _SolidityParser.T__60 - 44 | 1 << _SolidityParser.T__61 - 44 | 1 << _SolidityParser.T__62 - 44 | 1 << _SolidityParser.T__64 - 44 | 1 << _SolidityParser.T__65 - 44 | 1 << _SolidityParser.T__66 - 44 | 1 << _SolidityParser.T__67 - 44 | 1 << _SolidityParser.T__68 - 44)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.BooleanLiteral - 98 | 1 << _SolidityParser.DecimalNumber - 98 | 1 << _SolidityParser.HexNumber - 98 | 1 << _SolidityParser.HexLiteralFragment - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.TypeKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || (_la - 131 & ~31) === 0 && (1 << _la - 131 & (1 << _SolidityParser.ReceiveKeyword - 131 | 1 << _SolidityParser.Identifier - 131 | 1 << _SolidityParser.StringLiteralFragment - 131)) !== 0) {
               {
-                this.state = 920;
+                this.state = 924;
                 this.expressionList();
               }
             }
@@ -29711,14 +29782,14 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 925;
+        this.state = 929;
         this.expression(0);
-        this.state = 926;
-        this.match(_SolidityParser.T__22);
-        this.state = 927;
+        this.state = 930;
+        this.match(_SolidityParser.T__24);
+        this.state = 931;
         this.functionCallArguments();
-        this.state = 928;
-        this.match(_SolidityParser.T__23);
+        this.state = 932;
+        this.match(_SolidityParser.T__25);
       }
     } catch (re) {
       if (re instanceof import_RecognitionException.RecognitionException) {
@@ -29740,24 +29811,24 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 930;
-        this.match(_SolidityParser.T__14);
         this.state = 934;
+        this.match(_SolidityParser.T__16);
+        this.state = 938;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        while ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__13 | 1 << _SolidityParser.T__14 | 1 << _SolidityParser.T__22 | 1 << _SolidityParser.T__25 | 1 << _SolidityParser.T__27 | 1 << _SolidityParser.T__30)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__43 - 37 | 1 << _SolidityParser.T__49 - 37 | 1 << _SolidityParser.T__51 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__58 - 37)) !== 0 || (_la - 90 & ~31) === 0 && (1 << _la - 90 & (1 << _SolidityParser.T__89 - 90 | 1 << _SolidityParser.T__91 - 90 | 1 << _SolidityParser.T__92 - 90 | 1 << _SolidityParser.T__96 - 90 | 1 << _SolidityParser.DecimalNumber - 90 | 1 << _SolidityParser.HexNumber - 90 | 1 << _SolidityParser.HexLiteralFragment - 90 | 1 << _SolidityParser.BreakKeyword - 90 | 1 << _SolidityParser.ContinueKeyword - 90 | 1 << _SolidityParser.LeaveKeyword - 90 | 1 << _SolidityParser.PayableKeyword - 90)) !== 0 || (_la - 127 & ~31) === 0 && (1 << _la - 127 & (1 << _SolidityParser.ConstructorKeyword - 127 | 1 << _SolidityParser.ReceiveKeyword - 127 | 1 << _SolidityParser.Identifier - 127 | 1 << _SolidityParser.StringLiteralFragment - 127)) !== 0) {
+        while ((_la & ~31) === 0 && (1 << _la & (1 << _SolidityParser.T__15 | 1 << _SolidityParser.T__16 | 1 << _SolidityParser.T__24 | 1 << _SolidityParser.T__26 | 1 << _SolidityParser.T__28)) !== 0 || (_la - 32 & ~31) === 0 && (1 << _la - 32 & (1 << _SolidityParser.T__31 - 32 | 1 << _SolidityParser.T__37 - 32 | 1 << _SolidityParser.T__43 - 32 | 1 << _SolidityParser.T__44 - 32 | 1 << _SolidityParser.T__50 - 32 | 1 << _SolidityParser.T__52 - 32 | 1 << _SolidityParser.T__55 - 32 | 1 << _SolidityParser.T__59 - 32)) !== 0 || (_la - 91 & ~31) === 0 && (1 << _la - 91 & (1 << _SolidityParser.T__90 - 91 | 1 << _SolidityParser.T__92 - 91 | 1 << _SolidityParser.T__93 - 91 | 1 << _SolidityParser.T__97 - 91 | 1 << _SolidityParser.DecimalNumber - 91 | 1 << _SolidityParser.HexNumber - 91 | 1 << _SolidityParser.HexLiteralFragment - 91 | 1 << _SolidityParser.BreakKeyword - 91 | 1 << _SolidityParser.ContinueKeyword - 91 | 1 << _SolidityParser.LeaveKeyword - 91 | 1 << _SolidityParser.PayableKeyword - 91)) !== 0 || (_la - 129 & ~31) === 0 && (1 << _la - 129 & (1 << _SolidityParser.ConstructorKeyword - 129 | 1 << _SolidityParser.ReceiveKeyword - 129 | 1 << _SolidityParser.Identifier - 129 | 1 << _SolidityParser.StringLiteralFragment - 129)) !== 0) {
           {
             {
-              this.state = 931;
+              this.state = 935;
               this.assemblyItem();
             }
           }
-          this.state = 936;
+          this.state = 940;
           this._errHandler.sync(this);
           _la = this._input.LA(1);
         }
-        this.state = 937;
-        this.match(_SolidityParser.T__16);
+        this.state = 941;
+        this.match(_SolidityParser.T__18);
       }
     } catch (re) {
       if (re instanceof import_RecognitionException.RecognitionException) {
@@ -29776,132 +29847,132 @@ var _SolidityParser = class extends import_Parser.Parser {
     let _localctx = new AssemblyItemContext(this._ctx, this.state);
     this.enterRule(_localctx, 144, _SolidityParser.RULE_assemblyItem);
     try {
-      this.state = 957;
+      this.state = 961;
       this._errHandler.sync(this);
       switch (this.interpreter.adaptivePredict(this._input, 100, this._ctx)) {
         case 1:
           this.enterOuterAlt(_localctx, 1);
           {
-            this.state = 939;
+            this.state = 943;
             this.identifier();
           }
           break;
         case 2:
           this.enterOuterAlt(_localctx, 2);
           {
-            this.state = 940;
+            this.state = 944;
             this.assemblyBlock();
           }
           break;
         case 3:
           this.enterOuterAlt(_localctx, 3);
           {
-            this.state = 941;
+            this.state = 945;
             this.assemblyExpression();
           }
           break;
         case 4:
           this.enterOuterAlt(_localctx, 4);
           {
-            this.state = 942;
+            this.state = 946;
             this.assemblyLocalDefinition();
           }
           break;
         case 5:
           this.enterOuterAlt(_localctx, 5);
           {
-            this.state = 943;
+            this.state = 947;
             this.assemblyAssignment();
           }
           break;
         case 6:
           this.enterOuterAlt(_localctx, 6);
           {
-            this.state = 944;
+            this.state = 948;
             this.assemblyStackAssignment();
           }
           break;
         case 7:
           this.enterOuterAlt(_localctx, 7);
           {
-            this.state = 945;
+            this.state = 949;
             this.labelDefinition();
           }
           break;
         case 8:
           this.enterOuterAlt(_localctx, 8);
           {
-            this.state = 946;
+            this.state = 950;
             this.assemblySwitch();
           }
           break;
         case 9:
           this.enterOuterAlt(_localctx, 9);
           {
-            this.state = 947;
+            this.state = 951;
             this.assemblyFunctionDefinition();
           }
           break;
         case 10:
           this.enterOuterAlt(_localctx, 10);
           {
-            this.state = 948;
+            this.state = 952;
             this.assemblyFor();
           }
           break;
         case 11:
           this.enterOuterAlt(_localctx, 11);
           {
-            this.state = 949;
+            this.state = 953;
             this.assemblyIf();
           }
           break;
         case 12:
           this.enterOuterAlt(_localctx, 12);
           {
-            this.state = 950;
+            this.state = 954;
             this.match(_SolidityParser.BreakKeyword);
           }
           break;
         case 13:
           this.enterOuterAlt(_localctx, 13);
           {
-            this.state = 951;
+            this.state = 955;
             this.match(_SolidityParser.ContinueKeyword);
           }
           break;
         case 14:
           this.enterOuterAlt(_localctx, 14);
           {
-            this.state = 952;
+            this.state = 956;
             this.match(_SolidityParser.LeaveKeyword);
           }
           break;
         case 15:
           this.enterOuterAlt(_localctx, 15);
           {
-            this.state = 953;
+            this.state = 957;
             this.subAssembly();
           }
           break;
         case 16:
           this.enterOuterAlt(_localctx, 16);
           {
-            this.state = 954;
+            this.state = 958;
             this.numberLiteral();
           }
           break;
         case 17:
           this.enterOuterAlt(_localctx, 17);
           {
-            this.state = 955;
+            this.state = 959;
             this.stringLiteral();
           }
           break;
         case 18:
           this.enterOuterAlt(_localctx, 18);
           {
-            this.state = 956;
+            this.state = 960;
             this.hexLiteral();
           }
           break;
@@ -29923,27 +29994,27 @@ var _SolidityParser = class extends import_Parser.Parser {
     let _localctx = new AssemblyExpressionContext(this._ctx, this.state);
     this.enterRule(_localctx, 146, _SolidityParser.RULE_assemblyExpression);
     try {
-      this.state = 962;
+      this.state = 966;
       this._errHandler.sync(this);
       switch (this.interpreter.adaptivePredict(this._input, 101, this._ctx)) {
         case 1:
           this.enterOuterAlt(_localctx, 1);
           {
-            this.state = 959;
+            this.state = 963;
             this.assemblyCall();
           }
           break;
         case 2:
           this.enterOuterAlt(_localctx, 2);
           {
-            this.state = 960;
+            this.state = 964;
             this.assemblyLiteral();
           }
           break;
         case 3:
           this.enterOuterAlt(_localctx, 3);
           {
-            this.state = 961;
+            this.state = 965;
             this.assemblyMember();
           }
           break;
@@ -29967,11 +30038,11 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 964;
+        this.state = 968;
         this.identifier();
-        this.state = 965;
-        this.match(_SolidityParser.T__37);
-        this.state = 966;
+        this.state = 969;
+        this.match(_SolidityParser.T__38);
+        this.state = 970;
         this.identifier();
       }
     } catch (re) {
@@ -29994,79 +30065,79 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 972;
+        this.state = 976;
         this._errHandler.sync(this);
         switch (this._input.LA(1)) {
-          case _SolidityParser.T__51:
+          case _SolidityParser.T__52:
             {
-              this.state = 968;
-              this.match(_SolidityParser.T__51);
+              this.state = 972;
+              this.match(_SolidityParser.T__52);
             }
             break;
-          case _SolidityParser.T__36:
+          case _SolidityParser.T__37:
             {
-              this.state = 969;
-              this.match(_SolidityParser.T__36);
+              this.state = 973;
+              this.match(_SolidityParser.T__37);
             }
             break;
-          case _SolidityParser.T__58:
+          case _SolidityParser.T__59:
             {
-              this.state = 970;
-              this.match(_SolidityParser.T__58);
+              this.state = 974;
+              this.match(_SolidityParser.T__59);
             }
             break;
-          case _SolidityParser.T__13:
-          case _SolidityParser.T__25:
-          case _SolidityParser.T__42:
-          case _SolidityParser.T__54:
-          case _SolidityParser.T__96:
+          case _SolidityParser.T__15:
+          case _SolidityParser.T__26:
+          case _SolidityParser.T__43:
+          case _SolidityParser.T__55:
+          case _SolidityParser.T__97:
           case _SolidityParser.LeaveKeyword:
           case _SolidityParser.PayableKeyword:
           case _SolidityParser.ConstructorKeyword:
           case _SolidityParser.ReceiveKeyword:
           case _SolidityParser.Identifier:
             {
-              this.state = 971;
+              this.state = 975;
               this.identifier();
             }
             break;
           default:
             throw new import_NoViableAltException.NoViableAltException(this);
         }
-        this.state = 986;
+        this.state = 990;
         this._errHandler.sync(this);
         switch (this.interpreter.adaptivePredict(this._input, 105, this._ctx)) {
           case 1:
             {
-              this.state = 974;
-              this.match(_SolidityParser.T__22);
-              this.state = 976;
+              this.state = 978;
+              this.match(_SolidityParser.T__24);
+              this.state = 980;
               this._errHandler.sync(this);
               _la = this._input.LA(1);
-              if (_la === _SolidityParser.T__13 || _la === _SolidityParser.T__25 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__51 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__58 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.DecimalNumber - 97 | 1 << _SolidityParser.HexNumber - 97 | 1 << _SolidityParser.HexLiteralFragment - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || (_la - 129 & ~31) === 0 && (1 << _la - 129 & (1 << _SolidityParser.ReceiveKeyword - 129 | 1 << _SolidityParser.Identifier - 129 | 1 << _SolidityParser.StringLiteralFragment - 129)) !== 0) {
+              if (_la === _SolidityParser.T__15 || _la === _SolidityParser.T__26 || (_la - 38 & ~31) === 0 && (1 << _la - 38 & (1 << _SolidityParser.T__37 - 38 | 1 << _SolidityParser.T__43 - 38 | 1 << _SolidityParser.T__52 - 38 | 1 << _SolidityParser.T__55 - 38 | 1 << _SolidityParser.T__59 - 38)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.DecimalNumber - 98 | 1 << _SolidityParser.HexNumber - 98 | 1 << _SolidityParser.HexLiteralFragment - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || (_la - 131 & ~31) === 0 && (1 << _la - 131 & (1 << _SolidityParser.ReceiveKeyword - 131 | 1 << _SolidityParser.Identifier - 131 | 1 << _SolidityParser.StringLiteralFragment - 131)) !== 0) {
                 {
-                  this.state = 975;
+                  this.state = 979;
                   this.assemblyExpression();
                 }
               }
-              this.state = 982;
+              this.state = 986;
               this._errHandler.sync(this);
               _la = this._input.LA(1);
-              while (_la === _SolidityParser.T__15) {
+              while (_la === _SolidityParser.T__17) {
                 {
                   {
-                    this.state = 978;
-                    this.match(_SolidityParser.T__15);
-                    this.state = 979;
+                    this.state = 982;
+                    this.match(_SolidityParser.T__17);
+                    this.state = 983;
                     this.assemblyExpression();
                   }
                 }
-                this.state = 984;
+                this.state = 988;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
               }
-              this.state = 985;
-              this.match(_SolidityParser.T__23);
+              this.state = 989;
+              this.match(_SolidityParser.T__25);
             }
             break;
         }
@@ -30091,18 +30162,18 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 988;
-        this.match(_SolidityParser.T__89);
-        this.state = 989;
-        this.assemblyIdentifierOrList();
         this.state = 992;
+        this.match(_SolidityParser.T__90);
+        this.state = 993;
+        this.assemblyIdentifierOrList();
+        this.state = 996;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__90) {
+        if (_la === _SolidityParser.T__91) {
           {
-            this.state = 990;
-            this.match(_SolidityParser.T__90);
-            this.state = 991;
+            this.state = 994;
+            this.match(_SolidityParser.T__91);
+            this.state = 995;
             this.assemblyExpression();
           }
         }
@@ -30126,11 +30197,11 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 994;
+        this.state = 998;
         this.assemblyIdentifierOrList();
-        this.state = 995;
-        this.match(_SolidityParser.T__90);
-        this.state = 996;
+        this.state = 999;
+        this.match(_SolidityParser.T__91);
+        this.state = 1e3;
         this.assemblyExpression();
       }
     } catch (re) {
@@ -30150,32 +30221,32 @@ var _SolidityParser = class extends import_Parser.Parser {
     let _localctx = new AssemblyIdentifierOrListContext(this._ctx, this.state);
     this.enterRule(_localctx, 156, _SolidityParser.RULE_assemblyIdentifierOrList);
     try {
-      this.state = 1004;
+      this.state = 1008;
       this._errHandler.sync(this);
       switch (this.interpreter.adaptivePredict(this._input, 107, this._ctx)) {
         case 1:
           this.enterOuterAlt(_localctx, 1);
           {
-            this.state = 998;
+            this.state = 1002;
             this.identifier();
           }
           break;
         case 2:
           this.enterOuterAlt(_localctx, 2);
           {
-            this.state = 999;
+            this.state = 1003;
             this.assemblyMember();
           }
           break;
         case 3:
           this.enterOuterAlt(_localctx, 3);
           {
-            this.state = 1e3;
-            this.match(_SolidityParser.T__22);
-            this.state = 1001;
+            this.state = 1004;
+            this.match(_SolidityParser.T__24);
+            this.state = 1005;
             this.assemblyIdentifierList();
-            this.state = 1002;
-            this.match(_SolidityParser.T__23);
+            this.state = 1006;
+            this.match(_SolidityParser.T__25);
           }
           break;
       }
@@ -30199,21 +30270,21 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 1006;
+        this.state = 1010;
         this.identifier();
-        this.state = 1011;
+        this.state = 1015;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        while (_la === _SolidityParser.T__15) {
+        while (_la === _SolidityParser.T__17) {
           {
             {
-              this.state = 1007;
-              this.match(_SolidityParser.T__15);
-              this.state = 1008;
+              this.state = 1011;
+              this.match(_SolidityParser.T__17);
+              this.state = 1012;
               this.identifier();
             }
           }
-          this.state = 1013;
+          this.state = 1017;
           this._errHandler.sync(this);
           _la = this._input.LA(1);
         }
@@ -30237,9 +30308,9 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 1014;
-        this.match(_SolidityParser.T__91);
-        this.state = 1015;
+        this.state = 1018;
+        this.match(_SolidityParser.T__92);
+        this.state = 1019;
         this.identifier();
       }
     } catch (re) {
@@ -30261,10 +30332,10 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 1017;
+        this.state = 1021;
         this.identifier();
-        this.state = 1018;
-        this.match(_SolidityParser.T__62);
+        this.state = 1022;
+        this.match(_SolidityParser.T__63);
       }
     } catch (re) {
       if (re instanceof import_RecognitionException.RecognitionException) {
@@ -30286,21 +30357,21 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 1020;
-        this.match(_SolidityParser.T__92);
-        this.state = 1021;
-        this.assemblyExpression();
+        this.state = 1024;
+        this.match(_SolidityParser.T__93);
         this.state = 1025;
+        this.assemblyExpression();
+        this.state = 1029;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        while (_la === _SolidityParser.T__93 || _la === _SolidityParser.T__94) {
+        while (_la === _SolidityParser.T__94 || _la === _SolidityParser.T__95) {
           {
             {
-              this.state = 1022;
+              this.state = 1026;
               this.assemblyCase();
             }
           }
-          this.state = 1027;
+          this.state = 1031;
           this._errHandler.sync(this);
           _la = this._input.LA(1);
         }
@@ -30322,26 +30393,26 @@ var _SolidityParser = class extends import_Parser.Parser {
     let _localctx = new AssemblyCaseContext(this._ctx, this.state);
     this.enterRule(_localctx, 166, _SolidityParser.RULE_assemblyCase);
     try {
-      this.state = 1034;
+      this.state = 1038;
       this._errHandler.sync(this);
       switch (this._input.LA(1)) {
-        case _SolidityParser.T__93:
-          this.enterOuterAlt(_localctx, 1);
-          {
-            this.state = 1028;
-            this.match(_SolidityParser.T__93);
-            this.state = 1029;
-            this.assemblyLiteral();
-            this.state = 1030;
-            this.assemblyBlock();
-          }
-          break;
         case _SolidityParser.T__94:
-          this.enterOuterAlt(_localctx, 2);
+          this.enterOuterAlt(_localctx, 1);
           {
             this.state = 1032;
             this.match(_SolidityParser.T__94);
             this.state = 1033;
+            this.assemblyLiteral();
+            this.state = 1034;
+            this.assemblyBlock();
+          }
+          break;
+        case _SolidityParser.T__95:
+          this.enterOuterAlt(_localctx, 2);
+          {
+            this.state = 1036;
+            this.match(_SolidityParser.T__95);
+            this.state = 1037;
             this.assemblyBlock();
           }
           break;
@@ -30368,33 +30439,33 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 1036;
-        this.match(_SolidityParser.T__30);
-        this.state = 1037;
-        this.identifier();
-        this.state = 1038;
-        this.match(_SolidityParser.T__22);
         this.state = 1040;
-        this._errHandler.sync(this);
-        _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__13 || _la === _SolidityParser.T__25 || _la === _SolidityParser.T__42 || _la === _SolidityParser.T__54 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
-          {
-            this.state = 1039;
-            this.assemblyIdentifierList();
-          }
-        }
+        this.match(_SolidityParser.T__31);
+        this.state = 1041;
+        this.identifier();
         this.state = 1042;
-        this.match(_SolidityParser.T__23);
+        this.match(_SolidityParser.T__24);
         this.state = 1044;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__95) {
+        if (_la === _SolidityParser.T__15 || _la === _SolidityParser.T__26 || _la === _SolidityParser.T__43 || _la === _SolidityParser.T__55 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier) {
           {
             this.state = 1043;
-            this.assemblyFunctionReturns();
+            this.assemblyIdentifierList();
           }
         }
         this.state = 1046;
+        this.match(_SolidityParser.T__25);
+        this.state = 1048;
+        this._errHandler.sync(this);
+        _la = this._input.LA(1);
+        if (_la === _SolidityParser.T__96) {
+          {
+            this.state = 1047;
+            this.assemblyFunctionReturns();
+          }
+        }
+        this.state = 1050;
         this.assemblyBlock();
       }
     } catch (re) {
@@ -30417,9 +30488,9 @@ var _SolidityParser = class extends import_Parser.Parser {
       this.enterOuterAlt(_localctx, 1);
       {
         {
-          this.state = 1048;
-          this.match(_SolidityParser.T__95);
-          this.state = 1049;
+          this.state = 1052;
+          this.match(_SolidityParser.T__96);
+          this.state = 1053;
           this.assemblyIdentifierList();
         }
       }
@@ -30442,25 +30513,25 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 1051;
-        this.match(_SolidityParser.T__27);
-        this.state = 1054;
+        this.state = 1055;
+        this.match(_SolidityParser.T__28);
+        this.state = 1058;
         this._errHandler.sync(this);
         switch (this._input.LA(1)) {
-          case _SolidityParser.T__14:
+          case _SolidityParser.T__16:
             {
-              this.state = 1052;
+              this.state = 1056;
               this.assemblyBlock();
             }
             break;
-          case _SolidityParser.T__13:
-          case _SolidityParser.T__25:
-          case _SolidityParser.T__36:
-          case _SolidityParser.T__42:
-          case _SolidityParser.T__51:
-          case _SolidityParser.T__54:
-          case _SolidityParser.T__58:
-          case _SolidityParser.T__96:
+          case _SolidityParser.T__15:
+          case _SolidityParser.T__26:
+          case _SolidityParser.T__37:
+          case _SolidityParser.T__43:
+          case _SolidityParser.T__52:
+          case _SolidityParser.T__55:
+          case _SolidityParser.T__59:
+          case _SolidityParser.T__97:
           case _SolidityParser.DecimalNumber:
           case _SolidityParser.HexNumber:
           case _SolidityParser.HexLiteralFragment:
@@ -30470,33 +30541,33 @@ var _SolidityParser = class extends import_Parser.Parser {
           case _SolidityParser.ReceiveKeyword:
           case _SolidityParser.Identifier:
           case _SolidityParser.StringLiteralFragment:
-            {
-              this.state = 1053;
-              this.assemblyExpression();
-            }
-            break;
-          default:
-            throw new import_NoViableAltException.NoViableAltException(this);
-        }
-        this.state = 1056;
-        this.assemblyExpression();
-        this.state = 1059;
-        this._errHandler.sync(this);
-        switch (this._input.LA(1)) {
-          case _SolidityParser.T__14:
             {
               this.state = 1057;
+              this.assemblyExpression();
+            }
+            break;
+          default:
+            throw new import_NoViableAltException.NoViableAltException(this);
+        }
+        this.state = 1060;
+        this.assemblyExpression();
+        this.state = 1063;
+        this._errHandler.sync(this);
+        switch (this._input.LA(1)) {
+          case _SolidityParser.T__16:
+            {
+              this.state = 1061;
               this.assemblyBlock();
             }
             break;
-          case _SolidityParser.T__13:
-          case _SolidityParser.T__25:
-          case _SolidityParser.T__36:
-          case _SolidityParser.T__42:
-          case _SolidityParser.T__51:
-          case _SolidityParser.T__54:
-          case _SolidityParser.T__58:
-          case _SolidityParser.T__96:
+          case _SolidityParser.T__15:
+          case _SolidityParser.T__26:
+          case _SolidityParser.T__37:
+          case _SolidityParser.T__43:
+          case _SolidityParser.T__52:
+          case _SolidityParser.T__55:
+          case _SolidityParser.T__59:
+          case _SolidityParser.T__97:
           case _SolidityParser.DecimalNumber:
           case _SolidityParser.HexNumber:
           case _SolidityParser.HexLiteralFragment:
@@ -30507,14 +30578,14 @@ var _SolidityParser = class extends import_Parser.Parser {
           case _SolidityParser.Identifier:
           case _SolidityParser.StringLiteralFragment:
             {
-              this.state = 1058;
+              this.state = 1062;
               this.assemblyExpression();
             }
             break;
           default:
             throw new import_NoViableAltException.NoViableAltException(this);
         }
-        this.state = 1061;
+        this.state = 1065;
         this.assemblyBlock();
       }
     } catch (re) {
@@ -30536,11 +30607,11 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 1063;
-        this.match(_SolidityParser.T__43);
-        this.state = 1064;
+        this.state = 1067;
+        this.match(_SolidityParser.T__44);
+        this.state = 1068;
         this.assemblyExpression();
-        this.state = 1065;
+        this.state = 1069;
         this.assemblyBlock();
       }
     } catch (re) {
@@ -30560,34 +30631,34 @@ var _SolidityParser = class extends import_Parser.Parser {
     let _localctx = new AssemblyLiteralContext(this._ctx, this.state);
     this.enterRule(_localctx, 176, _SolidityParser.RULE_assemblyLiteral);
     try {
-      this.state = 1071;
+      this.state = 1075;
       this._errHandler.sync(this);
       switch (this._input.LA(1)) {
         case _SolidityParser.StringLiteralFragment:
           this.enterOuterAlt(_localctx, 1);
           {
-            this.state = 1067;
+            this.state = 1071;
             this.stringLiteral();
           }
           break;
         case _SolidityParser.DecimalNumber:
           this.enterOuterAlt(_localctx, 2);
           {
-            this.state = 1068;
+            this.state = 1072;
             this.match(_SolidityParser.DecimalNumber);
           }
           break;
         case _SolidityParser.HexNumber:
           this.enterOuterAlt(_localctx, 3);
           {
-            this.state = 1069;
+            this.state = 1073;
             this.match(_SolidityParser.HexNumber);
           }
           break;
         case _SolidityParser.HexLiteralFragment:
           this.enterOuterAlt(_localctx, 4);
           {
-            this.state = 1070;
+            this.state = 1074;
             this.hexLiteral();
           }
           break;
@@ -30613,11 +30684,11 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 1073;
-        this.match(_SolidityParser.T__49);
-        this.state = 1074;
+        this.state = 1077;
+        this.match(_SolidityParser.T__50);
+        this.state = 1078;
         this.identifier();
-        this.state = 1075;
+        this.state = 1079;
         this.assemblyBlock();
       }
     } catch (re) {
@@ -30638,84 +30709,84 @@ var _SolidityParser = class extends import_Parser.Parser {
     this.enterRule(_localctx, 180, _SolidityParser.RULE_tupleExpression);
     let _la;
     try {
-      this.state = 1103;
+      this.state = 1107;
       this._errHandler.sync(this);
       switch (this._input.LA(1)) {
-        case _SolidityParser.T__22:
+        case _SolidityParser.T__24:
           this.enterOuterAlt(_localctx, 1);
           {
-            this.state = 1077;
-            this.match(_SolidityParser.T__22);
+            this.state = 1081;
+            this.match(_SolidityParser.T__24);
             {
-              this.state = 1079;
+              this.state = 1083;
               this._errHandler.sync(this);
               _la = this._input.LA(1);
-              if ((_la - 5 & ~31) === 0 && (1 << _la - 5 & (1 << _SolidityParser.T__4 - 5 | 1 << _SolidityParser.T__13 - 5 | 1 << _SolidityParser.T__14 - 5 | 1 << _SolidityParser.T__22 - 5 | 1 << _SolidityParser.T__25 - 5 | 1 << _SolidityParser.T__34 - 5)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37 | 1 << _SolidityParser.T__59 - 37 | 1 << _SolidityParser.T__60 - 37 | 1 << _SolidityParser.T__61 - 37 | 1 << _SolidityParser.T__63 - 37 | 1 << _SolidityParser.T__64 - 37 | 1 << _SolidityParser.T__65 - 37 | 1 << _SolidityParser.T__66 - 37 | 1 << _SolidityParser.T__67 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.BooleanLiteral - 97 | 1 << _SolidityParser.DecimalNumber - 97 | 1 << _SolidityParser.HexNumber - 97 | 1 << _SolidityParser.HexLiteralFragment - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.TypeKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || (_la - 129 & ~31) === 0 && (1 << _la - 129 & (1 << _SolidityParser.ReceiveKeyword - 129 | 1 << _SolidityParser.Identifier - 129 | 1 << _SolidityParser.StringLiteralFragment - 129)) !== 0) {
+              if ((_la - 7 & ~31) === 0 && (1 << _la - 7 & (1 << _SolidityParser.T__6 - 7 | 1 << _SolidityParser.T__15 - 7 | 1 << _SolidityParser.T__16 - 7 | 1 << _SolidityParser.T__24 - 7 | 1 << _SolidityParser.T__26 - 7 | 1 << _SolidityParser.T__35 - 7 | 1 << _SolidityParser.T__37 - 7)) !== 0 || (_la - 44 & ~31) === 0 && (1 << _la - 44 & (1 << _SolidityParser.T__43 - 44 | 1 << _SolidityParser.T__55 - 44 | 1 << _SolidityParser.T__56 - 44 | 1 << _SolidityParser.T__57 - 44 | 1 << _SolidityParser.T__58 - 44 | 1 << _SolidityParser.T__59 - 44 | 1 << _SolidityParser.T__60 - 44 | 1 << _SolidityParser.T__61 - 44 | 1 << _SolidityParser.T__62 - 44 | 1 << _SolidityParser.T__64 - 44 | 1 << _SolidityParser.T__65 - 44 | 1 << _SolidityParser.T__66 - 44 | 1 << _SolidityParser.T__67 - 44 | 1 << _SolidityParser.T__68 - 44)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.BooleanLiteral - 98 | 1 << _SolidityParser.DecimalNumber - 98 | 1 << _SolidityParser.HexNumber - 98 | 1 << _SolidityParser.HexLiteralFragment - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.TypeKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || (_la - 131 & ~31) === 0 && (1 << _la - 131 & (1 << _SolidityParser.ReceiveKeyword - 131 | 1 << _SolidityParser.Identifier - 131 | 1 << _SolidityParser.StringLiteralFragment - 131)) !== 0) {
                 {
-                  this.state = 1078;
+                  this.state = 1082;
                   this.expression(0);
                 }
               }
-              this.state = 1087;
+              this.state = 1091;
               this._errHandler.sync(this);
               _la = this._input.LA(1);
-              while (_la === _SolidityParser.T__15) {
+              while (_la === _SolidityParser.T__17) {
                 {
                   {
-                    this.state = 1081;
-                    this.match(_SolidityParser.T__15);
-                    this.state = 1083;
+                    this.state = 1085;
+                    this.match(_SolidityParser.T__17);
+                    this.state = 1087;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                    if ((_la - 5 & ~31) === 0 && (1 << _la - 5 & (1 << _SolidityParser.T__4 - 5 | 1 << _SolidityParser.T__13 - 5 | 1 << _SolidityParser.T__14 - 5 | 1 << _SolidityParser.T__22 - 5 | 1 << _SolidityParser.T__25 - 5 | 1 << _SolidityParser.T__34 - 5)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37 | 1 << _SolidityParser.T__59 - 37 | 1 << _SolidityParser.T__60 - 37 | 1 << _SolidityParser.T__61 - 37 | 1 << _SolidityParser.T__63 - 37 | 1 << _SolidityParser.T__64 - 37 | 1 << _SolidityParser.T__65 - 37 | 1 << _SolidityParser.T__66 - 37 | 1 << _SolidityParser.T__67 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.BooleanLiteral - 97 | 1 << _SolidityParser.DecimalNumber - 97 | 1 << _SolidityParser.HexNumber - 97 | 1 << _SolidityParser.HexLiteralFragment - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.TypeKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || (_la - 129 & ~31) === 0 && (1 << _la - 129 & (1 << _SolidityParser.ReceiveKeyword - 129 | 1 << _SolidityParser.Identifier - 129 | 1 << _SolidityParser.StringLiteralFragment - 129)) !== 0) {
+                    if ((_la - 7 & ~31) === 0 && (1 << _la - 7 & (1 << _SolidityParser.T__6 - 7 | 1 << _SolidityParser.T__15 - 7 | 1 << _SolidityParser.T__16 - 7 | 1 << _SolidityParser.T__24 - 7 | 1 << _SolidityParser.T__26 - 7 | 1 << _SolidityParser.T__35 - 7 | 1 << _SolidityParser.T__37 - 7)) !== 0 || (_la - 44 & ~31) === 0 && (1 << _la - 44 & (1 << _SolidityParser.T__43 - 44 | 1 << _SolidityParser.T__55 - 44 | 1 << _SolidityParser.T__56 - 44 | 1 << _SolidityParser.T__57 - 44 | 1 << _SolidityParser.T__58 - 44 | 1 << _SolidityParser.T__59 - 44 | 1 << _SolidityParser.T__60 - 44 | 1 << _SolidityParser.T__61 - 44 | 1 << _SolidityParser.T__62 - 44 | 1 << _SolidityParser.T__64 - 44 | 1 << _SolidityParser.T__65 - 44 | 1 << _SolidityParser.T__66 - 44 | 1 << _SolidityParser.T__67 - 44 | 1 << _SolidityParser.T__68 - 44)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.BooleanLiteral - 98 | 1 << _SolidityParser.DecimalNumber - 98 | 1 << _SolidityParser.HexNumber - 98 | 1 << _SolidityParser.HexLiteralFragment - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.TypeKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || (_la - 131 & ~31) === 0 && (1 << _la - 131 & (1 << _SolidityParser.ReceiveKeyword - 131 | 1 << _SolidityParser.Identifier - 131 | 1 << _SolidityParser.StringLiteralFragment - 131)) !== 0) {
                       {
-                        this.state = 1082;
+                        this.state = 1086;
                         this.expression(0);
                       }
                     }
                   }
                 }
-                this.state = 1089;
+                this.state = 1093;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
               }
             }
-            this.state = 1090;
-            this.match(_SolidityParser.T__23);
+            this.state = 1094;
+            this.match(_SolidityParser.T__25);
           }
           break;
-        case _SolidityParser.T__34:
+        case _SolidityParser.T__35:
           this.enterOuterAlt(_localctx, 2);
           {
-            this.state = 1091;
-            this.match(_SolidityParser.T__34);
-            this.state = 1100;
+            this.state = 1095;
+            this.match(_SolidityParser.T__35);
+            this.state = 1104;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            if ((_la - 5 & ~31) === 0 && (1 << _la - 5 & (1 << _SolidityParser.T__4 - 5 | 1 << _SolidityParser.T__13 - 5 | 1 << _SolidityParser.T__14 - 5 | 1 << _SolidityParser.T__22 - 5 | 1 << _SolidityParser.T__25 - 5 | 1 << _SolidityParser.T__34 - 5)) !== 0 || (_la - 37 & ~31) === 0 && (1 << _la - 37 & (1 << _SolidityParser.T__36 - 37 | 1 << _SolidityParser.T__42 - 37 | 1 << _SolidityParser.T__54 - 37 | 1 << _SolidityParser.T__55 - 37 | 1 << _SolidityParser.T__56 - 37 | 1 << _SolidityParser.T__57 - 37 | 1 << _SolidityParser.T__58 - 37 | 1 << _SolidityParser.T__59 - 37 | 1 << _SolidityParser.T__60 - 37 | 1 << _SolidityParser.T__61 - 37 | 1 << _SolidityParser.T__63 - 37 | 1 << _SolidityParser.T__64 - 37 | 1 << _SolidityParser.T__65 - 37 | 1 << _SolidityParser.T__66 - 37 | 1 << _SolidityParser.T__67 - 37)) !== 0 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.Int - 97 | 1 << _SolidityParser.Uint - 97 | 1 << _SolidityParser.Byte - 97 | 1 << _SolidityParser.Fixed - 97 | 1 << _SolidityParser.Ufixed - 97 | 1 << _SolidityParser.TvmCell - 97 | 1 << _SolidityParser.BooleanLiteral - 97 | 1 << _SolidityParser.DecimalNumber - 97 | 1 << _SolidityParser.HexNumber - 97 | 1 << _SolidityParser.HexLiteralFragment - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.TypeKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || (_la - 129 & ~31) === 0 && (1 << _la - 129 & (1 << _SolidityParser.ReceiveKeyword - 129 | 1 << _SolidityParser.Identifier - 129 | 1 << _SolidityParser.StringLiteralFragment - 129)) !== 0) {
+            if ((_la - 7 & ~31) === 0 && (1 << _la - 7 & (1 << _SolidityParser.T__6 - 7 | 1 << _SolidityParser.T__15 - 7 | 1 << _SolidityParser.T__16 - 7 | 1 << _SolidityParser.T__24 - 7 | 1 << _SolidityParser.T__26 - 7 | 1 << _SolidityParser.T__35 - 7 | 1 << _SolidityParser.T__37 - 7)) !== 0 || (_la - 44 & ~31) === 0 && (1 << _la - 44 & (1 << _SolidityParser.T__43 - 44 | 1 << _SolidityParser.T__55 - 44 | 1 << _SolidityParser.T__56 - 44 | 1 << _SolidityParser.T__57 - 44 | 1 << _SolidityParser.T__58 - 44 | 1 << _SolidityParser.T__59 - 44 | 1 << _SolidityParser.T__60 - 44 | 1 << _SolidityParser.T__61 - 44 | 1 << _SolidityParser.T__62 - 44 | 1 << _SolidityParser.T__64 - 44 | 1 << _SolidityParser.T__65 - 44 | 1 << _SolidityParser.T__66 - 44 | 1 << _SolidityParser.T__67 - 44 | 1 << _SolidityParser.T__68 - 44)) !== 0 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.Int - 98 | 1 << _SolidityParser.Uint - 98 | 1 << _SolidityParser.Byte - 98 | 1 << _SolidityParser.Fixed - 98 | 1 << _SolidityParser.Ufixed - 98 | 1 << _SolidityParser.TvmCell - 98 | 1 << _SolidityParser.BooleanLiteral - 98 | 1 << _SolidityParser.DecimalNumber - 98 | 1 << _SolidityParser.HexNumber - 98 | 1 << _SolidityParser.HexLiteralFragment - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.TypeKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || (_la - 131 & ~31) === 0 && (1 << _la - 131 & (1 << _SolidityParser.ReceiveKeyword - 131 | 1 << _SolidityParser.Identifier - 131 | 1 << _SolidityParser.StringLiteralFragment - 131)) !== 0) {
               {
-                this.state = 1092;
+                this.state = 1096;
                 this.expression(0);
-                this.state = 1097;
+                this.state = 1101;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                while (_la === _SolidityParser.T__15) {
+                while (_la === _SolidityParser.T__17) {
                   {
                     {
-                      this.state = 1093;
-                      this.match(_SolidityParser.T__15);
-                      this.state = 1094;
+                      this.state = 1097;
+                      this.match(_SolidityParser.T__17);
+                      this.state = 1098;
                       this.expression(0);
                     }
                   }
-                  this.state = 1099;
+                  this.state = 1103;
                   this._errHandler.sync(this);
                   _la = this._input.LA(1);
                 }
               }
             }
-            this.state = 1102;
-            this.match(_SolidityParser.T__35);
+            this.state = 1106;
+            this.match(_SolidityParser.T__36);
           }
           break;
         default:
@@ -30738,14 +30809,14 @@ var _SolidityParser = class extends import_Parser.Parser {
     let _localctx = new TypeNameExpressionContext(this._ctx, this.state);
     this.enterRule(_localctx, 182, _SolidityParser.RULE_typeNameExpression);
     try {
-      this.state = 1107;
+      this.state = 1111;
       this._errHandler.sync(this);
       switch (this._input.LA(1)) {
-        case _SolidityParser.T__36:
-        case _SolidityParser.T__55:
+        case _SolidityParser.T__37:
         case _SolidityParser.T__56:
         case _SolidityParser.T__57:
         case _SolidityParser.T__58:
+        case _SolidityParser.T__59:
         case _SolidityParser.Int:
         case _SolidityParser.Uint:
         case _SolidityParser.Byte:
@@ -30754,16 +30825,16 @@ var _SolidityParser = class extends import_Parser.Parser {
         case _SolidityParser.TvmCell:
           this.enterOuterAlt(_localctx, 1);
           {
-            this.state = 1105;
+            this.state = 1109;
             this.elementaryTypeName();
           }
           break;
-        case _SolidityParser.T__13:
-        case _SolidityParser.T__14:
-        case _SolidityParser.T__25:
-        case _SolidityParser.T__42:
-        case _SolidityParser.T__54:
-        case _SolidityParser.T__96:
+        case _SolidityParser.T__15:
+        case _SolidityParser.T__16:
+        case _SolidityParser.T__26:
+        case _SolidityParser.T__43:
+        case _SolidityParser.T__55:
+        case _SolidityParser.T__97:
         case _SolidityParser.LeaveKeyword:
         case _SolidityParser.PayableKeyword:
         case _SolidityParser.ConstructorKeyword:
@@ -30771,7 +30842,7 @@ var _SolidityParser = class extends import_Parser.Parser {
         case _SolidityParser.Identifier:
           this.enterOuterAlt(_localctx, 2);
           {
-            this.state = 1106;
+            this.state = 1110;
             this.userDefinedTypeName();
           }
           break;
@@ -30798,7 +30869,7 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 1109;
+        this.state = 1113;
         _la = this._input.LA(1);
         if (!(_la === _SolidityParser.DecimalNumber || _la === _SolidityParser.HexNumber)) {
           this._errHandler.recoverInline(this);
@@ -30809,12 +30880,12 @@ var _SolidityParser = class extends import_Parser.Parser {
           this._errHandler.reportMatch(this);
           this.consume();
         }
-        this.state = 1111;
+        this.state = 1115;
         this._errHandler.sync(this);
         switch (this.interpreter.adaptivePredict(this._input, 123, this._ctx)) {
           case 1:
             {
-              this.state = 1110;
+              this.state = 1114;
               this.match(_SolidityParser.NumberUnit);
             }
             break;
@@ -30840,9 +30911,9 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 1113;
+        this.state = 1117;
         _la = this._input.LA(1);
-        if (!(_la === _SolidityParser.T__13 || _la === _SolidityParser.T__25 || _la === _SolidityParser.T__42 || _la === _SolidityParser.T__54 || (_la - 97 & ~31) === 0 && (1 << _la - 97 & (1 << _SolidityParser.T__96 - 97 | 1 << _SolidityParser.LeaveKeyword - 97 | 1 << _SolidityParser.PayableKeyword - 97 | 1 << _SolidityParser.ConstructorKeyword - 97)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier)) {
+        if (!(_la === _SolidityParser.T__15 || _la === _SolidityParser.T__26 || _la === _SolidityParser.T__43 || _la === _SolidityParser.T__55 || (_la - 98 & ~31) === 0 && (1 << _la - 98 & (1 << _SolidityParser.T__97 - 98 | 1 << _SolidityParser.LeaveKeyword - 98 | 1 << _SolidityParser.PayableKeyword - 98 | 1 << _SolidityParser.ConstructorKeyword - 98)) !== 0 || _la === _SolidityParser.ReceiveKeyword || _la === _SolidityParser.Identifier)) {
           this._errHandler.recoverInline(this);
         } else {
           if (this._input.LA(1) === import_Token.Token.EOF) {
@@ -30872,7 +30943,7 @@ var _SolidityParser = class extends import_Parser.Parser {
       let _alt;
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 1116;
+        this.state = 1120;
         this._errHandler.sync(this);
         _alt = 1;
         do {
@@ -30880,7 +30951,7 @@ var _SolidityParser = class extends import_Parser.Parser {
             case 1:
               {
                 {
-                  this.state = 1115;
+                  this.state = 1119;
                   this.match(_SolidityParser.HexLiteralFragment);
                 }
               }
@@ -30888,7 +30959,7 @@ var _SolidityParser = class extends import_Parser.Parser {
             default:
               throw new import_NoViableAltException.NoViableAltException(this);
           }
-          this.state = 1118;
+          this.state = 1122;
           this._errHandler.sync(this);
           _alt = this.interpreter.adaptivePredict(this._input, 124, this._ctx);
         } while (_alt !== 2 && _alt !== import_ATN.ATN.INVALID_ALT_NUMBER);
@@ -30913,35 +30984,35 @@ var _SolidityParser = class extends import_Parser.Parser {
     try {
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 1120;
-        this.match(_SolidityParser.T__97);
-        this.state = 1132;
+        this.state = 1124;
+        this.match(_SolidityParser.T__98);
+        this.state = 1136;
         this._errHandler.sync(this);
         _la = this._input.LA(1);
-        if (_la === _SolidityParser.T__22) {
+        if (_la === _SolidityParser.T__24) {
           {
-            this.state = 1121;
-            this.match(_SolidityParser.T__22);
-            this.state = 1122;
+            this.state = 1125;
+            this.match(_SolidityParser.T__24);
+            this.state = 1126;
             this.userDefinedTypeName();
-            this.state = 1127;
+            this.state = 1131;
             this._errHandler.sync(this);
             _la = this._input.LA(1);
-            while (_la === _SolidityParser.T__15) {
+            while (_la === _SolidityParser.T__17) {
               {
                 {
-                  this.state = 1123;
-                  this.match(_SolidityParser.T__15);
-                  this.state = 1124;
+                  this.state = 1127;
+                  this.match(_SolidityParser.T__17);
+                  this.state = 1128;
                   this.userDefinedTypeName();
                 }
               }
-              this.state = 1129;
+              this.state = 1133;
               this._errHandler.sync(this);
               _la = this._input.LA(1);
             }
-            this.state = 1130;
-            this.match(_SolidityParser.T__23);
+            this.state = 1134;
+            this.match(_SolidityParser.T__25);
           }
         }
       }
@@ -30965,7 +31036,7 @@ var _SolidityParser = class extends import_Parser.Parser {
       let _alt;
       this.enterOuterAlt(_localctx, 1);
       {
-        this.state = 1135;
+        this.state = 1139;
         this._errHandler.sync(this);
         _alt = 1;
         do {
@@ -30973,7 +31044,7 @@ var _SolidityParser = class extends import_Parser.Parser {
             case 1:
               {
                 {
-                  this.state = 1134;
+                  this.state = 1138;
                   this.match(_SolidityParser.StringLiteralFragment);
                 }
               }
@@ -30981,7 +31052,7 @@ var _SolidityParser = class extends import_Parser.Parser {
             default:
               throw new import_NoViableAltException.NoViableAltException(this);
           }
-          this.state = 1137;
+          this.state = 1141;
           this._errHandler.sync(this);
           _alt = this.interpreter.adaptivePredict(this._input, 127, this._ctx);
         } while (_alt !== 2 && _alt !== import_ATN.ATN.INVALID_ALT_NUMBER);
@@ -31164,43 +31235,45 @@ SolidityParser.T__94 = 95;
 SolidityParser.T__95 = 96;
 SolidityParser.T__96 = 97;
 SolidityParser.T__97 = 98;
-SolidityParser.Int = 99;
-SolidityParser.Uint = 100;
-SolidityParser.Byte = 101;
-SolidityParser.Fixed = 102;
-SolidityParser.Ufixed = 103;
-SolidityParser.TvmCell = 104;
-SolidityParser.BooleanLiteral = 105;
-SolidityParser.DecimalNumber = 106;
-SolidityParser.HexNumber = 107;
-SolidityParser.NumberUnit = 108;
-SolidityParser.HexLiteralFragment = 109;
-SolidityParser.ReservedKeyword = 110;
-SolidityParser.AnonymousKeyword = 111;
-SolidityParser.BreakKeyword = 112;
-SolidityParser.ConstantKeyword = 113;
-SolidityParser.ImmutableKeyword = 114;
-SolidityParser.ContinueKeyword = 115;
-SolidityParser.LeaveKeyword = 116;
-SolidityParser.ExternalKeyword = 117;
-SolidityParser.IndexedKeyword = 118;
-SolidityParser.InternalKeyword = 119;
-SolidityParser.PayableKeyword = 120;
-SolidityParser.PrivateKeyword = 121;
-SolidityParser.PublicKeyword = 122;
-SolidityParser.VirtualKeyword = 123;
-SolidityParser.PureKeyword = 124;
-SolidityParser.TypeKeyword = 125;
-SolidityParser.ViewKeyword = 126;
-SolidityParser.ConstructorKeyword = 127;
-SolidityParser.FallbackKeyword = 128;
-SolidityParser.ReceiveKeyword = 129;
-SolidityParser.Identifier = 130;
-SolidityParser.StringLiteralFragment = 131;
-SolidityParser.VersionLiteral = 132;
-SolidityParser.WS = 133;
-SolidityParser.COMMENT = 134;
-SolidityParser.LINE_COMMENT = 135;
+SolidityParser.T__98 = 99;
+SolidityParser.Int = 100;
+SolidityParser.Uint = 101;
+SolidityParser.Byte = 102;
+SolidityParser.Fixed = 103;
+SolidityParser.Ufixed = 104;
+SolidityParser.TvmCell = 105;
+SolidityParser.BooleanLiteral = 106;
+SolidityParser.DecimalNumber = 107;
+SolidityParser.HexNumber = 108;
+SolidityParser.NumberUnit = 109;
+SolidityParser.HexLiteralFragment = 110;
+SolidityParser.ReservedKeyword = 111;
+SolidityParser.AnonymousKeyword = 112;
+SolidityParser.BreakKeyword = 113;
+SolidityParser.ConstantKeyword = 114;
+SolidityParser.ImmutableKeyword = 115;
+SolidityParser.ContinueKeyword = 116;
+SolidityParser.LeaveKeyword = 117;
+SolidityParser.ExternalKeyword = 118;
+SolidityParser.IndexedKeyword = 119;
+SolidityParser.InternalKeyword = 120;
+SolidityParser.PayableKeyword = 121;
+SolidityParser.PrivateKeyword = 122;
+SolidityParser.PublicKeyword = 123;
+SolidityParser.StaticKeyword = 124;
+SolidityParser.VirtualKeyword = 125;
+SolidityParser.PureKeyword = 126;
+SolidityParser.TypeKeyword = 127;
+SolidityParser.ViewKeyword = 128;
+SolidityParser.ConstructorKeyword = 129;
+SolidityParser.FallbackKeyword = 130;
+SolidityParser.ReceiveKeyword = 131;
+SolidityParser.Identifier = 132;
+SolidityParser.StringLiteralFragment = 133;
+SolidityParser.VersionLiteral = 134;
+SolidityParser.WS = 135;
+SolidityParser.COMMENT = 136;
+SolidityParser.LINE_COMMENT = 137;
 SolidityParser.RULE_sourceUnit = 0;
 SolidityParser.RULE_pragmaDirective = 1;
 SolidityParser.RULE_pragmaName = 2;
@@ -31401,6 +31474,8 @@ SolidityParser._LITERAL_NAMES = [
   void 0,
   "'pragma'",
   "';'",
+  "'solidity'",
+  "'ton-solidity'",
   "'||'",
   "'^'",
   "'~'",
@@ -31423,7 +31498,6 @@ SolidityParser._LITERAL_NAMES = [
   "'is'",
   "'('",
   "')'",
-  "'static'",
   "'error'",
   "'using'",
   "'for'",
@@ -31521,6 +31595,7 @@ SolidityParser._LITERAL_NAMES = [
   "'payable'",
   "'private'",
   "'public'",
+  "'static'",
   "'virtual'",
   "'pure'",
   "'type'",
@@ -31530,6 +31605,7 @@ SolidityParser._LITERAL_NAMES = [
   "'receive'"
 ];
 SolidityParser._SYMBOLIC_NAMES = [
+  void 0,
   void 0,
   void 0,
   void 0,
@@ -31653,6 +31729,7 @@ SolidityParser._SYMBOLIC_NAMES = [
   "PayableKeyword",
   "PrivateKeyword",
   "PublicKeyword",
+  "StaticKeyword",
   "VirtualKeyword",
   "PureKeyword",
   "TypeKeyword",
@@ -31669,9 +31746,9 @@ SolidityParser._SYMBOLIC_NAMES = [
 ];
 SolidityParser.VOCABULARY = new import_VocabularyImpl2.VocabularyImpl(_SolidityParser._LITERAL_NAMES, _SolidityParser._SYMBOLIC_NAMES, []);
 SolidityParser._serializedATNSegments = 3;
-SolidityParser._serializedATNSegment0 = '\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x89\u0476					\x07	\x07\b	\b			\n	\n\v	\v\f	\f\r	\r																		 	 !	!"	"#	#$	$%	%&	&\'	\'(	()	)*	*+	+,	,-	-.	./	/0	01	12	23	34	45	56	67	78	89	9:	:;	;<	<=	=>	>?	?@	@A	AB	BC	CD	DE	EF	FG	GH	HI	IJ	JK	KL	LM	MN	NO	OP	PQ	QR	RS	ST	TU	UV	VW	WX	XY	YZ	Z[	[\\	\\]	]^	^_	_`	`a	ab	b\x07\xCE\n\f\xD1\v\xDE\n\xE2\n\x07\xE5\n\f\xE8\v\x07\x07\b\b\xED\n\b\b\b\b\xF1\n\b\b\b\xF4\n\b				\xF9\n	\n\n\n\n\n\xFF\n\n\n\n\n\n\n\n\u0106\n\n\n\n\n\u010A\n\n\n\n\n\n\n\n\n\n\n\x07\n\u0115\n\n\f\n\n\u0118\v\n\n\n\n\n\n\n\u011F\n\n\v\v\f\f\u0124\n\f\f\f\f\f\f\f\x07\f\u012C\n\f\f\f\f\u012F\v\f\f\u0131\n\f\f\f\x07\f\u0135\n\f\f\f\f\u0138\v\f\f\f\r\r\r\r\u013F\n\r\r\r\u0142\n\r\u014D\n\x07\u0156\n\f\u0159\v\u015C\n\u0161\n\u017C\n\x07\u0188\n\f\u018B\v\u018D\n\u0194\n\x07\u0198\n\f\u019B\v\u019F\n\u01A4\n\u01A7\n\u01AD\n\u01B1\n\u01B5\n\u01BA\n\x07\u01C7\n\f\u01CA\v\u01D0\n\u01DA\n\x07\u01DE\n\f\u01E1\v\x07\u01E9\n\f\u01EC\v\u01EE\n\u01F4\n\u01F7\n    \x07 \u01FD\n \f  \u0200\v  \u0202\n   !!!\u0208\n!!!\u020B\n!""""\x07"\u0211\n"\f""\u0214\v""\u0216\n"""###\u021C\n#$$$\u0220\n$$$%%%%%%%%\u022B\n%%%%%\u0230\n%%\x07%\u0233\n%\f%%\u0236\v%&&&\x07&\u023B\n&\f&&\u023E\v&&&&&&\u0244\n&\'\'\'\u0248\n\'((((((()))))\x07)\u0256\n)\f))\u0259\v))))\u025D\n)**++,,\x07,\u0265\n,\f,,\u0268\v,,,----------------\u027B\n-...////////\u0287\n/0000\u028C\n0000\u0290\n0\r00\u0291111\u0296\n111\u0299\n111222222333\u02A5\n344455555\u02AE\n5555\u02B2\n555\u02B5\n5555666\u02BC\n66677777777888999:::\u02D0\n:::;;;<<<<====>>>>>>>>\u02E6\n>>>>\u02EA\n>>>??\u02EF\n????\u02F3\n?\x07?\u02F5\n?\f??\u02F8\v?@@@\u02FC\n@@\x07@\u02FF\n@\f@@\u0302\v@@@\u0305\n@@@AABBBBBBBBBBBBBBBBBBB\u031D\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\u0353\nBBBB\u0357\nBBBBBBBBBBBBBBB\x07B\u0367\nB\fBB\u036A\vBCCCCCCCC\u0373\nCCCCCCCC\u037B\nCC\u037D\nCDDD\x07D\u0382\nD\fDD\u0385\vDEEE\x07E\u038A\nE\fEE\u038D\vEEE\u0390\nEFFFFGGG\u0398\nGGGG\u039C\nGG\u039E\nGHHHHHII\x07I\u03A7\nI\fII\u03AA\vIIIJJJJJJJJJJJJJJJJJJJ\u03C0\nJKKKK\u03C5\nKLLLLMMMMM\u03CF\nMMMM\u03D3\nMMM\x07M\u03D7\nM\fMM\u03DA\vMMM\u03DD\nMNNNNN\u03E3\nNOOOOPPPPPPP\u03EF\nPQQQ\x07Q\u03F4\nQ\fQQ\u03F7\vQRRRSSSTTT\x07T\u0402\nT\fTT\u0405\vTUUUUUUU\u040D\nUVVVVV\u0413\nVVVV\u0417\nVVVWWWXXXX\u0421\nXXXXX\u0426\nXXXYYYYZZZZZ\u0432\nZ[[[[\\\\\\\u043A\n\\\\\\\\\u043E\n\\\x07\\\u0440\n\\\f\\\\\u0443\v\\\\\\\\\\\\\x07\\\u044A\n\\\f\\\\\u044D\v\\\\\u044F\n\\\\\\\u0452\n\\]]]\u0456\n]^^^\u045A\n^__``\u045F\n`\r``\u0460aaaaa\x07a\u0468\na\faa\u046B\vaaaa\u046F\nabb\u0472\nb\rbb\u0473bH\x82c\b\n\f "$&(*,.02468:<>@BDFHJLNPRTVXZ\\^`bdfhjlnprtvxz|~\x80\x82\x84\x86\x88\x8A\x8C\x8E\x90\x92\x94\x96\x98\x9A\x9C\x9E\xA0\xA2\xA4\xA6\xA8\xAA\xAC\xAE\xB0\xB2\xB4\xB6\xB8\xBA\xBC\xBE\xC0\xC2\f+-sszz~~\x80\x80\'\':=ej>?BCDEHIJK\b\vNO\f\fR[lm\v--99ccvvzz\x81\x81\x83\x84\u04F5\xCF\xD4\xD9\b\xDD\n\xDF\f\xE9\xF3\xF5\u011E\u0120\u0123\u013B\u014C\u014E\u0164 \u016B"\u0170$\u0176&\u017F(\u0190*\u01A0,\u01A8.\u01B90\u01BB2\u01C84\u01CB6\u01D38\u01D5:\u01E4<\u01F1>\u01F8@\u0205B\u020CD\u0219F\u021DH\u022AJ\u0243L\u0247N\u0249P\u0250R\u025ET\u0260V\u0262X\u027AZ\u027C\\\u027F^\u0288`\u0293b\u029Cd\u02A4f\u02A6h\u02A9j\u02B9l\u02BFn\u02C7p\u02CAr\u02CDt\u02D3v\u02D6x\u02DAz\u02E5|\u02EE~\u02F9\x80\u0308\x82\u031C\x84\u037C\x86\u037E\x88\u0386\x8A\u0391\x8C\u039D\x8E\u039F\x90\u03A4\x92\u03BF\x94\u03C4\x96\u03C6\x98\u03CE\x9A\u03DE\x9C\u03E4\x9E\u03EE\xA0\u03F0\xA2\u03F8\xA4\u03FB\xA6\u03FE\xA8\u040C\xAA\u040E\xAC\u041A\xAE\u041D\xB0\u0429\xB2\u0431\xB4\u0433\xB6\u0451\xB8\u0455\xBA\u0457\xBC\u045B\xBE\u045E\xC0\u0462\xC2\u0471\xC4\xCE\xC5\xCE\n\xC6\xCE\f\xC7\xCE8\xC8\xCE&\xC9\xCE,\xCA\xCE\xCB\xCE \xCC\xCE"\xCD\xC4\xCD\xC5\xCD\xC6\xCD\xC7\xCD\xC8\xCD\xC9\xCD\xCA\xCD\xCB\xCD\xCC\xCE\xD1\xCF\xCD\xCF\xD0\xD0\xD2\xD1\xCF\xD2\xD3\x07\xD3\xD4\xD5\x07\xD5\xD6\xD6\xD7\b\xD7\xD8\x07\xD8\xD9\xDA\xBC_\xDA\x07\xDB\xDE\n\xDC\xDE\x82B\xDD\xDB\xDD\xDC\xDE	\xDF\xE6\b\xE0\xE2\x07\xE1\xE0\xE1\xE2\xE2\xE3\xE3\xE5\b\xE4\xE1\xE5\xE8\xE6\xE4\xE6\xE7\xE7\v\xE8\xE6\xE9\xEA	\xEA\r\xEB\xED\f\x07\xEC\xEB\xEC\xED\xED\xEE\xEE\xF4\x07\x86\xEF\xF1\f\x07\xF0\xEF\xF0\xF1\xF1\xF2\xF2\xF4\x07l\xF3\xEC\xF3\xF0\xF4\xF5\xF8\xBC_\xF6\xF7\x07\r\xF7\xF9\xBC_\xF8\xF6\xF8\xF9\xF9\xFA\xFB\x07\xFB\xFE\v\xFC\xFD\x07\r\xFD\xFF\xBC_\xFE\xFC\xFE\xFF\xFF\u0100\u0100\u0101\x07\u0101\u011F\u0102\u0105\x07\u0103\u0106\x07\u0104\u0106\xBC_\u0105\u0103\u0105\u0104\u0106\u0109\u0107\u0108\x07\r\u0108\u010A\xBC_\u0109\u0107\u0109\u010A\u010A\u010B\u010B\u010C\x07\u010C\u010D\v\u010D\u010E\x07\u010E\u011F\u010F\u0110\x07\u0110\u0111\x07\u0111\u0116	\u0112\u0113\x07\u0113\u0115	\u0114\u0112\u0115\u0118\u0116\u0114\u0116\u0117\u0117\u0119\u0118\u0116\u0119\u011A\x07\u011A\u011B\x07\u011B\u011C\v\u011C\u011D\x07\u011D\u011F\u011E\xFA\u011E\u0102\u011E\u010F\u011F\u0120\u0121\x07\x85\u0121\u0122\u0124\x07\u0123\u0122\u0123\u0124\u0124\u0125\u0125\u0126	\u0126\u0130\xBC_\u0127\u0128\x07\u0128\u012D\r\u0129\u012A\x07\u012A\u012C\r\u012B\u0129\u012C\u012F\u012D\u012B\u012D\u012E\u012E\u0131\u012F\u012D\u0130\u0127\u0130\u0131\u0131\u0132\u0132\u0136\x07\u0133\u0135\u0134\u0133\u0135\u0138\u0136\u0134\u0136\u0137\u0137\u0139\u0138\u0136\u0139\u013A\x07\u013A\u013B\u0141J&\u013C\u013E\x07\u013D\u013F\x86D\u013E\u013D\u013E\u013F\u013F\u0140\u0140\u0142\x07\u0141\u013C\u0141\u0142\u0142\u0143\u014D\u0144\u014D$\u0145\u014D&\u0146\u014D(\u0147\u014D,\u0148\u014D4\u0149\u014D8\u014A\u014D \u014B\u014D"\u014C\u0143\u014C\u0144\u014C\u0145\u014C\u0146\u014C\u0147\u014C\u0148\u014C\u0149\u014C\u014A\u014C\u014B\u014D\u014E\u0157H%\u014F\u0156\x07|\u0150\u0156\x07y\u0151\u0156\x07{\u0152\u0156\x07s\u0153\u0156\x07t\u0154\u0156\xC0a\u0155\u014F\u0155\u0150\u0155\u0151\u0155\u0152\u0155\u0153\u0155\u0154\u0156\u0159\u0157\u0155\u0157\u0158\u0158\u015B\u0159\u0157\u015A\u015C\x07\u015B\u015A\u015B\u015C\u015C\u015D\u015D\u0160\xBC_\u015E\u015F\x07\f\u015F\u0161\x82B\u0160\u015E\u0160\u0161\u0161\u0162\u0162\u0163\x07\u0163\u0164\u0165H%\u0165\u0166\x07s\u0166\u0167\xBC_\u0167\u0168\x07\f\u0168\u0169\x82B\u0169\u016A\x07\u016A\u016B\u016C\x07\u016C\u016D\xBC_\u016D\u016E:\u016E\u016F\x07\u016F!\u0170\u0171\x07\x7F\u0171\u0172\xBC_\u0172\u0173\x07\u0173\u0174\x80A\u0174\u0175\x07\u0175#\u0176\u0177\x07\u0177\u0178J&\u0178\u017B\x07\u0179\u017C\x07\u017A\u017CH%\u017B\u0179\u017B\u017A\u017C\u017D\u017D\u017E\x07\u017E%\u017F\u0180\x07\u0180\u0181\xBC_\u0181\u018C\x07\u0182\u0183F$\u0183\u0189\x07\u0184\u0185F$\u0185\u0186\x07\u0186\u0188\u0187\u0184\u0188\u018B\u0189\u0187\u0189\u018A\u018A\u018D\u018B\u0189\u018C\u0182\u018C\u018D\u018D\u018E\u018E\u018F\x07\u018F\'\u0190\u0191\x07 \u0191\u0193\xBC_\u0192\u0194:\u0193\u0192\u0193\u0194\u0194\u0199\u0195\u0198\x07}\u0196\u0198\xC0a\u0197\u0195\u0197\u0196\u0198\u019B\u0199\u0197\u0199\u019A\u019A\u019E\u019B\u0199\u019C\u019F\x07\u019D\u019FV,\u019E\u019C\u019E\u019D\u019F)\u01A0\u01A6\xBC_\u01A1\u01A3\x07\u01A2\u01A4\x86D\u01A3\u01A2\u01A3\u01A4\u01A4\u01A5\u01A5\u01A7\x07\u01A6\u01A1\u01A6\u01A7';
-SolidityParser._serializedATNSegment1 = '\u01A7+\u01A8\u01A9.\u01A9\u01AA:\u01AA\u01AC2\u01AB\u01AD0\u01AC\u01AB\u01AC\u01AD\u01AD\u01B0\u01AE\u01B1\x07\u01AF\u01B1V,\u01B0\u01AE\u01B0\u01AF\u01B1-\u01B2\u01B4\x07!\u01B3\u01B5\xBC_\u01B4\u01B3\u01B4\u01B5\u01B5\u01BA\u01B6\u01BA\x07\x81\u01B7\u01BA\x07\x82\u01B8\u01BA\x07\x83\u01B9\u01B2\u01B9\u01B6\u01B9\u01B7\u01B9\u01B8\u01BA/\u01BB\u01BC\x07"\u01BC\u01BD:\u01BD1\u01BE\u01C7\x07w\u01BF\u01C7\x07|\u01C0\u01C7\x07y\u01C1\u01C7\x07{\u01C2\u01C7\x07}\u01C3\u01C7T+\u01C4\u01C7*\u01C5\u01C7\xC0a\u01C6\u01BE\u01C6\u01BF\u01C6\u01C0\u01C6\u01C1\u01C6\u01C2\u01C6\u01C3\u01C6\u01C4\u01C6\u01C5\u01C7\u01CA\u01C8\u01C6\u01C8\u01C9\u01C93\u01CA\u01C8\u01CB\u01CC\x07#\u01CC\u01CD\xBC_\u01CD\u01CF> \u01CE\u01D0\x07q\u01CF\u01CE\u01CF\u01D0\u01D0\u01D1\u01D1\u01D2\x07\u01D25\u01D3\u01D4\xBC_\u01D47\u01D5\u01D6\x07$\u01D6\u01D7\xBC_\u01D7\u01D9\x07\u01D8\u01DA6\u01D9\u01D8\u01D9\u01DA\u01DA\u01DF\u01DB\u01DC\x07\u01DC\u01DE6\u01DD\u01DB\u01DE\u01E1\u01DF\u01DD\u01DF\u01E0\u01E0\u01E2\u01E1\u01DF\u01E2\u01E3\x07\u01E39\u01E4\u01ED\x07\u01E5\u01EA<\u01E6\u01E7\x07\u01E7\u01E9<\u01E8\u01E6\u01E9\u01EC\u01EA\u01E8\u01EA\u01EB\u01EB\u01EE\u01EC\u01EA\u01ED\u01E5\u01ED\u01EE\u01EE\u01EF\u01EF\u01F0\x07\u01F0;\u01F1\u01F3H%\u01F2\u01F4R*\u01F3\u01F2\u01F3\u01F4\u01F4\u01F6\u01F5\u01F7\xBC_\u01F6\u01F5\u01F6\u01F7\u01F7=\u01F8\u0201\x07\u01F9\u01FE@!\u01FA\u01FB\x07\u01FB\u01FD@!\u01FC\u01FA\u01FD\u0200\u01FE\u01FC\u01FE\u01FF\u01FF\u0202\u0200\u01FE\u0201\u01F9\u0201\u0202\u0202\u0203\u0203\u0204\x07\u0204?\u0205\u0207H%\u0206\u0208\x07x\u0207\u0206\u0207\u0208\u0208\u020A\u0209\u020B\xBC_\u020A\u0209\u020A\u020B\u020BA\u020C\u0215\x07\u020D\u0212D#\u020E\u020F\x07\u020F\u0211D#\u0210\u020E\u0211\u0214\u0212\u0210\u0212\u0213\u0213\u0216\u0214\u0212\u0215\u020D\u0215\u0216\u0216\u0217\u0217\u0218\x07\u0218C\u0219\u021BH%\u021A\u021CR*\u021B\u021A\u021B\u021C\u021CE\u021D\u021FH%\u021E\u0220R*\u021F\u021E\u021F\u0220\u0220\u0221\u0221\u0222\xBC_\u0222G\u0223\u0224\b%\u0224\u022B\x80A\u0225\u022BJ&\u0226\u022BN(\u0227\u022BP)\u0228\u0229\x07\'\u0229\u022B\x07z\u022A\u0223\u022A\u0225\u022A\u0226\u022A\u0227\u022A\u0228\u022B\u0234\u022C\u022D\f\u022D\u022F\x07%\u022E\u0230\x82B\u022F\u022E\u022F\u0230\u0230\u0231\u0231\u0233\x07&\u0232\u022C\u0233\u0236\u0234\u0232\u0234\u0235\u0235I\u0236\u0234\u0237\u023C\xBC_\u0238\u0239\x07(\u0239\u023B\xBC_\u023A\u0238\u023B\u023E\u023C\u023A\u023C\u023D\u023D\u0244\u023E\u023C\u023F\u0240\x07\u0240\u0241\x88E\u0241\u0242\x07\u0242\u0244\u0243\u0237\u0243\u023F\u0244K\u0245\u0248\x80A\u0246\u0248J&\u0247\u0245\u0247\u0246\u0248M\u0249\u024A\x07)\u024A\u024B\x07\u024B\u024CL\'\u024C\u024D\x07*\u024D\u024EH%\u024E\u024F\x07\u024FO\u0250\u0251\x07!\u0251\u0257B"\u0252\u0256\x07y\u0253\u0256\x07w\u0254\u0256T+\u0255\u0252\u0255\u0253\u0255\u0254\u0256\u0259\u0257\u0255\u0257\u0258\u0258\u025C\u0259\u0257\u025A\u025B\x07"\u025B\u025DB"\u025C\u025A\u025C\u025D\u025DQ\u025E\u025F	\u025FS\u0260\u0261	\u0261U\u0262\u0266\x07\u0263\u0265X-\u0264\u0263\u0265\u0268\u0266\u0264\u0266\u0267\u0267\u0269\u0268\u0266\u0269\u026A\x07\u026AW\u026B\u027B\\/\u026C\u027B^0\u026D\u027Bb2\u026E\u027Bh5\u026F\u027BV,\u0270\u027Bj6\u0271\u027Bl7\u0272\u027Bn8\u0273\u027Bp9\u0274\u027Br:\u0275\u027Bt;\u0276\u027Bv<\u0277\u027Bd3\u0278\u027Bf4\u0279\u027Bx=\u027A\u026B\u027A\u026C\u027A\u026D\u027A\u026E\u027A\u026F\u027A\u0270\u027A\u0271\u027A\u0272\u027A\u0273\u027A\u0274\u027A\u0275\u027A\u0276\u027A\u0277\u027A\u0278\u027A\u0279\u027BY\u027C\u027D\x82B\u027D\u027E\x07\u027E[\u027F\u0280\x07.\u0280\u0281\x07\u0281\u0282\x82B\u0282\u0283\x07\u0283\u0286X-\u0284\u0285\x07/\u0285\u0287X-\u0286\u0284\u0286\u0287\u0287]\u0288\u0289\x070\u0289\u028B\x82B\u028A\u028C0\u028B\u028A\u028B\u028C\u028C\u028D\u028D\u028FV,\u028E\u0290`1\u028F\u028E\u0290\u0291\u0291\u028F\u0291\u0292\u0292_\u0293\u0298\x071\u0294\u0296\xBC_\u0295\u0294\u0295\u0296\u0296\u0297\u0297\u0299:\u0298\u0295\u0298\u0299\u0299\u029A\u029A\u029BV,\u029Ba\u029C\u029D\x072\u029D\u029E\x07\u029E\u029F\x82B\u029F\u02A0\x07\u02A0\u02A1X-\u02A1c\u02A2\u02A5z>\u02A3\u02A5Z.\u02A4\u02A2\u02A4\u02A3\u02A5e\u02A6\u02A7\x073\u02A7\u02A8V,\u02A8g\u02A9\u02AA\x07\u02AA\u02AD\x07\u02AB\u02AEd3\u02AC\u02AE\x07\u02AD\u02AB\u02AD\u02AC\u02AE\u02B1\u02AF\u02B2Z.\u02B0\u02B2\x07\u02B1\u02AF\u02B1\u02B0\u02B2\u02B4\u02B3\u02B5\x82B\u02B4\u02B3\u02B4\u02B5\u02B5\u02B6\u02B6\u02B7\x07\u02B7\u02B8X-\u02B8i\u02B9\u02BB\x074\u02BA\u02BC\x07\x85\u02BB\u02BA\u02BB\u02BC\u02BC\u02BD\u02BD\u02BE\x90I\u02BEk\u02BF\u02C0\x075\u02C0\u02C1X-\u02C1\u02C2\x072\u02C2\u02C3\x07\u02C3\u02C4\x82B\u02C4\u02C5\x07\u02C5\u02C6\x07\u02C6m\u02C7\u02C8\x07u\u02C8\u02C9\x07\u02C9o\u02CA\u02CB\x07r\u02CB\u02CC\x07\u02CCq\u02CD\u02CF\x076\u02CE\u02D0\x82B\u02CF\u02CE\u02CF\u02D0\u02D0\u02D1\u02D1\u02D2\x07\u02D2s\u02D3\u02D4\x077\u02D4\u02D5\x07\u02D5u\u02D6\u02D7\x078\u02D7\u02D8\x8EH\u02D8\u02D9\x07\u02D9w\u02DA\u02DB\x079\u02DB\u02DC\x8EH\u02DC\u02DD\x07\u02DDy\u02DE\u02DF\x07:\u02DF\u02E6~@\u02E0\u02E6F$\u02E1\u02E2\x07\u02E2\u02E3|?\u02E3\u02E4\x07\u02E4\u02E6\u02E5\u02DE\u02E5\u02E0\u02E5\u02E1\u02E6\u02E9\u02E7\u02E8\x07\f\u02E8\u02EA\x82B\u02E9\u02E7\u02E9\u02EA\u02EA\u02EB\u02EB\u02EC\x07\u02EC{\u02ED\u02EFF$\u02EE\u02ED\u02EE\u02EF\u02EF\u02F6\u02F0\u02F2\x07\u02F1\u02F3F$\u02F2\u02F1\u02F2\u02F3\u02F3\u02F5\u02F4\u02F0\u02F5\u02F8\u02F6\u02F4\u02F6\u02F7\u02F7}\u02F8\u02F6\u02F9\u0300\x07\u02FA\u02FC\xBC_\u02FB\u02FA\u02FB\u02FC\u02FC\u02FD\u02FD\u02FF\x07\u02FE\u02FB\u02FF\u0302\u0300\u02FE\u0300\u0301\u0301\u0304\u0302\u0300\u0303\u0305\xBC_\u0304\u0303\u0304\u0305\u0305\u0306\u0306\u0307\x07\u0307\x7F\u0308\u0309	\u0309\x81\u030A\u030B\bB\u030B\u030C\x07@\u030C\u031DH%\u030D\u030E\x07\u030E\u030F\x82B\u030F\u0310\x07\u0310\u031D\u0311\u0312	\x07\u0312\u031D\x82B\u0313\u0314	\b\u0314\u031D\x82B\u0315\u0316		\u0316\u031D\x82B\u0317\u0318\x07F\u0318\u031D\x82B\u0319\u031A\x07\x07\u031A\u031D\x82B\u031B\u031D\x84C\u031C\u030A\u031C\u030D\u031C\u0311\u031C\u0313\u031C\u0315\u031C\u0317\u031C\u0319\u031C\u031B\u031D\u0368\u031E\u031F\f\u031F\u0320\x07G\u0320\u0367\x82B\u0321\u0322\f\u0322\u0323	\n\u0323\u0367\x82B\u0324\u0325\f\u0325\u0326	\b\u0326\u0367\x82B\u0327\u0328\f\r\u0328\u0329	\v\u0329\u0367\x82B\u032A\u032B\f\f\u032B\u032C\x07L\u032C\u0367\x82B\r\u032D\u032E\f\v\u032E\u032F\x07\u032F\u0367\x82B\f\u0330\u0331\f\n\u0331\u0332\x07M\u0332\u0367\x82B\v\u0333\u0334\f	\u0334\u0335	\f\u0335\u0367\x82B\n\u0336\u0337\f\b\u0337\u0338	\r\u0338\u0367\x82B	\u0339\u033A\f\x07\u033A\u033B\x07P\u033B\u0367\x82B\b\u033C\u033D\f\u033D\u033E\x07\u033E\u0367\x82B\x07\u033F\u0340\f\u0340\u0341\x07Q\u0341\u0342\x82B\u0342\u0343\x07A\u0343\u0344\x82B\u0344\u0367\u0345\u0346\f\u0346\u0347	\u0347\u0367\x82B\u0348\u0349\f\u0349\u0367	\x07\u034A\u034B\f\u034B\u034C\x07%\u034C\u034D\x82B\u034D\u034E\x07&\u034E\u0367\u034F\u0350\f\u0350\u0352\x07%\u0351\u0353\x82B\u0352\u0351\u0352\u0353\u0353\u0354\u0354\u0356\x07A\u0355\u0357\x82B\u0356\u0355\u0356\u0357\u0357\u0358\u0358\u0367\x07&\u0359\u035A\f\u035A\u035B\x07(\u035B\u0367\xBC_\u035C\u035D\f\u035D\u035E\x07\u035E\u035F\x88E\u035F\u0360\x07\u0360\u0367\u0361\u0362\f\u0362\u0363\x07\u0363\u0364\x8CG\u0364\u0365\x07\u0365\u0367\u0366\u031E\u0366\u0321\u0366\u0324\u0366\u0327\u0366\u032A\u0366\u032D\u0366\u0330\u0366\u0333\u0366\u0336\u0366\u0339\u0366\u033C\u0366\u033F\u0366\u0345\u0366\u0348\u0366\u034A\u0366\u034F\u0366\u0359\u0366\u035C\u0366\u0361\u0367\u036A\u0368\u0366\u0368\u0369\u0369\x83\u036A\u0368\u036B\u037D\x07k\u036C\u037D\xBA^\u036D\u037D\xBE`\u036E\u037D\xC2b\u036F\u0372\xBC_\u0370\u0371\x07%\u0371\u0373\x07&\u0372\u0370\u0372\u0373\u0373\u037D\u0374\u037D\x07\x7F\u0375\u037D\x07z\u0376\u037D\xB6\\\u0377\u037A\xB8]\u0378\u0379\x07%\u0379\u037B\x07&\u037A\u0378\u037A\u037B\u037B\u037D\u037C\u036B\u037C\u036C\u037C\u036D\u037C\u036E\u037C\u036F\u037C\u0374\u037C\u0375\u037C\u0376\u037C\u0377\u037D\x85\u037E\u0383\x82B\u037F\u0380\x07\u0380\u0382\x82B\u0381\u037F\u0382\u0385\u0383\u0381\u0383\u0384\u0384\x87\u0385\u0383\u0386\u038B\x8AF\u0387\u0388\x07\u0388\u038A\x8AF\u0389\u0387\u038A\u038D\u038B\u0389\u038B\u038C\u038C\u038F\u038D\u038B\u038E\u0390\x07\u038F\u038E\u038F\u0390\u0390\x89\u0391\u0392\xBC_\u0392\u0393\x07A\u0393\u0394\x82B\u0394\x8B\u0395\u0397\x07\u0396\u0398\x88E\u0397\u0396\u0397\u0398\u0398\u0399\u0399\u039E\x07\u039A\u039C\x86D\u039B\u039A\u039B\u039C\u039C\u039E\u039D\u0395\u039D\u039B\u039E\x8D\u039F\u03A0\x82B\u03A0\u03A1\x07\u03A1\u03A2\x8CG\u03A2\u03A3\x07\u03A3\x8F\u03A4\u03A8\x07\u03A5\u03A7\x92J\u03A6\u03A5\u03A7\u03AA\u03A8\u03A6\u03A8\u03A9\u03A9\u03AB\u03AA\u03A8\u03AB\u03AC\x07\u03AC\x91\u03AD\u03C0\xBC_\u03AE\u03C0\x90I\u03AF\u03C0\x94K\u03B0\u03C0\x9AN\u03B1\u03C0\x9CO\u03B2\u03C0\xA2R\u03B3\u03C0\xA4S\u03B4\u03C0\xA6T\u03B5\u03C0\xAAV\u03B6\u03C0\xAEX\u03B7\u03C0\xB0Y\u03B8\u03C0\x07r\u03B9\u03C0\x07u\u03BA\u03C0\x07v\u03BB\u03C0\xB4[\u03BC\u03C0\xBA^\u03BD\u03C0\xC2b\u03BE\u03C0\xBE`\u03BF\u03AD\u03BF\u03AE\u03BF\u03AF\u03BF\u03B0\u03BF\u03B1\u03BF\u03B2\u03BF\u03B3\u03BF\u03B4\u03BF\u03B5\u03BF\u03B6\u03BF\u03B7\u03BF\u03B8\u03BF\u03B9\u03BF\u03BA\u03BF\u03BB\u03BF\u03BC\u03BF\u03BD\u03BF\u03BE\u03C0\x93\u03C1\u03C5\x98M\u03C2\u03C5\xB2Z\u03C3\u03C5\x96L\u03C4\u03C1\u03C4\u03C2\u03C4\u03C3\u03C5\x95\u03C6\u03C7\xBC_\u03C7\u03C8\x07(\u03C8\u03C9\xBC_\u03C9\x97\u03CA\u03CF\x076\u03CB\u03CF\x07\'\u03CC\u03CF\x07=\u03CD\u03CF\xBC_\u03CE\u03CA\u03CE\u03CB\u03CE\u03CC\u03CE\u03CD\u03CF\u03DC\u03D0\u03D2\x07\u03D1\u03D3\x94K\u03D2\u03D1\u03D2\u03D3\u03D3\u03D8\u03D4\u03D5\x07\u03D5\u03D7\x94K\u03D6\u03D4\u03D7\u03DA\u03D8\u03D6\u03D8\u03D9\u03D9\u03DB\u03DA\u03D8\u03DB\u03DD\x07\u03DC\u03D0\u03DC\u03DD\u03DD\x99\u03DE\u03DF\x07\\\u03DF\u03E2\x9EP\u03E0\u03E1\x07]\u03E1\u03E3\x94K\u03E2\u03E0\u03E2\u03E3\u03E3\x9B\u03E4\u03E5\x9EP\u03E5\u03E6\x07]\u03E6\u03E7\x94K\u03E7\x9D\u03E8\u03EF\xBC_\u03E9\u03EF\x96L\u03EA\u03EB\x07\u03EB\u03EC\xA0Q\u03EC\u03ED\x07\u03ED\u03EF\u03EE\u03E8\u03EE\u03E9\u03EE\u03EA\u03EF\x9F\u03F0\u03F5\xBC_\u03F1\u03F2\x07\u03F2\u03F4\xBC_\u03F3\u03F1\u03F4\u03F7\u03F5\u03F3\u03F5\u03F6\u03F6\xA1\u03F7\u03F5\u03F8\u03F9\x07^\u03F9\u03FA\xBC_\u03FA\xA3\u03FB\u03FC\xBC_\u03FC\u03FD\x07A\u03FD\xA5\u03FE\u03FF\x07_\u03FF\u0403\x94K\u0400\u0402\xA8U\u0401\u0400\u0402\u0405\u0403\u0401\u0403\u0404\u0404\xA7\u0405\u0403\u0406\u0407\x07`\u0407\u0408\xB2Z\u0408\u0409\x90I\u0409\u040D\u040A\u040B\x07a\u040B\u040D\x90I\u040C\u0406\u040C\u040A\u040D\xA9\u040E\u040F\x07!\u040F\u0410\xBC_\u0410\u0412\x07\u0411\u0413\xA0Q\u0412\u0411\u0412\u0413\u0413\u0414\u0414\u0416\x07\u0415\u0417\xACW\u0416\u0415\u0416\u0417\u0417\u0418\u0418\u0419\x90I\u0419\xAB\u041A\u041B\x07b\u041B\u041C\xA0Q\u041C\xAD\u041D\u0420\x07\u041E\u0421\x90I\u041F\u0421\x94K\u0420\u041E\u0420\u041F\u0421\u0422\u0422\u0425\x94K\u0423\u0426\x90I\u0424\u0426\x94K\u0425\u0423\u0425\u0424\u0426\u0427\u0427\u0428\x90I\u0428\xAF\u0429\u042A\x07.\u042A\u042B\x94K\u042B\u042C\x90I\u042C\xB1\u042D\u0432\xC2b\u042E\u0432\x07l\u042F\u0432\x07m\u0430\u0432\xBE`\u0431\u042D\u0431\u042E\u0431\u042F\u0431\u0430\u0432\xB3\u0433\u0434\x074\u0434\u0435\xBC_\u0435\u0436\x90I\u0436\xB5\u0437\u0439\x07\u0438\u043A\x82B\u0439\u0438\u0439\u043A\u043A\u0441\u043B\u043D\x07\u043C\u043E\x82B\u043D\u043C\u043D\u043E\u043E\u0440\u043F\u043B\u0440\u0443\u0441\u043F\u0441\u0442\u0442\u0444\u0443\u0441\u0444\u0452\x07';
-SolidityParser._serializedATNSegment2 = "\u0445\u044E\x07%\u0446\u044B\x82B\u0447\u0448\x07\u0448\u044A\x82B\u0449\u0447\u044A\u044D\u044B\u0449\u044B\u044C\u044C\u044F\u044D\u044B\u044E\u0446\u044E\u044F\u044F\u0450\u0450\u0452\x07&\u0451\u0437\u0451\u0445\u0452\xB7\u0453\u0456\x80A\u0454\u0456J&\u0455\u0453\u0455\u0454\u0456\xB9\u0457\u0459	\u0458\u045A\x07n\u0459\u0458\u0459\u045A\u045A\xBB\u045B\u045C	\u045C\xBD\u045D\u045F\x07o\u045E\u045D\u045F\u0460\u0460\u045E\u0460\u0461\u0461\xBF\u0462\u046E\x07d\u0463\u0464\x07\u0464\u0469J&\u0465\u0466\x07\u0466\u0468J&\u0467\u0465\u0468\u046B\u0469\u0467\u0469\u046A\u046A\u046C\u046B\u0469\u046C\u046D\x07\u046D\u046F\u046E\u0463\u046E\u046F\u046F\xC1\u0470\u0472\x07\x85\u0471\u0470\u0472\u0473\u0473\u0471\u0473\u0474\u0474\xC3\x82\xCD\xCF\xDD\xE1\xE6\xEC\xF0\xF3\xF8\xFE\u0105\u0109\u0116\u011E\u0123\u012D\u0130\u0136\u013E\u0141\u014C\u0155\u0157\u015B\u0160\u017B\u0189\u018C\u0193\u0197\u0199\u019E\u01A3\u01A6\u01AC\u01B0\u01B4\u01B9\u01C6\u01C8\u01CF\u01D9\u01DF\u01EA\u01ED\u01F3\u01F6\u01FE\u0201\u0207\u020A\u0212\u0215\u021B\u021F\u022A\u022F\u0234\u023C\u0243\u0247\u0255\u0257\u025C\u0266\u027A\u0286\u028B\u0291\u0295\u0298\u02A4\u02AD\u02B1\u02B4\u02BB\u02CF\u02E5\u02E9\u02EE\u02F2\u02F6\u02FB\u0300\u0304\u031C\u0352\u0356\u0366\u0368\u0372\u037A\u037C\u0383\u038B\u038F\u0397\u039B\u039D\u03A8\u03BF\u03C4\u03CE\u03D2\u03D8\u03DC\u03E2\u03EE\u03F5\u0403\u040C\u0412\u0416\u0420\u0425\u0431\u0439\u043D\u0441\u044B\u044E\u0451\u0455\u0459\u0460\u0469\u046E\u0473";
+SolidityParser._serializedATNSegment0 = '\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x8B\u047A					\x07	\x07\b	\b			\n	\n\v	\v\f	\f\r	\r																		 	 !	!"	"#	#$	$%	%&	&\'	\'(	()	)*	*+	+,	,-	-.	./	/0	01	12	23	34	45	56	67	78	89	9:	:;	;<	<=	=>	>?	?@	@A	AB	BC	CD	DE	EF	FG	GH	HI	IJ	JK	KL	LM	MN	NO	OP	PQ	QR	RS	ST	TU	UV	VW	WX	XY	YZ	Z[	[\\	\\]	]^	^_	_`	`a	ab	b\x07\xCE\n\f\xD1\v\xDE\n\xE2\n\x07\xE5\n\f\xE8\v\x07\x07\b\b\xED\n\b\b\b\b\xF1\n\b\b\b\xF4\n\b				\xF9\n	\n\n\n\n\n\xFF\n\n\n\n\n\n\n\n\u0106\n\n\n\n\n\u010A\n\n\n\n\n\n\n\n\n\n\n\x07\n\u0115\n\n\f\n\n\u0118\v\n\n\n\n\n\n\n\u011F\n\n\v\v\f\f\u0124\n\f\f\f\f\f\f\f\x07\f\u012C\n\f\f\f\f\u012F\v\f\f\u0131\n\f\f\f\x07\f\u0135\n\f\f\f\f\u0138\v\f\f\f\r\r\r\r\u013F\n\r\r\r\u0142\n\r\u014D\n\x07\u0157\n\f\u015A\v\u015F\n\u017A\n\x07\u0186\n\f\u0189\v\u018B\n\u0192\n\x07\u0196\n\f\u0199\v\u019D\n\u01A2\n\u01A5\n\u01AB\n\u01AF\n\u01B3\n\u01B8\n\x07\u01C5\n\f\u01C8\v\u01CE\n\u01D8\n\x07\u01DC\n\f\u01DF\v\x07\u01E7\n\f\u01EA\v\u01EC\n\u01F2\n\u01F5\n    \x07 \u01FB\n \f  \u01FE\v  \u0200\n   !!!\u0206\n!!!\u0209\n!""""\x07"\u020F\n"\f""\u0212\v""\u0214\n"""###\u021A\n#$$$\u021E\n$$$%%%%%%%%\u0229\n%%%%%\u022E\n%%\x07%\u0231\n%\f%%\u0234\v%&&&\x07&\u0239\n&\f&&\u023C\v&&&&&&\u0242\n&\'\'\'\u0246\n\'((((((()))))\x07)\u0254\n)\f))\u0257\v))))\u025B\n)**++,,\x07,\u0263\n,\f,,\u0266\v,,,----------------\u0279\n-...////////\u0285\n/0000\u028A\n0000\u028E\n0\r00\u028F111\u0294\n111\u0297\n111222222333\u02A3\n344455555\u02AC\n5555\u02B0\n555\u02B3\n5555666\u02BA\n66677777777888999::::::\u02D1\n:::\u02D4\n:::;;;<<<<====>>>>>>>>\u02EA\n>>>>\u02EE\n>>>??\u02F3\n????\u02F7\n?\x07?\u02F9\n?\f??\u02FC\v?@@@\u0300\n@@\x07@\u0303\n@\f@@\u0306\v@@@\u0309\n@@@AABBBBBBBBBBBBBBBBBBB\u0321\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\u0357\nBBBB\u035B\nBBBBBBBBBBBBBBB\x07B\u036B\nB\fBB\u036E\vBCCCCCCCC\u0377\nCCCCCCCC\u037F\nCC\u0381\nCDDD\x07D\u0386\nD\fDD\u0389\vDEEE\x07E\u038E\nE\fEE\u0391\vEEE\u0394\nEFFFFGGG\u039C\nGGGG\u03A0\nGG\u03A2\nGHHHHHII\x07I\u03AB\nI\fII\u03AE\vIIIJJJJJJJJJJJJJJJJJJJ\u03C4\nJKKKK\u03C9\nKLLLLMMMMM\u03D3\nMMMM\u03D7\nMMM\x07M\u03DB\nM\fMM\u03DE\vMMM\u03E1\nMNNNNN\u03E7\nNOOOOPPPPPPP\u03F3\nPQQQ\x07Q\u03F8\nQ\fQQ\u03FB\vQRRRSSSTTT\x07T\u0406\nT\fTT\u0409\vTUUUUUUU\u0411\nUVVVVV\u0417\nVVVV\u041B\nVVVWWWXXXX\u0425\nXXXXX\u042A\nXXXYYYYZZZZZ\u0436\nZ[[[[\\\\\\\u043E\n\\\\\\\\\u0442\n\\\x07\\\u0444\n\\\f\\\\\u0447\v\\\\\\\\\\\\\x07\\\u044E\n\\\f\\\\\u0451\v\\\\\u0453\n\\\\\\\u0456\n\\]]]\u045A\n]^^^\u045E\n^__``\u0463\n`\r``\u0464aaaaa\x07a\u046C\na\faa\u046F\vaaaa\u0473\nabb\u0476\nb\rbb\u0477bH\x82c\b\n\f "$&(*,.02468:<>@BDFHJLNPRTVXZ\\^`bdfhjlnprtvxz|~\x80\x82\x84\x86\x88\x8A\x8C\x8E\x90\x92\x94\x96\x98\x9A\x9C\x9E\xA0\xA2\xA4\xA6\xA8\xAA\xAC\xAE\xB0\xB2\xB4\xB6\xB8\xBA\xBC\xBE\xC0\xC2\b,.tt{{\x80\x80\x82\x82((;>fk?@CDEFIJKL\n\rOPS\\mn\v..::ddww{{\x83\x83\x85\x86\u04FA\xCF\xD4\xD9\b\xDD\n\xDF\f\xE9\xF3\xF5\u011E\u0120\u0123\u013B\u014C\u014E\u0162 \u0169"\u016E$\u0174&\u017D(\u018E*\u019E,\u01A6.\u01B70\u01B92\u01C64\u01C96\u01D18\u01D3:\u01E2<\u01EF>\u01F6@\u0203B\u020AD\u0217F\u021BH\u0228J\u0241L\u0245N\u0247P\u024ER\u025CT\u025EV\u0260X\u0278Z\u027A\\\u027D^\u0286`\u0291b\u029Ad\u02A2f\u02A4h\u02A7j\u02B7l\u02BDn\u02C5p\u02C8r\u02CBt\u02D7v\u02DAx\u02DEz\u02E9|\u02F2~\u02FD\x80\u030C\x82\u0320\x84\u0380\x86\u0382\x88\u038A\x8A\u0395\x8C\u03A1\x8E\u03A3\x90\u03A8\x92\u03C3\x94\u03C8\x96\u03CA\x98\u03D2\x9A\u03E2\x9C\u03E8\x9E\u03F2\xA0\u03F4\xA2\u03FC\xA4\u03FF\xA6\u0402\xA8\u0410\xAA\u0412\xAC\u041E\xAE\u0421\xB0\u042D\xB2\u0435\xB4\u0437\xB6\u0455\xB8\u0459\xBA\u045B\xBC\u045F\xBE\u0462\xC0\u0466\xC2\u0475\xC4\xCE\xC5\xCE\n\xC6\xCE\f\xC7\xCE8\xC8\xCE&\xC9\xCE,\xCA\xCE\xCB\xCE \xCC\xCE"\xCD\xC4\xCD\xC5\xCD\xC6\xCD\xC7\xCD\xC8\xCD\xC9\xCD\xCA\xCD\xCB\xCD\xCC\xCE\xD1\xCF\xCD\xCF\xD0\xD0\xD2\xD1\xCF\xD2\xD3\x07\xD3\xD4\xD5\x07\xD5\xD6\xD6\xD7\b\xD7\xD8\x07\xD8\xD9\xDA	\xDA\x07\xDB\xDE\n\xDC\xDE\x82B\xDD\xDB\xDD\xDC\xDE	\xDF\xE6\b\xE0\xE2\x07\x07\xE1\xE0\xE1\xE2\xE2\xE3\xE3\xE5\b\xE4\xE1\xE5\xE8\xE6\xE4\xE6\xE7\xE7\v\xE8\xE6\xE9\xEA	\xEA\r\xEB\xED\f\x07\xEC\xEB\xEC\xED\xED\xEE\xEE\xF4\x07\x88\xEF\xF1\f\x07\xF0\xEF\xF0\xF1\xF1\xF2\xF2\xF4\x07m\xF3\xEC\xF3\xF0\xF4\xF5\xF8\xBC_\xF6\xF7\x07\xF7\xF9\xBC_\xF8\xF6\xF8\xF9\xF9\xFA\xFB\x07\xFB\xFE\v\xFC\xFD\x07\xFD\xFF\xBC_\xFE\xFC\xFE\xFF\xFF\u0100\u0100\u0101\x07\u0101\u011F\u0102\u0105\x07\u0103\u0106\x07\u0104\u0106\xBC_\u0105\u0103\u0105\u0104\u0106\u0109\u0107\u0108\x07\u0108\u010A\xBC_\u0109\u0107\u0109\u010A\u010A\u010B\u010B\u010C\x07\u010C\u010D\v\u010D\u010E\x07\u010E\u011F\u010F\u0110\x07\u0110\u0111\x07\u0111\u0116	\u0112\u0113\x07\u0113\u0115	\u0114\u0112\u0115\u0118\u0116\u0114\u0116\u0117\u0117\u0119\u0118\u0116\u0119\u011A\x07\u011A\u011B\x07\u011B\u011C\v\u011C\u011D\x07\u011D\u011F\u011E\xFA\u011E\u0102\u011E\u010F\u011F\u0120\u0121\x07\x87\u0121\u0122\u0124\x07\u0123\u0122\u0123\u0124\u0124\u0125\u0125\u0126	\u0126\u0130\xBC_\u0127\u0128\x07\u0128\u012D\r\u0129\u012A\x07\u012A\u012C\r\u012B\u0129\u012C\u012F\u012D\u012B\u012D\u012E\u012E\u0131\u012F\u012D\u0130\u0127\u0130\u0131\u0131\u0132\u0132\u0136\x07\u0133\u0135\u0134\u0133\u0135\u0138\u0136\u0134\u0136\u0137\u0137\u0139\u0138\u0136\u0139\u013A\x07\u013A\u013B\u0141J&\u013C\u013E\x07\u013D\u013F\x86D\u013E\u013D\u013E\u013F\u013F\u0140\u0140\u0142\x07\u0141\u013C\u0141\u0142\u0142\u0143\u014D\u0144\u014D$\u0145\u014D&\u0146\u014D(\u0147\u014D,\u0148\u014D4\u0149\u014D8\u014A\u014D \u014B\u014D"\u014C\u0143\u014C\u0144\u014C\u0145\u014C\u0146\u014C\u0147\u014C\u0148\u014C\u0149\u014C\u014A\u014C\u014B\u014D\u014E\u0158H%\u014F\u0157\x07~\u0150\u0157\x07}\u0151\u0157\x07z\u0152\u0157\x07|\u0153\u0157\x07t\u0154\u0157\x07u\u0155\u0157\xC0a\u0156\u014F\u0156\u0150\u0156\u0151\u0156\u0152\u0156\u0153\u0156\u0154\u0156\u0155\u0157\u015A\u0158\u0156\u0158\u0159\u0159\u015B\u015A\u0158\u015B\u015E\xBC_\u015C\u015D\x07\u015D\u015F\x82B\u015E\u015C\u015E\u015F\u015F\u0160\u0160\u0161\x07\u0161\u0162\u0163H%\u0163\u0164\x07t\u0164\u0165\xBC_\u0165\u0166\x07\u0166\u0167\x82B\u0167\u0168\x07\u0168\u0169\u016A\x07\u016A\u016B\xBC_\u016B\u016C:\u016C\u016D\x07\u016D!\u016E\u016F\x07\x81\u016F\u0170\xBC_\u0170\u0171\x07\u0171\u0172\x80A\u0172\u0173\x07\u0173#\u0174\u0175\x07\u0175\u0176J&\u0176\u0179\x07\u0177\u017A\x07\u0178\u017AH%\u0179\u0177\u0179\u0178\u017A\u017B\u017B\u017C\x07\u017C%\u017D\u017E\x07 \u017E\u017F\xBC_\u017F\u018A\x07\u0180\u0181F$\u0181\u0187\x07\u0182\u0183F$\u0183\u0184\x07\u0184\u0186\u0185\u0182\u0186\u0189\u0187\u0185\u0187\u0188\u0188\u018B\u0189\u0187\u018A\u0180\u018A\u018B\u018B\u018C\u018C\u018D\x07\u018D\'\u018E\u018F\x07!\u018F\u0191\xBC_\u0190\u0192:\u0191\u0190\u0191\u0192\u0192\u0197\u0193\u0196\x07\x7F\u0194\u0196\xC0a\u0195\u0193\u0195\u0194\u0196\u0199\u0197\u0195\u0197\u0198\u0198\u019C\u0199\u0197\u019A\u019D\x07\u019B\u019DV,\u019C\u019A\u019C\u019B\u019D)\u019E\u01A4\xBC_\u019F\u01A1\x07\u01A0\u01A2\x86D\u01A1\u01A0\u01A1\u01A2\u01A2\u01A3\u01A3\u01A5\x07\u01A4\u019F\u01A4\u01A5';
+SolidityParser._serializedATNSegment1 = "\u01A5+\u01A6\u01A7.\u01A7\u01A8:\u01A8\u01AA2\u01A9\u01AB0\u01AA\u01A9\u01AA\u01AB\u01AB\u01AE\u01AC\u01AF\x07\u01AD\u01AFV,\u01AE\u01AC\u01AE\u01AD\u01AF-\u01B0\u01B2\x07\"\u01B1\u01B3\xBC_\u01B2\u01B1\u01B2\u01B3\u01B3\u01B8\u01B4\u01B8\x07\x83\u01B5\u01B8\x07\x84\u01B6\u01B8\x07\x85\u01B7\u01B0\u01B7\u01B4\u01B7\u01B5\u01B7\u01B6\u01B8/\u01B9\u01BA\x07#\u01BA\u01BB:\u01BB1\u01BC\u01C5\x07x\u01BD\u01C5\x07}\u01BE\u01C5\x07z\u01BF\u01C5\x07|\u01C0\u01C5\x07\x7F\u01C1\u01C5T+\u01C2\u01C5*\u01C3\u01C5\xC0a\u01C4\u01BC\u01C4\u01BD\u01C4\u01BE\u01C4\u01BF\u01C4\u01C0\u01C4\u01C1\u01C4\u01C2\u01C4\u01C3\u01C5\u01C8\u01C6\u01C4\u01C6\u01C7\u01C73\u01C8\u01C6\u01C9\u01CA\x07$\u01CA\u01CB\xBC_\u01CB\u01CD> \u01CC\u01CE\x07r\u01CD\u01CC\u01CD\u01CE\u01CE\u01CF\u01CF\u01D0\x07\u01D05\u01D1\u01D2\xBC_\u01D27\u01D3\u01D4\x07%\u01D4\u01D5\xBC_\u01D5\u01D7\x07\u01D6\u01D86\u01D7\u01D6\u01D7\u01D8\u01D8\u01DD\u01D9\u01DA\x07\u01DA\u01DC6\u01DB\u01D9\u01DC\u01DF\u01DD\u01DB\u01DD\u01DE\u01DE\u01E0\u01DF\u01DD\u01E0\u01E1\x07\u01E19\u01E2\u01EB\x07\u01E3\u01E8<\u01E4\u01E5\x07\u01E5\u01E7<\u01E6\u01E4\u01E7\u01EA\u01E8\u01E6\u01E8\u01E9\u01E9\u01EC\u01EA\u01E8\u01EB\u01E3\u01EB\u01EC\u01EC\u01ED\u01ED\u01EE\x07\u01EE;\u01EF\u01F1H%\u01F0\u01F2R*\u01F1\u01F0\u01F1\u01F2\u01F2\u01F4\u01F3\u01F5\xBC_\u01F4\u01F3\u01F4\u01F5\u01F5=\u01F6\u01FF\x07\u01F7\u01FC@!\u01F8\u01F9\x07\u01F9\u01FB@!\u01FA\u01F8\u01FB\u01FE\u01FC\u01FA\u01FC\u01FD\u01FD\u0200\u01FE\u01FC\u01FF\u01F7\u01FF\u0200\u0200\u0201\u0201\u0202\x07\u0202?\u0203\u0205H%\u0204\u0206\x07y\u0205\u0204\u0205\u0206\u0206\u0208\u0207\u0209\xBC_\u0208\u0207\u0208\u0209\u0209A\u020A\u0213\x07\u020B\u0210D#\u020C\u020D\x07\u020D\u020FD#\u020E\u020C\u020F\u0212\u0210\u020E\u0210\u0211\u0211\u0214\u0212\u0210\u0213\u020B\u0213\u0214\u0214\u0215\u0215\u0216\x07\u0216C\u0217\u0219H%\u0218\u021AR*\u0219\u0218\u0219\u021A\u021AE\u021B\u021DH%\u021C\u021ER*\u021D\u021C\u021D\u021E\u021E\u021F\u021F\u0220\xBC_\u0220G\u0221\u0222\b%\u0222\u0229\x80A\u0223\u0229J&\u0224\u0229N(\u0225\u0229P)\u0226\u0227\x07(\u0227\u0229\x07{\u0228\u0221\u0228\u0223\u0228\u0224\u0228\u0225\u0228\u0226\u0229\u0232\u022A\u022B\f\u022B\u022D\x07&\u022C\u022E\x82B\u022D\u022C\u022D\u022E\u022E\u022F\u022F\u0231\x07'\u0230\u022A\u0231\u0234\u0232\u0230\u0232\u0233\u0233I\u0234\u0232\u0235\u023A\xBC_\u0236\u0237\x07)\u0237\u0239\xBC_\u0238\u0236\u0239\u023C\u023A\u0238\u023A\u023B\u023B\u0242\u023C\u023A\u023D\u023E\x07\u023E\u023F\x88E\u023F\u0240\x07\u0240\u0242\u0241\u0235\u0241\u023D\u0242K\u0243\u0246\x80A\u0244\u0246J&\u0245\u0243\u0245\u0244\u0246M\u0247\u0248\x07*\u0248\u0249\x07\u0249\u024AL'\u024A\u024B\x07+\u024B\u024CH%\u024C\u024D\x07\u024DO\u024E\u024F\x07\"\u024F\u0255B\"\u0250\u0254\x07z\u0251\u0254\x07x\u0252\u0254T+\u0253\u0250\u0253\u0251\u0253\u0252\u0254\u0257\u0255\u0253\u0255\u0256\u0256\u025A\u0257\u0255\u0258\u0259\x07#\u0259\u025BB\"\u025A\u0258\u025A\u025B\u025BQ\u025C\u025D	\u025DS\u025E\u025F	\u025FU\u0260\u0264\x07\u0261\u0263X-\u0262\u0261\u0263\u0266\u0264\u0262\u0264\u0265\u0265\u0267\u0266\u0264\u0267\u0268\x07\u0268W\u0269\u0279\\/\u026A\u0279^0\u026B\u0279b2\u026C\u0279h5\u026D\u0279V,\u026E\u0279j6\u026F\u0279l7\u0270\u0279n8\u0271\u0279p9\u0272\u0279r:\u0273\u0279t;\u0274\u0279v<\u0275\u0279d3\u0276\u0279f4\u0277\u0279x=\u0278\u0269\u0278\u026A\u0278\u026B\u0278\u026C\u0278\u026D\u0278\u026E\u0278\u026F\u0278\u0270\u0278\u0271\u0278\u0272\u0278\u0273\u0278\u0274\u0278\u0275\u0278\u0276\u0278\u0277\u0279Y\u027A\u027B\x82B\u027B\u027C\x07\u027C[\u027D\u027E\x07/\u027E\u027F\x07\u027F\u0280\x82B\u0280\u0281\x07\u0281\u0284X-\u0282\u0283\x070\u0283\u0285X-\u0284\u0282\u0284\u0285\u0285]\u0286\u0287\x071\u0287\u0289\x82B\u0288\u028A0\u0289\u0288\u0289\u028A\u028A\u028B\u028B\u028DV,\u028C\u028E`1\u028D\u028C\u028E\u028F\u028F\u028D\u028F\u0290\u0290_\u0291\u0296\x072\u0292\u0294\xBC_\u0293\u0292\u0293\u0294\u0294\u0295\u0295\u0297:\u0296\u0293\u0296\u0297\u0297\u0298\u0298\u0299V,\u0299a\u029A\u029B\x073\u029B\u029C\x07\u029C\u029D\x82B\u029D\u029E\x07\u029E\u029FX-\u029Fc\u02A0\u02A3z>\u02A1\u02A3Z.\u02A2\u02A0\u02A2\u02A1\u02A3e\u02A4\u02A5\x074\u02A5\u02A6V,\u02A6g\u02A7\u02A8\x07\u02A8\u02AB\x07\u02A9\u02ACd3\u02AA\u02AC\x07\u02AB\u02A9\u02AB\u02AA\u02AC\u02AF\u02AD\u02B0Z.\u02AE\u02B0\x07\u02AF\u02AD\u02AF\u02AE\u02B0\u02B2\u02B1\u02B3\x82B\u02B2\u02B1\u02B2\u02B3\u02B3\u02B4\u02B4\u02B5\x07\u02B5\u02B6X-\u02B6i\u02B7\u02B9\x075\u02B8\u02BA\x07\x87\u02B9\u02B8\u02B9\u02BA\u02BA\u02BB\u02BB\u02BC\x90I\u02BCk\u02BD\u02BE\x076\u02BE\u02BFX-\u02BF\u02C0\x073\u02C0\u02C1\x07\u02C1\u02C2\x82B\u02C2\u02C3\x07\u02C3\u02C4\x07\u02C4m\u02C5\u02C6\x07v\u02C6\u02C7\x07\u02C7o\u02C8\u02C9\x07s\u02C9\u02CA\x07\u02CAq\u02CB\u02D0\x077\u02CC\u02CD\x07\u02CD\u02CE\x88E\u02CE\u02CF\x07\u02CF\u02D1\u02D0\u02CC\u02D0\u02D1\u02D1\u02D3\u02D2\u02D4\x82B\u02D3\u02D2\u02D3\u02D4\u02D4\u02D5\u02D5\u02D6\x07\u02D6s\u02D7\u02D8\x078\u02D8\u02D9\x07\u02D9u\u02DA\u02DB\x079\u02DB\u02DC\x8EH\u02DC\u02DD\x07\u02DDw\u02DE\u02DF\x07:\u02DF\u02E0\x8EH\u02E0\u02E1\x07\u02E1y\u02E2\u02E3\x07;\u02E3\u02EA~@\u02E4\u02EAF$\u02E5\u02E6\x07\u02E6\u02E7|?\u02E7\u02E8\x07\u02E8\u02EA\u02E9\u02E2\u02E9\u02E4\u02E9\u02E5\u02EA\u02ED\u02EB\u02EC\x07\u02EC\u02EE\x82B\u02ED\u02EB\u02ED\u02EE\u02EE\u02EF\u02EF\u02F0\x07\u02F0{\u02F1\u02F3F$\u02F2\u02F1\u02F2\u02F3\u02F3\u02FA\u02F4\u02F6\x07\u02F5\u02F7F$\u02F6\u02F5\u02F6\u02F7\u02F7\u02F9\u02F8\u02F4\u02F9\u02FC\u02FA\u02F8\u02FA\u02FB\u02FB}\u02FC\u02FA\u02FD\u0304\x07\u02FE\u0300\xBC_\u02FF\u02FE\u02FF\u0300\u0300\u0301\u0301\u0303\x07\u0302\u02FF\u0303\u0306\u0304\u0302\u0304\u0305\u0305\u0308\u0306\u0304\u0307\u0309\xBC_\u0308\u0307\u0308\u0309\u0309\u030A\u030A\u030B\x07\u030B\x7F\u030C\u030D	\x07\u030D\x81\u030E\u030F\bB\u030F\u0310\x07A\u0310\u0321H%\u0311\u0312\x07\u0312\u0313\x82B\u0313\u0314\x07\u0314\u0321\u0315\u0316	\b\u0316\u0321\x82B\u0317\u0318		\u0318\u0321\x82B\u0319\u031A	\n\u031A\u0321\x82B\u031B\u031C\x07G\u031C\u0321\x82B\u031D\u031E\x07	\u031E\u0321\x82B\u031F\u0321\x84C\u0320\u030E\u0320\u0311\u0320\u0315\u0320\u0317\u0320\u0319\u0320\u031B\u0320\u031D\u0320\u031F\u0321\u036C\u0322\u0323\f\u0323\u0324\x07H\u0324\u036B\x82B\u0325\u0326\f\u0326\u0327	\v\u0327\u036B\x82B\u0328\u0329\f\u0329\u032A		\u032A\u036B\x82B\u032B\u032C\f\r\u032C\u032D	\f\u032D\u036B\x82B\u032E\u032F\f\f\u032F\u0330\x07M\u0330\u036B\x82B\r\u0331\u0332\f\v\u0332\u0333\x07\b\u0333\u036B\x82B\f\u0334\u0335\f\n\u0335\u0336\x07N\u0336\u036B\x82B\v\u0337\u0338\f	\u0338\u0339	\r\u0339\u036B\x82B\n\u033A\u033B\f\b\u033B\u033C	\u033C\u036B\x82B	\u033D\u033E\f\x07\u033E\u033F\x07Q\u033F\u036B\x82B\b\u0340\u0341\f\u0341\u0342\x07\x07\u0342\u036B\x82B\x07\u0343\u0344\f\u0344\u0345\x07R\u0345\u0346\x82B\u0346\u0347\x07B\u0347\u0348\x82B\u0348\u036B\u0349\u034A\f\u034A\u034B	\u034B\u036B\x82B\u034C\u034D\f\u034D\u036B	\b\u034E\u034F\f\u034F\u0350\x07&\u0350\u0351\x82B\u0351\u0352\x07'\u0352\u036B\u0353\u0354\f\u0354\u0356\x07&\u0355\u0357\x82B\u0356\u0355\u0356\u0357\u0357\u0358\u0358\u035A\x07B\u0359\u035B\x82B\u035A\u0359\u035A\u035B\u035B\u035C\u035C\u036B\x07'\u035D\u035E\f\u035E\u035F\x07)\u035F\u036B\xBC_\u0360\u0361\f\u0361\u0362\x07\u0362\u0363\x88E\u0363\u0364\x07\u0364\u036B\u0365\u0366\f\u0366\u0367\x07\u0367\u0368\x8CG\u0368\u0369\x07\u0369\u036B\u036A\u0322\u036A\u0325\u036A\u0328\u036A\u032B\u036A\u032E\u036A\u0331\u036A\u0334\u036A\u0337\u036A\u033A\u036A\u033D\u036A\u0340\u036A\u0343\u036A\u0349\u036A\u034C\u036A\u034E\u036A\u0353\u036A\u035D\u036A\u0360\u036A\u0365\u036B\u036E\u036C\u036A\u036C\u036D\u036D\x83\u036E\u036C\u036F\u0381\x07l\u0370\u0381\xBA^\u0371\u0381\xBE`\u0372\u0381\xC2b\u0373\u0376\xBC_\u0374\u0375\x07&\u0375\u0377\x07'\u0376\u0374\u0376\u0377\u0377\u0381\u0378\u0381\x07\x81\u0379\u0381\x07{\u037A\u0381\xB6\\\u037B\u037E\xB8]\u037C\u037D\x07&\u037D\u037F\x07'\u037E\u037C\u037E\u037F\u037F\u0381\u0380\u036F\u0380\u0370\u0380\u0371\u0380\u0372\u0380\u0373\u0380\u0378\u0380\u0379\u0380\u037A\u0380\u037B\u0381\x85\u0382\u0387\x82B\u0383\u0384\x07\u0384\u0386\x82B\u0385\u0383\u0386\u0389\u0387\u0385\u0387\u0388\u0388\x87\u0389\u0387\u038A\u038F\x8AF\u038B\u038C\x07\u038C\u038E\x8AF\u038D\u038B\u038E\u0391\u038F\u038D\u038F\u0390\u0390\u0393\u0391\u038F\u0392\u0394\x07\u0393\u0392\u0393\u0394\u0394\x89\u0395\u0396\xBC_\u0396\u0397\x07B\u0397\u0398\x82B\u0398\x8B\u0399\u039B\x07\u039A\u039C\x88E\u039B\u039A\u039B\u039C\u039C\u039D\u039D\u03A2\x07\u039E\u03A0\x86D\u039F\u039E\u039F\u03A0\u03A0\u03A2\u03A1\u0399\u03A1\u039F\u03A2\x8D\u03A3\u03A4\x82B\u03A4\u03A5\x07\u03A5\u03A6\x8CG\u03A6\u03A7\x07\u03A7\x8F\u03A8\u03AC\x07\u03A9\u03AB\x92J\u03AA\u03A9\u03AB\u03AE\u03AC\u03AA\u03AC\u03AD\u03AD\u03AF\u03AE\u03AC\u03AF\u03B0\x07\u03B0\x91\u03B1\u03C4\xBC_\u03B2\u03C4\x90I\u03B3\u03C4\x94K\u03B4\u03C4\x9AN\u03B5\u03C4\x9CO\u03B6\u03C4\xA2R\u03B7\u03C4\xA4S\u03B8\u03C4\xA6T\u03B9\u03C4\xAAV\u03BA\u03C4\xAEX\u03BB\u03C4\xB0Y\u03BC\u03C4\x07s\u03BD\u03C4\x07v\u03BE\u03C4\x07w\u03BF\u03C4\xB4[\u03C0\u03C4\xBA^\u03C1\u03C4\xC2b\u03C2\u03C4\xBE`\u03C3\u03B1\u03C3\u03B2\u03C3\u03B3\u03C3\u03B4\u03C3\u03B5\u03C3\u03B6\u03C3\u03B7\u03C3\u03B8\u03C3\u03B9\u03C3\u03BA\u03C3\u03BB\u03C3\u03BC\u03C3\u03BD\u03C3\u03BE\u03C3\u03BF\u03C3\u03C0\u03C3\u03C1\u03C3\u03C2\u03C4\x93\u03C5\u03C9\x98M\u03C6\u03C9\xB2Z\u03C7\u03C9\x96L\u03C8\u03C5\u03C8\u03C6\u03C8\u03C7\u03C9\x95\u03CA\u03CB\xBC_\u03CB\u03CC\x07)\u03CC\u03CD\xBC_\u03CD\x97\u03CE\u03D3\x077\u03CF\u03D3\x07(\u03D0\u03D3\x07>\u03D1\u03D3\xBC_\u03D2\u03CE\u03D2\u03CF\u03D2\u03D0\u03D2\u03D1\u03D3\u03E0\u03D4\u03D6\x07\u03D5\u03D7\x94K\u03D6\u03D5\u03D6\u03D7\u03D7\u03DC\u03D8\u03D9\x07\u03D9\u03DB\x94K\u03DA\u03D8\u03DB\u03DE\u03DC\u03DA\u03DC\u03DD\u03DD\u03DF\u03DE\u03DC\u03DF\u03E1\x07\u03E0\u03D4\u03E0\u03E1\u03E1\x99\u03E2\u03E3\x07]\u03E3\u03E6\x9EP\u03E4\u03E5\x07^\u03E5\u03E7\x94K\u03E6\u03E4\u03E6\u03E7\u03E7\x9B\u03E8\u03E9\x9EP\u03E9\u03EA\x07^\u03EA\u03EB\x94K\u03EB\x9D\u03EC\u03F3\xBC_\u03ED\u03F3\x96L\u03EE\u03EF\x07\u03EF\u03F0\xA0Q\u03F0\u03F1\x07\u03F1\u03F3\u03F2\u03EC\u03F2\u03ED\u03F2\u03EE\u03F3\x9F\u03F4\u03F9\xBC_\u03F5\u03F6\x07\u03F6\u03F8\xBC_\u03F7\u03F5\u03F8\u03FB\u03F9\u03F7\u03F9\u03FA\u03FA\xA1\u03FB\u03F9\u03FC\u03FD\x07_\u03FD\u03FE\xBC_\u03FE\xA3\u03FF\u0400\xBC_\u0400\u0401\x07B\u0401\xA5\u0402\u0403\x07`\u0403\u0407\x94K\u0404\u0406\xA8U\u0405\u0404\u0406\u0409\u0407\u0405\u0407\u0408\u0408\xA7\u0409\u0407\u040A\u040B\x07a\u040B\u040C\xB2Z\u040C\u040D\x90I\u040D\u0411\u040E\u040F\x07b\u040F\u0411\x90I\u0410\u040A\u0410\u040E\u0411\xA9\u0412\u0413\x07\"\u0413\u0414\xBC_\u0414\u0416\x07\u0415\u0417\xA0Q\u0416\u0415\u0416\u0417\u0417\u0418\u0418\u041A\x07\u0419\u041B\xACW\u041A\u0419\u041A\u041B\u041B\u041C\u041C\u041D\x90I\u041D\xAB\u041E\u041F\x07c\u041F\u0420\xA0Q\u0420\xAD\u0421\u0424\x07\u0422\u0425\x90I\u0423\u0425\x94K\u0424\u0422\u0424\u0423\u0425\u0426\u0426\u0429\x94K\u0427\u042A\x90I\u0428\u042A\x94K\u0429\u0427\u0429\u0428\u042A\u042B\u042B\u042C\x90I\u042C\xAF\u042D\u042E\x07/\u042E\u042F\x94K\u042F\u0430\x90I\u0430\xB1\u0431\u0436\xC2b\u0432\u0436\x07m\u0433\u0436\x07n\u0434\u0436\xBE`\u0435\u0431\u0435\u0432\u0435\u0433\u0435\u0434\u0436\xB3\u0437\u0438\x075\u0438\u0439\xBC_\u0439\u043A\x90I\u043A\xB5\u043B\u043D\x07\u043C\u043E\x82B\u043D\u043C\u043D\u043E\u043E\u0445\u043F\u0441\x07\u0440\u0442\x82B\u0441\u0440\u0441\u0442\u0442\u0444";
+SolidityParser._serializedATNSegment2 = "\u0443\u043F\u0444\u0447\u0445\u0443\u0445\u0446\u0446\u0448\u0447\u0445\u0448\u0456\x07\u0449\u0452\x07&\u044A\u044F\x82B\u044B\u044C\x07\u044C\u044E\x82B\u044D\u044B\u044E\u0451\u044F\u044D\u044F\u0450\u0450\u0453\u0451\u044F\u0452\u044A\u0452\u0453\u0453\u0454\u0454\u0456\x07'\u0455\u043B\u0455\u0449\u0456\xB7\u0457\u045A\x80A\u0458\u045AJ&\u0459\u0457\u0459\u0458\u045A\xB9\u045B\u045D	\u045C\u045E\x07o\u045D\u045C\u045D\u045E\u045E\xBB\u045F\u0460	\u0460\xBD\u0461\u0463\x07p\u0462\u0461\u0463\u0464\u0464\u0462\u0464\u0465\u0465\xBF\u0466\u0472\x07e\u0467\u0468\x07\u0468\u046DJ&\u0469\u046A\x07\u046A\u046CJ&\u046B\u0469\u046C\u046F\u046D\u046B\u046D\u046E\u046E\u0470\u046F\u046D\u0470\u0471\x07\u0471\u0473\u0472\u0467\u0472\u0473\u0473\xC1\u0474\u0476\x07\x87\u0475\u0474\u0476\u0477\u0477\u0475\u0477\u0478\u0478\xC3\x82\xCD\xCF\xDD\xE1\xE6\xEC\xF0\xF3\xF8\xFE\u0105\u0109\u0116\u011E\u0123\u012D\u0130\u0136\u013E\u0141\u014C\u0156\u0158\u015E\u0179\u0187\u018A\u0191\u0195\u0197\u019C\u01A1\u01A4\u01AA\u01AE\u01B2\u01B7\u01C4\u01C6\u01CD\u01D7\u01DD\u01E8\u01EB\u01F1\u01F4\u01FC\u01FF\u0205\u0208\u0210\u0213\u0219\u021D\u0228\u022D\u0232\u023A\u0241\u0245\u0253\u0255\u025A\u0264\u0278\u0284\u0289\u028F\u0293\u0296\u02A2\u02AB\u02AF\u02B2\u02B9\u02D0\u02D3\u02E9\u02ED\u02F2\u02F6\u02FA\u02FF\u0304\u0308\u0320\u0356\u035A\u036A\u036C\u0376\u037E\u0380\u0387\u038F\u0393\u039B\u039F\u03A1\u03AC\u03C3\u03C8\u03D2\u03D6\u03DC\u03E0\u03E6\u03F2\u03F9\u0407\u0410\u0416\u041A\u0424\u0429\u0435\u043D\u0441\u0445\u044F\u0452\u0455\u0459\u045D\u0464\u046D\u0472\u0477";
 SolidityParser._serializedATN = Utils2.join([
   _SolidityParser._serializedATNSegment0,
   _SolidityParser._serializedATNSegment1,
@@ -31800,9 +31877,6 @@ var PragmaDirectiveContext = class extends import_ParserRuleContext.ParserRuleCo
   }
 };
 var PragmaNameContext = class extends import_ParserRuleContext.ParserRuleContext {
-  identifier() {
-    return this.getRuleContext(0, IdentifierContext);
-  }
   constructor(parent, invokingState) {
     super(parent, invokingState);
   }
@@ -32182,6 +32256,13 @@ var StateVariableDeclarationContext = class extends import_ParserRuleContext.Par
   }
   identifier() {
     return this.getRuleContext(0, IdentifierContext);
+  }
+  StaticKeyword(i) {
+    if (i === void 0) {
+      return this.getTokens(SolidityParser.StaticKeyword);
+    } else {
+      return this.getToken(SolidityParser.StaticKeyword, i);
+    }
   }
   PublicKeyword(i) {
     if (i === void 0) {
@@ -33755,6 +33836,9 @@ var BreakStatementContext = class extends import_ParserRuleContext.ParserRuleCon
   }
 };
 var ReturnStatementContext = class extends import_ParserRuleContext.ParserRuleContext {
+  nameValueList() {
+    return this.tryGetRuleContext(0, NameValueListContext);
+  }
   expression() {
     return this.tryGetRuleContext(0, ExpressionContext);
   }
@@ -35349,6 +35433,10 @@ var ASTBuilder = class extends import_AbstractParseTreeVisitor.AbstractParseTree
     if (ctx.ConstantKeyword().length > 0) {
       isDeclaredConst = true;
     }
+    let isStatic = false;
+    if (ctx.StaticKeyword().length > 0) {
+      isStatic = true;
+    }
     let override;
     const overrideSpecifier = ctx.overrideSpecifier();
     if (overrideSpecifier.length === 0) {
@@ -35372,7 +35460,8 @@ var ASTBuilder = class extends import_AbstractParseTreeVisitor.AbstractParseTree
       isIndexed: false,
       isImmutable,
       override,
-      storageLocation: null
+      storageLocation: null,
+      isStatic
     };
     const node = {
       type: "StateVariableDeclaration",
