@@ -71,6 +71,7 @@ export const astNodeTypes = [
   'IfStatement',
   'WhileStatement',
   'ForStatement',
+  'ForRangeStatement',
   'InlineAssemblyStatement',
   'DoWhileStatement',
   'ContinueStatement',
@@ -298,6 +299,12 @@ export interface ForStatement extends BaseASTNode {
   initExpression: SimpleStatement | null
   conditionExpression?: Expression
   loopExpression: ExpressionStatement
+  body: Statement
+}
+export interface ForRangeStatement extends BaseASTNode {
+  type: 'ForRangeStatement',
+  rangeDeclaration: Array<BaseASTNode | null>,
+  rangeExpression: Identifier
   body: Statement
 }
 export interface InlineAssemblyStatement extends BaseASTNode {
@@ -678,6 +685,7 @@ export type Statement =
   | IfStatement
   | WhileStatement
   | ForStatement
+  | ForRangeStatement
   | Block
   | InlineAssemblyStatement
   | DoWhileStatement

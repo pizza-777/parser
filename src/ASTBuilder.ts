@@ -1323,6 +1323,31 @@ export class ASTBuilder
     return this._addMeta(node, ctx)
   }
 
+  public visitForRangeStatement(ctx: SP.ForRangeStatementContext) {
+    const ctxIdentifier = ctx.identifier();
+
+    const rangeExpression = this.visitIdentifier(ctxIdentifier);
+
+    let variables: Array<AST.BaseASTNode | null> = []
+    const ctxVariableDeclaration = ctx.variableDeclaration()
+    const ctxVariableDeclarationList = ctx.variableDeclarationList()
+
+    if (ctxVariableDeclaration !== undefined) {
+      variables = [this.visitVariableDeclaration(ctxVariableDeclaration)]
+    } else if (ctxVariableDeclarationList) {
+      variables = this.buildVariableDeclarationList(ctxVariableDeclarationList)
+    }
+
+    const node: AST.ForRangeStatement = {
+      type: 'ForRangeStatement',
+      rangeDeclaration: variables,
+      rangeExpression,
+      body: this.visitStatement(ctx.statement()),
+    }
+
+    return this._addMeta(node, ctx)
+  }
+
   public visitHexLiteral(ctx: SP.HexLiteralContext) {
     const parts = ctx
       .HexLiteralFragment()
