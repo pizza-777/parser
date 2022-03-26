@@ -189,6 +189,8 @@ export interface FunctionDefinition extends BaseASTNode {
   isReceiveEther: boolean
   isFallback: boolean
   isVirtual: boolean
+  isInline: boolean
+  isOnBounce: boolean
 }
 
 export interface CustomErrorDefinition extends BaseASTNode {

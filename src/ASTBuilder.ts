@@ -302,6 +302,8 @@ export class ASTBuilder
     let isFallback = false
     let isReceiveEther = false
     let isVirtual = false
+    let isInline = false
+    let isOnBounce = false
     let name: string | null = null
     let parameters: any = []
     let returnParameters: AST.VariableDeclaration[] | null = null
@@ -349,6 +351,14 @@ export class ASTBuilder
         visibility = 'external'
         isFallback = true
         break
+      case 'onBounce':
+        isOnBounce = true
+        visibility = 'external'
+        parameters = ctx
+          .parameterList()
+          .parameter()
+          .map((x) => this.visit(x))
+        break
       case 'receive':
         visibility = 'external'
         isReceiveEther = true
@@ -375,6 +385,10 @@ export class ASTBuilder
           visibility = 'public'
         } else if (ctx.modifierList().PrivateKeyword().length > 0) {
           visibility = 'private'
+        }
+
+        if (ctx.modifierList().InlineKeyword().length > 0) {
+          isInline = true
         }
 
         isConstructor = name === this._currentContract
@@ -411,6 +425,8 @@ export class ASTBuilder
       isReceiveEther,
       isFallback,
       isVirtual,
+      isInline,
+      isOnBounce,
       stateMutability,
     }
 
