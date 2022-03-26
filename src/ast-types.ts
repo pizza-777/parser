@@ -312,7 +312,7 @@ export interface ForStatement extends BaseASTNode {
 export interface ForRangeStatement extends BaseASTNode {
   type: 'ForRangeStatement',
   rangeDeclaration: Array<BaseASTNode | null>,
-  rangeExpression: Identifier
+  rangeExpression: Identifier | Expression
   body: Statement
 }
 export interface InlineAssemblyStatement extends BaseASTNode {

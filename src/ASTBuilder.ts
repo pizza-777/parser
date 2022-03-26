@@ -834,7 +834,7 @@ export class ASTBuilder
     return this._addMeta(node, ctx)
   }
 
-public visitRepeatStatement(
+  public visitRepeatStatement(
     ctx: SP.RepeatStatementContext
   ): AST.RepeatStatement & WithMeta {
     const node: AST.RepeatStatement = {
@@ -979,7 +979,7 @@ public visitRepeatStatement(
     } else {
       throw new Error(
         'Expected MappingKey to have either ' +
-          'elementaryTypeName or userDefinedTypeName'
+        'elementaryTypeName or userDefinedTypeName'
       )
     }
   }
@@ -1352,9 +1352,15 @@ public visitRepeatStatement(
   }
 
   public visitForRangeStatement(ctx: SP.ForRangeStatementContext) {
+    let rangeExpression: AST.Identifier | AST.Expression
     const ctxIdentifier = ctx.identifier();
-
-    const rangeExpression = this.visitIdentifier(ctxIdentifier);
+    if (typeof ctxIdentifier !== 'undefined') {
+      rangeExpression = this.visitIdentifier(ctxIdentifier);
+    } else {
+      const ctxFunctionCall = ctx.expression();
+      if (typeof ctxFunctionCall !== 'undefined')
+        rangeExpression = this.visitExpression(ctxFunctionCall);
+    }
 
     let variables: Array<AST.BaseASTNode | null> = []
     const ctxVariableDeclaration = ctx.variableDeclaration()
@@ -1877,16 +1883,16 @@ public visitRepeatStatement(
     const args =
       ctxAssemblyIdentifierList !== undefined
         ? ctxAssemblyIdentifierList
-            .identifier()
-            .map((x) => this.visitIdentifier(x))
+          .identifier()
+          .map((x) => this.visitIdentifier(x))
         : []
 
     const ctxAssemblyFunctionReturns = ctx.assemblyFunctionReturns()
     const returnArgs = ctxAssemblyFunctionReturns
       ? ctxAssemblyFunctionReturns
-          .assemblyIdentifierList()!
-          .identifier()
-          .map((x) => this.visitIdentifier(x))
+        .assemblyIdentifierList()!
+        .identifier()
+        .map((x) => this.visitIdentifier(x))
       : []
 
     const node: AST.AssemblyFunctionDefinition = {
