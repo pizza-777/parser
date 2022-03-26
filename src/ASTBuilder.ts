@@ -834,6 +834,18 @@ export class ASTBuilder
     return this._addMeta(node, ctx)
   }
 
+public visitRepeatStatement(
+    ctx: SP.RepeatStatementContext
+  ): AST.RepeatStatement & WithMeta {
+    const node: AST.RepeatStatement = {
+      type: 'RepeatStatement',
+      condition: this.visitExpression(ctx.expression()),
+      body: this.visitStatement(ctx.statement()),
+    }
+
+    return this._addMeta(node, ctx)
+  }
+
   public visitDoWhileStatement(
     ctx: SP.DoWhileStatementContext
   ): AST.DoWhileStatement & WithMeta {

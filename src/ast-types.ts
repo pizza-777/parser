@@ -70,6 +70,7 @@ export const astNodeTypes = [
   'ExpressionStatement',
   'IfStatement',
   'WhileStatement',
+  'RepeatStatement',
   'ForStatement',
   'ForRangeStatement',
   'InlineAssemblyStatement',
@@ -293,6 +294,11 @@ export interface CatchClause extends BaseASTNode {
 }
 export interface WhileStatement extends BaseASTNode {
   type: 'WhileStatement'
+  condition: Expression
+  body: Statement
+}
+export interface RepeatStatement extends BaseASTNode {
+  type: 'RepeatStatement'
   condition: Expression
   body: Statement
 }
@@ -686,6 +692,7 @@ export type TypeName =
 export type Statement =
   | IfStatement
   | WhileStatement
+  | RepeatStatement
   | ForStatement
   | ForRangeStatement
   | Block
