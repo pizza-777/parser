@@ -52,9 +52,11 @@ import { IfStatementContext } from "./SolidityParser";
 import { TryStatementContext } from "./SolidityParser";
 import { CatchClauseContext } from "./SolidityParser";
 import { WhileStatementContext } from "./SolidityParser";
+import { RepeatStatementContext } from "./SolidityParser";
 import { SimpleStatementContext } from "./SolidityParser";
 import { UncheckedStatementContext } from "./SolidityParser";
 import { ForStatementContext } from "./SolidityParser";
+import { ForRangeStatementContext } from "./SolidityParser";
 import { InlineAssemblyStatementContext } from "./SolidityParser";
 import { DoWhileStatementContext } from "./SolidityParser";
 import { ContinueStatementContext } from "./SolidityParser";
@@ -67,6 +69,7 @@ import { VariableDeclarationStatementContext } from "./SolidityParser";
 import { VariableDeclarationListContext } from "./SolidityParser";
 import { IdentifierListContext } from "./SolidityParser";
 import { ElementaryTypeNameContext } from "./SolidityParser";
+import { OptionalContext } from "./SolidityParser";
 import { ExpressionContext } from "./SolidityParser";
 import { PrimaryExpressionContext } from "./SolidityParser";
 import { ExpressionListContext } from "./SolidityParser";
@@ -98,6 +101,7 @@ import { TypeNameExpressionContext } from "./SolidityParser";
 import { NumberLiteralContext } from "./SolidityParser";
 import { IdentifierContext } from "./SolidityParser";
 import { HexLiteralContext } from "./SolidityParser";
+import { OnBounceKeywordContext } from "./SolidityParser";
 import { OverrideSpecifierContext } from "./SolidityParser";
 import { StringLiteralContext } from "./SolidityParser";
 
@@ -454,6 +458,13 @@ export interface SolidityVisitor<Result> extends ParseTreeVisitor<Result> {
 	visitWhileStatement?: (ctx: WhileStatementContext) => Result;
 
 	/**
+	 * Visit a parse tree produced by `SolidityParser.repeatStatement`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitRepeatStatement?: (ctx: RepeatStatementContext) => Result;
+
+	/**
 	 * Visit a parse tree produced by `SolidityParser.simpleStatement`.
 	 * @param ctx the parse tree
 	 * @return the visitor result
@@ -473,6 +484,13 @@ export interface SolidityVisitor<Result> extends ParseTreeVisitor<Result> {
 	 * @return the visitor result
 	 */
 	visitForStatement?: (ctx: ForStatementContext) => Result;
+
+	/**
+	 * Visit a parse tree produced by `SolidityParser.forRangeStatement`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitForRangeStatement?: (ctx: ForRangeStatementContext) => Result;
 
 	/**
 	 * Visit a parse tree produced by `SolidityParser.inlineAssemblyStatement`.
@@ -557,6 +575,13 @@ export interface SolidityVisitor<Result> extends ParseTreeVisitor<Result> {
 	 * @return the visitor result
 	 */
 	visitElementaryTypeName?: (ctx: ElementaryTypeNameContext) => Result;
+
+	/**
+	 * Visit a parse tree produced by `SolidityParser.optional`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitOptional?: (ctx: OptionalContext) => Result;
 
 	/**
 	 * Visit a parse tree produced by `SolidityParser.expression`.
@@ -774,6 +799,13 @@ export interface SolidityVisitor<Result> extends ParseTreeVisitor<Result> {
 	 * @return the visitor result
 	 */
 	visitHexLiteral?: (ctx: HexLiteralContext) => Result;
+
+	/**
+	 * Visit a parse tree produced by `SolidityParser.onBounceKeyword`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitOnBounceKeyword?: (ctx: OnBounceKeywordContext) => Result;
 
 	/**
 	 * Visit a parse tree produced by `SolidityParser.overrideSpecifier`.
