@@ -4,3 +4,6 @@ node_modules/
 .idea
 /Foo.sol
 coverage/
+*.sol
+*.ast.json
+test/everAst.ts

@@ -1,4 +1,5 @@
 [submodule "antlr"]
 	path = antlr
 	url = https://github.com/pizza-777/antlr.git
-	branch = master
+	branch = ton-solidity
+	update = merge
