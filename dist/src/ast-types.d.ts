@@ -33,7 +33,7 @@ export interface UserDefinedTypeName extends BaseASTNode {
     type: 'UserDefinedTypeName';
     namePath: string;
 }
-export declare const astNodeTypes: readonly ["SourceUnit", "PragmaDirective", "ImportDirective", "ContractDefinition", "InheritanceSpecifier", "StateVariableDeclaration", "UsingForDeclaration", "StructDefinition", "ModifierDefinition", "ModifierInvocation", "FunctionDefinition", "EventDefinition", "CustomErrorDefinition", "RevertStatement", "EnumValue", "EnumDefinition", "VariableDeclaration", "UserDefinedTypeName", "Mapping", "ArrayTypeName", "FunctionTypeName", "Block", "ExpressionStatement", "IfStatement", "WhileStatement", "ForStatement", "InlineAssemblyStatement", "DoWhileStatement", "ContinueStatement", "Break", "Continue", "BreakStatement", "ReturnStatement", "EmitStatement", "ThrowStatement", "VariableDeclarationStatement", "ElementaryTypeName", "FunctionCall", "AssemblyBlock", "AssemblyCall", "AssemblyLocalDefinition", "AssemblyAssignment", "AssemblyStackAssignment", "LabelDefinition", "AssemblySwitch", "AssemblyCase", "AssemblyFunctionDefinition", "AssemblyFunctionReturns", "AssemblyFor", "AssemblyIf", "SubAssembly", "TupleExpression", "TypeNameExpression", "NameValueExpression", "BooleanLiteral", "NumberLiteral", "Identifier", "BinaryOperation", "UnaryOperation", "NewExpression", "Conditional", "StringLiteral", "HexLiteral", "HexNumber", "DecimalNumber", "MemberAccess", "IndexAccess", "IndexRangeAccess", "NameValueList", "UncheckedStatement", "TryStatement", "CatchClause", "FileLevelConstant", "AssemblyMemberAccess", "TypeDefinition"];
+export declare const astNodeTypes: readonly ["SourceUnit", "PragmaDirective", "ImportDirective", "ContractDefinition", "InheritanceSpecifier", "StateVariableDeclaration", "UsingForDeclaration", "StructDefinition", "ModifierDefinition", "ModifierInvocation", "FunctionDefinition", "EventDefinition", "CustomErrorDefinition", "RevertStatement", "EnumValue", "EnumDefinition", "VariableDeclaration", "UserDefinedTypeName", "Mapping", "ArrayTypeName", "FunctionTypeName", "Block", "ExpressionStatement", "IfStatement", "WhileStatement", "RepeatStatement", "ForStatement", "ForRangeStatement", "InlineAssemblyStatement", "DoWhileStatement", "ContinueStatement", "Break", "Continue", "BreakStatement", "ReturnStatement", "EmitStatement", "ThrowStatement", "VariableDeclarationStatement", "ElementaryTypeName", "FunctionCall", "AssemblyBlock", "AssemblyCall", "AssemblyLocalDefinition", "AssemblyAssignment", "AssemblyStackAssignment", "LabelDefinition", "AssemblySwitch", "AssemblyCase", "AssemblyFunctionDefinition", "AssemblyFunctionReturns", "AssemblyFor", "AssemblyIf", "SubAssembly", "TupleExpression", "TypeNameExpression", "NameValueExpression", "BooleanLiteral", "NumberLiteral", "Identifier", "BinaryOperation", "UnaryOperation", "NewExpression", "Conditional", "StringLiteral", "HexLiteral", "HexNumber", "DecimalNumber", "MemberAccess", "IndexAccess", "IndexRangeAccess", "NameValueList", "UncheckedStatement", "TryStatement", "CatchClause", "FileLevelConstant", "AssemblyMemberAccess", "TypeDefinition"];
 export declare type ASTNodeTypeString = typeof astNodeTypes[number];
 export interface PragmaDirective extends BaseASTNode {
     type: 'PragmaDirective';
@@ -99,6 +99,8 @@ export interface FunctionDefinition extends BaseASTNode {
     isReceiveEther: boolean;
     isFallback: boolean;
     isVirtual: boolean;
+    isInline: boolean;
+    isOnBounce: boolean;
 }
 export interface CustomErrorDefinition extends BaseASTNode {
     type: 'CustomErrorDefinition';
@@ -144,6 +146,7 @@ export interface VariableDeclaration extends BaseASTNode {
 export interface StateVariableDeclarationVariable extends VariableDeclaration {
     override: null | UserDefinedTypeName[];
     isImmutable: boolean;
+    isStatic: boolean;
 }
 export interface ArrayTypeName extends BaseASTNode {
     type: 'ArrayTypeName';
@@ -199,11 +202,22 @@ export interface WhileStatement extends BaseASTNode {
     condition: Expression;
     body: Statement;
 }
+export interface RepeatStatement extends BaseASTNode {
+    type: 'RepeatStatement';
+    condition: Expression;
+    body: Statement;
+}
 export interface ForStatement extends BaseASTNode {
     type: 'ForStatement';
     initExpression: SimpleStatement | null;
     conditionExpression?: Expression;
     loopExpression: ExpressionStatement;
+    body: Statement;
+}
+export interface ForRangeStatement extends BaseASTNode {
+    type: 'ForRangeStatement';
+    rangeDeclaration: Array<BaseASTNode | null>;
+    rangeExpression: Identifier | Expression;
     body: Statement;
 }
 export interface InlineAssemblyStatement extends BaseASTNode {
@@ -426,7 +440,7 @@ export declare type Expression = IndexAccess | IndexRangeAccess | TupleExpressio
 export declare type PrimaryExpression = BooleanLiteral | HexLiteral | StringLiteral | NumberLiteral | Identifier | TupleExpression | TypeNameExpression;
 export declare type SimpleStatement = VariableDeclarationStatement | ExpressionStatement;
 export declare type TypeName = ElementaryTypeName | UserDefinedTypeName | Mapping | ArrayTypeName | FunctionTypeName;
-export declare type Statement = IfStatement | WhileStatement | ForStatement | Block | InlineAssemblyStatement | DoWhileStatement | ContinueStatement | BreakStatement | ReturnStatement | EmitStatement | ThrowStatement | SimpleStatement | VariableDeclarationStatement | UncheckedStatement | TryStatement | RevertStatement;
+export declare type Statement = IfStatement | WhileStatement | RepeatStatement | ForStatement | ForRangeStatement | Block | InlineAssemblyStatement | DoWhileStatement | ContinueStatement | BreakStatement | ReturnStatement | EmitStatement | ThrowStatement | SimpleStatement | VariableDeclarationStatement | UncheckedStatement | TryStatement | RevertStatement;
 declare type ASTMap<U> = {
     [K in ASTNodeTypeString]: U extends {
         type: K;

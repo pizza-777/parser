@@ -48,9 +48,11 @@ import { IfStatementContext } from "./SolidityParser";
 import { TryStatementContext } from "./SolidityParser";
 import { CatchClauseContext } from "./SolidityParser";
 import { WhileStatementContext } from "./SolidityParser";
+import { RepeatStatementContext } from "./SolidityParser";
 import { SimpleStatementContext } from "./SolidityParser";
 import { UncheckedStatementContext } from "./SolidityParser";
 import { ForStatementContext } from "./SolidityParser";
+import { ForRangeStatementContext } from "./SolidityParser";
 import { InlineAssemblyStatementContext } from "./SolidityParser";
 import { DoWhileStatementContext } from "./SolidityParser";
 import { ContinueStatementContext } from "./SolidityParser";
@@ -63,6 +65,7 @@ import { VariableDeclarationStatementContext } from "./SolidityParser";
 import { VariableDeclarationListContext } from "./SolidityParser";
 import { IdentifierListContext } from "./SolidityParser";
 import { ElementaryTypeNameContext } from "./SolidityParser";
+import { OptionalContext } from "./SolidityParser";
 import { ExpressionContext } from "./SolidityParser";
 import { PrimaryExpressionContext } from "./SolidityParser";
 import { ExpressionListContext } from "./SolidityParser";
@@ -94,6 +97,7 @@ import { TypeNameExpressionContext } from "./SolidityParser";
 import { NumberLiteralContext } from "./SolidityParser";
 import { IdentifierContext } from "./SolidityParser";
 import { HexLiteralContext } from "./SolidityParser";
+import { OnBounceKeywordContext } from "./SolidityParser";
 import { OverrideSpecifierContext } from "./SolidityParser";
 import { StringLiteralContext } from "./SolidityParser";
 /**
@@ -592,6 +596,16 @@ export interface SolidityListener extends ParseTreeListener {
      */
     exitWhileStatement?: (ctx: WhileStatementContext) => void;
     /**
+     * Enter a parse tree produced by `SolidityParser.repeatStatement`.
+     * @param ctx the parse tree
+     */
+    enterRepeatStatement?: (ctx: RepeatStatementContext) => void;
+    /**
+     * Exit a parse tree produced by `SolidityParser.repeatStatement`.
+     * @param ctx the parse tree
+     */
+    exitRepeatStatement?: (ctx: RepeatStatementContext) => void;
+    /**
      * Enter a parse tree produced by `SolidityParser.simpleStatement`.
      * @param ctx the parse tree
      */
@@ -621,6 +635,16 @@ export interface SolidityListener extends ParseTreeListener {
      * @param ctx the parse tree
      */
     exitForStatement?: (ctx: ForStatementContext) => void;
+    /**
+     * Enter a parse tree produced by `SolidityParser.forRangeStatement`.
+     * @param ctx the parse tree
+     */
+    enterForRangeStatement?: (ctx: ForRangeStatementContext) => void;
+    /**
+     * Exit a parse tree produced by `SolidityParser.forRangeStatement`.
+     * @param ctx the parse tree
+     */
+    exitForRangeStatement?: (ctx: ForRangeStatementContext) => void;
     /**
      * Enter a parse tree produced by `SolidityParser.inlineAssemblyStatement`.
      * @param ctx the parse tree
@@ -741,6 +765,16 @@ export interface SolidityListener extends ParseTreeListener {
      * @param ctx the parse tree
      */
     exitElementaryTypeName?: (ctx: ElementaryTypeNameContext) => void;
+    /**
+     * Enter a parse tree produced by `SolidityParser.optional`.
+     * @param ctx the parse tree
+     */
+    enterOptional?: (ctx: OptionalContext) => void;
+    /**
+     * Exit a parse tree produced by `SolidityParser.optional`.
+     * @param ctx the parse tree
+     */
+    exitOptional?: (ctx: OptionalContext) => void;
     /**
      * Enter a parse tree produced by `SolidityParser.expression`.
      * @param ctx the parse tree
@@ -1051,6 +1085,16 @@ export interface SolidityListener extends ParseTreeListener {
      * @param ctx the parse tree
      */
     exitHexLiteral?: (ctx: HexLiteralContext) => void;
+    /**
+     * Enter a parse tree produced by `SolidityParser.onBounceKeyword`.
+     * @param ctx the parse tree
+     */
+    enterOnBounceKeyword?: (ctx: OnBounceKeywordContext) => void;
+    /**
+     * Exit a parse tree produced by `SolidityParser.onBounceKeyword`.
+     * @param ctx the parse tree
+     */
+    exitOnBounceKeyword?: (ctx: OnBounceKeywordContext) => void;
     /**
      * Enter a parse tree produced by `SolidityParser.overrideSpecifier`.
      * @param ctx the parse tree

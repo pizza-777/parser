@@ -49,6 +49,7 @@ export declare class ASTBuilder extends AbstractParseTreeVisitor<ASTBuilderNode>
     visitFunctionCall(ctx: SP.FunctionCallContext): AST.FunctionCall & WithMeta;
     visitStructDefinition(ctx: SP.StructDefinitionContext): AST.StructDefinition & WithMeta;
     visitWhileStatement(ctx: SP.WhileStatementContext): AST.WhileStatement & WithMeta;
+    visitRepeatStatement(ctx: SP.RepeatStatementContext): AST.RepeatStatement & WithMeta;
     visitDoWhileStatement(ctx: SP.DoWhileStatementContext): AST.DoWhileStatement & WithMeta;
     visitIfStatement(ctx: SP.IfStatementContext): AST.IfStatement & WithMeta;
     visitTryStatement(ctx: SP.TryStatementContext): AST.TryStatement & WithMeta;
@@ -63,16 +64,17 @@ export declare class ASTBuilder extends AbstractParseTreeVisitor<ASTBuilderNode>
     visitNameValueList(ctx: SP.NameValueListContext): AST.NameValueList & WithMeta;
     visitFileLevelConstant(ctx: SP.FileLevelConstantContext): AST.FileLevelConstant & WithMeta;
     visitForStatement(ctx: SP.ForStatementContext): AST.ForStatement & WithMeta;
+    visitForRangeStatement(ctx: SP.ForRangeStatementContext): AST.ForRangeStatement & WithMeta;
     visitHexLiteral(ctx: SP.HexLiteralContext): AST.HexLiteral & WithMeta;
     visitPrimaryExpression(ctx: SP.PrimaryExpressionContext): AST.PrimaryExpression & WithMeta;
     visitTupleExpression(ctx: SP.TupleExpressionContext): AST.TupleExpression & WithMeta;
-    buildIdentifierList(ctx: SP.IdentifierListContext): ((AST.VariableDeclaration & WithMeta) | null)[];
+    buildIdentifierList(ctx: SP.IdentifierListContext): (AST.VariableDeclaration & WithMeta)[];
     buildVariableDeclarationList(ctx: SP.VariableDeclarationListContext): Array<(AST.VariableDeclaration & WithMeta) | null>;
     visitImportDirective(ctx: SP.ImportDirectiveContext): AST.ImportDirective & WithMeta;
     buildEventParameterList(ctx: SP.EventParameterListContext): {
         type: string;
         typeName: ASTBuilderNode;
-        name: string | null;
+        name: any;
         isStateVar: boolean;
         isIndexed: boolean;
     }[];

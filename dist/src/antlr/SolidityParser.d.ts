@@ -107,43 +107,51 @@ export declare class SolidityParser extends Parser {
     static readonly T__95 = 96;
     static readonly T__96 = 97;
     static readonly T__97 = 98;
-    static readonly Int = 99;
-    static readonly Uint = 100;
-    static readonly Byte = 101;
-    static readonly Fixed = 102;
-    static readonly Ufixed = 103;
-    static readonly TvmCell = 104;
-    static readonly BooleanLiteral = 105;
-    static readonly DecimalNumber = 106;
-    static readonly HexNumber = 107;
-    static readonly NumberUnit = 108;
-    static readonly HexLiteralFragment = 109;
-    static readonly ReservedKeyword = 110;
-    static readonly AnonymousKeyword = 111;
-    static readonly BreakKeyword = 112;
-    static readonly ConstantKeyword = 113;
-    static readonly ImmutableKeyword = 114;
-    static readonly ContinueKeyword = 115;
-    static readonly LeaveKeyword = 116;
-    static readonly ExternalKeyword = 117;
-    static readonly IndexedKeyword = 118;
-    static readonly InternalKeyword = 119;
-    static readonly PayableKeyword = 120;
-    static readonly PrivateKeyword = 121;
-    static readonly PublicKeyword = 122;
-    static readonly VirtualKeyword = 123;
-    static readonly PureKeyword = 124;
-    static readonly TypeKeyword = 125;
-    static readonly ViewKeyword = 126;
-    static readonly ConstructorKeyword = 127;
-    static readonly FallbackKeyword = 128;
-    static readonly ReceiveKeyword = 129;
-    static readonly Identifier = 130;
-    static readonly StringLiteralFragment = 131;
-    static readonly VersionLiteral = 132;
-    static readonly WS = 133;
-    static readonly COMMENT = 134;
-    static readonly LINE_COMMENT = 135;
+    static readonly T__98 = 99;
+    static readonly T__99 = 100;
+    static readonly T__100 = 101;
+    static readonly T__101 = 102;
+    static readonly T__102 = 103;
+    static readonly T__103 = 104;
+    static readonly Int = 105;
+    static readonly Uint = 106;
+    static readonly Byte = 107;
+    static readonly Fixed = 108;
+    static readonly Ufixed = 109;
+    static readonly TvmCell = 110;
+    static readonly BooleanLiteral = 111;
+    static readonly DecimalNumber = 112;
+    static readonly HexNumber = 113;
+    static readonly NumberUnit = 114;
+    static readonly HexLiteralFragment = 115;
+    static readonly ReservedKeyword = 116;
+    static readonly AnonymousKeyword = 117;
+    static readonly BreakKeyword = 118;
+    static readonly ConstantKeyword = 119;
+    static readonly ImmutableKeyword = 120;
+    static readonly ContinueKeyword = 121;
+    static readonly LeaveKeyword = 122;
+    static readonly ExternalKeyword = 123;
+    static readonly IndexedKeyword = 124;
+    static readonly InternalKeyword = 125;
+    static readonly PayableKeyword = 126;
+    static readonly PrivateKeyword = 127;
+    static readonly PublicKeyword = 128;
+    static readonly StaticKeyword = 129;
+    static readonly VirtualKeyword = 130;
+    static readonly PureKeyword = 131;
+    static readonly TypeKeyword = 132;
+    static readonly ViewKeyword = 133;
+    static readonly InlineKeyword = 134;
+    static readonly ConstructorKeyword = 135;
+    static readonly FallbackKeyword = 136;
+    static readonly ReceiveKeyword = 137;
+    static readonly Identifier = 138;
+    static readonly StringLiteralFragment = 139;
+    static readonly VersionLiteral = 140;
+    static readonly WS = 141;
+    static readonly COMMENT = 142;
+    static readonly LINE_COMMENT = 143;
     static readonly RULE_sourceUnit = 0;
     static readonly RULE_pragmaDirective = 1;
     static readonly RULE_pragmaName = 2;
@@ -193,54 +201,58 @@ export declare class SolidityParser extends Parser {
     static readonly RULE_tryStatement = 46;
     static readonly RULE_catchClause = 47;
     static readonly RULE_whileStatement = 48;
-    static readonly RULE_simpleStatement = 49;
-    static readonly RULE_uncheckedStatement = 50;
-    static readonly RULE_forStatement = 51;
-    static readonly RULE_inlineAssemblyStatement = 52;
-    static readonly RULE_doWhileStatement = 53;
-    static readonly RULE_continueStatement = 54;
-    static readonly RULE_breakStatement = 55;
-    static readonly RULE_returnStatement = 56;
-    static readonly RULE_throwStatement = 57;
-    static readonly RULE_emitStatement = 58;
-    static readonly RULE_revertStatement = 59;
-    static readonly RULE_variableDeclarationStatement = 60;
-    static readonly RULE_variableDeclarationList = 61;
-    static readonly RULE_identifierList = 62;
-    static readonly RULE_elementaryTypeName = 63;
-    static readonly RULE_expression = 64;
-    static readonly RULE_primaryExpression = 65;
-    static readonly RULE_expressionList = 66;
-    static readonly RULE_nameValueList = 67;
-    static readonly RULE_nameValue = 68;
-    static readonly RULE_functionCallArguments = 69;
-    static readonly RULE_functionCall = 70;
-    static readonly RULE_assemblyBlock = 71;
-    static readonly RULE_assemblyItem = 72;
-    static readonly RULE_assemblyExpression = 73;
-    static readonly RULE_assemblyMember = 74;
-    static readonly RULE_assemblyCall = 75;
-    static readonly RULE_assemblyLocalDefinition = 76;
-    static readonly RULE_assemblyAssignment = 77;
-    static readonly RULE_assemblyIdentifierOrList = 78;
-    static readonly RULE_assemblyIdentifierList = 79;
-    static readonly RULE_assemblyStackAssignment = 80;
-    static readonly RULE_labelDefinition = 81;
-    static readonly RULE_assemblySwitch = 82;
-    static readonly RULE_assemblyCase = 83;
-    static readonly RULE_assemblyFunctionDefinition = 84;
-    static readonly RULE_assemblyFunctionReturns = 85;
-    static readonly RULE_assemblyFor = 86;
-    static readonly RULE_assemblyIf = 87;
-    static readonly RULE_assemblyLiteral = 88;
-    static readonly RULE_subAssembly = 89;
-    static readonly RULE_tupleExpression = 90;
-    static readonly RULE_typeNameExpression = 91;
-    static readonly RULE_numberLiteral = 92;
-    static readonly RULE_identifier = 93;
-    static readonly RULE_hexLiteral = 94;
-    static readonly RULE_overrideSpecifier = 95;
-    static readonly RULE_stringLiteral = 96;
+    static readonly RULE_repeatStatement = 49;
+    static readonly RULE_simpleStatement = 50;
+    static readonly RULE_uncheckedStatement = 51;
+    static readonly RULE_forStatement = 52;
+    static readonly RULE_forRangeStatement = 53;
+    static readonly RULE_inlineAssemblyStatement = 54;
+    static readonly RULE_doWhileStatement = 55;
+    static readonly RULE_continueStatement = 56;
+    static readonly RULE_breakStatement = 57;
+    static readonly RULE_returnStatement = 58;
+    static readonly RULE_throwStatement = 59;
+    static readonly RULE_emitStatement = 60;
+    static readonly RULE_revertStatement = 61;
+    static readonly RULE_variableDeclarationStatement = 62;
+    static readonly RULE_variableDeclarationList = 63;
+    static readonly RULE_identifierList = 64;
+    static readonly RULE_elementaryTypeName = 65;
+    static readonly RULE_optional = 66;
+    static readonly RULE_expression = 67;
+    static readonly RULE_primaryExpression = 68;
+    static readonly RULE_expressionList = 69;
+    static readonly RULE_nameValueList = 70;
+    static readonly RULE_nameValue = 71;
+    static readonly RULE_functionCallArguments = 72;
+    static readonly RULE_functionCall = 73;
+    static readonly RULE_assemblyBlock = 74;
+    static readonly RULE_assemblyItem = 75;
+    static readonly RULE_assemblyExpression = 76;
+    static readonly RULE_assemblyMember = 77;
+    static readonly RULE_assemblyCall = 78;
+    static readonly RULE_assemblyLocalDefinition = 79;
+    static readonly RULE_assemblyAssignment = 80;
+    static readonly RULE_assemblyIdentifierOrList = 81;
+    static readonly RULE_assemblyIdentifierList = 82;
+    static readonly RULE_assemblyStackAssignment = 83;
+    static readonly RULE_labelDefinition = 84;
+    static readonly RULE_assemblySwitch = 85;
+    static readonly RULE_assemblyCase = 86;
+    static readonly RULE_assemblyFunctionDefinition = 87;
+    static readonly RULE_assemblyFunctionReturns = 88;
+    static readonly RULE_assemblyFor = 89;
+    static readonly RULE_assemblyIf = 90;
+    static readonly RULE_assemblyLiteral = 91;
+    static readonly RULE_subAssembly = 92;
+    static readonly RULE_tupleExpression = 93;
+    static readonly RULE_typeNameExpression = 94;
+    static readonly RULE_numberLiteral = 95;
+    static readonly RULE_identifier = 96;
+    static readonly RULE_hexLiteral = 97;
+    static readonly RULE_onBounceKeyword = 98;
+    static readonly RULE_overrideSpecifier = 99;
+    static readonly RULE_stringLiteral = 100;
     static readonly ruleNames: string[];
     private static readonly _LITERAL_NAMES;
     private static readonly _SYMBOLIC_NAMES;
@@ -301,9 +313,11 @@ export declare class SolidityParser extends Parser {
     tryStatement(): TryStatementContext;
     catchClause(): CatchClauseContext;
     whileStatement(): WhileStatementContext;
+    repeatStatement(): RepeatStatementContext;
     simpleStatement(): SimpleStatementContext;
     uncheckedStatement(): UncheckedStatementContext;
     forStatement(): ForStatementContext;
+    forRangeStatement(): ForRangeStatementContext;
     inlineAssemblyStatement(): InlineAssemblyStatementContext;
     doWhileStatement(): DoWhileStatementContext;
     continueStatement(): ContinueStatementContext;
@@ -316,6 +330,7 @@ export declare class SolidityParser extends Parser {
     variableDeclarationList(): VariableDeclarationListContext;
     identifierList(): IdentifierListContext;
     elementaryTypeName(): ElementaryTypeNameContext;
+    optional(): OptionalContext;
     expression(): ExpressionContext;
     expression(_p: number): ExpressionContext;
     primaryExpression(): PrimaryExpressionContext;
@@ -348,6 +363,7 @@ export declare class SolidityParser extends Parser {
     numberLiteral(): NumberLiteralContext;
     identifier(): IdentifierContext;
     hexLiteral(): HexLiteralContext;
+    onBounceKeyword(): OnBounceKeywordContext;
     overrideSpecifier(): OverrideSpecifierContext;
     stringLiteral(): StringLiteralContext;
     sempred(_localctx: RuleContext, ruleIndex: number, predIndex: number): boolean;
@@ -389,7 +405,7 @@ export declare class SourceUnitContext extends ParserRuleContext {
 }
 export declare class PragmaDirectiveContext extends ParserRuleContext {
     pragmaName(): PragmaNameContext;
-    pragmaValue(): PragmaValueContext;
+    pragmaValue(): PragmaValueContext | undefined;
     constructor(parent: ParserRuleContext | undefined, invokingState: number);
     get ruleIndex(): number;
     enterRule(listener: SolidityListener): void;
@@ -397,7 +413,6 @@ export declare class PragmaDirectiveContext extends ParserRuleContext {
     accept<Result>(visitor: SolidityVisitor<Result>): Result;
 }
 export declare class PragmaNameContext extends ParserRuleContext {
-    identifier(): IdentifierContext;
     constructor(parent: ParserRuleContext | undefined, invokingState: number);
     get ruleIndex(): number;
     enterRule(listener: SolidityListener): void;
@@ -508,6 +523,8 @@ export declare class ContractPartContext extends ParserRuleContext {
 export declare class StateVariableDeclarationContext extends ParserRuleContext {
     typeName(): TypeNameContext;
     identifier(): IdentifierContext;
+    StaticKeyword(): TerminalNode[];
+    StaticKeyword(i: number): TerminalNode;
     PublicKeyword(): TerminalNode[];
     PublicKeyword(i: number): TerminalNode;
     InternalKeyword(): TerminalNode[];
@@ -616,6 +633,7 @@ export declare class FunctionDescriptorContext extends ParserRuleContext {
     ConstructorKeyword(): TerminalNode | undefined;
     FallbackKeyword(): TerminalNode | undefined;
     ReceiveKeyword(): TerminalNode | undefined;
+    onBounceKeyword(): OnBounceKeywordContext | undefined;
     constructor(parent: ParserRuleContext | undefined, invokingState: number);
     get ruleIndex(): number;
     enterRule(listener: SolidityListener): void;
@@ -639,6 +657,8 @@ export declare class ModifierListContext extends ParserRuleContext {
     InternalKeyword(i: number): TerminalNode;
     PrivateKeyword(): TerminalNode[];
     PrivateKeyword(i: number): TerminalNode;
+    InlineKeyword(): TerminalNode[];
+    InlineKeyword(i: number): TerminalNode;
     VirtualKeyword(): TerminalNode[];
     VirtualKeyword(i: number): TerminalNode;
     stateMutability(): StateMutabilityContext[];
@@ -764,6 +784,8 @@ export declare class TypeNameContext extends ParserRuleContext {
 export declare class UserDefinedTypeNameContext extends ParserRuleContext {
     identifier(): IdentifierContext[];
     identifier(i: number): IdentifierContext;
+    nameValueList(): NameValueListContext | undefined;
+    expressionList(): ExpressionListContext | undefined;
     constructor(parent: ParserRuleContext | undefined, invokingState: number);
     get ruleIndex(): number;
     enterRule(listener: SolidityListener): void;
@@ -834,7 +856,9 @@ export declare class StatementContext extends ParserRuleContext {
     ifStatement(): IfStatementContext | undefined;
     tryStatement(): TryStatementContext | undefined;
     whileStatement(): WhileStatementContext | undefined;
+    repeatStatement(): RepeatStatementContext | undefined;
     forStatement(): ForStatementContext | undefined;
+    forRangeStatement(): ForRangeStatementContext | undefined;
     block(): BlockContext | undefined;
     inlineAssemblyStatement(): InlineAssemblyStatementContext | undefined;
     doWhileStatement(): DoWhileStatementContext | undefined;
@@ -901,6 +925,15 @@ export declare class WhileStatementContext extends ParserRuleContext {
     exitRule(listener: SolidityListener): void;
     accept<Result>(visitor: SolidityVisitor<Result>): Result;
 }
+export declare class RepeatStatementContext extends ParserRuleContext {
+    expression(): ExpressionContext;
+    statement(): StatementContext;
+    constructor(parent: ParserRuleContext | undefined, invokingState: number);
+    get ruleIndex(): number;
+    enterRule(listener: SolidityListener): void;
+    exitRule(listener: SolidityListener): void;
+    accept<Result>(visitor: SolidityVisitor<Result>): Result;
+}
 export declare class SimpleStatementContext extends ParserRuleContext {
     variableDeclarationStatement(): VariableDeclarationStatementContext | undefined;
     expressionStatement(): ExpressionStatementContext | undefined;
@@ -922,6 +955,18 @@ export declare class ForStatementContext extends ParserRuleContext {
     statement(): StatementContext;
     simpleStatement(): SimpleStatementContext | undefined;
     expressionStatement(): ExpressionStatementContext | undefined;
+    expression(): ExpressionContext | undefined;
+    constructor(parent: ParserRuleContext | undefined, invokingState: number);
+    get ruleIndex(): number;
+    enterRule(listener: SolidityListener): void;
+    exitRule(listener: SolidityListener): void;
+    accept<Result>(visitor: SolidityVisitor<Result>): Result;
+}
+export declare class ForRangeStatementContext extends ParserRuleContext {
+    statement(): StatementContext;
+    variableDeclaration(): VariableDeclarationContext | undefined;
+    variableDeclarationList(): VariableDeclarationListContext | undefined;
+    identifier(): IdentifierContext | undefined;
     expression(): ExpressionContext | undefined;
     constructor(parent: ParserRuleContext | undefined, invokingState: number);
     get ruleIndex(): number;
@@ -964,6 +1009,7 @@ export declare class BreakStatementContext extends ParserRuleContext {
     accept<Result>(visitor: SolidityVisitor<Result>): Result;
 }
 export declare class ReturnStatementContext extends ParserRuleContext {
+    nameValueList(): NameValueListContext | undefined;
     expression(): ExpressionContext | undefined;
     constructor(parent: ParserRuleContext | undefined, invokingState: number);
     get ruleIndex(): number;
@@ -1030,6 +1076,16 @@ export declare class ElementaryTypeNameContext extends ParserRuleContext {
     Fixed(): TerminalNode | undefined;
     Ufixed(): TerminalNode | undefined;
     TvmCell(): TerminalNode | undefined;
+    optional(): OptionalContext | undefined;
+    constructor(parent: ParserRuleContext | undefined, invokingState: number);
+    get ruleIndex(): number;
+    enterRule(listener: SolidityListener): void;
+    exitRule(listener: SolidityListener): void;
+    accept<Result>(visitor: SolidityVisitor<Result>): Result;
+}
+export declare class OptionalContext extends ParserRuleContext {
+    typeName(): TypeNameContext[];
+    typeName(i: number): TypeNameContext;
     constructor(parent: ParserRuleContext | undefined, invokingState: number);
     get ruleIndex(): number;
     enterRule(listener: SolidityListener): void;
@@ -1039,6 +1095,7 @@ export declare class ElementaryTypeNameContext extends ParserRuleContext {
 export declare class ExpressionContext extends ParserRuleContext {
     expression(): ExpressionContext[];
     expression(i: number): ExpressionContext;
+    typeName(): TypeNameContext | undefined;
     identifier(): IdentifierContext | undefined;
     nameValueList(): NameValueListContext | undefined;
     functionCallArguments(): FunctionCallArgumentsContext | undefined;
@@ -1085,8 +1142,7 @@ export declare class NameValueListContext extends ParserRuleContext {
 }
 export declare class NameValueContext extends ParserRuleContext {
     identifier(): IdentifierContext;
-    expression(): ExpressionContext | undefined;
-    nameValueList(): NameValueListContext | undefined;
+    expression(): ExpressionContext;
     constructor(parent: ParserRuleContext | undefined, invokingState: number);
     get ruleIndex(): number;
     enterRule(listener: SolidityListener): void;
@@ -1348,6 +1404,13 @@ export declare class IdentifierContext extends ParserRuleContext {
 export declare class HexLiteralContext extends ParserRuleContext {
     HexLiteralFragment(): TerminalNode[];
     HexLiteralFragment(i: number): TerminalNode;
+    constructor(parent: ParserRuleContext | undefined, invokingState: number);
+    get ruleIndex(): number;
+    enterRule(listener: SolidityListener): void;
+    exitRule(listener: SolidityListener): void;
+    accept<Result>(visitor: SolidityVisitor<Result>): Result;
+}
+export declare class OnBounceKeywordContext extends ParserRuleContext {
     constructor(parent: ParserRuleContext | undefined, invokingState: number);
     get ruleIndex(): number;
     enterRule(listener: SolidityListener): void;
