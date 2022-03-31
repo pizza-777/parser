@@ -116,6 +116,7 @@ export const astNodeTypes = [
   'IndexAccess',
   'IndexRangeAccess',
   'NameValueList',
+  'NameValueBlockStatement',
   'UncheckedStatement',
   'TryStatement',
   'CatchClause',
@@ -589,6 +590,12 @@ export interface NameValueList extends BaseASTNode {
   identifiers: Identifier[]
   arguments: Expression[]
 }
+export interface NameValueBlockStatement extends BaseASTNode {
+  type: 'NameValueBlockStatement'
+  names: string[]
+  identifiers: Identifier[]
+  arguments: Expression[]
+}
 export type ASTNode =
   | SourceUnit
   | PragmaDirective
@@ -636,6 +643,7 @@ export type ASTNode =
   | AssemblyItem
   | Expression
   | NameValueList
+  | NameValueBlockStatement
   | AssemblyMemberAccess
   | CatchClause
   | FileLevelConstant
@@ -666,6 +674,7 @@ export type Expression =
   | IndexAccess
   | IndexRangeAccess
   | TupleExpression
+  | NameValueBlockStatement
   | BinaryOperation
   | Conditional
   | MemberAccess

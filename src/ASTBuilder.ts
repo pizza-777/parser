@@ -1051,6 +1051,12 @@ export class ASTBuilder
 
     switch (ctx.children!.length) {
       case 1: {
+        //nameValueBlockStatement
+        const nameValueBlockStatement = ctx.nameValueBlockStatement()
+        if (nameValueBlockStatement !== undefined) {
+          return this.visitNameValueBlockStatement(nameValueBlockStatement)
+        }
+
         // primary expression
         const primaryExpressionCtx = ctx.tryGetRuleContext(
           0,
@@ -1303,6 +1309,39 @@ export class ASTBuilder
       arguments: args,
     }
 
+    return this._addMeta(node, ctx)
+  }
+
+  public visitNameValueBlockStatement(
+    ctx: SP.NameValueBlockStatementContext
+  ): AST.NameValueBlockStatement & WithMeta {
+
+    let names: string[] = [];
+    let identifiers: AST.Identifier[] = [];
+    let args: AST.Expression[] = []
+    const ctxNameValueLists = ctx.nameValueList();
+    if (ctxNameValueLists) {
+      const ctxNameValueListsNode = this.visitNameValueList(ctxNameValueLists);
+      names = ctxNameValueListsNode.names;
+      identifiers = ctxNameValueListsNode.identifiers;
+      args = ctxNameValueListsNode.arguments;
+    }
+
+    const ctxExpressionList = ctx.expressionList();
+    if (ctxExpressionList) {
+      const exprList = ctx.expressionList()
+      args =
+        exprList !== undefined
+          ? exprList.expression().map((x) => this.visitExpression(x))
+          : []
+    }
+
+    const node: AST.NameValueBlockStatement = {
+      type: 'NameValueBlockStatement',
+      names,
+      identifiers,
+      arguments: args,
+    }
     return this._addMeta(node, ctx)
   }
 
