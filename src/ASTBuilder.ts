@@ -560,9 +560,14 @@ export class ASTBuilder
   ): AST.PragmaDirective & WithMeta {
     // this converts something like >= 0.5.0  <0.7.0
     // in >=0.5.0 <0.7.0
-    const versionContext = ctx.pragmaValue().version()
+    const ctxPragmaValue = ctx.pragmaValue()
+    let versionContext
+    let value = ''
+    if(ctxPragmaValue){
+      versionContext = ctxPragmaValue.version()
+      value = this._toText(ctxPragmaValue)
+    }
 
-    let value = this._toText(ctx.pragmaValue())
     if (versionContext?.children !== undefined) {
       value = versionContext.children.map((x) => this._toText(x)).join(' ')
     }
