@@ -72,6 +72,7 @@ import { ElementaryTypeNameContext } from "./SolidityParser";
 import { OptionalContext } from "./SolidityParser";
 import { ExpressionContext } from "./SolidityParser";
 import { PrimaryExpressionContext } from "./SolidityParser";
+import { NameValueBlockStatementContext } from "./SolidityParser";
 import { ExpressionListContext } from "./SolidityParser";
 import { NameValueListContext } from "./SolidityParser";
 import { NameValueContext } from "./SolidityParser";
@@ -869,6 +870,17 @@ export interface SolidityListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitPrimaryExpression?: (ctx: PrimaryExpressionContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `SolidityParser.nameValueBlockStatement`.
+	 * @param ctx the parse tree
+	 */
+	enterNameValueBlockStatement?: (ctx: NameValueBlockStatementContext) => void;
+	/**
+	 * Exit a parse tree produced by `SolidityParser.nameValueBlockStatement`.
+	 * @param ctx the parse tree
+	 */
+	exitNameValueBlockStatement?: (ctx: NameValueBlockStatementContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `SolidityParser.expressionList`.
