@@ -523,6 +523,10 @@ export class ASTBuilder
       return this.visitFunctionTypeName(ctx.functionTypeName()!)
     }
 
+    if (ctx.optionalTypeName() !== undefined) {
+      return this.visitOptionalTypeName(ctx.optionalTypeName()!)
+    }
+
     throw new Error('Assertion error: unhandled type name case')
   }
 
@@ -705,6 +709,18 @@ export class ASTBuilder
     }
 
     return this._addMeta(node, ctx)
+  }
+
+  public visitOptionalTypeName(
+      ctx: SP.OptionalTypeNameContext
+    ): AST.OptionalTypeName & WithMeta {
+      const args = ctx.typeName().map((x) => this.visitTypeName(x))
+      const node: AST.OptionalTypeName = {
+        type: 'OptionalTypeName',
+        arguments: args,
+      }
+
+      return this._addMeta(node, ctx)
   }
 
   public visitThrowStatement(

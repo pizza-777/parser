@@ -66,6 +66,7 @@ export const astNodeTypes = [
   'Mapping',
   'ArrayTypeName',
   'FunctionTypeName',
+  'OptionalTypeName',
   'Block',
   'ExpressionStatement',
   'IfStatement',
@@ -259,6 +260,10 @@ export interface FunctionTypeName extends BaseASTNode {
   returnTypes: VariableDeclaration[]
   visibility: string
   stateMutability: string | null
+}
+export interface OptionalTypeName extends BaseASTNode {
+  type: 'OptionalTypeName',
+  arguments: TypeName[]
 }
 
 export interface Block extends BaseASTNode {
@@ -617,6 +622,7 @@ export type ASTNode =
   | UserDefinedTypeName
   | Mapping
   | FunctionTypeName
+  | OptionalTypeName
   | Block
   | Statement
   | ElementaryTypeName
@@ -698,6 +704,7 @@ export type TypeName =
   | Mapping
   | ArrayTypeName
   | FunctionTypeName
+  | OptionalTypeName
 export type Statement =
   | IfStatement
   | WhileStatement

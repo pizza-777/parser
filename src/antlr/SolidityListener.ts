@@ -69,7 +69,7 @@ import { VariableDeclarationStatementContext } from "./SolidityParser";
 import { VariableDeclarationListContext } from "./SolidityParser";
 import { IdentifierListContext } from "./SolidityParser";
 import { ElementaryTypeNameContext } from "./SolidityParser";
-import { OptionalContext } from "./SolidityParser";
+import { OptionalTypeNameContext } from "./SolidityParser";
 import { ExpressionContext } from "./SolidityParser";
 import { PrimaryExpressionContext } from "./SolidityParser";
 import { NameValueBlockStatementContext } from "./SolidityParser";
@@ -839,15 +839,15 @@ export interface SolidityListener extends ParseTreeListener {
 	exitElementaryTypeName?: (ctx: ElementaryTypeNameContext) => void;
 
 	/**
-	 * Enter a parse tree produced by `SolidityParser.optional`.
+	 * Enter a parse tree produced by `SolidityParser.optionalTypeName`.
 	 * @param ctx the parse tree
 	 */
-	enterOptional?: (ctx: OptionalContext) => void;
+	enterOptionalTypeName?: (ctx: OptionalTypeNameContext) => void;
 	/**
-	 * Exit a parse tree produced by `SolidityParser.optional`.
+	 * Exit a parse tree produced by `SolidityParser.optionalTypeName`.
 	 * @param ctx the parse tree
 	 */
-	exitOptional?: (ctx: OptionalContext) => void;
+	exitOptionalTypeName?: (ctx: OptionalTypeNameContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `SolidityParser.expression`.

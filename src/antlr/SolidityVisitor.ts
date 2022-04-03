@@ -69,7 +69,7 @@ import { VariableDeclarationStatementContext } from "./SolidityParser";
 import { VariableDeclarationListContext } from "./SolidityParser";
 import { IdentifierListContext } from "./SolidityParser";
 import { ElementaryTypeNameContext } from "./SolidityParser";
-import { OptionalContext } from "./SolidityParser";
+import { OptionalTypeNameContext } from "./SolidityParser";
 import { ExpressionContext } from "./SolidityParser";
 import { PrimaryExpressionContext } from "./SolidityParser";
 import { NameValueBlockStatementContext } from "./SolidityParser";
@@ -578,11 +578,11 @@ export interface SolidityVisitor<Result> extends ParseTreeVisitor<Result> {
 	visitElementaryTypeName?: (ctx: ElementaryTypeNameContext) => Result;
 
 	/**
-	 * Visit a parse tree produced by `SolidityParser.optional`.
+	 * Visit a parse tree produced by `SolidityParser.optionalTypeName`.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	visitOptional?: (ctx: OptionalContext) => Result;
+	visitOptionalTypeName?: (ctx: OptionalTypeNameContext) => Result;
 
 	/**
 	 * Visit a parse tree produced by `SolidityParser.expression`.
