@@ -1233,6 +1233,20 @@ export class ASTBuilder
           this._toText(ctx.getChild(1)) === '{' &&
           this._toText(ctx.getChild(3)) === '}'
         ) {
+          const node: AST.ExpressionNameValue = {
+            type: 'ExpressionNameValue',
+            expression: this.visitExpression(ctx.expression(0)),
+            arguments: this.visitNameValueList(ctx.nameValueList()!),
+          }
+
+          return this._addMeta(node, ctx)
+        }
+
+        // nameValueList with expression
+        if (
+          this._toText(ctx.getChild(0)) === '{' &&
+          this._toText(ctx.getChild(2)) === '}'
+        ) {
           const node: AST.NameValueExpression = {
             type: 'NameValueExpression',
             expression: this.visitExpression(ctx.expression(0)),

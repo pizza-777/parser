@@ -101,7 +101,9 @@ export const astNodeTypes = [
   'SubAssembly',
   'TupleExpression',
   'TypeNameExpression',
+  'ExpressionNameValue',
   'NameValueExpression',
+  'ExpressionNameValue',
   'BooleanLiteral',
   'NumberLiteral',
   'Identifier',
@@ -457,6 +459,11 @@ export interface TypeNameExpression extends BaseASTNode {
   type: 'TypeNameExpression'
   typeName: ElementaryTypeName | UserDefinedTypeName | ArrayTypeName
 }
+export interface ExpressionNameValue extends BaseASTNode {
+  type: 'ExpressionNameValue'
+  expression: Expression
+  arguments: NameValueList
+}
 export interface NameValueExpression extends BaseASTNode {
   type: 'NameValueExpression'
   expression: Expression
@@ -689,6 +696,7 @@ export type Expression =
   | NewExpression
   | PrimaryExpression
   | NameValueExpression
+  | ExpressionNameValue
 export type PrimaryExpression =
   | BooleanLiteral
   | HexLiteral
