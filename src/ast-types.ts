@@ -196,6 +196,7 @@ export interface FunctionDefinition extends BaseASTNode {
   isVirtual: boolean
   isInline: boolean
   isOnBounce: boolean
+  isResponsible: boolean
 }
 
 export interface CustomErrorDefinition extends BaseASTNode {

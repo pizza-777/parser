@@ -304,6 +304,7 @@ export class ASTBuilder
     let isVirtual = false
     let isInline = false
     let isOnBounce = false
+    let isResponsible = false
     let name: string | null = null
     let parameters: any = []
     let returnParameters: AST.VariableDeclaration[] | null = null
@@ -391,6 +392,10 @@ export class ASTBuilder
           isInline = true
         }
 
+        if(ctx.modifierList().ResponsibleKeyword().length > 0) {
+          isResponsible = true
+        }
+
         isConstructor = name === this._currentContract
         isFallback = name === ''
         break
@@ -426,6 +431,7 @@ export class ASTBuilder
       isFallback,
       isVirtual,
       isInline,
+      isResponsible,
       isOnBounce,
       stateMutability,
     }
