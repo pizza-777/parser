@@ -1,3 +1,14 @@
+# Everscale Solidity Parser for javascript
+
+---
+**NOTE**
+
+This is the fork of the Solidity Parser for JavaScript. This code works with Everscale Solidity (or ton-solidity)
+
+See original README.me below
+
+---
+
 # Solidity Parser for JavaScript
 
 [![npm version](https://badge.fury.io/js/%40solidity-parser%2Fparser.svg)](https://badge.fury.io/js/%40solidity-parser%2Fparser)
@@ -52,7 +63,6 @@ following options, in a style similar to the _esprima_ API:
 | tolerant | Boolean | false   | When set to `true` it will collect syntax errors and place them in a list under the key `errors` inside the root node of the returned AST. Otherwise, it will raise a `parser.ParserError`.          |
 | loc      | Boolean | false   | When set to `true`, it will add location information to each node, with start and stop keys that contain the corresponding line and column numbers. Column numbers start from 0, lines start from 1. |
 | range    | Boolean | false   | When set to `true`, it will add range information to each node, which consists of a two-element array with start and stop character indexes in the input.                                            |
-
 
 ### Example with location information
 

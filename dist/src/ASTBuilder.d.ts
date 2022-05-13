@@ -40,6 +40,7 @@ export declare class ASTBuilder extends AbstractParseTreeVisitor<ASTBuilderNode>
     visitTypeNameExpression(ctx: SP.TypeNameExpressionContext): AST.TypeNameExpression & WithMeta;
     visitFunctionTypeName(ctx: SP.FunctionTypeNameContext): AST.FunctionTypeName & WithMeta;
     visitFunctionTypeParameter(ctx: SP.FunctionTypeParameterContext): AST.VariableDeclaration & WithMeta;
+    visitOptionalTypeName(ctx: SP.OptionalTypeNameContext): AST.OptionalTypeName & WithMeta;
     visitThrowStatement(ctx: SP.ThrowStatementContext): AST.ThrowStatement & WithMeta;
     visitReturnStatement(ctx: SP.ReturnStatementContext): AST.ReturnStatement & WithMeta;
     visitEmitStatement(ctx: SP.EmitStatementContext): AST.EmitStatement & WithMeta;
@@ -62,19 +63,20 @@ export declare class ASTBuilder extends AbstractParseTreeVisitor<ASTBuilderNode>
     visitUncheckedStatement(ctx: SP.UncheckedStatementContext): AST.UncheckedStatement & WithMeta;
     visitExpression(ctx: SP.ExpressionContext): AST.Expression & WithMeta;
     visitNameValueList(ctx: SP.NameValueListContext): AST.NameValueList & WithMeta;
+    visitNameValueBlockStatement(ctx: SP.NameValueBlockStatementContext): AST.NameValueBlockStatement & WithMeta;
     visitFileLevelConstant(ctx: SP.FileLevelConstantContext): AST.FileLevelConstant & WithMeta;
     visitForStatement(ctx: SP.ForStatementContext): AST.ForStatement & WithMeta;
     visitForRangeStatement(ctx: SP.ForRangeStatementContext): AST.ForRangeStatement & WithMeta;
     visitHexLiteral(ctx: SP.HexLiteralContext): AST.HexLiteral & WithMeta;
     visitPrimaryExpression(ctx: SP.PrimaryExpressionContext): AST.PrimaryExpression & WithMeta;
     visitTupleExpression(ctx: SP.TupleExpressionContext): AST.TupleExpression & WithMeta;
-    buildIdentifierList(ctx: SP.IdentifierListContext): (AST.VariableDeclaration & WithMeta)[];
+    buildIdentifierList(ctx: SP.IdentifierListContext): ((AST.VariableDeclaration & WithMeta) | null)[];
     buildVariableDeclarationList(ctx: SP.VariableDeclarationListContext): Array<(AST.VariableDeclaration & WithMeta) | null>;
     visitImportDirective(ctx: SP.ImportDirectiveContext): AST.ImportDirective & WithMeta;
     buildEventParameterList(ctx: SP.EventParameterListContext): {
         type: string;
         typeName: ASTBuilderNode;
-        name: any;
+        name: string | null;
         isStateVar: boolean;
         isIndexed: boolean;
     }[];

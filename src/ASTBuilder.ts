@@ -1452,7 +1452,7 @@ export class ASTBuilder
   }
 
   public visitForRangeStatement(ctx: SP.ForRangeStatementContext) {
-    let rangeExpression: AST.Identifier | AST.Expression
+    let rangeExpression!: AST.Identifier | AST.Expression
     const ctxIdentifier = ctx.identifier();
     if (typeof ctxIdentifier !== 'undefined') {
       rangeExpression = this.visitIdentifier(ctxIdentifier);
