@@ -1174,6 +1174,26 @@ export class ASTBuilder
           }
           return this._addMeta(node, ctx)
         }
+
+        // empty nameValueList with expression (like {} something)
+        if (
+          this._toText(ctx.getChild(0)) === '{' &&
+          this._toText(ctx.getChild(1)) === '}'
+        ) {
+          const node: AST.NameValueExpression = {
+            type: 'NameValueExpression',
+            expression: this.visitExpression(ctx.expression(0)),
+            arguments: {
+              "type": "NameValueList",
+              "names": [],
+              "identifiers": [],
+              "arguments": []
+            },
+          }
+
+          return this._addMeta(node, ctx)
+        }
+
         break
 
       case 4:
