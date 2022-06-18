@@ -392,7 +392,7 @@ export class ASTBuilder
           isInline = true
         }
 
-        if(ctx.modifierList().ResponsibleKeyword().length > 0) {
+        if (ctx.modifierList().ResponsibleKeyword().length > 0) {
           isResponsible = true
         }
 
@@ -572,10 +572,17 @@ export class ASTBuilder
     // in >=0.5.0 <0.7.0
     const ctxPragmaValue = ctx.pragmaValue()
     let versionContext
-    let value = ''
-    if(ctxPragmaValue){
+    let exprList
+    let value: string | AST.Expression[] = ''
+    
+    if (ctxPragmaValue) {
       versionContext = ctxPragmaValue.version()
       value = this._toText(ctxPragmaValue)
+      exprList = ctxPragmaValue.expressionList()
+    }
+
+    if (exprList !== undefined) {
+      value = exprList.expression().map((x) => this.visitExpression(x))
     }
 
     if (versionContext?.children !== undefined) {
@@ -718,15 +725,15 @@ export class ASTBuilder
   }
 
   public visitOptionalTypeName(
-      ctx: SP.OptionalTypeNameContext
-    ): AST.OptionalTypeName & WithMeta {
-      const args = ctx.typeName().map((x) => this.visitTypeName(x))
-      const node: AST.OptionalTypeName = {
-        type: 'OptionalTypeName',
-        arguments: args,
-      }
+    ctx: SP.OptionalTypeNameContext
+  ): AST.OptionalTypeName & WithMeta {
+    const args = ctx.typeName().map((x) => this.visitTypeName(x))
+    const node: AST.OptionalTypeName = {
+      type: 'OptionalTypeName',
+      arguments: args,
+    }
 
-      return this._addMeta(node, ctx)
+    return this._addMeta(node, ctx)
   }
 
   public visitThrowStatement(

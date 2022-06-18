@@ -133,7 +133,7 @@ export type ASTNodeTypeString = typeof astNodeTypes[number]
 export interface PragmaDirective extends BaseASTNode {
   type: 'PragmaDirective'
   name: string
-  value: string
+  value: string | Expression[]
 }
 export interface ImportDirective extends BaseASTNode {
   type: 'ImportDirective'
