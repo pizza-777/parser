@@ -574,7 +574,7 @@ export class ASTBuilder
     let versionContext
     let exprList
     let value: string | AST.Expression[] = ''
-    
+
     if (ctxPragmaValue) {
       versionContext = ctxPragmaValue.version()
       value = this._toText(ctxPragmaValue)
@@ -915,11 +915,11 @@ export class ASTBuilder
   public visitTryStatement(
     ctx: SP.TryStatementContext
   ): AST.TryStatement & WithMeta {
-    let returnParameters = null
-    const ctxReturnParameters = ctx.returnParameters()
-    if (ctxReturnParameters !== undefined) {
-      returnParameters = this.visitReturnParameters(ctxReturnParameters)
-    }
+    // let returnParameters = null
+    // const ctxReturnParameters = ctx.returnParameters()
+    // if (ctxReturnParameters !== undefined) {
+    //   returnParameters = this.visitReturnParameters(ctxReturnParameters)
+    // }
 
     const catchClauses = ctx
       .catchClause()
@@ -927,8 +927,8 @@ export class ASTBuilder
 
     const node: AST.TryStatement = {
       type: 'TryStatement',
-      expression: this.visitExpression(ctx.expression()),
-      returnParameters,
+      //expression: this.visitExpression(ctx.expression()),
+      // returnParameters,
       body: this.visitBlock(ctx.block()),
       catchClauses,
     }

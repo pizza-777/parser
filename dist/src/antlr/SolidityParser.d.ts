@@ -903,9 +903,7 @@ export declare class IfStatementContext extends ParserRuleContext {
     accept<Result>(visitor: SolidityVisitor<Result>): Result;
 }
 export declare class TryStatementContext extends ParserRuleContext {
-    expression(): ExpressionContext;
     block(): BlockContext;
-    returnParameters(): ReturnParametersContext | undefined;
     catchClause(): CatchClauseContext[];
     catchClause(i: number): CatchClauseContext;
     constructor(parent: ParserRuleContext | undefined, invokingState: number);

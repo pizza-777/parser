@@ -190,8 +190,8 @@ export interface UncheckedStatement extends BaseASTNode {
 }
 export interface TryStatement extends BaseASTNode {
     type: 'TryStatement';
-    expression: Expression;
-    returnParameters: VariableDeclaration[] | null;
+    // expression: Expression;
+    // returnParameters: VariableDeclaration[] | null;
     body: Block;
     catchClauses: CatchClause[];
 }
