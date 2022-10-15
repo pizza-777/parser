@@ -7,3 +7,5 @@ coverage/
 *.sol
 *.ast.json
 test/everAst.ts
+testContracts
+dist
