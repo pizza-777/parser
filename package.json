@@ -1,7 +1,7 @@
 {
   "name": "tvm-solidity-parser",
-  "version": "0.14.4",
-  "description": "A Everscale Solidity parser built from a robust ANTLR 4 grammar",
+  "version": "0.14.5",
+  "description": "The Everscale Solidity parser built from a robust ANTLR 4 grammar",
   "main": "dist/index.cjs.js",
   "browser": {
     "fs": false,
@@ -32,12 +32,13 @@
     "Franco Victorio",
     "Nick Addison",
     "Gonçalo Sá <goncalo.sa@consensys.net>",
-    "Federico Bond <federicobond@gmail.com>"
+    "Federico Bond <federicobond@gmail.com>",
+    "Nikolai (Everscale) @pizzza777"
   ],
   "homepage": "https://github.com/solidity-parser/parser",
   "repository": {
     "type": "git",
-    "url": "https://github.com/solidity-parser/parser"
+    "url": "https://github.com/pizza-777/parser/tree/ton-solidity-module"
   },
   "license": "MIT",
   "dependencies": {
