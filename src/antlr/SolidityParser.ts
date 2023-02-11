@@ -130,47 +130,46 @@ export class SolidityParser extends Parser {
 	public static readonly T__99 = 100;
 	public static readonly T__100 = 101;
 	public static readonly T__101 = 102;
-	public static readonly T__102 = 103;
-	public static readonly Int = 104;
-	public static readonly Uint = 105;
-	public static readonly Byte = 106;
-	public static readonly Fixed = 107;
-	public static readonly Ufixed = 108;
-	public static readonly TvmCell = 109;
-	public static readonly BooleanLiteral = 110;
-	public static readonly DecimalNumber = 111;
-	public static readonly HexNumber = 112;
-	public static readonly NumberUnit = 113;
-	public static readonly HexLiteralFragment = 114;
-	public static readonly ReservedKeyword = 115;
-	public static readonly AnonymousKeyword = 116;
-	public static readonly BreakKeyword = 117;
-	public static readonly ConstantKeyword = 118;
-	public static readonly ImmutableKeyword = 119;
-	public static readonly ContinueKeyword = 120;
-	public static readonly LeaveKeyword = 121;
-	public static readonly ExternalKeyword = 122;
-	public static readonly IndexedKeyword = 123;
-	public static readonly InternalKeyword = 124;
-	public static readonly PayableKeyword = 125;
-	public static readonly PrivateKeyword = 126;
-	public static readonly PublicKeyword = 127;
-	public static readonly StaticKeyword = 128;
-	public static readonly VirtualKeyword = 129;
-	public static readonly PureKeyword = 130;
-	public static readonly TypeKeyword = 131;
-	public static readonly ViewKeyword = 132;
-	public static readonly InlineKeyword = 133;
-	public static readonly ResponsibleKeyword = 134;
-	public static readonly ConstructorKeyword = 135;
-	public static readonly FallbackKeyword = 136;
-	public static readonly ReceiveKeyword = 137;
-	public static readonly Identifier = 138;
-	public static readonly StringLiteralFragment = 139;
-	public static readonly VersionLiteral = 140;
-	public static readonly WS = 141;
-	public static readonly COMMENT = 142;
-	public static readonly LINE_COMMENT = 143;
+	public static readonly Int = 103;
+	public static readonly Uint = 104;
+	public static readonly Byte = 105;
+	public static readonly Fixed = 106;
+	public static readonly Ufixed = 107;
+	public static readonly TvmCell = 108;
+	public static readonly BooleanLiteral = 109;
+	public static readonly DecimalNumber = 110;
+	public static readonly HexNumber = 111;
+	public static readonly NumberUnit = 112;
+	public static readonly HexLiteralFragment = 113;
+	public static readonly ReservedKeyword = 114;
+	public static readonly AnonymousKeyword = 115;
+	public static readonly BreakKeyword = 116;
+	public static readonly ConstantKeyword = 117;
+	public static readonly ImmutableKeyword = 118;
+	public static readonly ContinueKeyword = 119;
+	public static readonly LeaveKeyword = 120;
+	public static readonly ExternalKeyword = 121;
+	public static readonly IndexedKeyword = 122;
+	public static readonly InternalKeyword = 123;
+	public static readonly PayableKeyword = 124;
+	public static readonly PrivateKeyword = 125;
+	public static readonly PublicKeyword = 126;
+	public static readonly StaticKeyword = 127;
+	public static readonly VirtualKeyword = 128;
+	public static readonly PureKeyword = 129;
+	public static readonly TypeKeyword = 130;
+	public static readonly ViewKeyword = 131;
+	public static readonly InlineKeyword = 132;
+	public static readonly ResponsibleKeyword = 133;
+	public static readonly ConstructorKeyword = 134;
+	public static readonly FallbackKeyword = 135;
+	public static readonly ReceiveKeyword = 136;
+	public static readonly Identifier = 137;
+	public static readonly StringLiteralFragment = 138;
+	public static readonly VersionLiteral = 139;
+	public static readonly WS = 140;
+	public static readonly COMMENT = 141;
+	public static readonly LINE_COMMENT = 142;
 	public static readonly RULE_sourceUnit = 0;
 	public static readonly RULE_pragmaDirective = 1;
 	public static readonly RULE_pragmaName = 2;
@@ -312,17 +311,16 @@ export class SolidityParser extends Parser {
 		"'if'", "'else'", "'try'", "'catch'", "'while'", "'repeat'", "'unchecked'", 
 		"':'", "'assembly'", "'do'", "'return'", "'throw'", "'emit'", "'revert'", 
 		"'var'", "'bool'", "'string'", "'byte'", "'optional'", "'++'", "'--'", 
-		"'new'", "'+'", "'-'", "'after'", "'delete'", "'!'", "'**'", "'/'", "'%'", 
-		"'<<'", "'>>'", "'&'", "'|'", "'=='", "'!='", "'&&'", "'?'", "'|='", "'^='", 
-		"'&='", "'<<='", "'>>='", "'+='", "'-='", "'*='", "'/='", "'%='", "'let'", 
-		"':='", "'=:'", "'switch'", "'case'", "'default'", "'->'", "'msgValue'", 
-		"'callback'", "'onBounce'", "'override'", undefined, undefined, undefined, 
-		undefined, undefined, "'TvmCell'", undefined, undefined, undefined, undefined, 
-		undefined, undefined, "'anonymous'", "'break'", "'constant'", "'immutable'", 
-		"'continue'", "'leave'", "'external'", "'indexed'", "'internal'", "'payable'", 
-		"'private'", "'public'", "'static'", "'virtual'", "'pure'", "'type'", 
-		"'view'", "'inline'", "'responsible'", "'constructor'", "'fallback'", 
-		"'receive'",
+		"'new'", "'+'", "'-'", "'delete'", "'!'", "'**'", "'/'", "'%'", "'<<'", 
+		"'>>'", "'&'", "'|'", "'=='", "'!='", "'&&'", "'?'", "'|='", "'^='", "'&='", 
+		"'<<='", "'>>='", "'+='", "'-='", "'*='", "'/='", "'%='", "'let'", "':='", 
+		"'=:'", "'switch'", "'case'", "'default'", "'->'", "'msgValue'", "'callback'", 
+		"'onBounce'", "'override'", undefined, undefined, undefined, undefined, 
+		undefined, "'TvmCell'", undefined, undefined, undefined, undefined, undefined, 
+		undefined, "'anonymous'", "'break'", "'constant'", "'immutable'", "'continue'", 
+		"'leave'", "'external'", "'indexed'", "'internal'", "'payable'", "'private'", 
+		"'public'", "'static'", "'virtual'", "'pure'", "'type'", "'view'", "'inline'", 
+		"'responsible'", "'constructor'", "'fallback'", "'receive'",
 	];
 	private static readonly _SYMBOLIC_NAMES: Array<string | undefined> = [
 		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
@@ -339,8 +337,8 @@ export class SolidityParser extends Parser {
 		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
 		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
 		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
-		undefined, undefined, undefined, undefined, undefined, undefined, "Int", 
-		"Uint", "Byte", "Fixed", "Ufixed", "TvmCell", "BooleanLiteral", "DecimalNumber", 
+		undefined, undefined, undefined, undefined, undefined, "Int", "Uint", 
+		"Byte", "Fixed", "Ufixed", "TvmCell", "BooleanLiteral", "DecimalNumber", 
 		"HexNumber", "NumberUnit", "HexLiteralFragment", "ReservedKeyword", "AnonymousKeyword", 
 		"BreakKeyword", "ConstantKeyword", "ImmutableKeyword", "ContinueKeyword", 
 		"LeaveKeyword", "ExternalKeyword", "IndexedKeyword", "InternalKeyword", 
@@ -387,7 +385,7 @@ export class SolidityParser extends Parser {
 			this.state = 215;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << SolidityParser.T__0) | (1 << SolidityParser.T__13) | (1 << SolidityParser.T__15) | (1 << SolidityParser.T__19) | (1 << SolidityParser.T__20) | (1 << SolidityParser.T__21) | (1 << SolidityParser.T__22) | (1 << SolidityParser.T__26) | (1 << SolidityParser.T__29))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__34 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.T__101 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.FallbackKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << SolidityParser.T__0) | (1 << SolidityParser.T__13) | (1 << SolidityParser.T__15) | (1 << SolidityParser.T__19) | (1 << SolidityParser.T__20) | (1 << SolidityParser.T__21) | (1 << SolidityParser.T__22) | (1 << SolidityParser.T__26) | (1 << SolidityParser.T__29))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__34 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.T__100 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.FallbackKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 				{
 				this.state = 213;
 				this._errHandler.sync(this);
@@ -493,7 +491,7 @@ export class SolidityParser extends Parser {
 			this.state = 223;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << SolidityParser.T__5) | (1 << SolidityParser.T__6) | (1 << SolidityParser.T__7) | (1 << SolidityParser.T__8) | (1 << SolidityParser.T__9) | (1 << SolidityParser.T__10) | (1 << SolidityParser.T__11) | (1 << SolidityParser.T__15) | (1 << SolidityParser.T__16) | (1 << SolidityParser.T__24) | (1 << SolidityParser.T__26))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__35 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (SolidityParser.T__63 - 64)) | (1 << (SolidityParser.T__64 - 64)) | (1 << (SolidityParser.T__65 - 64)) | (1 << (SolidityParser.T__66 - 64)) | (1 << (SolidityParser.T__67 - 64)) | (1 << (SolidityParser.T__68 - 64)) | (1 << (SolidityParser.T__69 - 64)) | (1 << (SolidityParser.T__70 - 64)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.BooleanLiteral - 100)) | (1 << (SolidityParser.DecimalNumber - 100)) | (1 << (SolidityParser.HexNumber - 100)) | (1 << (SolidityParser.HexLiteralFragment - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)) | (1 << (SolidityParser.StringLiteralFragment - 135)) | (1 << (SolidityParser.VersionLiteral - 135)))) !== 0)) {
+			if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << SolidityParser.T__5) | (1 << SolidityParser.T__6) | (1 << SolidityParser.T__7) | (1 << SolidityParser.T__8) | (1 << SolidityParser.T__9) | (1 << SolidityParser.T__10) | (1 << SolidityParser.T__11) | (1 << SolidityParser.T__15) | (1 << SolidityParser.T__16) | (1 << SolidityParser.T__24) | (1 << SolidityParser.T__26))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__35 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (SolidityParser.T__63 - 64)) | (1 << (SolidityParser.T__64 - 64)) | (1 << (SolidityParser.T__65 - 64)) | (1 << (SolidityParser.T__66 - 64)) | (1 << (SolidityParser.T__67 - 64)) | (1 << (SolidityParser.T__68 - 64)) | (1 << (SolidityParser.T__69 - 64)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.BooleanLiteral - 99)) | (1 << (SolidityParser.DecimalNumber - 99)) | (1 << (SolidityParser.HexNumber - 99)) | (1 << (SolidityParser.HexLiteralFragment - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)) | (1 << (SolidityParser.StringLiteralFragment - 134)) | (1 << (SolidityParser.VersionLiteral - 134)))) !== 0)) {
 				{
 				this.state = 222;
 				this.pragmaValue();
@@ -549,8 +547,8 @@ export class SolidityParser extends Parser {
 			case SolidityParser.T__26:
 			case SolidityParser.T__43:
 			case SolidityParser.T__57:
+			case SolidityParser.T__98:
 			case SolidityParser.T__99:
-			case SolidityParser.T__100:
 			case SolidityParser.LeaveKeyword:
 			case SolidityParser.PayableKeyword:
 			case SolidityParser.ConstructorKeyword:
@@ -854,8 +852,8 @@ export class SolidityParser extends Parser {
 				case SolidityParser.T__26:
 				case SolidityParser.T__43:
 				case SolidityParser.T__57:
+				case SolidityParser.T__98:
 				case SolidityParser.T__99:
-				case SolidityParser.T__100:
 				case SolidityParser.LeaveKeyword:
 				case SolidityParser.PayableKeyword:
 				case SolidityParser.ConstructorKeyword:
@@ -1031,7 +1029,7 @@ export class SolidityParser extends Parser {
 			this.state = 322;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << SolidityParser.T__15) | (1 << SolidityParser.T__26) | (1 << SolidityParser.T__27) | (1 << SolidityParser.T__29) | (1 << SolidityParser.T__30))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__33 - 32)) | (1 << (SolidityParser.T__34 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.T__101 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.FallbackKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << SolidityParser.T__15) | (1 << SolidityParser.T__26) | (1 << SolidityParser.T__27) | (1 << SolidityParser.T__29) | (1 << SolidityParser.T__30))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__33 - 32)) | (1 << (SolidityParser.T__34 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.T__100 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.FallbackKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 				{
 				{
 				this.state = 319;
@@ -1080,7 +1078,7 @@ export class SolidityParser extends Parser {
 				this.state = 330;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)) | (1 << (SolidityParser.T__70 - 40)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.BooleanLiteral - 100)) | (1 << (SolidityParser.DecimalNumber - 100)) | (1 << (SolidityParser.HexNumber - 100)) | (1 << (SolidityParser.HexLiteralFragment - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)) | (1 << (SolidityParser.StringLiteralFragment - 135)))) !== 0)) {
+				if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.BooleanLiteral - 99)) | (1 << (SolidityParser.DecimalNumber - 99)) | (1 << (SolidityParser.HexNumber - 99)) | (1 << (SolidityParser.HexLiteralFragment - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)) | (1 << (SolidityParser.StringLiteralFragment - 134)))) !== 0)) {
 					{
 					this.state = 329;
 					this.expressionList();
@@ -1216,7 +1214,7 @@ export class SolidityParser extends Parser {
 			this.state = 356;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while (((((_la - 103)) & ~0x1F) === 0 && ((1 << (_la - 103)) & ((1 << (SolidityParser.T__102 - 103)) | (1 << (SolidityParser.ConstantKeyword - 103)) | (1 << (SolidityParser.ImmutableKeyword - 103)) | (1 << (SolidityParser.InternalKeyword - 103)) | (1 << (SolidityParser.PrivateKeyword - 103)) | (1 << (SolidityParser.PublicKeyword - 103)) | (1 << (SolidityParser.StaticKeyword - 103)))) !== 0)) {
+			while (((((_la - 102)) & ~0x1F) === 0 && ((1 << (_la - 102)) & ((1 << (SolidityParser.T__101 - 102)) | (1 << (SolidityParser.ConstantKeyword - 102)) | (1 << (SolidityParser.ImmutableKeyword - 102)) | (1 << (SolidityParser.InternalKeyword - 102)) | (1 << (SolidityParser.PrivateKeyword - 102)) | (1 << (SolidityParser.PublicKeyword - 102)) | (1 << (SolidityParser.StaticKeyword - 102)))) !== 0)) {
 				{
 				this.state = 354;
 				this._errHandler.sync(this);
@@ -1257,7 +1255,7 @@ export class SolidityParser extends Parser {
 					this.match(SolidityParser.ImmutableKeyword);
 					}
 					break;
-				case SolidityParser.T__102:
+				case SolidityParser.T__101:
 					{
 					this.state = 353;
 					this.overrideSpecifier();
@@ -1436,8 +1434,8 @@ export class SolidityParser extends Parser {
 			case SolidityParser.T__60:
 			case SolidityParser.T__61:
 			case SolidityParser.T__62:
+			case SolidityParser.T__98:
 			case SolidityParser.T__99:
-			case SolidityParser.T__100:
 			case SolidityParser.Int:
 			case SolidityParser.Uint:
 			case SolidityParser.Byte:
@@ -1492,7 +1490,7 @@ export class SolidityParser extends Parser {
 			this.state = 406;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 				{
 				this.state = 396;
 				this.variableDeclaration();
@@ -1501,7 +1499,7 @@ export class SolidityParser extends Parser {
 				this.state = 403;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+				while (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 					{
 					{
 					this.state = 398;
@@ -1560,7 +1558,7 @@ export class SolidityParser extends Parser {
 			this.state = 419;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while (_la === SolidityParser.T__102 || _la === SolidityParser.VirtualKeyword) {
+			while (_la === SolidityParser.T__101 || _la === SolidityParser.VirtualKeyword) {
 				{
 				this.state = 417;
 				this._errHandler.sync(this);
@@ -1571,7 +1569,7 @@ export class SolidityParser extends Parser {
 					this.match(SolidityParser.VirtualKeyword);
 					}
 					break;
-				case SolidityParser.T__102:
+				case SolidityParser.T__101:
 					{
 					this.state = 416;
 					this.overrideSpecifier();
@@ -1639,7 +1637,7 @@ export class SolidityParser extends Parser {
 				this.state = 429;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)) | (1 << (SolidityParser.T__70 - 40)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.BooleanLiteral - 100)) | (1 << (SolidityParser.DecimalNumber - 100)) | (1 << (SolidityParser.HexNumber - 100)) | (1 << (SolidityParser.HexLiteralFragment - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)) | (1 << (SolidityParser.StringLiteralFragment - 135)))) !== 0)) {
+				if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.BooleanLiteral - 99)) | (1 << (SolidityParser.DecimalNumber - 99)) | (1 << (SolidityParser.HexNumber - 99)) | (1 << (SolidityParser.HexLiteralFragment - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)) | (1 << (SolidityParser.StringLiteralFragment - 134)))) !== 0)) {
 					{
 					this.state = 428;
 					this.expressionList();
@@ -1742,7 +1740,7 @@ export class SolidityParser extends Parser {
 				this.state = 446;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+				if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 					{
 					this.state = 445;
 					this.identifier();
@@ -1772,7 +1770,7 @@ export class SolidityParser extends Parser {
 				this.match(SolidityParser.ReceiveKeyword);
 				}
 				break;
-			case SolidityParser.T__101:
+			case SolidityParser.T__100:
 				this.enterOuterAlt(_localctx, 5);
 				{
 				this.state = 451;
@@ -1835,7 +1833,7 @@ export class SolidityParser extends Parser {
 			this.state = 469;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.T__102 - 100)) | (1 << (SolidityParser.ConstantKeyword - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.ExternalKeyword - 100)) | (1 << (SolidityParser.InternalKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.PrivateKeyword - 100)) | (1 << (SolidityParser.PublicKeyword - 100)) | (1 << (SolidityParser.VirtualKeyword - 100)) | (1 << (SolidityParser.PureKeyword - 100)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (SolidityParser.ViewKeyword - 132)) | (1 << (SolidityParser.InlineKeyword - 132)) | (1 << (SolidityParser.ResponsibleKeyword - 132)) | (1 << (SolidityParser.ConstructorKeyword - 132)) | (1 << (SolidityParser.ReceiveKeyword - 132)) | (1 << (SolidityParser.Identifier - 132)))) !== 0)) {
+			while (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.T__101 - 99)) | (1 << (SolidityParser.ConstantKeyword - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.ExternalKeyword - 99)) | (1 << (SolidityParser.InternalKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.PrivateKeyword - 99)) | (1 << (SolidityParser.PublicKeyword - 99)) | (1 << (SolidityParser.VirtualKeyword - 99)) | (1 << (SolidityParser.PureKeyword - 99)))) !== 0) || ((((_la - 131)) & ~0x1F) === 0 && ((1 << (_la - 131)) & ((1 << (SolidityParser.ViewKeyword - 131)) | (1 << (SolidityParser.InlineKeyword - 131)) | (1 << (SolidityParser.ResponsibleKeyword - 131)) | (1 << (SolidityParser.ConstructorKeyword - 131)) | (1 << (SolidityParser.ReceiveKeyword - 131)) | (1 << (SolidityParser.Identifier - 131)))) !== 0)) {
 				{
 				this.state = 467;
 				this._errHandler.sync(this);
@@ -2015,7 +2013,7 @@ export class SolidityParser extends Parser {
 			this.state = 486;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 				{
 				this.state = 485;
 				this.enumValue();
@@ -2069,7 +2067,7 @@ export class SolidityParser extends Parser {
 			this.state = 506;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 				{
 				this.state = 498;
 				this.parameter();
@@ -2133,7 +2131,7 @@ export class SolidityParser extends Parser {
 			this.state = 515;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 				{
 				this.state = 514;
 				this.identifier();
@@ -2169,7 +2167,7 @@ export class SolidityParser extends Parser {
 			this.state = 526;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 				{
 				this.state = 518;
 				this.eventParameter();
@@ -2233,7 +2231,7 @@ export class SolidityParser extends Parser {
 			this.state = 535;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 				{
 				this.state = 534;
 				this.identifier();
@@ -2269,7 +2267,7 @@ export class SolidityParser extends Parser {
 			this.state = 546;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 				{
 				this.state = 538;
 				this.functionTypeParameter();
@@ -2473,7 +2471,7 @@ export class SolidityParser extends Parser {
 					this.state = 573;
 					this._errHandler.sync(this);
 					_la = this._input.LA(1);
-					if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)) | (1 << (SolidityParser.T__70 - 40)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.BooleanLiteral - 100)) | (1 << (SolidityParser.DecimalNumber - 100)) | (1 << (SolidityParser.HexNumber - 100)) | (1 << (SolidityParser.HexLiteralFragment - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)) | (1 << (SolidityParser.StringLiteralFragment - 135)))) !== 0)) {
+					if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.BooleanLiteral - 99)) | (1 << (SolidityParser.DecimalNumber - 99)) | (1 << (SolidityParser.HexNumber - 99)) | (1 << (SolidityParser.HexLiteralFragment - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)) | (1 << (SolidityParser.StringLiteralFragment - 134)))) !== 0)) {
 						{
 						this.state = 572;
 						this.expression(0);
@@ -2578,8 +2576,8 @@ export class SolidityParser extends Parser {
 			case SolidityParser.T__26:
 			case SolidityParser.T__43:
 			case SolidityParser.T__57:
+			case SolidityParser.T__98:
 			case SolidityParser.T__99:
-			case SolidityParser.T__100:
 			case SolidityParser.LeaveKeyword:
 			case SolidityParser.PayableKeyword:
 			case SolidityParser.ConstructorKeyword:
@@ -2769,7 +2767,7 @@ export class SolidityParser extends Parser {
 			{
 			this.state = 616;
 			_la = this._input.LA(1);
-			if (!(((((_la - 118)) & ~0x1F) === 0 && ((1 << (_la - 118)) & ((1 << (SolidityParser.ConstantKeyword - 118)) | (1 << (SolidityParser.PayableKeyword - 118)) | (1 << (SolidityParser.PureKeyword - 118)) | (1 << (SolidityParser.ViewKeyword - 118)))) !== 0))) {
+			if (!(((((_la - 117)) & ~0x1F) === 0 && ((1 << (_la - 117)) & ((1 << (SolidityParser.ConstantKeyword - 117)) | (1 << (SolidityParser.PayableKeyword - 117)) | (1 << (SolidityParser.PureKeyword - 117)) | (1 << (SolidityParser.ViewKeyword - 117)))) !== 0))) {
 			this._errHandler.recoverInline(this);
 			} else {
 				if (this._input.LA(1) === Token.EOF) {
@@ -2808,7 +2806,7 @@ export class SolidityParser extends Parser {
 			this.state = 622;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__28 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__44 - 40)) | (1 << (SolidityParser.T__46 - 40)) | (1 << (SolidityParser.T__48 - 40)) | (1 << (SolidityParser.T__49 - 40)) | (1 << (SolidityParser.T__50 - 40)) | (1 << (SolidityParser.T__52 - 40)) | (1 << (SolidityParser.T__53 - 40)) | (1 << (SolidityParser.T__54 - 40)) | (1 << (SolidityParser.T__55 - 40)) | (1 << (SolidityParser.T__56 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)) | (1 << (SolidityParser.T__70 - 40)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.BooleanLiteral - 100)) | (1 << (SolidityParser.DecimalNumber - 100)) | (1 << (SolidityParser.HexNumber - 100)) | (1 << (SolidityParser.HexLiteralFragment - 100)) | (1 << (SolidityParser.BreakKeyword - 100)) | (1 << (SolidityParser.ContinueKeyword - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)) | (1 << (SolidityParser.StringLiteralFragment - 135)))) !== 0)) {
+			while (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__28 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__44 - 40)) | (1 << (SolidityParser.T__46 - 40)) | (1 << (SolidityParser.T__48 - 40)) | (1 << (SolidityParser.T__49 - 40)) | (1 << (SolidityParser.T__50 - 40)) | (1 << (SolidityParser.T__52 - 40)) | (1 << (SolidityParser.T__53 - 40)) | (1 << (SolidityParser.T__54 - 40)) | (1 << (SolidityParser.T__55 - 40)) | (1 << (SolidityParser.T__56 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.BooleanLiteral - 99)) | (1 << (SolidityParser.DecimalNumber - 99)) | (1 << (SolidityParser.HexNumber - 99)) | (1 << (SolidityParser.HexLiteralFragment - 99)) | (1 << (SolidityParser.BreakKeyword - 99)) | (1 << (SolidityParser.ContinueKeyword - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)) | (1 << (SolidityParser.StringLiteralFragment - 134)))) !== 0)) {
 				{
 				{
 				this.state = 619;
@@ -3123,12 +3121,12 @@ export class SolidityParser extends Parser {
 			this.state = 670;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << SolidityParser.T__15) | (1 << SolidityParser.T__24) | (1 << SolidityParser.T__26))) !== 0) || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+			if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << SolidityParser.T__15) | (1 << SolidityParser.T__24) | (1 << SolidityParser.T__26))) !== 0) || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 				{
 				this.state = 667;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+				if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 					{
 					this.state = 666;
 					this.identifier();
@@ -3329,9 +3327,8 @@ export class SolidityParser extends Parser {
 			case SolidityParser.T__67:
 			case SolidityParser.T__68:
 			case SolidityParser.T__69:
-			case SolidityParser.T__70:
+			case SolidityParser.T__98:
 			case SolidityParser.T__99:
-			case SolidityParser.T__100:
 			case SolidityParser.Int:
 			case SolidityParser.Uint:
 			case SolidityParser.Byte:
@@ -3389,9 +3386,8 @@ export class SolidityParser extends Parser {
 			case SolidityParser.T__67:
 			case SolidityParser.T__68:
 			case SolidityParser.T__69:
-			case SolidityParser.T__70:
+			case SolidityParser.T__98:
 			case SolidityParser.T__99:
-			case SolidityParser.T__100:
 			case SolidityParser.Int:
 			case SolidityParser.Uint:
 			case SolidityParser.Byte:
@@ -3426,7 +3422,7 @@ export class SolidityParser extends Parser {
 			this.state = 704;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)) | (1 << (SolidityParser.T__70 - 40)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.BooleanLiteral - 100)) | (1 << (SolidityParser.DecimalNumber - 100)) | (1 << (SolidityParser.HexNumber - 100)) | (1 << (SolidityParser.HexLiteralFragment - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)) | (1 << (SolidityParser.StringLiteralFragment - 135)))) !== 0)) {
+			if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.BooleanLiteral - 99)) | (1 << (SolidityParser.DecimalNumber - 99)) | (1 << (SolidityParser.HexNumber - 99)) | (1 << (SolidityParser.HexLiteralFragment - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)) | (1 << (SolidityParser.StringLiteralFragment - 134)))) !== 0)) {
 				{
 				this.state = 703;
 				this.expression(0);
@@ -3479,8 +3475,8 @@ export class SolidityParser extends Parser {
 			case SolidityParser.T__60:
 			case SolidityParser.T__61:
 			case SolidityParser.T__62:
+			case SolidityParser.T__98:
 			case SolidityParser.T__99:
-			case SolidityParser.T__100:
 			case SolidityParser.Int:
 			case SolidityParser.Uint:
 			case SolidityParser.Byte:
@@ -3691,7 +3687,7 @@ export class SolidityParser extends Parser {
 			this.state = 748;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)) | (1 << (SolidityParser.T__70 - 40)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.BooleanLiteral - 100)) | (1 << (SolidityParser.DecimalNumber - 100)) | (1 << (SolidityParser.HexNumber - 100)) | (1 << (SolidityParser.HexLiteralFragment - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)) | (1 << (SolidityParser.StringLiteralFragment - 135)))) !== 0)) {
+			if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.BooleanLiteral - 99)) | (1 << (SolidityParser.DecimalNumber - 99)) | (1 << (SolidityParser.HexNumber - 99)) | (1 << (SolidityParser.HexLiteralFragment - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)) | (1 << (SolidityParser.StringLiteralFragment - 134)))) !== 0)) {
 				{
 				this.state = 747;
 				this.expression(0);
@@ -3880,7 +3876,7 @@ export class SolidityParser extends Parser {
 			this.state = 779;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 				{
 				this.state = 778;
 				this.variableDeclaration();
@@ -3898,7 +3894,7 @@ export class SolidityParser extends Parser {
 				this.state = 783;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+				if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__39 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__58 - 32)) | (1 << (SolidityParser.T__59 - 32)) | (1 << (SolidityParser.T__60 - 32)) | (1 << (SolidityParser.T__61 - 32)) | (1 << (SolidityParser.T__62 - 32)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 					{
 					this.state = 782;
 					this.variableDeclaration();
@@ -3948,7 +3944,7 @@ export class SolidityParser extends Parser {
 					this.state = 792;
 					this._errHandler.sync(this);
 					_la = this._input.LA(1);
-					if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+					if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 						{
 						this.state = 791;
 						this.identifier();
@@ -3967,7 +3963,7 @@ export class SolidityParser extends Parser {
 			this.state = 801;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 				{
 				this.state = 800;
 				this.identifier();
@@ -4002,7 +3998,7 @@ export class SolidityParser extends Parser {
 			{
 			this.state = 805;
 			_la = this._input.LA(1);
-			if (!(((((_la - 38)) & ~0x1F) === 0 && ((1 << (_la - 38)) & ((1 << (SolidityParser.T__37 - 38)) | (1 << (SolidityParser.T__58 - 38)) | (1 << (SolidityParser.T__59 - 38)) | (1 << (SolidityParser.T__60 - 38)) | (1 << (SolidityParser.T__61 - 38)))) !== 0) || ((((_la - 104)) & ~0x1F) === 0 && ((1 << (_la - 104)) & ((1 << (SolidityParser.Int - 104)) | (1 << (SolidityParser.Uint - 104)) | (1 << (SolidityParser.Byte - 104)) | (1 << (SolidityParser.Fixed - 104)) | (1 << (SolidityParser.Ufixed - 104)) | (1 << (SolidityParser.TvmCell - 104)))) !== 0))) {
+			if (!(((((_la - 38)) & ~0x1F) === 0 && ((1 << (_la - 38)) & ((1 << (SolidityParser.T__37 - 38)) | (1 << (SolidityParser.T__58 - 38)) | (1 << (SolidityParser.T__59 - 38)) | (1 << (SolidityParser.T__60 - 38)) | (1 << (SolidityParser.T__61 - 38)))) !== 0) || ((((_la - 103)) & ~0x1F) === 0 && ((1 << (_la - 103)) & ((1 << (SolidityParser.Int - 103)) | (1 << (SolidityParser.Uint - 103)) | (1 << (SolidityParser.Byte - 103)) | (1 << (SolidityParser.Fixed - 103)) | (1 << (SolidityParser.Ufixed - 103)) | (1 << (SolidityParser.TvmCell - 103)))) !== 0))) {
 			this._errHandler.recoverInline(this);
 			} else {
 				if (this._input.LA(1) === Token.EOF) {
@@ -4115,7 +4111,7 @@ export class SolidityParser extends Parser {
 				this.state = 824;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+				if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 					{
 					this.state = 823;
 					this.nameValueList();
@@ -4188,17 +4184,7 @@ export class SolidityParser extends Parser {
 			case 7:
 				{
 				this.state = 837;
-				_la = this._input.LA(1);
-				if (!(_la === SolidityParser.T__68 || _la === SolidityParser.T__69)) {
-				this._errHandler.recoverInline(this);
-				} else {
-					if (this._input.LA(1) === Token.EOF) {
-						this.matchedEOF = true;
-					}
-
-					this._errHandler.reportMatch(this);
-					this.consume();
-				}
+				this.match(SolidityParser.T__68);
 				this.state = 838;
 				this.expression(17);
 				}
@@ -4207,7 +4193,7 @@ export class SolidityParser extends Parser {
 			case 8:
 				{
 				this.state = 839;
-				this.match(SolidityParser.T__70);
+				this.match(SolidityParser.T__69);
 				this.state = 840;
 				this.expression(16);
 				}
@@ -4252,7 +4238,7 @@ export class SolidityParser extends Parser {
 							throw this.createFailedPredicateException("this.precpred(this._ctx, 14)");
 						}
 						this.state = 847;
-						this.match(SolidityParser.T__71);
+						this.match(SolidityParser.T__70);
 						this.state = 848;
 						this.expression(15);
 						}
@@ -4268,7 +4254,7 @@ export class SolidityParser extends Parser {
 						}
 						this.state = 850;
 						_la = this._input.LA(1);
-						if (!(_la === SolidityParser.T__14 || _la === SolidityParser.T__72 || _la === SolidityParser.T__73)) {
+						if (!(_la === SolidityParser.T__14 || _la === SolidityParser.T__71 || _la === SolidityParser.T__72)) {
 						this._errHandler.recoverInline(this);
 						} else {
 							if (this._input.LA(1) === Token.EOF) {
@@ -4318,7 +4304,7 @@ export class SolidityParser extends Parser {
 						}
 						this.state = 856;
 						_la = this._input.LA(1);
-						if (!(_la === SolidityParser.T__74 || _la === SolidityParser.T__75)) {
+						if (!(_la === SolidityParser.T__73 || _la === SolidityParser.T__74)) {
 						this._errHandler.recoverInline(this);
 						} else {
 							if (this._input.LA(1) === Token.EOF) {
@@ -4342,7 +4328,7 @@ export class SolidityParser extends Parser {
 							throw this.createFailedPredicateException("this.precpred(this._ctx, 10)");
 						}
 						this.state = 859;
-						this.match(SolidityParser.T__76);
+						this.match(SolidityParser.T__75);
 						this.state = 860;
 						this.expression(11);
 						}
@@ -4372,7 +4358,7 @@ export class SolidityParser extends Parser {
 							throw this.createFailedPredicateException("this.precpred(this._ctx, 8)");
 						}
 						this.state = 865;
-						this.match(SolidityParser.T__77);
+						this.match(SolidityParser.T__76);
 						this.state = 866;
 						this.expression(9);
 						}
@@ -4413,7 +4399,7 @@ export class SolidityParser extends Parser {
 						}
 						this.state = 871;
 						_la = this._input.LA(1);
-						if (!(_la === SolidityParser.T__78 || _la === SolidityParser.T__79)) {
+						if (!(_la === SolidityParser.T__77 || _la === SolidityParser.T__78)) {
 						this._errHandler.recoverInline(this);
 						} else {
 							if (this._input.LA(1) === Token.EOF) {
@@ -4437,7 +4423,7 @@ export class SolidityParser extends Parser {
 							throw this.createFailedPredicateException("this.precpred(this._ctx, 5)");
 						}
 						this.state = 874;
-						this.match(SolidityParser.T__80);
+						this.match(SolidityParser.T__79);
 						this.state = 875;
 						this.expression(6);
 						}
@@ -4467,7 +4453,7 @@ export class SolidityParser extends Parser {
 							throw this.createFailedPredicateException("this.precpred(this._ctx, 3)");
 						}
 						this.state = 880;
-						this.match(SolidityParser.T__81);
+						this.match(SolidityParser.T__80);
 						this.state = 881;
 						this.expression(0);
 						this.state = 882;
@@ -4487,7 +4473,7 @@ export class SolidityParser extends Parser {
 						}
 						this.state = 886;
 						_la = this._input.LA(1);
-						if (!(_la === SolidityParser.T__11 || ((((_la - 83)) & ~0x1F) === 0 && ((1 << (_la - 83)) & ((1 << (SolidityParser.T__82 - 83)) | (1 << (SolidityParser.T__83 - 83)) | (1 << (SolidityParser.T__84 - 83)) | (1 << (SolidityParser.T__85 - 83)) | (1 << (SolidityParser.T__86 - 83)) | (1 << (SolidityParser.T__87 - 83)) | (1 << (SolidityParser.T__88 - 83)) | (1 << (SolidityParser.T__89 - 83)) | (1 << (SolidityParser.T__90 - 83)) | (1 << (SolidityParser.T__91 - 83)))) !== 0))) {
+						if (!(_la === SolidityParser.T__11 || ((((_la - 82)) & ~0x1F) === 0 && ((1 << (_la - 82)) & ((1 << (SolidityParser.T__81 - 82)) | (1 << (SolidityParser.T__82 - 82)) | (1 << (SolidityParser.T__83 - 82)) | (1 << (SolidityParser.T__84 - 82)) | (1 << (SolidityParser.T__85 - 82)) | (1 << (SolidityParser.T__86 - 82)) | (1 << (SolidityParser.T__87 - 82)) | (1 << (SolidityParser.T__88 - 82)) | (1 << (SolidityParser.T__89 - 82)) | (1 << (SolidityParser.T__90 - 82)))) !== 0))) {
 						this._errHandler.recoverInline(this);
 						} else {
 							if (this._input.LA(1) === Token.EOF) {
@@ -4555,7 +4541,7 @@ export class SolidityParser extends Parser {
 						this.state = 898;
 						this._errHandler.sync(this);
 						_la = this._input.LA(1);
-						if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)) | (1 << (SolidityParser.T__70 - 40)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.BooleanLiteral - 100)) | (1 << (SolidityParser.DecimalNumber - 100)) | (1 << (SolidityParser.HexNumber - 100)) | (1 << (SolidityParser.HexLiteralFragment - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)) | (1 << (SolidityParser.StringLiteralFragment - 135)))) !== 0)) {
+						if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.BooleanLiteral - 99)) | (1 << (SolidityParser.DecimalNumber - 99)) | (1 << (SolidityParser.HexNumber - 99)) | (1 << (SolidityParser.HexLiteralFragment - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)) | (1 << (SolidityParser.StringLiteralFragment - 134)))) !== 0)) {
 							{
 							this.state = 897;
 							this.expression(0);
@@ -4567,7 +4553,7 @@ export class SolidityParser extends Parser {
 						this.state = 902;
 						this._errHandler.sync(this);
 						_la = this._input.LA(1);
-						if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)) | (1 << (SolidityParser.T__70 - 40)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.BooleanLiteral - 100)) | (1 << (SolidityParser.DecimalNumber - 100)) | (1 << (SolidityParser.HexNumber - 100)) | (1 << (SolidityParser.HexLiteralFragment - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)) | (1 << (SolidityParser.StringLiteralFragment - 135)))) !== 0)) {
+						if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.BooleanLiteral - 99)) | (1 << (SolidityParser.DecimalNumber - 99)) | (1 << (SolidityParser.HexNumber - 99)) | (1 << (SolidityParser.HexLiteralFragment - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)) | (1 << (SolidityParser.StringLiteralFragment - 134)))) !== 0)) {
 							{
 							this.state = 901;
 							this.expression(0);
@@ -4795,7 +4781,7 @@ export class SolidityParser extends Parser {
 				this.state = 945;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+				if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 					{
 					this.state = 944;
 					this.nameValueList();
@@ -4810,7 +4796,7 @@ export class SolidityParser extends Parser {
 				this.state = 948;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)) | (1 << (SolidityParser.T__70 - 40)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.BooleanLiteral - 100)) | (1 << (SolidityParser.DecimalNumber - 100)) | (1 << (SolidityParser.HexNumber - 100)) | (1 << (SolidityParser.HexLiteralFragment - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)) | (1 << (SolidityParser.StringLiteralFragment - 135)))) !== 0)) {
+				if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.BooleanLiteral - 99)) | (1 << (SolidityParser.DecimalNumber - 99)) | (1 << (SolidityParser.HexNumber - 99)) | (1 << (SolidityParser.HexLiteralFragment - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)) | (1 << (SolidityParser.StringLiteralFragment - 134)))) !== 0)) {
 					{
 					this.state = 947;
 					this.expressionList();
@@ -4981,7 +4967,7 @@ export class SolidityParser extends Parser {
 				this.state = 979;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+				if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 					{
 					this.state = 978;
 					this.nameValueList();
@@ -4999,7 +4985,7 @@ export class SolidityParser extends Parser {
 				this.state = 983;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)) | (1 << (SolidityParser.T__70 - 40)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.BooleanLiteral - 100)) | (1 << (SolidityParser.DecimalNumber - 100)) | (1 << (SolidityParser.HexNumber - 100)) | (1 << (SolidityParser.HexLiteralFragment - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)) | (1 << (SolidityParser.StringLiteralFragment - 135)))) !== 0)) {
+				if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.BooleanLiteral - 99)) | (1 << (SolidityParser.DecimalNumber - 99)) | (1 << (SolidityParser.HexNumber - 99)) | (1 << (SolidityParser.HexLiteralFragment - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)) | (1 << (SolidityParser.StringLiteralFragment - 134)))) !== 0)) {
 					{
 					this.state = 982;
 					this.expressionList();
@@ -5068,7 +5054,7 @@ export class SolidityParser extends Parser {
 			this.state = 996;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << SolidityParser.T__15) | (1 << SolidityParser.T__16) | (1 << SolidityParser.T__24) | (1 << SolidityParser.T__26) | (1 << SolidityParser.T__28))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__44 - 32)) | (1 << (SolidityParser.T__52 - 32)) | (1 << (SolidityParser.T__54 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__61 - 32)))) !== 0) || ((((_la - 93)) & ~0x1F) === 0 && ((1 << (_la - 93)) & ((1 << (SolidityParser.T__92 - 93)) | (1 << (SolidityParser.T__94 - 93)) | (1 << (SolidityParser.T__95 - 93)) | (1 << (SolidityParser.T__99 - 93)) | (1 << (SolidityParser.T__100 - 93)) | (1 << (SolidityParser.DecimalNumber - 93)) | (1 << (SolidityParser.HexNumber - 93)) | (1 << (SolidityParser.HexLiteralFragment - 93)) | (1 << (SolidityParser.BreakKeyword - 93)) | (1 << (SolidityParser.ContinueKeyword - 93)) | (1 << (SolidityParser.LeaveKeyword - 93)))) !== 0) || ((((_la - 125)) & ~0x1F) === 0 && ((1 << (_la - 125)) & ((1 << (SolidityParser.PayableKeyword - 125)) | (1 << (SolidityParser.ConstructorKeyword - 125)) | (1 << (SolidityParser.ReceiveKeyword - 125)) | (1 << (SolidityParser.Identifier - 125)) | (1 << (SolidityParser.StringLiteralFragment - 125)))) !== 0)) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << SolidityParser.T__15) | (1 << SolidityParser.T__16) | (1 << SolidityParser.T__24) | (1 << SolidityParser.T__26) | (1 << SolidityParser.T__28))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (SolidityParser.T__31 - 32)) | (1 << (SolidityParser.T__37 - 32)) | (1 << (SolidityParser.T__43 - 32)) | (1 << (SolidityParser.T__44 - 32)) | (1 << (SolidityParser.T__52 - 32)) | (1 << (SolidityParser.T__54 - 32)) | (1 << (SolidityParser.T__57 - 32)) | (1 << (SolidityParser.T__61 - 32)))) !== 0) || ((((_la - 92)) & ~0x1F) === 0 && ((1 << (_la - 92)) & ((1 << (SolidityParser.T__91 - 92)) | (1 << (SolidityParser.T__93 - 92)) | (1 << (SolidityParser.T__94 - 92)) | (1 << (SolidityParser.T__98 - 92)) | (1 << (SolidityParser.T__99 - 92)) | (1 << (SolidityParser.DecimalNumber - 92)) | (1 << (SolidityParser.HexNumber - 92)) | (1 << (SolidityParser.HexLiteralFragment - 92)) | (1 << (SolidityParser.BreakKeyword - 92)) | (1 << (SolidityParser.ContinueKeyword - 92)) | (1 << (SolidityParser.LeaveKeyword - 92)))) !== 0) || ((((_la - 124)) & ~0x1F) === 0 && ((1 << (_la - 124)) & ((1 << (SolidityParser.PayableKeyword - 124)) | (1 << (SolidityParser.ConstructorKeyword - 124)) | (1 << (SolidityParser.ReceiveKeyword - 124)) | (1 << (SolidityParser.Identifier - 124)) | (1 << (SolidityParser.StringLiteralFragment - 124)))) !== 0)) {
 				{
 				{
 				this.state = 993;
@@ -5373,8 +5359,8 @@ export class SolidityParser extends Parser {
 			case SolidityParser.T__26:
 			case SolidityParser.T__43:
 			case SolidityParser.T__57:
+			case SolidityParser.T__98:
 			case SolidityParser.T__99:
-			case SolidityParser.T__100:
 			case SolidityParser.LeaveKeyword:
 			case SolidityParser.PayableKeyword:
 			case SolidityParser.ConstructorKeyword:
@@ -5398,7 +5384,7 @@ export class SolidityParser extends Parser {
 				this.state = 1038;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 38)) & ~0x1F) === 0 && ((1 << (_la - 38)) & ((1 << (SolidityParser.T__37 - 38)) | (1 << (SolidityParser.T__43 - 38)) | (1 << (SolidityParser.T__54 - 38)) | (1 << (SolidityParser.T__57 - 38)) | (1 << (SolidityParser.T__61 - 38)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.DecimalNumber - 100)) | (1 << (SolidityParser.HexNumber - 100)) | (1 << (SolidityParser.HexLiteralFragment - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)) | (1 << (SolidityParser.StringLiteralFragment - 135)))) !== 0)) {
+				if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || ((((_la - 38)) & ~0x1F) === 0 && ((1 << (_la - 38)) & ((1 << (SolidityParser.T__37 - 38)) | (1 << (SolidityParser.T__43 - 38)) | (1 << (SolidityParser.T__54 - 38)) | (1 << (SolidityParser.T__57 - 38)) | (1 << (SolidityParser.T__61 - 38)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.DecimalNumber - 99)) | (1 << (SolidityParser.HexNumber - 99)) | (1 << (SolidityParser.HexLiteralFragment - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)) | (1 << (SolidityParser.StringLiteralFragment - 134)))) !== 0)) {
 					{
 					this.state = 1037;
 					this.assemblyExpression();
@@ -5451,16 +5437,16 @@ export class SolidityParser extends Parser {
 			this.enterOuterAlt(_localctx, 1);
 			{
 			this.state = 1050;
-			this.match(SolidityParser.T__92);
+			this.match(SolidityParser.T__91);
 			this.state = 1051;
 			this.assemblyIdentifierOrList();
 			this.state = 1054;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if (_la === SolidityParser.T__93) {
+			if (_la === SolidityParser.T__92) {
 				{
 				this.state = 1052;
-				this.match(SolidityParser.T__93);
+				this.match(SolidityParser.T__92);
 				this.state = 1053;
 				this.assemblyExpression();
 				}
@@ -5492,7 +5478,7 @@ export class SolidityParser extends Parser {
 			this.state = 1056;
 			this.assemblyIdentifierOrList();
 			this.state = 1057;
-			this.match(SolidityParser.T__93);
+			this.match(SolidityParser.T__92);
 			this.state = 1058;
 			this.assemblyExpression();
 			}
@@ -5612,7 +5598,7 @@ export class SolidityParser extends Parser {
 			this.enterOuterAlt(_localctx, 1);
 			{
 			this.state = 1076;
-			this.match(SolidityParser.T__94);
+			this.match(SolidityParser.T__93);
 			this.state = 1077;
 			this.identifier();
 			}
@@ -5667,13 +5653,13 @@ export class SolidityParser extends Parser {
 			this.enterOuterAlt(_localctx, 1);
 			{
 			this.state = 1082;
-			this.match(SolidityParser.T__95);
+			this.match(SolidityParser.T__94);
 			this.state = 1083;
 			this.assemblyExpression();
 			this.state = 1087;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while (_la === SolidityParser.T__96 || _la === SolidityParser.T__97) {
+			while (_la === SolidityParser.T__95 || _la === SolidityParser.T__96) {
 				{
 				{
 				this.state = 1084;
@@ -5708,22 +5694,22 @@ export class SolidityParser extends Parser {
 			this.state = 1096;
 			this._errHandler.sync(this);
 			switch (this._input.LA(1)) {
-			case SolidityParser.T__96:
+			case SolidityParser.T__95:
 				this.enterOuterAlt(_localctx, 1);
 				{
 				this.state = 1090;
-				this.match(SolidityParser.T__96);
+				this.match(SolidityParser.T__95);
 				this.state = 1091;
 				this.assemblyLiteral();
 				this.state = 1092;
 				this.assemblyBlock();
 				}
 				break;
-			case SolidityParser.T__97:
+			case SolidityParser.T__96:
 				this.enterOuterAlt(_localctx, 2);
 				{
 				this.state = 1094;
-				this.match(SolidityParser.T__97);
+				this.match(SolidityParser.T__96);
 				this.state = 1095;
 				this.assemblyBlock();
 				}
@@ -5763,7 +5749,7 @@ export class SolidityParser extends Parser {
 			this.state = 1102;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0)) {
+			if (_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0)) {
 				{
 				this.state = 1101;
 				this.assemblyIdentifierList();
@@ -5775,7 +5761,7 @@ export class SolidityParser extends Parser {
 			this.state = 1106;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if (_la === SolidityParser.T__98) {
+			if (_la === SolidityParser.T__97) {
 				{
 				this.state = 1105;
 				this.assemblyFunctionReturns();
@@ -5809,7 +5795,7 @@ export class SolidityParser extends Parser {
 			{
 			{
 			this.state = 1110;
-			this.match(SolidityParser.T__98);
+			this.match(SolidityParser.T__97);
 			this.state = 1111;
 			this.assemblyIdentifierList();
 			}
@@ -5854,8 +5840,8 @@ export class SolidityParser extends Parser {
 			case SolidityParser.T__54:
 			case SolidityParser.T__57:
 			case SolidityParser.T__61:
+			case SolidityParser.T__98:
 			case SolidityParser.T__99:
-			case SolidityParser.T__100:
 			case SolidityParser.DecimalNumber:
 			case SolidityParser.HexNumber:
 			case SolidityParser.HexLiteralFragment:
@@ -5891,8 +5877,8 @@ export class SolidityParser extends Parser {
 			case SolidityParser.T__54:
 			case SolidityParser.T__57:
 			case SolidityParser.T__61:
+			case SolidityParser.T__98:
 			case SolidityParser.T__99:
-			case SolidityParser.T__100:
 			case SolidityParser.DecimalNumber:
 			case SolidityParser.HexNumber:
 			case SolidityParser.HexLiteralFragment:
@@ -6058,7 +6044,7 @@ export class SolidityParser extends Parser {
 				this.state = 1141;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)) | (1 << (SolidityParser.T__70 - 40)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.BooleanLiteral - 100)) | (1 << (SolidityParser.DecimalNumber - 100)) | (1 << (SolidityParser.HexNumber - 100)) | (1 << (SolidityParser.HexLiteralFragment - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)) | (1 << (SolidityParser.StringLiteralFragment - 135)))) !== 0)) {
+				if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.BooleanLiteral - 99)) | (1 << (SolidityParser.DecimalNumber - 99)) | (1 << (SolidityParser.HexNumber - 99)) | (1 << (SolidityParser.HexLiteralFragment - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)) | (1 << (SolidityParser.StringLiteralFragment - 134)))) !== 0)) {
 					{
 					this.state = 1140;
 					this.expression(0);
@@ -6076,7 +6062,7 @@ export class SolidityParser extends Parser {
 					this.state = 1145;
 					this._errHandler.sync(this);
 					_la = this._input.LA(1);
-					if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)) | (1 << (SolidityParser.T__70 - 40)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.BooleanLiteral - 100)) | (1 << (SolidityParser.DecimalNumber - 100)) | (1 << (SolidityParser.HexNumber - 100)) | (1 << (SolidityParser.HexLiteralFragment - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)) | (1 << (SolidityParser.StringLiteralFragment - 135)))) !== 0)) {
+					if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.BooleanLiteral - 99)) | (1 << (SolidityParser.DecimalNumber - 99)) | (1 << (SolidityParser.HexNumber - 99)) | (1 << (SolidityParser.HexLiteralFragment - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)) | (1 << (SolidityParser.StringLiteralFragment - 134)))) !== 0)) {
 						{
 						this.state = 1144;
 						this.expression(0);
@@ -6102,7 +6088,7 @@ export class SolidityParser extends Parser {
 				this.state = 1162;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)) | (1 << (SolidityParser.T__70 - 40)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.Int - 100)) | (1 << (SolidityParser.Uint - 100)) | (1 << (SolidityParser.Byte - 100)) | (1 << (SolidityParser.Fixed - 100)) | (1 << (SolidityParser.Ufixed - 100)) | (1 << (SolidityParser.TvmCell - 100)) | (1 << (SolidityParser.BooleanLiteral - 100)) | (1 << (SolidityParser.DecimalNumber - 100)) | (1 << (SolidityParser.HexNumber - 100)) | (1 << (SolidityParser.HexLiteralFragment - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)) | (1 << (SolidityParser.TypeKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)) | (1 << (SolidityParser.StringLiteralFragment - 135)))) !== 0)) {
+				if (((((_la - 7)) & ~0x1F) === 0 && ((1 << (_la - 7)) & ((1 << (SolidityParser.T__6 - 7)) | (1 << (SolidityParser.T__15 - 7)) | (1 << (SolidityParser.T__16 - 7)) | (1 << (SolidityParser.T__24 - 7)) | (1 << (SolidityParser.T__26 - 7)) | (1 << (SolidityParser.T__31 - 7)) | (1 << (SolidityParser.T__35 - 7)) | (1 << (SolidityParser.T__37 - 7)))) !== 0) || ((((_la - 40)) & ~0x1F) === 0 && ((1 << (_la - 40)) & ((1 << (SolidityParser.T__39 - 40)) | (1 << (SolidityParser.T__43 - 40)) | (1 << (SolidityParser.T__57 - 40)) | (1 << (SolidityParser.T__58 - 40)) | (1 << (SolidityParser.T__59 - 40)) | (1 << (SolidityParser.T__60 - 40)) | (1 << (SolidityParser.T__61 - 40)) | (1 << (SolidityParser.T__62 - 40)) | (1 << (SolidityParser.T__63 - 40)) | (1 << (SolidityParser.T__64 - 40)) | (1 << (SolidityParser.T__65 - 40)) | (1 << (SolidityParser.T__66 - 40)) | (1 << (SolidityParser.T__67 - 40)) | (1 << (SolidityParser.T__68 - 40)) | (1 << (SolidityParser.T__69 - 40)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.Int - 99)) | (1 << (SolidityParser.Uint - 99)) | (1 << (SolidityParser.Byte - 99)) | (1 << (SolidityParser.Fixed - 99)) | (1 << (SolidityParser.Ufixed - 99)) | (1 << (SolidityParser.TvmCell - 99)) | (1 << (SolidityParser.BooleanLiteral - 99)) | (1 << (SolidityParser.DecimalNumber - 99)) | (1 << (SolidityParser.HexNumber - 99)) | (1 << (SolidityParser.HexLiteralFragment - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)) | (1 << (SolidityParser.TypeKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)) | (1 << (SolidityParser.StringLiteralFragment - 134)))) !== 0)) {
 					{
 					this.state = 1154;
 					this.expression(0);
@@ -6176,8 +6162,8 @@ export class SolidityParser extends Parser {
 			case SolidityParser.T__26:
 			case SolidityParser.T__43:
 			case SolidityParser.T__57:
+			case SolidityParser.T__98:
 			case SolidityParser.T__99:
-			case SolidityParser.T__100:
 			case SolidityParser.LeaveKeyword:
 			case SolidityParser.PayableKeyword:
 			case SolidityParser.ConstructorKeyword:
@@ -6263,7 +6249,7 @@ export class SolidityParser extends Parser {
 			{
 			this.state = 1175;
 			_la = this._input.LA(1);
-			if (!(_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (SolidityParser.T__99 - 100)) | (1 << (SolidityParser.T__100 - 100)) | (1 << (SolidityParser.LeaveKeyword - 100)) | (1 << (SolidityParser.PayableKeyword - 100)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (SolidityParser.ConstructorKeyword - 135)) | (1 << (SolidityParser.ReceiveKeyword - 135)) | (1 << (SolidityParser.Identifier - 135)))) !== 0))) {
+			if (!(_la === SolidityParser.T__15 || _la === SolidityParser.T__26 || _la === SolidityParser.T__43 || _la === SolidityParser.T__57 || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (SolidityParser.T__98 - 99)) | (1 << (SolidityParser.T__99 - 99)) | (1 << (SolidityParser.LeaveKeyword - 99)) | (1 << (SolidityParser.PayableKeyword - 99)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (SolidityParser.ConstructorKeyword - 134)) | (1 << (SolidityParser.ReceiveKeyword - 134)) | (1 << (SolidityParser.Identifier - 134)))) !== 0))) {
 			this._errHandler.recoverInline(this);
 			} else {
 				if (this._input.LA(1) === Token.EOF) {
@@ -6341,7 +6327,7 @@ export class SolidityParser extends Parser {
 			this.enterOuterAlt(_localctx, 1);
 			{
 			this.state = 1182;
-			this.match(SolidityParser.T__101);
+			this.match(SolidityParser.T__100);
 			}
 		}
 		catch (re) {
@@ -6367,7 +6353,7 @@ export class SolidityParser extends Parser {
 			this.enterOuterAlt(_localctx, 1);
 			{
 			this.state = 1184;
-			this.match(SolidityParser.T__102);
+			this.match(SolidityParser.T__101);
 			this.state = 1196;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
@@ -6540,7 +6526,7 @@ export class SolidityParser extends Parser {
 
 	private static readonly _serializedATNSegments: number = 3;
 	private static readonly _serializedATNSegment0: string =
-		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x91\u04B6\x04" +
+		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x90\u04B6\x04" +
 		"\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
 		"\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
 		"\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -6654,93 +6640,93 @@ export class SolidityParser extends Parser {
 		"\x02\x90\x02\x92\x02\x94\x02\x96\x02\x98\x02\x9A\x02\x9C\x02\x9E\x02\xA0" +
 		"\x02\xA2\x02\xA4\x02\xA6\x02\xA8\x02\xAA\x02\xAC\x02\xAE\x02\xB0\x02\xB2" +
 		"\x02\xB4\x02\xB6\x02\xB8\x02\xBA\x02\xBC\x02\xBE\x02\xC0\x02\xC2\x02\xC4" +
-		"\x02\xC6\x02\xC8\x02\xCA\x02\xCC\x02\x02\x12\x03\x02\x05\x06\x03\x02\b" +
-		"\x0E\x03\x02\x17\x19\x03\x02,.\x06\x02xx\x7F\x7F\x84\x84\x86\x86\x05\x02" +
-		"((=@jo\x03\x02BC\x03\x02EF\x03\x02GH\x04\x02\x11\x11KL\x03\x02MN\x03\x02" +
-		"\n\r\x03\x02QR\x04\x02\x0E\x0EU^\x03\x02qr\v\x02\x12\x12\x1D\x1D..<<f" +
-		"g{{\x7F\x7F\x89\x89\x8B\x8C\x02\u0540\x02\xD9\x03\x02\x02\x02\x04\xDE" +
-		"\x03\x02\x02\x02\x06\xE7\x03\x02\x02\x02\b\xEB\x03\x02\x02\x02\n\xED\x03" +
-		"\x02\x02\x02\f\xF7\x03\x02\x02\x02\x0E\u0101\x03\x02\x02\x02\x10\u0103" +
-		"\x03\x02\x02\x02\x12\u012C\x03\x02\x02\x02\x14\u012E\x03\x02\x02\x02\x16" +
-		"\u0131\x03\x02\x02\x02\x18\u0149\x03\x02\x02\x02\x1A\u015A\x03\x02\x02" +
-		"\x02\x1C\u015C\x03\x02\x02\x02\x1E\u0170\x03\x02\x02\x02 \u0177\x03\x02" +
-		"\x02\x02\"\u017C\x03\x02\x02\x02$\u0182\x03\x02\x02\x02&\u018B\x03\x02" +
-		"\x02\x02(\u019C\x03\x02\x02\x02*\u01AC\x03\x02\x02\x02,\u01B4\x03\x02" +
-		"\x02\x02.\u01C6\x03\x02\x02\x020\u01C8\x03\x02\x02\x022\u01D7\x03\x02" +
-		"\x02\x024\u01DA\x03\x02\x02\x026\u01E2\x03\x02\x02\x028\u01E4\x03\x02" +
-		"\x02\x02:\u01F3\x03\x02\x02\x02<\u0200\x03\x02\x02\x02>\u0207\x03\x02" +
-		"\x02\x02@\u0214\x03\x02\x02\x02B\u021B\x03\x02\x02\x02D\u0228\x03\x02" +
-		"\x02\x02F\u022C\x03\x02\x02\x02H\u023A\x03\x02\x02\x02J\u0247\x03\x02" +
-		"\x02\x02L\u0251\x03\x02\x02\x02N\u0253\x03\x02\x02\x02P\u025A\x03\x02" +
-		"\x02\x02R\u0268\x03\x02\x02\x02T\u026A\x03\x02\x02\x02V\u026C\x03\x02" +
-		"\x02\x02X\u0286\x03\x02\x02\x02Z\u0288\x03\x02\x02\x02\\\u028B\x03\x02" +
-		"\x02\x02^\u0294\x03\x02\x02\x02`\u029B\x03\x02\x02\x02b\u02A4\x03\x02" +
-		"\x02\x02d\u02AA\x03\x02\x02\x02f\u02B2\x03\x02\x02\x02h\u02B4\x03\x02" +
-		"\x02\x02j\u02B7\x03\x02\x02\x02l\u02C7\x03\x02\x02\x02n\u02D8\x03\x02" +
-		"\x02\x02p\u02DE\x03\x02\x02\x02r\u02E6\x03\x02\x02\x02t\u02E9\x03\x02" +
-		"\x02\x02v\u02EC\x03\x02\x02\x02x\u02F2\x03\x02\x02\x02z\u02F5\x03\x02" +
-		"\x02\x02|\u02F9\x03\x02\x02\x02~\u0304\x03\x02\x02\x02\x80\u030D\x03\x02" +
-		"\x02\x02\x82\u0318\x03\x02\x02\x02\x84\u0327\x03\x02\x02\x02\x86\u0329" +
-		"\x03\x02\x02\x02\x88\u034E\x03\x02\x02\x02\x8A\u03AF\x03\x02\x02\x02\x8C" +
-		"\u03B1\x03\x02\x02\x02\x8E\u03BC\x03\x02\x02\x02\x90\u03C4\x03\x02\x02" +
-		"\x02\x92\u03CF\x03\x02\x02\x02\x94\u03DB\x03\x02\x02\x02\x96\u03DD\x03" +
-		"\x02\x02\x02\x98\u03E2\x03\x02\x02\x02\x9A\u03FD\x03\x02\x02\x02\x9C\u0402" +
-		"\x03\x02\x02\x02\x9E\u0404\x03\x02\x02\x02\xA0\u040C\x03\x02\x02\x02\xA2" +
-		"\u041C\x03\x02\x02\x02\xA4\u0422\x03\x02\x02\x02\xA6\u042C\x03\x02\x02" +
-		"\x02\xA8\u042E\x03\x02\x02\x02\xAA\u0436\x03\x02\x02\x02\xAC\u0439\x03" +
-		"\x02\x02\x02\xAE\u043C\x03\x02\x02\x02\xB0\u044A\x03\x02\x02\x02\xB2\u044C" +
-		"\x03\x02\x02\x02\xB4\u0458\x03\x02\x02\x02\xB6\u045B\x03\x02\x02\x02\xB8" +
-		"\u0467\x03\x02\x02\x02\xBA\u046F\x03\x02\x02\x02\xBC\u0471\x03\x02\x02" +
-		"\x02\xBE\u048F\x03\x02\x02\x02\xC0\u0493\x03\x02\x02\x02\xC2\u0495\x03" +
-		"\x02\x02\x02\xC4\u0499\x03\x02\x02\x02\xC6\u049C\x03\x02\x02\x02\xC8\u04A0" +
-		"\x03\x02\x02\x02\xCA\u04A2\x03\x02\x02\x02\xCC\u04B1\x03\x02\x02\x02\xCE" +
-		"\xD8\x05\x04\x03\x02\xCF\xD8\x05\x12\n\x02\xD0\xD8\x05\x16\f\x02\xD1\xD8" +
-		"\x058\x1D\x02\xD2\xD8\x05&\x14\x02\xD3\xD8\x05,\x17\x02\xD4\xD8\x05\x1E" +
-		"\x10\x02\xD5\xD8\x05 \x11\x02\xD6\xD8\x05\"\x12\x02\xD7\xCE\x03\x02\x02" +
-		"\x02\xD7\xCF\x03\x02\x02\x02\xD7\xD0\x03\x02\x02\x02\xD7\xD1\x03\x02\x02" +
-		"\x02\xD7\xD2\x03\x02\x02\x02\xD7\xD3\x03\x02\x02\x02\xD7\xD4\x03\x02\x02" +
-		"\x02\xD7\xD5\x03\x02\x02\x02\xD7\xD6\x03\x02\x02\x02\xD8\xDB\x03\x02\x02" +
-		"\x02\xD9\xD7\x03\x02\x02\x02\xD9\xDA\x03\x02\x02\x02\xDA\xDC\x03\x02\x02" +
-		"\x02\xDB\xD9\x03\x02\x02\x02\xDC\xDD\x07\x02\x02\x03\xDD\x03\x03\x02\x02" +
-		"\x02\xDE\xDF\x07\x03\x02\x02\xDF\xE1\x05\x06\x04\x02\xE0\xE2\x05\b\x05" +
-		"\x02\xE1\xE0\x03\x02\x02\x02\xE1\xE2\x03\x02\x02\x02\xE2\xE3\x03\x02\x02" +
-		"\x02\xE3\xE4\x07\x04\x02\x02\xE4\x05\x03\x02\x02\x02\xE5\xE8\t\x02\x02" +
-		"\x02\xE6\xE8\x05\xC4c\x02\xE7\xE5\x03\x02\x02\x02\xE7\xE6\x03\x02\x02" +
-		"\x02\xE8\x07\x03\x02\x02\x02\xE9\xEC\x05\n\x06\x02\xEA\xEC\x05\x8EH\x02" +
-		"\xEB\xE9\x03\x02\x02\x02\xEB\xEA\x03\x02\x02\x02\xEC\t\x03\x02\x02\x02" +
-		"\xED\xF4\x05\x0E\b\x02\xEE\xF0\x07\x07\x02\x02\xEF\xEE\x03\x02\x02\x02" +
-		"\xEF\xF0\x03\x02\x02\x02\xF0\xF1\x03\x02\x02\x02\xF1\xF3\x05\x0E\b\x02" +
-		"\xF2\xEF\x03\x02\x02\x02\xF3\xF6\x03\x02\x02\x02\xF4\xF2\x03\x02\x02\x02" +
-		"\xF4\xF5\x03\x02\x02\x02\xF5\v\x03\x02\x02\x02\xF6\xF4\x03\x02\x02\x02" +
-		"\xF7\xF8\t\x03\x02\x02\xF8\r\x03\x02\x02\x02\xF9\xFB\x05\f\x07\x02\xFA" +
-		"\xF9\x03\x02\x02\x02\xFA\xFB\x03\x02\x02\x02\xFB\xFC\x03\x02\x02\x02\xFC" +
-		"\u0102\x07\x8E\x02\x02\xFD\xFF\x05\f\x07\x02\xFE\xFD\x03\x02\x02\x02\xFE" +
-		"\xFF\x03\x02\x02\x02\xFF\u0100\x03\x02\x02\x02\u0100\u0102\x07q\x02\x02" +
-		"\u0101\xFA\x03\x02\x02\x02\u0101\xFE\x03\x02\x02\x02\u0102\x0F\x03\x02" +
-		"\x02\x02\u0103\u0106\x05\xC4c\x02\u0104\u0105\x07\x0F\x02\x02\u0105\u0107" +
-		"\x05\xC4c\x02\u0106\u0104\x03\x02\x02\x02\u0106\u0107\x03\x02\x02\x02" +
-		"\u0107\x11\x03\x02\x02\x02\u0108\u0109\x07\x10\x02\x02\u0109\u010C\x05" +
-		"\x14\v\x02\u010A\u010B\x07\x0F\x02\x02\u010B\u010D\x05\xC4c\x02\u010C" +
-		"\u010A\x03\x02\x02\x02\u010C\u010D\x03\x02\x02\x02\u010D\u010E\x03\x02" +
-		"\x02\x02\u010E\u010F\x07\x04\x02\x02\u010F\u012D\x03\x02\x02\x02\u0110" +
-		"\u0113\x07\x10\x02\x02\u0111\u0114\x07\x11\x02\x02\u0112\u0114\x05\xC4" +
-		"c\x02\u0113\u0111\x03\x02\x02\x02\u0113\u0112\x03\x02\x02\x02\u0114\u0117" +
-		"\x03\x02\x02\x02\u0115\u0116\x07\x0F\x02\x02\u0116\u0118\x05\xC4c\x02" +
-		"\u0117\u0115\x03\x02\x02\x02\u0117\u0118\x03\x02\x02\x02\u0118\u0119\x03" +
-		"\x02\x02\x02\u0119\u011A\x07\x12\x02\x02\u011A\u011B\x05\x14\v\x02\u011B" +
-		"\u011C\x07\x04\x02\x02\u011C\u012D\x03\x02\x02\x02\u011D\u011E\x07\x10" +
-		"\x02\x02\u011E\u011F\x07\x13\x02\x02\u011F\u0124\x05\x10\t\x02\u0120\u0121" +
-		"\x07\x14\x02\x02\u0121\u0123\x05\x10\t\x02\u0122\u0120\x03\x02\x02\x02" +
-		"\u0123\u0126\x03\x02\x02\x02\u0124\u0122\x03\x02\x02\x02\u0124\u0125\x03" +
-		"\x02\x02\x02\u0125\u0127\x03\x02\x02\x02\u0126\u0124\x03\x02\x02\x02\u0127" +
-		"\u0128\x07\x15\x02\x02\u0128\u0129\x07\x12\x02\x02\u0129\u012A\x05\x14" +
-		"\v\x02\u012A\u012B\x07\x04\x02\x02\u012B\u012D\x03\x02\x02\x02\u012C\u0108" +
-		"\x03\x02\x02\x02\u012C\u0110\x03\x02\x02\x02\u012C\u011D\x03\x02\x02\x02" +
-		"\u012D\x13\x03\x02\x02\x02\u012E\u012F\x07\x8D\x02\x02\u012F\x15\x03\x02" +
-		"\x02\x02\u0130\u0132\x07\x16\x02\x02\u0131\u0130\x03\x02\x02\x02\u0131" +
-		"\u0132\x03\x02\x02\x02\u0132\u0133\x03\x02\x02\x02\u0133\u0134\t\x04\x02" +
-		"\x02\u0134\u013E\x05\xC4c\x02\u0135\u0136\x07\x1A\x02\x02\u0136\u013B" +
-		"\x05\x18\r\x02\u0137\u0138\x07\x14\x02\x02\u0138\u013A\x05\x18\r\x02\u0139" +
+		"\x02\xC6\x02\xC8\x02\xCA\x02\xCC\x02\x02\x11\x03\x02\x05\x06\x03\x02\b" +
+		"\x0E\x03\x02\x17\x19\x03\x02,.\x06\x02ww~~\x83\x83\x85\x85\x05\x02((=" +
+		"@in\x03\x02BC\x03\x02EF\x04\x02\x11\x11JK\x03\x02LM\x03\x02\n\r\x03\x02" +
+		"PQ\x04\x02\x0E\x0ET]\x03\x02pq\v\x02\x12\x12\x1D\x1D..<<efzz~~\x88\x88" +
+		"\x8A\x8B\x02\u0540\x02\xD9\x03\x02\x02\x02\x04\xDE\x03\x02\x02\x02\x06" +
+		"\xE7\x03\x02\x02\x02\b\xEB\x03\x02\x02\x02\n\xED\x03\x02\x02\x02\f\xF7" +
+		"\x03\x02\x02\x02\x0E\u0101\x03\x02\x02\x02\x10\u0103\x03\x02\x02\x02\x12" +
+		"\u012C\x03\x02\x02\x02\x14\u012E\x03\x02\x02\x02\x16\u0131\x03\x02\x02" +
+		"\x02\x18\u0149\x03\x02\x02\x02\x1A\u015A\x03\x02\x02\x02\x1C\u015C\x03" +
+		"\x02\x02\x02\x1E\u0170\x03\x02\x02\x02 \u0177\x03\x02\x02\x02\"\u017C" +
+		"\x03\x02\x02\x02$\u0182\x03\x02\x02\x02&\u018B\x03\x02\x02\x02(\u019C" +
+		"\x03\x02\x02\x02*\u01AC\x03\x02\x02\x02,\u01B4\x03\x02\x02\x02.\u01C6" +
+		"\x03\x02\x02\x020\u01C8\x03\x02\x02\x022\u01D7\x03\x02\x02\x024\u01DA" +
+		"\x03\x02\x02\x026\u01E2\x03\x02\x02\x028\u01E4\x03\x02\x02\x02:\u01F3" +
+		"\x03\x02\x02\x02<\u0200\x03\x02\x02\x02>\u0207\x03\x02\x02\x02@\u0214" +
+		"\x03\x02\x02\x02B\u021B\x03\x02\x02\x02D\u0228\x03\x02\x02\x02F\u022C" +
+		"\x03\x02\x02\x02H\u023A\x03\x02\x02\x02J\u0247\x03\x02\x02\x02L\u0251" +
+		"\x03\x02\x02\x02N\u0253\x03\x02\x02\x02P\u025A\x03\x02\x02\x02R\u0268" +
+		"\x03\x02\x02\x02T\u026A\x03\x02\x02\x02V\u026C\x03\x02\x02\x02X\u0286" +
+		"\x03\x02\x02\x02Z\u0288\x03\x02\x02\x02\\\u028B\x03\x02\x02\x02^\u0294" +
+		"\x03\x02\x02\x02`\u029B\x03\x02\x02\x02b\u02A4\x03\x02\x02\x02d\u02AA" +
+		"\x03\x02\x02\x02f\u02B2\x03\x02\x02\x02h\u02B4\x03\x02\x02\x02j\u02B7" +
+		"\x03\x02\x02\x02l\u02C7\x03\x02\x02\x02n\u02D8\x03\x02\x02\x02p\u02DE" +
+		"\x03\x02\x02\x02r\u02E6\x03\x02\x02\x02t\u02E9\x03\x02\x02\x02v\u02EC" +
+		"\x03\x02\x02\x02x\u02F2\x03\x02\x02\x02z\u02F5\x03\x02\x02\x02|\u02F9" +
+		"\x03\x02\x02\x02~\u0304\x03\x02\x02\x02\x80\u030D\x03\x02\x02\x02\x82" +
+		"\u0318\x03\x02\x02\x02\x84\u0327\x03\x02\x02\x02\x86\u0329\x03\x02\x02" +
+		"\x02\x88\u034E\x03\x02\x02\x02\x8A\u03AF\x03\x02\x02\x02\x8C\u03B1\x03" +
+		"\x02\x02\x02\x8E\u03BC\x03\x02\x02\x02\x90\u03C4\x03\x02\x02\x02\x92\u03CF" +
+		"\x03\x02\x02\x02\x94\u03DB\x03\x02\x02\x02\x96\u03DD\x03\x02\x02\x02\x98" +
+		"\u03E2\x03\x02\x02\x02\x9A\u03FD\x03\x02\x02\x02\x9C\u0402\x03\x02\x02" +
+		"\x02\x9E\u0404\x03\x02\x02\x02\xA0\u040C\x03\x02\x02\x02\xA2\u041C\x03" +
+		"\x02\x02\x02\xA4\u0422\x03\x02\x02\x02\xA6\u042C\x03\x02\x02\x02\xA8\u042E" +
+		"\x03\x02\x02\x02\xAA\u0436\x03\x02\x02\x02\xAC\u0439\x03\x02\x02\x02\xAE" +
+		"\u043C\x03\x02\x02\x02\xB0\u044A\x03\x02\x02\x02\xB2\u044C\x03\x02\x02" +
+		"\x02\xB4\u0458\x03\x02\x02\x02\xB6\u045B\x03\x02\x02\x02\xB8\u0467\x03" +
+		"\x02\x02\x02\xBA\u046F\x03\x02\x02\x02\xBC\u0471\x03\x02\x02\x02\xBE\u048F" +
+		"\x03\x02\x02\x02\xC0\u0493\x03\x02\x02\x02\xC2\u0495\x03\x02\x02\x02\xC4" +
+		"\u0499\x03\x02\x02\x02\xC6\u049C\x03\x02\x02\x02\xC8\u04A0\x03\x02\x02" +
+		"\x02\xCA\u04A2\x03\x02\x02\x02\xCC\u04B1\x03\x02\x02\x02\xCE\xD8\x05\x04" +
+		"\x03\x02\xCF\xD8\x05\x12\n\x02\xD0\xD8\x05\x16\f\x02\xD1\xD8\x058\x1D" +
+		"\x02\xD2\xD8\x05&\x14\x02\xD3\xD8\x05,\x17\x02\xD4\xD8\x05\x1E\x10\x02" +
+		"\xD5\xD8\x05 \x11\x02\xD6\xD8\x05\"\x12\x02\xD7\xCE\x03\x02\x02\x02\xD7" +
+		"\xCF\x03\x02\x02\x02\xD7\xD0\x03\x02\x02\x02\xD7\xD1\x03\x02\x02\x02\xD7" +
+		"\xD2\x03\x02\x02\x02\xD7\xD3\x03\x02\x02\x02\xD7\xD4\x03\x02\x02\x02\xD7" +
+		"\xD5\x03\x02\x02\x02\xD7\xD6\x03\x02\x02\x02\xD8\xDB\x03\x02\x02\x02\xD9" +
+		"\xD7\x03\x02\x02\x02\xD9\xDA\x03\x02\x02\x02\xDA\xDC\x03\x02\x02\x02\xDB" +
+		"\xD9\x03\x02\x02\x02\xDC\xDD\x07\x02\x02\x03\xDD\x03\x03\x02\x02\x02\xDE" +
+		"\xDF\x07\x03\x02\x02\xDF\xE1\x05\x06\x04\x02\xE0\xE2\x05\b\x05\x02\xE1" +
+		"\xE0\x03\x02\x02\x02\xE1\xE2\x03\x02\x02\x02\xE2\xE3\x03\x02\x02\x02\xE3" +
+		"\xE4\x07\x04\x02\x02\xE4\x05\x03\x02\x02\x02\xE5\xE8\t\x02\x02\x02\xE6" +
+		"\xE8\x05\xC4c\x02\xE7\xE5\x03\x02\x02\x02\xE7\xE6\x03\x02\x02\x02\xE8" +
+		"\x07\x03\x02\x02\x02\xE9\xEC\x05\n\x06\x02\xEA\xEC\x05\x8EH\x02\xEB\xE9" +
+		"\x03\x02\x02\x02\xEB\xEA\x03\x02\x02\x02\xEC\t\x03\x02\x02\x02\xED\xF4" +
+		"\x05\x0E\b\x02\xEE\xF0\x07\x07\x02\x02\xEF\xEE\x03\x02\x02\x02\xEF\xF0" +
+		"\x03\x02\x02\x02\xF0\xF1\x03\x02\x02\x02\xF1\xF3\x05\x0E\b\x02\xF2\xEF" +
+		"\x03\x02\x02\x02\xF3\xF6\x03\x02\x02\x02\xF4\xF2\x03\x02\x02\x02\xF4\xF5" +
+		"\x03\x02\x02\x02\xF5\v\x03\x02\x02\x02\xF6\xF4\x03\x02\x02\x02\xF7\xF8" +
+		"\t\x03\x02\x02\xF8\r\x03\x02\x02\x02\xF9\xFB\x05\f\x07\x02\xFA\xF9\x03" +
+		"\x02\x02\x02\xFA\xFB\x03\x02\x02\x02\xFB\xFC\x03\x02\x02\x02\xFC\u0102" +
+		"\x07\x8D\x02\x02\xFD\xFF\x05\f\x07\x02\xFE\xFD\x03\x02\x02\x02\xFE\xFF" +
+		"\x03\x02\x02\x02\xFF\u0100\x03\x02\x02\x02\u0100\u0102\x07p\x02\x02\u0101" +
+		"\xFA\x03\x02\x02\x02\u0101\xFE\x03\x02\x02\x02\u0102\x0F\x03\x02\x02\x02" +
+		"\u0103\u0106\x05\xC4c\x02\u0104\u0105\x07\x0F\x02\x02\u0105\u0107\x05" +
+		"\xC4c\x02\u0106\u0104\x03\x02\x02\x02\u0106\u0107\x03\x02\x02\x02\u0107" +
+		"\x11\x03\x02\x02\x02\u0108\u0109\x07\x10\x02\x02\u0109\u010C\x05\x14\v" +
+		"\x02\u010A\u010B\x07\x0F\x02\x02\u010B\u010D\x05\xC4c\x02\u010C\u010A" +
+		"\x03\x02\x02\x02\u010C\u010D\x03\x02\x02\x02\u010D\u010E\x03\x02\x02\x02" +
+		"\u010E\u010F\x07\x04\x02\x02\u010F\u012D\x03\x02\x02\x02\u0110\u0113\x07" +
+		"\x10\x02\x02\u0111\u0114\x07\x11\x02\x02\u0112\u0114\x05\xC4c\x02\u0113" +
+		"\u0111\x03\x02\x02\x02\u0113\u0112\x03\x02\x02\x02\u0114\u0117\x03\x02" +
+		"\x02\x02\u0115\u0116\x07\x0F\x02\x02\u0116\u0118\x05\xC4c\x02\u0117\u0115" +
+		"\x03\x02\x02\x02\u0117\u0118\x03\x02\x02\x02\u0118\u0119\x03\x02\x02\x02" +
+		"\u0119\u011A\x07\x12\x02\x02\u011A\u011B\x05\x14\v\x02\u011B\u011C\x07" +
+		"\x04\x02\x02\u011C\u012D\x03\x02\x02\x02\u011D\u011E\x07\x10\x02\x02\u011E" +
+		"\u011F\x07\x13\x02\x02\u011F\u0124\x05\x10\t\x02\u0120\u0121\x07\x14\x02" +
+		"\x02\u0121\u0123\x05\x10\t\x02\u0122\u0120\x03\x02\x02\x02\u0123\u0126" +
+		"\x03\x02\x02\x02\u0124\u0122\x03\x02\x02\x02\u0124\u0125\x03\x02\x02\x02" +
+		"\u0125\u0127\x03\x02\x02\x02\u0126\u0124\x03\x02\x02\x02\u0127\u0128\x07" +
+		"\x15\x02\x02\u0128\u0129\x07\x12\x02\x02\u0129\u012A\x05\x14\v\x02\u012A" +
+		"\u012B\x07\x04\x02\x02\u012B\u012D\x03\x02\x02\x02\u012C\u0108\x03\x02" +
+		"\x02\x02\u012C\u0110\x03\x02\x02\x02\u012C\u011D\x03\x02\x02\x02\u012D" +
+		"\x13\x03\x02\x02\x02\u012E\u012F\x07\x8C\x02\x02\u012F\x15\x03\x02\x02" +
+		"\x02\u0130\u0132\x07\x16\x02\x02\u0131\u0130\x03\x02\x02\x02\u0131\u0132" +
+		"\x03\x02\x02\x02\u0132\u0133\x03\x02\x02\x02\u0133\u0134\t\x04\x02\x02" +
+		"\u0134\u013E\x05\xC4c\x02\u0135\u0136\x07\x1A\x02\x02\u0136\u013B\x05" +
+		"\x18\r\x02\u0137\u0138\x07\x14\x02\x02\u0138\u013A\x05\x18\r\x02\u0139" +
 		"\u0137\x03\x02\x02\x02\u013A\u013D\x03\x02\x02\x02\u013B\u0139\x03\x02" +
 		"\x02\x02\u013B\u013C\x03\x02\x02\x02\u013C\u013F\x03\x02\x02\x02\u013D" +
 		"\u013B\x03\x02\x02\x02\u013E\u0135\x03\x02\x02\x02\u013E\u013F\x03\x02" +
@@ -6760,8 +6746,8 @@ export class SolidityParser extends Parser {
 		"\x02\x02\u015A\u0155\x03\x02\x02\x02\u015A\u0156\x03\x02\x02\x02\u015A" +
 		"\u0157\x03\x02\x02\x02\u015A\u0158\x03\x02\x02\x02\u015A\u0159\x03\x02" +
 		"\x02\x02\u015B\x1B\x03\x02\x02\x02\u015C\u0166\x05H%\x02\u015D\u0165\x07" +
-		"\x82\x02\x02\u015E\u0165\x07\x81\x02\x02\u015F\u0165\x07~\x02\x02\u0160" +
-		"\u0165\x07\x80\x02\x02\u0161\u0165\x07x\x02\x02\u0162\u0165\x07y\x02\x02" +
+		"\x81\x02\x02\u015E\u0165\x07\x80\x02\x02\u015F\u0165\x07}\x02\x02\u0160" +
+		"\u0165\x07\x7F\x02\x02\u0161\u0165\x07w\x02\x02\u0162\u0165\x07x\x02\x02" +
 		"\u0163\u0165\x05\xCAf\x02\u0164\u015D\x03\x02\x02\x02\u0164\u015E\x03" +
 		"\x02\x02\x02\u0164\u015F\x03\x02\x02\x02\u0164\u0160\x03\x02\x02\x02\u0164" +
 		"\u0161\x03\x02\x02\x02\u0164\u0162\x03\x02\x02\x02\u0164\u0163\x03\x02" +
@@ -6770,11 +6756,11 @@ export class SolidityParser extends Parser {
 		"\x02\x02\u0169\u016C\x05\xC4c\x02\u016A\u016B\x07\x0E\x02\x02\u016B\u016D" +
 		"\x05\x88E\x02\u016C\u016A\x03\x02\x02\x02\u016C\u016D\x03\x02\x02\x02" +
 		"\u016D\u016E\x03\x02\x02\x02\u016E\u016F\x07\x04\x02\x02\u016F\x1D\x03" +
-		"\x02\x02\x02\u0170\u0171\x05H%\x02\u0171\u0172\x07x\x02\x02\u0172\u0173" +
+		"\x02\x02\x02\u0170\u0171\x05H%\x02\u0171\u0172\x07w\x02\x02\u0172\u0173" +
 		"\x05\xC4c\x02\u0173\u0174\x07\x0E\x02\x02\u0174\u0175\x05\x88E\x02\u0175" +
 		"\u0176\x07\x04\x02\x02\u0176\x1F\x03\x02\x02\x02\u0177\u0178\x07\x1D\x02" +
 		"\x02\u0178\u0179\x05\xC4c\x02\u0179\u017A\x05:\x1E\x02\u017A\u017B\x07" +
-		"\x04\x02\x02\u017B!\x03\x02\x02\x02\u017C\u017D\x07\x85\x02\x02\u017D" +
+		"\x04\x02\x02\u017B!\x03\x02\x02\x02\u017C\u017D\x07\x84\x02\x02\u017D" +
 		"\u017E\x05\xC4c\x02\u017E\u017F\x07\x1A\x02\x02\u017F\u0180\x05\x84C\x02" +
 		"\u0180\u0181\x07\x04\x02\x02\u0181#\x03\x02\x02\x02\u0182\u0183\x07\x1E" +
 		"\x02\x02\u0183\u0184\x05J&\x02\u0184\u0187\x07\x1F\x02\x02\u0185\u0188" +
@@ -6785,162 +6771,162 @@ export class SolidityParser extends Parser {
 		"\x07\x04\x02\x02\u0190\u0191\x05F$\x02\u0191\u0192\x07\x04\x02\x02\u0192" +
 		"\u0194\x03\x02\x02\x02\u0193\u0190\x03\x02\x02\x02\u0194\u0197\x03\x02" +
 		"\x02\x02\u0195\u0193\x03\x02\x02\x02\u0195\u0196\x03\x02\x02\x02\u0196" +
-		"\u0199\x03\x02\x02\x02\u0197\u0195\x03\x02\x02";
+		"\u0199\x03\x02\x02\x02\u0197\u0195\x03\x02\x02\x02\u0198\u018E\x03";
 	private static readonly _serializedATNSegment1: string =
-		"\x02\u0198\u018E\x03\x02\x02\x02\u0198\u0199\x03\x02\x02\x02\u0199\u019A" +
-		"\x03\x02\x02\x02\u019A\u019B\x07\x15\x02\x02\u019B\'\x03\x02\x02\x02\u019C" +
-		"\u019D\x07!\x02\x02\u019D\u019F\x05\xC4c\x02\u019E\u01A0\x05:\x1E\x02" +
-		"\u019F\u019E\x03\x02\x02\x02\u019F\u01A0\x03\x02\x02\x02\u01A0\u01A5\x03" +
-		"\x02\x02\x02\u01A1\u01A4\x07\x83\x02\x02\u01A2\u01A4\x05\xCAf\x02\u01A3" +
-		"\u01A1\x03\x02\x02\x02\u01A3\u01A2\x03\x02\x02\x02\u01A4\u01A7\x03\x02" +
-		"\x02\x02\u01A5\u01A3\x03\x02\x02\x02\u01A5\u01A6\x03\x02\x02\x02\u01A6" +
-		"\u01AA\x03\x02\x02\x02\u01A7\u01A5\x03\x02\x02\x02\u01A8\u01AB\x07\x04" +
-		"\x02\x02\u01A9\u01AB\x05V,\x02\u01AA\u01A8\x03\x02\x02\x02\u01AA\u01A9" +
-		"\x03\x02\x02\x02\u01AB)\x03\x02\x02\x02\u01AC\u01B2\x05\xC4c\x02\u01AD" +
-		"\u01AF\x07\x1B\x02\x02\u01AE\u01B0\x05\x8EH\x02\u01AF\u01AE\x03\x02\x02" +
-		"\x02\u01AF\u01B0\x03\x02\x02\x02\u01B0\u01B1\x03\x02\x02\x02\u01B1\u01B3" +
-		"\x07\x1C\x02\x02\u01B2\u01AD\x03\x02\x02\x02\u01B2\u01B3\x03\x02\x02\x02" +
-		"\u01B3+\x03\x02\x02\x02\u01B4\u01B5\x05.\x18\x02\u01B5\u01B6\x05:\x1E" +
-		"\x02\u01B6\u01B8\x052\x1A\x02\u01B7\u01B9\x050\x19\x02\u01B8\u01B7\x03" +
-		"\x02\x02\x02\u01B8\u01B9\x03\x02\x02\x02\u01B9\u01BC\x03\x02\x02\x02\u01BA" +
-		"\u01BD\x07\x04\x02\x02\u01BB\u01BD\x05V,\x02\u01BC\u01BA\x03\x02\x02\x02" +
-		"\u01BC\u01BB\x03\x02\x02\x02\u01BD-\x03\x02\x02\x02\u01BE\u01C0\x07\"" +
-		"\x02\x02\u01BF\u01C1\x05\xC4c\x02\u01C0\u01BF\x03\x02\x02\x02\u01C0\u01C1" +
-		"\x03\x02\x02\x02\u01C1\u01C7\x03\x02\x02\x02\u01C2\u01C7\x07\x89\x02\x02" +
-		"\u01C3\u01C7\x07\x8A\x02\x02\u01C4\u01C7\x07\x8B\x02\x02\u01C5\u01C7\x05" +
-		"\xC8e\x02\u01C6\u01BE\x03\x02\x02\x02\u01C6\u01C2\x03\x02\x02\x02\u01C6" +
-		"\u01C3\x03\x02\x02\x02\u01C6\u01C4\x03\x02\x02\x02\u01C6\u01C5\x03\x02" +
-		"\x02\x02\u01C7/\x03\x02\x02\x02\u01C8\u01C9\x07#\x02\x02\u01C9\u01CA\x05" +
-		":\x1E\x02\u01CA1\x03\x02\x02\x02\u01CB\u01D6\x07|\x02\x02\u01CC\u01D6" +
-		"\x07\x81\x02\x02\u01CD\u01D6\x07~\x02\x02\u01CE\u01D6\x07\x80\x02\x02" +
-		"\u01CF\u01D6\x07\x87\x02\x02\u01D0\u01D6\x07\x88\x02\x02\u01D1\u01D6\x07" +
-		"\x83\x02\x02\u01D2\u01D6\x05T+\x02\u01D3\u01D6\x05*\x16\x02\u01D4\u01D6" +
-		"\x05\xCAf\x02\u01D5\u01CB\x03\x02\x02\x02\u01D5\u01CC\x03\x02\x02\x02" +
-		"\u01D5\u01CD\x03\x02\x02\x02\u01D5\u01CE\x03\x02\x02\x02\u01D5\u01CF\x03" +
-		"\x02\x02\x02\u01D5\u01D0\x03\x02\x02\x02\u01D5\u01D1\x03\x02\x02\x02\u01D5" +
-		"\u01D2\x03\x02\x02\x02\u01D5\u01D3\x03\x02\x02\x02\u01D5\u01D4\x03\x02" +
-		"\x02\x02\u01D6\u01D9\x03\x02\x02\x02\u01D7\u01D5\x03\x02\x02\x02\u01D7" +
-		"\u01D8\x03\x02\x02\x02\u01D83\x03\x02\x02\x02\u01D9\u01D7\x03\x02\x02" +
-		"\x02\u01DA\u01DB\x07$\x02\x02\u01DB\u01DC\x05\xC4c\x02\u01DC\u01DE\x05" +
-		"> \x02\u01DD\u01DF\x07v\x02\x02\u01DE\u01DD\x03\x02\x02\x02\u01DE\u01DF" +
-		"\x03\x02\x02\x02\u01DF\u01E0\x03\x02\x02\x02\u01E0\u01E1\x07\x04\x02\x02" +
-		"\u01E15\x03\x02\x02\x02\u01E2\u01E3\x05\xC4c\x02\u01E37\x03\x02\x02\x02" +
-		"\u01E4\u01E5\x07%\x02\x02\u01E5\u01E6\x05\xC4c\x02\u01E6\u01E8\x07\x13" +
-		"\x02\x02\u01E7\u01E9\x056\x1C\x02\u01E8\u01E7\x03\x02\x02\x02\u01E8\u01E9" +
-		"\x03\x02\x02\x02\u01E9\u01EE\x03\x02\x02\x02\u01EA\u01EB\x07\x14\x02\x02" +
-		"\u01EB\u01ED\x056\x1C\x02\u01EC\u01EA\x03\x02\x02\x02\u01ED\u01F0\x03" +
-		"\x02\x02\x02\u01EE\u01EC\x03\x02\x02\x02\u01EE\u01EF\x03\x02\x02\x02\u01EF" +
-		"\u01F1\x03\x02\x02\x02\u01F0\u01EE\x03\x02\x02\x02\u01F1\u01F2\x07\x15" +
-		"\x02\x02\u01F29\x03\x02\x02\x02\u01F3\u01FC\x07\x1B\x02\x02\u01F4\u01F9" +
-		"\x05<\x1F\x02\u01F5\u01F6\x07\x14\x02\x02\u01F6\u01F8\x05<\x1F\x02\u01F7" +
-		"\u01F5\x03\x02\x02\x02\u01F8\u01FB\x03\x02\x02\x02\u01F9\u01F7\x03\x02" +
-		"\x02\x02\u01F9\u01FA\x03\x02\x02\x02\u01FA\u01FD\x03\x02\x02\x02\u01FB" +
-		"\u01F9\x03\x02\x02\x02\u01FC\u01F4\x03\x02\x02\x02\u01FC\u01FD\x03\x02" +
-		"\x02\x02\u01FD\u01FE\x03\x02\x02\x02\u01FE\u01FF\x07\x1C\x02\x02\u01FF" +
-		";\x03\x02\x02\x02\u0200\u0202\x05H%\x02\u0201\u0203\x05R*\x02\u0202\u0201" +
-		"\x03\x02\x02\x02\u0202\u0203\x03\x02\x02\x02\u0203\u0205\x03\x02\x02\x02" +
-		"\u0204\u0206\x05\xC4c\x02\u0205\u0204\x03\x02\x02\x02\u0205\u0206\x03" +
-		"\x02\x02\x02\u0206=\x03\x02\x02\x02\u0207\u0210\x07\x1B\x02\x02\u0208" +
-		"\u020D\x05@!\x02\u0209\u020A\x07\x14\x02\x02\u020A\u020C\x05@!\x02\u020B" +
-		"\u0209\x03\x02\x02\x02\u020C\u020F\x03\x02\x02\x02\u020D\u020B\x03\x02" +
-		"\x02\x02\u020D\u020E\x03\x02\x02\x02\u020E\u0211\x03\x02\x02\x02\u020F" +
-		"\u020D\x03\x02\x02\x02\u0210\u0208\x03\x02\x02\x02\u0210\u0211\x03\x02" +
-		"\x02\x02\u0211\u0212\x03\x02\x02\x02\u0212\u0213\x07\x1C\x02\x02\u0213" +
-		"?\x03\x02\x02\x02\u0214\u0216\x05H%\x02\u0215\u0217\x07}\x02\x02\u0216" +
-		"\u0215\x03\x02\x02\x02\u0216\u0217\x03\x02\x02\x02\u0217\u0219\x03\x02" +
-		"\x02\x02\u0218\u021A\x05\xC4c\x02\u0219\u0218\x03\x02\x02\x02\u0219\u021A" +
-		"\x03\x02\x02\x02\u021AA\x03\x02\x02\x02\u021B\u0224\x07\x1B\x02\x02\u021C" +
-		"\u0221\x05D#\x02\u021D\u021E\x07\x14\x02\x02\u021E\u0220\x05D#\x02\u021F" +
-		"\u021D\x03\x02\x02\x02\u0220\u0223\x03\x02\x02\x02\u0221\u021F\x03\x02" +
-		"\x02\x02\u0221\u0222\x03\x02\x02\x02\u0222\u0225\x03\x02\x02\x02\u0223" +
-		"\u0221\x03\x02\x02\x02\u0224\u021C\x03\x02\x02\x02\u0224\u0225\x03\x02" +
-		"\x02\x02\u0225\u0226\x03\x02\x02\x02\u0226\u0227\x07\x1C\x02\x02\u0227" +
-		"C\x03\x02\x02\x02\u0228\u022A\x05H%\x02\u0229\u022B\x05R*\x02\u022A\u0229" +
-		"\x03\x02\x02\x02\u022A\u022B\x03\x02\x02\x02\u022BE\x03\x02\x02\x02\u022C" +
-		"\u022E\x05H%\x02\u022D\u022F\x05R*\x02\u022E\u022D\x03\x02\x02\x02\u022E" +
-		"\u022F\x03\x02\x02\x02\u022F\u0230\x03\x02\x02\x02\u0230\u0231\x05\xC4" +
-		"c\x02\u0231G\x03\x02\x02\x02\u0232\u0233\b%\x01\x02\u0233\u023B\x05\x84" +
-		"C\x02\u0234\u023B\x05J&\x02\u0235\u023B\x05N(\x02\u0236\u023B\x05P)\x02" +
-		"\u0237\u023B\x05\x86D\x02\u0238\u0239\x07(\x02\x02\u0239\u023B\x07\x7F" +
-		"\x02\x02\u023A\u0232\x03\x02\x02\x02\u023A\u0234\x03\x02\x02\x02\u023A" +
-		"\u0235\x03\x02\x02\x02\u023A\u0236\x03\x02\x02\x02\u023A\u0237\x03\x02" +
-		"\x02\x02\u023A\u0238\x03\x02\x02\x02\u023B\u0244\x03\x02\x02\x02\u023C" +
-		"\u023D\f\x06\x02\x02\u023D\u023F\x07&\x02\x02\u023E\u0240\x05\x88E\x02" +
-		"\u023F\u023E\x03\x02\x02\x02\u023F\u0240\x03\x02\x02\x02\u0240\u0241\x03" +
-		"\x02\x02\x02\u0241\u0243\x07\'\x02\x02\u0242\u023C\x03\x02\x02\x02\u0243" +
-		"\u0246\x03\x02\x02\x02\u0244\u0242\x03\x02\x02\x02\u0244\u0245\x03\x02" +
-		"\x02\x02\u0245I\x03\x02\x02\x02\u0246\u0244\x03\x02\x02\x02\u0247\u024C" +
-		"\x05\xC4c\x02\u0248\u0249\x07)\x02\x02\u0249\u024B\x05\xC4c\x02\u024A" +
-		"\u0248\x03\x02\x02\x02\u024B\u024E\x03\x02\x02\x02\u024C\u024A\x03\x02" +
-		"\x02\x02\u024C\u024D\x03\x02\x02\x02\u024DK\x03\x02\x02\x02\u024E\u024C" +
-		"\x03\x02\x02\x02\u024F\u0252\x05\x84C\x02\u0250\u0252\x05J&\x02\u0251" +
-		"\u024F\x03\x02\x02\x02\u0251\u0250\x03\x02\x02\x02\u0252M\x03\x02\x02" +
-		"\x02\u0253\u0254\x07*\x02\x02\u0254\u0255\x07\x1B\x02\x02\u0255\u0256" +
-		"\x05L\'\x02\u0256\u0257\x07+\x02\x02\u0257\u0258\x05H%\x02\u0258\u0259" +
-		"\x07\x1C\x02\x02\u0259O\x03\x02\x02\x02\u025A\u025B\x07\"\x02\x02\u025B" +
-		"\u0261\x05B\"\x02\u025C\u0260\x07~\x02\x02\u025D\u0260\x07|\x02\x02\u025E" +
-		"\u0260\x05T+\x02\u025F\u025C\x03\x02\x02\x02\u025F\u025D\x03\x02\x02\x02" +
-		"\u025F\u025E\x03\x02\x02\x02\u0260\u0263\x03\x02\x02\x02\u0261\u025F\x03" +
-		"\x02\x02\x02\u0261\u0262\x03\x02\x02\x02\u0262\u0266\x03\x02\x02\x02\u0263" +
-		"\u0261\x03\x02\x02\x02\u0264\u0265\x07#\x02\x02\u0265\u0267\x05B\"\x02" +
-		"\u0266\u0264\x03\x02\x02\x02\u0266\u0267\x03\x02\x02\x02\u0267Q\x03\x02" +
-		"\x02\x02\u0268\u0269\t\x05\x02\x02\u0269S\x03\x02\x02\x02\u026A\u026B" +
-		"\t\x06\x02\x02\u026BU\x03\x02\x02\x02\u026C\u0270\x07\x13\x02\x02\u026D" +
-		"\u026F\x05X-\x02\u026E\u026D\x03\x02\x02\x02\u026F\u0272\x03\x02\x02\x02" +
-		"\u0270\u026E\x03\x02\x02\x02\u0270\u0271\x03\x02\x02\x02\u0271\u0273\x03" +
-		"\x02\x02\x02\u0272\u0270\x03\x02\x02\x02\u0273\u0274\x07\x15\x02\x02\u0274" +
-		"W\x03\x02\x02\x02\u0275\u0287\x05\\/\x02\u0276\u0287\x05^0\x02\u0277\u0287" +
-		"\x05b2\x02\u0278\u0287\x05d3\x02\u0279\u0287\x05j6\x02\u027A\u0287\x05" +
-		"l7\x02\u027B\u0287\x05V,\x02\u027C\u0287\x05n8\x02\u027D\u0287\x05p9\x02" +
-		"\u027E\u0287\x05r:\x02\u027F\u0287\x05t;\x02\u0280\u0287\x05v<\x02\u0281" +
-		"\u0287\x05x=\x02\u0282\u0287\x05z>\x02\u0283\u0287\x05f4\x02\u0284\u0287" +
-		"\x05h5\x02\u0285\u0287\x05|?\x02\u0286\u0275\x03\x02\x02\x02\u0286\u0276" +
-		"\x03\x02\x02\x02\u0286\u0277\x03\x02\x02\x02\u0286\u0278\x03\x02\x02\x02" +
-		"\u0286\u0279\x03\x02\x02\x02\u0286\u027A\x03\x02\x02\x02\u0286\u027B\x03" +
-		"\x02\x02\x02\u0286\u027C\x03\x02\x02\x02\u0286\u027D\x03\x02\x02\x02\u0286" +
-		"\u027E\x03\x02\x02\x02\u0286\u027F\x03\x02\x02\x02\u0286\u0280\x03\x02" +
-		"\x02\x02\u0286\u0281\x03\x02\x02\x02\u0286\u0282\x03\x02\x02\x02\u0286" +
-		"\u0283\x03\x02\x02\x02\u0286\u0284\x03\x02\x02\x02\u0286\u0285\x03\x02" +
-		"\x02\x02\u0287Y\x03\x02\x02\x02\u0288\u0289\x05\x88E\x02\u0289\u028A\x07" +
-		"\x04\x02\x02\u028A[\x03\x02\x02\x02\u028B\u028C\x07/\x02\x02\u028C\u028D" +
-		"\x07\x1B\x02\x02\u028D\u028E\x05\x88E\x02\u028E\u028F\x07\x1C\x02\x02" +
-		"\u028F\u0292\x05X-\x02\u0290\u0291\x070\x02\x02\u0291\u0293\x05X-\x02" +
-		"\u0292\u0290\x03\x02\x02\x02\u0292\u0293\x03\x02\x02\x02\u0293]\x03\x02" +
-		"\x02\x02\u0294\u0295\x071\x02\x02\u0295\u0297\x05V,\x02\u0296\u0298\x05" +
-		"`1\x02\u0297\u0296\x03\x02\x02\x02\u0298\u0299\x03\x02\x02\x02\u0299\u0297" +
-		"\x03\x02\x02\x02\u0299\u029A\x03\x02\x02\x02\u029A_\x03\x02\x02\x02\u029B" +
-		"\u02A0\x072\x02\x02\u029C\u029E\x05\xC4c\x02\u029D\u029C\x03\x02\x02\x02" +
-		"\u029D\u029E\x03\x02\x02\x02\u029E\u029F\x03\x02\x02\x02\u029F\u02A1\x05" +
-		":\x1E\x02\u02A0\u029D\x03\x02\x02\x02\u02A0\u02A1\x03\x02\x02\x02\u02A1" +
-		"\u02A2\x03\x02\x02\x02\u02A2\u02A3\x05V,\x02\u02A3a\x03\x02\x02\x02\u02A4" +
-		"\u02A5\x073\x02\x02\u02A5\u02A6\x07\x1B\x02\x02\u02A6\u02A7\x05\x88E\x02" +
-		"\u02A7\u02A8\x07\x1C\x02\x02\u02A8\u02A9\x05X-\x02\u02A9c\x03\x02\x02" +
-		"\x02\u02AA\u02AB\x074\x02\x02\u02AB\u02AC\x07\x1B\x02\x02\u02AC\u02AD" +
-		"\x05\x88E\x02\u02AD\u02AE\x07\x1C\x02\x02\u02AE\u02AF\x05X-\x02\u02AF" +
-		"e\x03\x02\x02\x02\u02B0\u02B3\x05~@\x02\u02B1\u02B3\x05Z.\x02\u02B2\u02B0" +
-		"\x03\x02\x02\x02\u02B2\u02B1\x03\x02\x02\x02\u02B3g\x03\x02\x02\x02\u02B4" +
-		"\u02B5\x075\x02\x02\u02B5\u02B6\x05V,\x02\u02B6i\x03\x02\x02\x02\u02B7" +
-		"\u02B8\x07\x1F\x02\x02\u02B8\u02BB\x07\x1B\x02\x02\u02B9\u02BC\x05f4\x02" +
-		"\u02BA\u02BC\x07\x04\x02\x02\u02BB\u02B9\x03\x02\x02\x02\u02BB\u02BA\x03" +
-		"\x02\x02\x02\u02BC\u02BF\x03\x02\x02\x02\u02BD\u02C0\x05Z.\x02\u02BE\u02C0" +
-		"\x07\x04\x02\x02\u02BF\u02BD\x03\x02\x02\x02\u02BF\u02BE\x03\x02\x02\x02" +
-		"\u02C0\u02C2\x03\x02\x02\x02\u02C1\u02C3\x05\x88E\x02\u02C2\u02C1\x03" +
-		"\x02\x02\x02\u02C2\u02C3\x03\x02\x02\x02\u02C3\u02C4\x03\x02\x02\x02\u02C4" +
-		"\u02C5\x07\x1C\x02\x02\u02C5\u02C6\x05X-\x02\u02C6k\x03\x02\x02\x02\u02C7" +
-		"\u02C8\x07\x1F\x02\x02\u02C8\u02CE\x07\x1B\x02\x02\u02C9\u02CF\x05F$\x02" +
-		"\u02CA\u02CB\x07\x1B\x02\x02\u02CB\u02CC\x05\x80A\x02\u02CC\u02CD\x07" +
-		"\x1C\x02\x02\u02CD\u02CF\x03\x02\x02\x02\u02CE\u02C9\x03\x02\x02\x02\u02CE" +
-		"\u02CA\x03\x02\x02\x02\u02CF\u02D0\x03\x02\x02\x02\u02D0\u02D3\x076\x02" +
-		"\x02\u02D1\u02D4\x05\xC4c\x02\u02D2\u02D4\x05\x88E\x02\u02D3\u02D1\x03" +
-		"\x02\x02\x02\u02D3\u02D2\x03\x02\x02\x02\u02D4\u02D5\x03\x02\x02\x02\u02D5" +
+		"\x02\x02\x02\u0198\u0199\x03\x02\x02\x02\u0199\u019A\x03\x02\x02\x02\u019A" +
+		"\u019B\x07\x15\x02\x02\u019B\'\x03\x02\x02\x02\u019C\u019D\x07!\x02\x02" +
+		"\u019D\u019F\x05\xC4c\x02\u019E\u01A0\x05:\x1E\x02\u019F\u019E\x03\x02" +
+		"\x02\x02\u019F\u01A0\x03\x02\x02\x02\u01A0\u01A5\x03\x02\x02\x02\u01A1" +
+		"\u01A4\x07\x82\x02\x02\u01A2\u01A4\x05\xCAf\x02\u01A3\u01A1\x03\x02\x02" +
+		"\x02\u01A3\u01A2\x03\x02\x02\x02\u01A4\u01A7\x03\x02\x02\x02\u01A5\u01A3" +
+		"\x03\x02\x02\x02\u01A5\u01A6\x03\x02\x02\x02\u01A6\u01AA\x03\x02\x02\x02" +
+		"\u01A7\u01A5\x03\x02\x02\x02\u01A8\u01AB\x07\x04\x02\x02\u01A9\u01AB\x05" +
+		"V,\x02\u01AA\u01A8\x03\x02\x02\x02\u01AA\u01A9\x03\x02\x02\x02\u01AB)" +
+		"\x03\x02\x02\x02\u01AC\u01B2\x05\xC4c\x02\u01AD\u01AF\x07\x1B\x02\x02" +
+		"\u01AE\u01B0\x05\x8EH\x02\u01AF\u01AE\x03\x02\x02\x02\u01AF\u01B0\x03" +
+		"\x02\x02\x02\u01B0\u01B1\x03\x02\x02\x02\u01B1\u01B3\x07\x1C\x02\x02\u01B2" +
+		"\u01AD\x03\x02\x02\x02\u01B2\u01B3\x03\x02\x02\x02\u01B3+\x03\x02\x02" +
+		"\x02\u01B4\u01B5\x05.\x18\x02\u01B5\u01B6\x05:\x1E\x02\u01B6\u01B8\x05" +
+		"2\x1A\x02\u01B7\u01B9\x050\x19\x02\u01B8\u01B7\x03\x02\x02\x02\u01B8\u01B9" +
+		"\x03\x02\x02\x02\u01B9\u01BC\x03\x02\x02\x02\u01BA\u01BD\x07\x04\x02\x02" +
+		"\u01BB\u01BD\x05V,\x02\u01BC\u01BA\x03\x02\x02\x02\u01BC\u01BB\x03\x02" +
+		"\x02\x02\u01BD-\x03\x02\x02\x02\u01BE\u01C0\x07\"\x02\x02\u01BF\u01C1" +
+		"\x05\xC4c\x02\u01C0\u01BF\x03\x02\x02\x02\u01C0\u01C1\x03\x02\x02\x02" +
+		"\u01C1\u01C7\x03\x02\x02\x02\u01C2\u01C7\x07\x88\x02\x02\u01C3\u01C7\x07" +
+		"\x89\x02\x02\u01C4\u01C7\x07\x8A\x02\x02\u01C5\u01C7\x05\xC8e\x02\u01C6" +
+		"\u01BE\x03\x02\x02\x02\u01C6\u01C2\x03\x02\x02\x02\u01C6\u01C3\x03\x02" +
+		"\x02\x02\u01C6\u01C4\x03\x02\x02\x02\u01C6\u01C5\x03\x02\x02\x02\u01C7" +
+		"/\x03\x02\x02\x02\u01C8\u01C9\x07#\x02\x02\u01C9\u01CA\x05:\x1E\x02\u01CA" +
+		"1\x03\x02\x02\x02\u01CB\u01D6\x07{\x02\x02\u01CC\u01D6\x07\x80\x02\x02" +
+		"\u01CD\u01D6\x07}\x02\x02\u01CE\u01D6\x07\x7F\x02\x02\u01CF\u01D6\x07" +
+		"\x86\x02\x02\u01D0\u01D6\x07\x87\x02\x02\u01D1\u01D6\x07\x82\x02\x02\u01D2" +
+		"\u01D6\x05T+\x02\u01D3\u01D6\x05*\x16\x02\u01D4\u01D6\x05\xCAf\x02\u01D5" +
+		"\u01CB\x03\x02\x02\x02\u01D5\u01CC\x03\x02\x02\x02\u01D5\u01CD\x03\x02" +
+		"\x02\x02\u01D5\u01CE\x03\x02\x02\x02\u01D5\u01CF\x03\x02\x02\x02\u01D5" +
+		"\u01D0\x03\x02\x02\x02\u01D5\u01D1\x03\x02\x02\x02\u01D5\u01D2\x03\x02" +
+		"\x02\x02\u01D5\u01D3\x03\x02\x02\x02\u01D5\u01D4\x03\x02\x02\x02\u01D6" +
+		"\u01D9\x03\x02\x02\x02\u01D7\u01D5\x03\x02\x02\x02\u01D7\u01D8\x03\x02" +
+		"\x02\x02\u01D83\x03\x02\x02\x02\u01D9\u01D7\x03\x02\x02\x02\u01DA\u01DB" +
+		"\x07$\x02\x02\u01DB\u01DC\x05\xC4c\x02\u01DC\u01DE\x05> \x02\u01DD\u01DF" +
+		"\x07u\x02\x02\u01DE\u01DD\x03\x02\x02\x02\u01DE\u01DF\x03\x02\x02\x02" +
+		"\u01DF\u01E0\x03\x02\x02\x02\u01E0\u01E1\x07\x04\x02\x02\u01E15\x03\x02" +
+		"\x02\x02\u01E2\u01E3\x05\xC4c\x02\u01E37\x03\x02\x02\x02\u01E4\u01E5\x07" +
+		"%\x02\x02\u01E5\u01E6\x05\xC4c\x02\u01E6\u01E8\x07\x13\x02\x02\u01E7\u01E9" +
+		"\x056\x1C\x02\u01E8\u01E7\x03\x02\x02\x02\u01E8\u01E9\x03\x02\x02\x02" +
+		"\u01E9\u01EE\x03\x02\x02\x02\u01EA\u01EB\x07\x14\x02\x02\u01EB\u01ED\x05" +
+		"6\x1C\x02\u01EC\u01EA\x03\x02\x02\x02\u01ED\u01F0\x03\x02\x02\x02\u01EE" +
+		"\u01EC\x03\x02\x02\x02\u01EE\u01EF\x03\x02\x02\x02\u01EF\u01F1\x03\x02" +
+		"\x02\x02\u01F0\u01EE\x03\x02\x02\x02\u01F1\u01F2\x07\x15\x02\x02\u01F2" +
+		"9\x03\x02\x02\x02\u01F3\u01FC\x07\x1B\x02\x02\u01F4\u01F9\x05<\x1F\x02" +
+		"\u01F5\u01F6\x07\x14\x02\x02\u01F6\u01F8\x05<\x1F\x02\u01F7\u01F5\x03" +
+		"\x02\x02\x02\u01F8\u01FB\x03\x02\x02\x02\u01F9\u01F7\x03\x02\x02\x02\u01F9" +
+		"\u01FA\x03\x02\x02\x02\u01FA\u01FD\x03\x02\x02\x02\u01FB\u01F9\x03\x02" +
+		"\x02\x02\u01FC\u01F4\x03\x02\x02\x02\u01FC\u01FD\x03\x02\x02\x02\u01FD" +
+		"\u01FE\x03\x02\x02\x02\u01FE\u01FF\x07\x1C\x02\x02\u01FF;\x03\x02\x02" +
+		"\x02\u0200\u0202\x05H%\x02\u0201\u0203\x05R*\x02\u0202\u0201\x03\x02\x02" +
+		"\x02\u0202\u0203\x03\x02\x02\x02\u0203\u0205\x03\x02\x02\x02\u0204\u0206" +
+		"\x05\xC4c\x02\u0205\u0204\x03\x02\x02\x02\u0205\u0206\x03\x02\x02\x02" +
+		"\u0206=\x03\x02\x02\x02\u0207\u0210\x07\x1B\x02\x02\u0208\u020D\x05@!" +
+		"\x02\u0209\u020A\x07\x14\x02\x02\u020A\u020C\x05@!\x02\u020B\u0209\x03" +
+		"\x02\x02\x02\u020C\u020F\x03\x02\x02\x02\u020D\u020B\x03\x02\x02\x02\u020D" +
+		"\u020E\x03\x02\x02\x02\u020E\u0211\x03\x02\x02\x02\u020F\u020D\x03\x02" +
+		"\x02\x02\u0210\u0208\x03\x02\x02\x02\u0210\u0211\x03\x02\x02\x02\u0211" +
+		"\u0212\x03\x02\x02\x02\u0212\u0213\x07\x1C\x02\x02\u0213?\x03\x02\x02" +
+		"\x02\u0214\u0216\x05H%\x02\u0215\u0217\x07|\x02\x02\u0216\u0215\x03\x02" +
+		"\x02\x02\u0216\u0217\x03\x02\x02\x02\u0217\u0219\x03\x02\x02\x02\u0218" +
+		"\u021A\x05\xC4c\x02\u0219\u0218\x03\x02\x02\x02\u0219\u021A\x03\x02\x02" +
+		"\x02\u021AA\x03\x02\x02\x02\u021B\u0224\x07\x1B\x02\x02\u021C\u0221\x05" +
+		"D#\x02\u021D\u021E\x07\x14\x02\x02\u021E\u0220\x05D#\x02\u021F\u021D\x03" +
+		"\x02\x02\x02\u0220\u0223\x03\x02\x02\x02\u0221\u021F\x03\x02\x02\x02\u0221" +
+		"\u0222\x03\x02\x02\x02\u0222\u0225\x03\x02\x02\x02\u0223\u0221\x03\x02" +
+		"\x02\x02\u0224\u021C\x03\x02\x02\x02\u0224\u0225\x03\x02\x02\x02\u0225" +
+		"\u0226\x03\x02\x02\x02\u0226\u0227\x07\x1C\x02\x02\u0227C\x03\x02\x02" +
+		"\x02\u0228\u022A\x05H%\x02\u0229\u022B\x05R*\x02\u022A\u0229\x03\x02\x02" +
+		"\x02\u022A\u022B\x03\x02\x02\x02\u022BE\x03\x02\x02\x02\u022C\u022E\x05" +
+		"H%\x02\u022D\u022F\x05R*\x02\u022E\u022D\x03\x02\x02\x02\u022E\u022F\x03" +
+		"\x02\x02\x02\u022F\u0230\x03\x02\x02\x02\u0230\u0231\x05\xC4c\x02\u0231" +
+		"G\x03\x02\x02\x02\u0232\u0233\b%\x01\x02\u0233\u023B\x05\x84C\x02\u0234" +
+		"\u023B\x05J&\x02\u0235\u023B\x05N(\x02\u0236\u023B\x05P)\x02\u0237\u023B" +
+		"\x05\x86D\x02\u0238\u0239\x07(\x02\x02\u0239\u023B\x07~\x02\x02\u023A" +
+		"\u0232\x03\x02\x02\x02\u023A\u0234\x03\x02\x02\x02\u023A\u0235\x03\x02" +
+		"\x02\x02\u023A\u0236\x03\x02\x02\x02\u023A\u0237\x03\x02\x02\x02\u023A" +
+		"\u0238\x03\x02\x02\x02\u023B\u0244\x03\x02\x02\x02\u023C\u023D\f\x06\x02" +
+		"\x02\u023D\u023F\x07&\x02\x02\u023E\u0240\x05\x88E\x02\u023F\u023E\x03" +
+		"\x02\x02\x02\u023F\u0240\x03\x02\x02\x02\u0240\u0241\x03\x02\x02\x02\u0241" +
+		"\u0243\x07\'\x02\x02\u0242\u023C\x03\x02\x02\x02\u0243\u0246\x03\x02\x02" +
+		"\x02\u0244\u0242\x03\x02\x02\x02\u0244\u0245\x03\x02\x02\x02\u0245I\x03" +
+		"\x02\x02\x02\u0246\u0244\x03\x02\x02\x02\u0247\u024C\x05\xC4c\x02\u0248" +
+		"\u0249\x07)\x02\x02\u0249\u024B\x05\xC4c\x02\u024A\u0248\x03\x02\x02\x02" +
+		"\u024B\u024E\x03\x02\x02\x02\u024C\u024A\x03\x02\x02\x02\u024C\u024D\x03" +
+		"\x02\x02\x02\u024DK\x03\x02\x02\x02\u024E\u024C\x03\x02\x02\x02\u024F" +
+		"\u0252\x05\x84C\x02\u0250\u0252\x05J&\x02\u0251\u024F\x03\x02\x02\x02" +
+		"\u0251\u0250\x03\x02\x02\x02\u0252M\x03\x02\x02\x02\u0253\u0254\x07*\x02" +
+		"\x02\u0254\u0255\x07\x1B\x02\x02\u0255\u0256\x05L\'\x02\u0256\u0257\x07" +
+		"+\x02\x02\u0257\u0258\x05H%\x02\u0258\u0259\x07\x1C\x02\x02\u0259O\x03" +
+		"\x02\x02\x02\u025A\u025B\x07\"\x02\x02\u025B\u0261\x05B\"\x02\u025C\u0260" +
+		"\x07}\x02\x02\u025D\u0260\x07{\x02\x02\u025E\u0260\x05T+\x02\u025F\u025C" +
+		"\x03\x02\x02\x02\u025F\u025D\x03\x02\x02\x02\u025F\u025E\x03\x02\x02\x02" +
+		"\u0260\u0263\x03\x02\x02\x02\u0261\u025F\x03\x02\x02\x02\u0261\u0262\x03" +
+		"\x02\x02\x02\u0262\u0266\x03\x02\x02\x02\u0263\u0261\x03\x02\x02\x02\u0264" +
+		"\u0265\x07#\x02\x02\u0265\u0267\x05B\"\x02\u0266\u0264\x03\x02\x02\x02" +
+		"\u0266\u0267\x03\x02\x02\x02\u0267Q\x03\x02\x02\x02\u0268\u0269\t\x05" +
+		"\x02\x02\u0269S\x03\x02\x02\x02\u026A\u026B\t\x06\x02\x02\u026BU\x03\x02" +
+		"\x02\x02\u026C\u0270\x07\x13\x02\x02\u026D\u026F\x05X-\x02\u026E\u026D" +
+		"\x03\x02\x02\x02\u026F\u0272\x03\x02\x02\x02\u0270\u026E\x03\x02\x02\x02" +
+		"\u0270\u0271\x03\x02\x02\x02\u0271\u0273\x03\x02\x02\x02\u0272\u0270\x03" +
+		"\x02\x02\x02\u0273\u0274\x07\x15\x02\x02\u0274W\x03\x02\x02\x02\u0275" +
+		"\u0287\x05\\/\x02\u0276\u0287\x05^0\x02\u0277\u0287\x05b2\x02\u0278\u0287" +
+		"\x05d3\x02\u0279\u0287\x05j6\x02\u027A\u0287\x05l7\x02\u027B\u0287\x05" +
+		"V,\x02\u027C\u0287\x05n8\x02\u027D\u0287\x05p9\x02\u027E\u0287\x05r:\x02" +
+		"\u027F\u0287\x05t;\x02\u0280\u0287\x05v<\x02\u0281\u0287\x05x=\x02\u0282" +
+		"\u0287\x05z>\x02\u0283\u0287\x05f4\x02\u0284\u0287\x05h5\x02\u0285\u0287" +
+		"\x05|?\x02\u0286\u0275\x03\x02\x02\x02\u0286\u0276\x03\x02\x02\x02\u0286" +
+		"\u0277\x03\x02\x02\x02\u0286\u0278\x03\x02\x02\x02\u0286\u0279\x03\x02" +
+		"\x02\x02\u0286\u027A\x03\x02\x02\x02\u0286\u027B\x03\x02\x02\x02\u0286" +
+		"\u027C\x03\x02\x02\x02\u0286\u027D\x03\x02\x02\x02\u0286\u027E\x03\x02" +
+		"\x02\x02\u0286\u027F\x03\x02\x02\x02\u0286\u0280\x03\x02\x02\x02\u0286" +
+		"\u0281\x03\x02\x02\x02\u0286\u0282\x03\x02\x02\x02\u0286\u0283\x03\x02" +
+		"\x02\x02\u0286\u0284\x03\x02\x02\x02\u0286\u0285\x03\x02\x02\x02\u0287" +
+		"Y\x03\x02\x02\x02\u0288\u0289\x05\x88E\x02\u0289\u028A\x07\x04\x02\x02" +
+		"\u028A[\x03\x02\x02\x02\u028B\u028C\x07/\x02\x02\u028C\u028D\x07\x1B\x02" +
+		"\x02\u028D\u028E\x05\x88E\x02\u028E\u028F\x07\x1C\x02\x02\u028F\u0292" +
+		"\x05X-\x02\u0290\u0291\x070\x02\x02\u0291\u0293\x05X-\x02\u0292\u0290" +
+		"\x03\x02\x02\x02\u0292\u0293\x03\x02\x02\x02\u0293]\x03\x02\x02\x02\u0294" +
+		"\u0295\x071\x02\x02\u0295\u0297\x05V,\x02\u0296\u0298\x05`1\x02\u0297" +
+		"\u0296\x03\x02\x02\x02\u0298\u0299\x03\x02\x02\x02\u0299\u0297\x03\x02" +
+		"\x02\x02\u0299\u029A\x03\x02\x02\x02\u029A_\x03\x02\x02\x02\u029B\u02A0" +
+		"\x072\x02\x02\u029C\u029E\x05\xC4c\x02\u029D\u029C\x03\x02\x02\x02\u029D" +
+		"\u029E\x03\x02\x02\x02\u029E\u029F\x03\x02\x02\x02\u029F\u02A1\x05:\x1E" +
+		"\x02\u02A0\u029D\x03\x02\x02\x02\u02A0\u02A1\x03\x02\x02\x02\u02A1\u02A2" +
+		"\x03\x02\x02\x02\u02A2\u02A3\x05V,\x02\u02A3a\x03\x02\x02\x02\u02A4\u02A5" +
+		"\x073\x02\x02\u02A5\u02A6\x07\x1B\x02\x02\u02A6\u02A7\x05\x88E\x02\u02A7" +
+		"\u02A8\x07\x1C\x02\x02\u02A8\u02A9\x05X-\x02\u02A9c\x03\x02\x02\x02\u02AA" +
+		"\u02AB\x074\x02\x02\u02AB\u02AC\x07\x1B\x02\x02\u02AC\u02AD\x05\x88E\x02" +
+		"\u02AD\u02AE\x07\x1C\x02\x02\u02AE\u02AF\x05X-\x02\u02AFe\x03\x02\x02" +
+		"\x02\u02B0\u02B3\x05~@\x02\u02B1\u02B3\x05Z.\x02\u02B2\u02B0\x03\x02\x02" +
+		"\x02\u02B2\u02B1\x03\x02\x02\x02\u02B3g\x03\x02\x02\x02\u02B4\u02B5\x07" +
+		"5\x02\x02\u02B5\u02B6\x05V,\x02\u02B6i\x03\x02\x02\x02\u02B7\u02B8\x07" +
+		"\x1F\x02\x02\u02B8\u02BB\x07\x1B\x02\x02\u02B9\u02BC\x05f4\x02\u02BA\u02BC" +
+		"\x07\x04\x02\x02\u02BB\u02B9\x03\x02\x02\x02\u02BB\u02BA\x03\x02\x02\x02" +
+		"\u02BC\u02BF\x03\x02\x02\x02\u02BD\u02C0\x05Z.\x02\u02BE\u02C0\x07\x04" +
+		"\x02\x02\u02BF\u02BD\x03\x02\x02\x02\u02BF\u02BE\x03\x02\x02\x02\u02C0" +
+		"\u02C2\x03\x02\x02\x02\u02C1\u02C3\x05\x88E\x02\u02C2\u02C1\x03\x02\x02" +
+		"\x02\u02C2\u02C3\x03\x02\x02\x02\u02C3\u02C4\x03\x02\x02\x02\u02C4\u02C5" +
+		"\x07\x1C\x02\x02\u02C5\u02C6\x05X-\x02\u02C6k\x03\x02\x02\x02\u02C7\u02C8" +
+		"\x07\x1F\x02\x02\u02C8\u02CE\x07\x1B\x02\x02\u02C9\u02CF\x05F$\x02\u02CA" +
+		"\u02CB\x07\x1B\x02\x02\u02CB\u02CC\x05\x80A\x02\u02CC\u02CD\x07\x1C\x02" +
+		"\x02\u02CD\u02CF\x03\x02\x02\x02\u02CE\u02C9\x03\x02\x02\x02\u02CE\u02CA" +
+		"\x03\x02\x02\x02\u02CF\u02D0\x03\x02\x02\x02\u02D0\u02D3\x076\x02\x02" +
+		"\u02D1\u02D4\x05\xC4c\x02\u02D2\u02D4\x05\x88E\x02\u02D3\u02D1\x03\x02" +
+		"\x02\x02\u02D3\u02D2\x03\x02\x02\x02\u02D4\u02D5\x03\x02\x02\x02\u02D5" +
 		"\u02D6\x07\x1C\x02\x02\u02D6\u02D7\x05X-\x02\u02D7m\x03\x02\x02\x02\u02D8" +
-		"\u02DA\x077\x02\x02\u02D9\u02DB\x07\x8D\x02\x02\u02DA\u02D9\x03\x02\x02" +
+		"\u02DA\x077\x02\x02\u02D9\u02DB\x07\x8C\x02\x02\u02DA\u02D9\x03\x02\x02" +
 		"\x02\u02DA\u02DB\x03\x02\x02\x02\u02DB\u02DC\x03\x02\x02\x02\u02DC\u02DD" +
 		"\x05\x98M\x02\u02DDo\x03\x02\x02\x02\u02DE\u02DF\x078\x02\x02\u02DF\u02E0" +
 		"\x05X-\x02\u02E0\u02E1\x073\x02\x02\u02E1\u02E2\x07\x1B\x02\x02\u02E2" +
 		"\u02E3\x05\x88E\x02\u02E3\u02E4\x07\x1C\x02\x02\u02E4\u02E5\x07\x04\x02" +
-		"\x02\u02E5q\x03\x02\x02\x02\u02E6\u02E7\x07z\x02\x02\u02E7\u02E8\x07\x04" +
-		"\x02\x02\u02E8s\x03\x02\x02\x02\u02E9\u02EA\x07w\x02\x02\u02EA\u02EB\x07" +
+		"\x02\u02E5q\x03\x02\x02\x02\u02E6\u02E7\x07y\x02\x02\u02E7\u02E8\x07\x04" +
+		"\x02\x02\u02E8s\x03\x02\x02\x02\u02E9\u02EA\x07v\x02\x02\u02EA\u02EB\x07" +
 		"\x04\x02\x02\u02EBu\x03\x02\x02\x02\u02EC\u02EE\x079\x02\x02\u02ED\u02EF" +
 		"\x05\x88E\x02\u02EE\u02ED\x03\x02\x02\x02\u02EE\u02EF\x03\x02\x02\x02" +
 		"\u02EF\u02F0\x03\x02\x02\x02\u02F0\u02F1\x07\x04\x02\x02\u02F1w\x03\x02" +
@@ -6980,151 +6966,151 @@ export class SolidityParser extends Parser {
 		"\u0340\x07\x1B\x02\x02\u0340\u0341\x05\x88E\x02\u0341\u0342\x07\x1C\x02" +
 		"\x02\u0342\u034F\x03\x02\x02\x02\u0343\u0344\t\b\x02\x02\u0344\u034F\x05" +
 		"\x88E\x15\u0345\u0346\t\t\x02\x02\u0346\u034F\x05\x88E\x14\u0347\u0348" +
-		"\t\n\x02\x02\u0348\u034F\x05\x88E\x13\u0349\u034A\x07I\x02\x02\u034A\u034F" +
-		"\x05\x88E\x12\u034B\u034C\x07\t\x02\x02\u034C\u034F\x05\x88E\x11\u034D" +
-		"\u034F\x05\x8AF\x02\u034E\u0335\x03\x02\x02\x02\u034E\u0338\x03\x02\x02" +
-		"\x02\u034E\u033E\x03\x02\x02\x02\u034E\u033F\x03\x02\x02\x02\u034E\u0343" +
-		"\x03\x02\x02\x02\u034E\u0345\x03\x02\x02\x02\u034E\u0347\x03\x02\x02\x02" +
-		"\u034E\u0349\x03\x02\x02\x02\u034E\u034B\x03\x02\x02\x02\u034E\u034D\x03" +
-		"\x02\x02\x02\u034F\u039A\x03\x02\x02\x02\u0350\u0351\f\x10\x02\x02\u0351" +
-		"\u0352\x07J\x02\x02\u0352\u0399\x05\x88E\x11\u0353\u0354\f\x0F\x02\x02" +
-		"\u0354\u0355\t\v\x02\x02\u0355\u0399\x05\x88E\x10\u0356\u0357\f\x0E\x02" +
-		"\x02\u0357\u0358\t\t\x02\x02\u0358\u0399\x05\x88E\x0F\u0359\u035A\f\r" +
-		"\x02\x02\u035A\u035B\t\f\x02\x02\u035B\u0399\x05\x88E\x0E\u035C\u035D" +
-		"\f\f\x02\x02\u035D\u035E\x07O\x02\x02\u035E\u0399\x05\x88E\r\u035F\u0360" +
-		"\f\v\x02\x02\u0360\u0361\x07\b\x02\x02\u0361\u0399\x05\x88E\f\u0362\u0363" +
-		"\f\n\x02\x02\u0363\u0364\x07P\x02\x02\u0364\u0399\x05\x88E\v\u0365\u0366" +
-		"\f\t\x02\x02\u0366\u0367\t\r\x02\x02\u0367\u0399\x05\x88E\n\u0368\u0369" +
-		"\f\b\x02\x02\u0369\u036A\t\x0E\x02\x02\u036A\u0399\x05\x88E\t\u036B\u036C" +
-		"\f\x07\x02\x02\u036C\u036D\x07S\x02\x02\u036D\u0399\x05\x88E\b\u036E\u036F" +
-		"\f\x06\x02\x02\u036F\u0370\x07\x07\x02\x02\u0370\u0399\x05\x88E\x07\u0371" +
-		"\u0372\f\x05\x02\x02\u0372\u0373\x07T\x02\x02\u0373\u0374\x05\x88E\x02" +
-		"\u0374\u0375\x076\x02\x02\u0375\u0376\x05\x88E\x06\u0376\u0399\x03\x02" +
-		"\x02\x02\u0377\u0378\f\x04\x02\x02\u0378\u0379\t\x0F\x02\x02\u0379\u0399" +
-		"\x05\x88E\x05\u037A\u037B\f\x1F\x02\x02\u037B\u0399\t\b\x02\x02\u037C" +
-		"\u037D\f\x1D\x02\x02\u037D\u037E\x07&\x02\x02\u037E\u037F\x05\x88E\x02" +
-		"\u037F\u0380\x07\'\x02\x02\u0380\u0399\x03\x02\x02\x02\u0381\u0382\f\x1C" +
-		"\x02\x02\u0382\u0384\x07&\x02\x02\u0383\u0385\x05\x88E\x02\u0384\u0383" +
-		"\x03\x02\x02\x02\u0384\u0385\x03\x02\x02\x02\u0385\u0386\x03\x02\x02\x02" +
-		"\u0386\u0388\x076\x02\x02\u0387\u0389\x05\x88E\x02\u0388\u0387\x03\x02" +
-		"\x02\x02\u0388\u0389\x03\x02\x02\x02\u0389\u038A\x03\x02\x02\x02\u038A" +
-		"\u0399\x07\'\x02\x02\u038B\u038C\f\x1B\x02\x02\u038C\u038D\x07)\x02\x02" +
-		"\u038D\u0399\x05\xC4c\x02\u038E\u038F\f\x1A\x02\x02\u038F\u0390\x07\x13" +
-		"\x02\x02\u0390\u0391\x05\x90I\x02\u0391\u0392\x07\x15\x02\x02\u0392\u0399" +
-		"\x03\x02\x02\x02\u0393\u0394\f\x17\x02\x02\u0394\u0395\x07\x1B\x02\x02" +
-		"\u0395\u0396\x05\x94K\x02\u0396\u0397\x07\x1C\x02\x02\u0397\u0399\x03" +
-		"\x02\x02\x02\u0398\u0350\x03\x02\x02\x02\u0398\u0353\x03\x02\x02\x02\u0398" +
-		"\u0356\x03\x02\x02\x02\u0398\u0359\x03\x02\x02\x02\u0398\u035C\x03\x02" +
-		"\x02\x02\u0398\u035F\x03\x02\x02\x02\u0398\u0362\x03\x02\x02\x02\u0398" +
-		"\u0365\x03\x02\x02\x02\u0398\u0368\x03\x02\x02\x02\u0398\u036B\x03\x02" +
-		"\x02\x02\u0398\u036E\x03\x02\x02\x02\u0398\u0371\x03\x02\x02\x02\u0398" +
-		"\u0377\x03\x02\x02\x02\u0398\u037A\x03\x02\x02\x02\u0398\u037C\x03\x02" +
-		"\x02\x02\u0398\u0381\x03\x02\x02\x02\u0398\u038B\x03\x02\x02\x02\u0398" +
-		"\u038E\x03\x02\x02\x02\u0398\u0393\x03\x02\x02\x02\u0399\u039C\x03\x02" +
-		"\x02\x02\u039A\u0398\x03\x02\x02\x02\u039A\u039B\x03\x02\x02\x02\u039B" +
-		"\x89\x03\x02\x02\x02\u039C\u039A\x03\x02\x02\x02\u039D\u03B0\x07p\x02" +
-		"\x02\u039E\u03B0\x05\xC2b\x02\u039F\u03B0\x05\xC6d\x02\u03A0\u03B0\x05" +
-		"\xCCg\x02\u03A1\u03A4\x05\xC4c\x02\u03A2\u03A3\x07&\x02\x02\u03A3\u03A5" +
-		"\x07\'\x02\x02\u03A4\u03A2\x03\x02\x02\x02\u03A4\u03A5\x03\x02\x02\x02" +
-		"\u03A5\u03B0\x03\x02\x02\x02\u03A6\u03B0\x07\x85\x02\x02\u03A7\u03B0\x07" +
-		"\x7F\x02\x02\u03A8\u03B0\x05\xBE`\x02\u03A9\u03AC\x05\xC0a\x02\u03AA\u03AB" +
-		"\x07&\x02\x02\u03AB\u03AD\x07\'\x02\x02\u03AC\u03AA\x03\x02\x02\x02\u03AC" +
-		"\u03AD\x03\x02\x02\x02\u03AD\u03B0\x03\x02\x02\x02\u03AE\u03B0\x05H%\x02" +
-		"\u03AF\u039D\x03\x02\x02\x02\u03AF\u039E\x03\x02\x02\x02\u03AF\u039F\x03" +
-		"\x02\x02\x02\u03AF\u03A0\x03\x02\x02\x02\u03AF\u03A1\x03\x02\x02\x02\u03AF" +
-		"\u03A6\x03\x02\x02\x02\u03AF\u03A7\x03\x02\x02\x02\u03AF\u03A8\x03\x02" +
-		"\x02\x02\u03AF\u03A9\x03\x02\x02\x02\u03AF\u03AE\x03\x02\x02\x02\u03B0" +
-		"\x8B\x03\x02\x02\x02\u03B1\u03B8\x07\x13\x02\x02\u03B2\u03B4\x05\x90I" +
-		"\x02\u03B3\u03B2\x03\x02\x02\x02\u03B3\u03B4\x03\x02\x02\x02\u03B4\u03B9" +
-		"\x03\x02\x02\x02\u03B5\u03B7\x05\x8EH\x02\u03B6\u03B5\x03\x02\x02\x02" +
-		"\u03B6\u03B7\x03\x02\x02\x02\u03B7\u03B9\x03\x02\x02\x02\u03B8\u03B3\x03" +
-		"\x02\x02\x02\u03B8\u03B6\x03\x02\x02\x02\u03B9\u03BA\x03\x02\x02\x02\u03BA" +
-		"\u03BB\x07\x15\x02\x02\u03BB\x8D\x03\x02\x02\x02\u03BC\u03C1\x05\x88E" +
-		"\x02\u03BD\u03BE\x07\x14\x02\x02\u03BE\u03C0\x05\x88E\x02\u03BF\u03BD" +
-		"\x03\x02\x02\x02\u03C0\u03C3\x03\x02\x02\x02\u03C1\u03BF\x03\x02\x02\x02" +
-		"\u03C1\u03C2\x03\x02\x02\x02\u03C2\x8F\x03\x02\x02\x02\u03C3\u03C1\x03" +
-		"\x02\x02\x02\u03C4\u03C9\x05\x92J\x02\u03C5\u03C6\x07\x14\x02\x02\u03C6" +
-		"\u03C8\x05\x92J\x02\u03C7\u03C5\x03\x02\x02\x02\u03C8\u03CB\x03\x02\x02" +
-		"\x02\u03C9\u03C7\x03\x02\x02\x02\u03C9\u03CA\x03\x02\x02\x02\u03CA\u03CD" +
-		"\x03\x02\x02\x02\u03CB\u03C9\x03\x02\x02\x02\u03CC\u03CE\x07\x14\x02\x02" +
-		"\u03CD\u03CC\x03\x02\x02\x02\u03CD\u03CE\x03\x02\x02\x02\u03CE\x91\x03" +
-		"\x02\x02\x02\u03CF\u03D0\x05\xC4c\x02\u03D0\u03D1\x076\x02\x02\u03D1\u03D2" +
-		"\x05\x88E\x02\u03D2\x93\x03\x02\x02\x02\u03D3\u03D5\x07\x13\x02\x02\u03D4" +
-		"\u03D6\x05\x90I\x02\u03D5\u03D4\x03\x02\x02\x02\u03D5\u03D6\x03\x02\x02" +
-		"\x02\u03D6\u03D7\x03\x02\x02\x02\u03D7\u03DC\x07\x15\x02\x02\u03D8\u03DA" +
-		"\x05\x8EH\x02\u03D9\u03D8\x03\x02\x02\x02\u03D9\u03DA\x03\x02\x02\x02" +
-		"\u03DA\u03DC\x03\x02\x02\x02\u03DB\u03D3\x03\x02\x02\x02\u03DB\u03D9\x03" +
-		"\x02\x02\x02\u03DC\x95\x03\x02\x02\x02\u03DD\u03DE\x05\x88E\x02\u03DE" +
-		"\u03DF\x07\x1B\x02\x02\u03DF\u03E0\x05\x94K\x02\u03E0\u03E1\x07\x1C\x02" +
-		"\x02\u03E1\x97\x03\x02\x02\x02\u03E2\u03E6\x07\x13\x02\x02\u03E3\u03E5" +
-		"\x05\x9AN\x02\u03E4\u03E3\x03\x02\x02\x02\u03E5\u03E8\x03\x02\x02\x02" +
-		"\u03E6\u03E4\x03\x02\x02\x02\u03E6\u03E7\x03\x02\x02\x02\u03E7\u03E9\x03" +
-		"\x02\x02\x02\u03E8\u03E6\x03\x02\x02\x02\u03E9\u03EA\x07\x15\x02\x02\u03EA" +
-		"\x99\x03\x02\x02\x02\u03EB\u03FE\x05\xC4c\x02\u03EC\u03FE\x05\x98M\x02" +
-		"\u03ED\u03FE\x05\x9CO\x02\u03EE\u03FE\x05\xA2R\x02\u03EF\u03FE\x05\xA4" +
-		"S\x02\u03F0\u03FE\x05\xAAV\x02\u03F1\u03FE\x05\xACW\x02\u03F2\u03FE\x05" +
-		"\xAEX\x02\u03F3\u03FE\x05\xB2Z\x02\u03F4\u03FE\x05\xB6\\\x02\u03F5\u03FE" +
-		"\x05\xB8]\x02\u03F6\u03FE\x07w\x02\x02\u03F7\u03FE\x07z\x02\x02\u03F8" +
-		"\u03FE\x07{\x02\x02\u03F9\u03FE\x05\xBC_\x02\u03FA\u03FE\x05\xC2b\x02" +
-		"\u03FB\u03FE\x05\xCCg\x02\u03FC\u03FE\x05\xC6d\x02\u03FD\u03EB\x03\x02" +
-		"\x02\x02\u03FD\u03EC\x03\x02\x02\x02\u03FD\u03ED\x03\x02\x02\x02\u03FD" +
-		"\u03EE\x03\x02\x02\x02\u03FD\u03EF\x03\x02\x02\x02\u03FD\u03F0\x03\x02" +
-		"\x02\x02\u03FD\u03F1\x03\x02\x02\x02\u03FD\u03F2\x03\x02\x02\x02\u03FD" +
-		"\u03F3\x03\x02\x02\x02\u03FD\u03F4\x03\x02\x02\x02\u03FD\u03F5\x03\x02" +
-		"\x02\x02\u03FD\u03F6\x03\x02\x02\x02\u03FD\u03F7\x03\x02\x02\x02\u03FD" +
-		"\u03F8\x03\x02\x02\x02\u03FD\u03F9\x03\x02\x02\x02\u03FD\u03FA\x03\x02" +
-		"\x02\x02\u03FD\u03FB\x03\x02\x02\x02\u03FD\u03FC\x03\x02\x02\x02\u03FE" +
-		"\x9B\x03\x02\x02\x02\u03FF\u0403\x05\xA0Q\x02\u0400\u0403\x05\xBA^\x02" +
-		"\u0401\u0403\x05\x9EP\x02\u0402\u03FF\x03\x02\x02\x02\u0402\u0400\x03" +
-		"\x02\x02\x02\u0402\u0401\x03\x02\x02\x02\u0403\x9D\x03\x02\x02\x02\u0404" +
-		"\u0405\x05\xC4c\x02\u0405\u0406\x07)\x02\x02\u0406\u0407\x05\xC4c\x02" +
-		"\u0407\x9F\x03\x02\x02\x02\u0408\u040D\x079\x02\x02\u0409\u040D\x07(\x02" +
-		"\x02\u040A\u040D\x07@\x02\x02\u040B\u040D\x05\xC4c\x02\u040C\u0408\x03" +
-		"\x02\x02\x02\u040C\u0409\x03\x02\x02\x02\u040C\u040A\x03\x02\x02\x02\u040C" +
-		"\u040B\x03\x02\x02\x02\u040D\u041A\x03\x02\x02\x02\u040E\u0410\x07\x1B" +
-		"\x02\x02\u040F\u0411\x05\x9CO\x02\u0410\u040F\x03\x02\x02\x02\u0410\u0411" +
-		"\x03\x02\x02\x02\u0411\u0416\x03\x02\x02\x02\u0412\u0413\x07\x14\x02\x02" +
-		"\u0413\u0415\x05\x9CO\x02\u0414\u0412\x03\x02\x02\x02\u0415\u0418\x03" +
-		"\x02\x02\x02\u0416\u0414\x03\x02\x02\x02\u0416\u0417\x03\x02\x02\x02\u0417" +
-		"\u0419\x03\x02\x02\x02\u0418\u0416\x03\x02\x02\x02\u0419\u041B\x07\x1C" +
-		"\x02\x02\u041A\u040E\x03\x02\x02\x02\u041A\u041B\x03\x02\x02\x02\u041B" +
-		"\xA1\x03\x02\x02\x02\u041C\u041D\x07_\x02\x02\u041D\u0420\x05\xA6T\x02" +
-		"\u041E\u041F\x07`\x02\x02\u041F\u0421\x05\x9CO\x02\u0420\u041E\x03\x02" +
-		"\x02\x02\u0420\u0421\x03\x02\x02\x02\u0421\xA3\x03\x02\x02\x02\u0422\u0423" +
-		"\x05\xA6T\x02\u0423\u0424\x07`\x02\x02\u0424\u0425\x05\x9CO\x02\u0425" +
-		"\xA5\x03\x02\x02\x02\u0426\u042D\x05\xC4c\x02\u0427\u042D\x05\x9EP\x02" +
-		"\u0428\u0429\x07\x1B\x02\x02\u0429\u042A\x05\xA8U\x02\u042A\u042B\x07" +
-		"\x1C\x02\x02\u042B\u042D\x03\x02\x02\x02\u042C\u0426\x03\x02\x02\x02\u042C" +
-		"\u0427\x03\x02\x02\x02\u042C\u0428\x03\x02\x02\x02\u042D\xA7\x03\x02\x02" +
-		"\x02\u042E";
+		"\x07G\x02\x02\u0348\u034F\x05\x88E\x13\u0349\u034A\x07H\x02\x02\u034A" +
+		"\u034F\x05\x88E\x12\u034B\u034C\x07\t\x02\x02\u034C\u034F\x05\x88E\x11" +
+		"\u034D\u034F\x05\x8AF\x02\u034E\u0335\x03\x02\x02\x02\u034E\u0338\x03" +
+		"\x02\x02\x02\u034E\u033E\x03\x02\x02\x02\u034E\u033F\x03\x02\x02\x02\u034E" +
+		"\u0343\x03\x02\x02\x02\u034E\u0345\x03\x02\x02\x02\u034E\u0347\x03\x02" +
+		"\x02\x02\u034E\u0349\x03\x02\x02\x02\u034E\u034B\x03\x02\x02\x02\u034E" +
+		"\u034D\x03\x02\x02\x02\u034F\u039A\x03\x02\x02\x02\u0350\u0351\f\x10\x02" +
+		"\x02\u0351\u0352\x07I\x02\x02\u0352\u0399\x05\x88E\x11\u0353\u0354\f\x0F" +
+		"\x02\x02\u0354\u0355\t\n\x02\x02\u0355\u0399\x05\x88E\x10\u0356\u0357" +
+		"\f\x0E\x02\x02\u0357\u0358\t\t\x02\x02\u0358\u0399\x05\x88E\x0F\u0359" +
+		"\u035A\f\r\x02\x02\u035A\u035B\t\v\x02\x02\u035B\u0399\x05\x88E\x0E\u035C" +
+		"\u035D\f\f\x02\x02\u035D\u035E\x07N\x02\x02\u035E\u0399\x05\x88E\r\u035F" +
+		"\u0360\f\v\x02\x02\u0360\u0361\x07\b\x02\x02\u0361\u0399\x05\x88E\f\u0362" +
+		"\u0363\f\n\x02\x02\u0363\u0364\x07O\x02\x02\u0364\u0399\x05\x88E\v\u0365" +
+		"\u0366\f\t\x02\x02\u0366\u0367\t\f\x02\x02\u0367\u0399\x05\x88E\n\u0368" +
+		"\u0369\f\b\x02\x02\u0369\u036A\t\r\x02\x02\u036A\u0399\x05\x88E\t\u036B" +
+		"\u036C\f\x07\x02\x02\u036C\u036D\x07R\x02\x02\u036D\u0399\x05\x88E\b\u036E" +
+		"\u036F\f\x06\x02\x02\u036F\u0370\x07\x07\x02\x02\u0370\u0399\x05\x88E" +
+		"\x07\u0371\u0372\f\x05\x02\x02\u0372\u0373\x07S\x02\x02\u0373\u0374\x05" +
+		"\x88E\x02\u0374\u0375\x076\x02\x02\u0375\u0376\x05\x88E\x06\u0376\u0399" +
+		"\x03\x02\x02\x02\u0377\u0378\f\x04\x02\x02\u0378\u0379\t\x0E\x02\x02\u0379" +
+		"\u0399\x05\x88E\x05\u037A\u037B\f\x1F\x02\x02\u037B\u0399\t\b\x02\x02" +
+		"\u037C\u037D\f\x1D\x02\x02\u037D\u037E\x07&\x02\x02\u037E\u037F\x05\x88" +
+		"E\x02\u037F\u0380\x07\'\x02\x02\u0380\u0399\x03\x02\x02\x02\u0381\u0382" +
+		"\f\x1C\x02\x02\u0382\u0384\x07&\x02\x02\u0383\u0385\x05\x88E\x02\u0384" +
+		"\u0383\x03\x02\x02\x02\u0384\u0385\x03\x02\x02\x02\u0385\u0386\x03\x02" +
+		"\x02\x02\u0386\u0388\x076\x02\x02\u0387\u0389\x05\x88E\x02\u0388\u0387" +
+		"\x03\x02\x02\x02\u0388\u0389\x03\x02\x02\x02\u0389\u038A\x03\x02\x02\x02" +
+		"\u038A\u0399\x07\'\x02\x02\u038B\u038C\f\x1B\x02\x02\u038C\u038D\x07)" +
+		"\x02\x02\u038D\u0399\x05\xC4c\x02\u038E\u038F\f\x1A\x02\x02\u038F\u0390" +
+		"\x07\x13\x02\x02\u0390\u0391\x05\x90I\x02\u0391\u0392\x07\x15\x02\x02" +
+		"\u0392\u0399\x03\x02\x02\x02\u0393\u0394\f\x17\x02\x02\u0394\u0395\x07" +
+		"\x1B\x02\x02\u0395\u0396\x05\x94K\x02\u0396\u0397\x07\x1C\x02\x02\u0397" +
+		"\u0399\x03\x02\x02\x02\u0398\u0350\x03\x02\x02\x02\u0398\u0353\x03\x02" +
+		"\x02\x02\u0398\u0356\x03\x02\x02\x02\u0398\u0359\x03\x02\x02\x02\u0398" +
+		"\u035C\x03\x02\x02\x02\u0398\u035F\x03\x02\x02\x02\u0398\u0362\x03\x02" +
+		"\x02\x02\u0398\u0365\x03\x02\x02\x02\u0398\u0368\x03\x02\x02\x02\u0398" +
+		"\u036B\x03\x02\x02\x02\u0398\u036E\x03\x02\x02\x02\u0398\u0371\x03\x02" +
+		"\x02\x02\u0398\u0377\x03\x02\x02\x02\u0398\u037A\x03\x02\x02\x02\u0398" +
+		"\u037C\x03\x02\x02\x02\u0398\u0381\x03\x02\x02\x02\u0398\u038B\x03\x02" +
+		"\x02\x02\u0398\u038E\x03\x02\x02\x02\u0398\u0393\x03\x02\x02\x02\u0399" +
+		"\u039C\x03\x02\x02\x02\u039A\u0398\x03\x02\x02\x02\u039A\u039B\x03\x02" +
+		"\x02\x02\u039B\x89\x03\x02\x02\x02\u039C\u039A\x03\x02\x02\x02\u039D\u03B0" +
+		"\x07o\x02\x02\u039E\u03B0\x05\xC2b\x02\u039F\u03B0\x05\xC6d\x02\u03A0" +
+		"\u03B0\x05\xCCg\x02\u03A1\u03A4\x05\xC4c\x02\u03A2\u03A3\x07&\x02\x02" +
+		"\u03A3\u03A5\x07\'\x02\x02\u03A4\u03A2\x03\x02\x02\x02\u03A4\u03A5\x03" +
+		"\x02\x02\x02\u03A5\u03B0\x03\x02\x02\x02\u03A6\u03B0\x07\x84\x02\x02\u03A7" +
+		"\u03B0\x07~\x02\x02\u03A8\u03B0\x05\xBE`\x02\u03A9\u03AC\x05\xC0a\x02" +
+		"\u03AA\u03AB\x07&\x02\x02\u03AB\u03AD\x07\'\x02\x02\u03AC\u03AA\x03\x02" +
+		"\x02\x02\u03AC\u03AD\x03\x02\x02\x02\u03AD\u03B0\x03\x02\x02\x02\u03AE" +
+		"\u03B0\x05H%\x02\u03AF\u039D\x03\x02\x02\x02\u03AF\u039E\x03\x02\x02\x02" +
+		"\u03AF\u039F\x03\x02\x02\x02\u03AF\u03A0\x03\x02\x02\x02\u03AF\u03A1\x03" +
+		"\x02\x02\x02\u03AF\u03A6\x03\x02\x02\x02\u03AF\u03A7\x03\x02\x02\x02\u03AF" +
+		"\u03A8\x03\x02\x02\x02\u03AF\u03A9\x03\x02\x02\x02\u03AF\u03AE\x03\x02" +
+		"\x02\x02\u03B0\x8B\x03\x02\x02\x02\u03B1\u03B8\x07\x13\x02\x02\u03B2\u03B4" +
+		"\x05\x90I\x02\u03B3\u03B2\x03\x02\x02\x02\u03B3\u03B4\x03\x02\x02\x02" +
+		"\u03B4\u03B9\x03\x02\x02\x02\u03B5\u03B7\x05\x8EH\x02\u03B6\u03B5\x03" +
+		"\x02\x02\x02\u03B6\u03B7\x03\x02\x02\x02\u03B7\u03B9\x03\x02\x02\x02\u03B8" +
+		"\u03B3\x03\x02\x02\x02\u03B8\u03B6\x03\x02\x02\x02\u03B9\u03BA\x03\x02" +
+		"\x02\x02\u03BA\u03BB\x07\x15\x02\x02\u03BB\x8D\x03\x02\x02\x02\u03BC\u03C1" +
+		"\x05\x88E\x02\u03BD\u03BE\x07\x14\x02\x02\u03BE\u03C0\x05\x88E\x02\u03BF" +
+		"\u03BD\x03\x02\x02\x02\u03C0\u03C3\x03\x02\x02\x02\u03C1\u03BF\x03\x02" +
+		"\x02\x02\u03C1\u03C2\x03\x02\x02\x02\u03C2\x8F\x03\x02\x02\x02\u03C3\u03C1" +
+		"\x03\x02\x02\x02\u03C4\u03C9\x05\x92J\x02\u03C5\u03C6\x07\x14\x02\x02" +
+		"\u03C6\u03C8\x05\x92J\x02\u03C7\u03C5\x03\x02\x02\x02\u03C8\u03CB\x03" +
+		"\x02\x02\x02\u03C9\u03C7\x03\x02\x02\x02\u03C9\u03CA\x03\x02\x02\x02\u03CA" +
+		"\u03CD\x03\x02\x02\x02\u03CB\u03C9\x03\x02\x02\x02\u03CC\u03CE\x07\x14" +
+		"\x02\x02\u03CD\u03CC\x03\x02\x02\x02\u03CD\u03CE\x03\x02\x02\x02\u03CE" +
+		"\x91\x03\x02\x02\x02\u03CF\u03D0\x05\xC4c\x02\u03D0\u03D1\x076\x02\x02" +
+		"\u03D1\u03D2\x05\x88E\x02\u03D2\x93\x03\x02\x02\x02\u03D3\u03D5\x07\x13" +
+		"\x02\x02\u03D4\u03D6\x05\x90I\x02\u03D5\u03D4\x03\x02\x02\x02\u03D5\u03D6" +
+		"\x03\x02\x02\x02\u03D6\u03D7\x03\x02\x02\x02\u03D7\u03DC\x07\x15\x02\x02" +
+		"\u03D8\u03DA\x05\x8EH\x02\u03D9\u03D8\x03\x02\x02\x02\u03D9\u03DA\x03" +
+		"\x02\x02\x02\u03DA\u03DC\x03\x02\x02\x02\u03DB\u03D3\x03\x02\x02\x02\u03DB" +
+		"\u03D9\x03\x02\x02\x02\u03DC\x95\x03\x02\x02\x02\u03DD\u03DE\x05\x88E" +
+		"\x02\u03DE\u03DF\x07\x1B\x02\x02\u03DF\u03E0\x05\x94K\x02\u03E0\u03E1" +
+		"\x07\x1C\x02\x02\u03E1\x97\x03\x02\x02\x02\u03E2\u03E6\x07\x13\x02\x02" +
+		"\u03E3\u03E5\x05\x9AN\x02\u03E4\u03E3\x03\x02\x02\x02\u03E5\u03E8\x03" +
+		"\x02\x02\x02\u03E6\u03E4\x03\x02\x02\x02\u03E6\u03E7\x03\x02\x02\x02\u03E7" +
+		"\u03E9\x03\x02\x02\x02\u03E8\u03E6\x03\x02\x02\x02\u03E9\u03EA\x07\x15" +
+		"\x02\x02\u03EA\x99\x03\x02\x02\x02\u03EB\u03FE\x05\xC4c\x02\u03EC\u03FE" +
+		"\x05\x98M\x02\u03ED\u03FE\x05\x9CO\x02\u03EE\u03FE\x05\xA2R\x02\u03EF" +
+		"\u03FE\x05\xA4S\x02\u03F0\u03FE\x05\xAAV\x02\u03F1\u03FE\x05\xACW\x02" +
+		"\u03F2\u03FE\x05\xAEX\x02\u03F3\u03FE\x05\xB2Z\x02\u03F4\u03FE\x05\xB6" +
+		"\\\x02\u03F5\u03FE\x05\xB8]\x02\u03F6\u03FE\x07v\x02\x02\u03F7\u03FE\x07" +
+		"y\x02\x02\u03F8\u03FE\x07z\x02\x02\u03F9\u03FE\x05\xBC_\x02\u03FA\u03FE" +
+		"\x05\xC2b\x02\u03FB\u03FE\x05\xCCg\x02\u03FC\u03FE\x05\xC6d\x02\u03FD" +
+		"\u03EB\x03\x02\x02\x02\u03FD\u03EC\x03\x02\x02\x02\u03FD\u03ED\x03\x02" +
+		"\x02\x02\u03FD\u03EE\x03\x02\x02\x02\u03FD\u03EF\x03\x02\x02\x02\u03FD" +
+		"\u03F0\x03\x02\x02\x02\u03FD\u03F1\x03\x02\x02\x02\u03FD\u03F2\x03\x02" +
+		"\x02\x02\u03FD\u03F3\x03\x02\x02\x02\u03FD\u03F4\x03\x02\x02\x02\u03FD" +
+		"\u03F5\x03\x02\x02\x02\u03FD\u03F6\x03\x02\x02\x02\u03FD\u03F7\x03\x02" +
+		"\x02\x02\u03FD\u03F8\x03\x02\x02\x02\u03FD\u03F9\x03\x02\x02\x02\u03FD" +
+		"\u03FA\x03\x02\x02\x02\u03FD\u03FB\x03\x02\x02\x02\u03FD\u03FC\x03\x02" +
+		"\x02\x02\u03FE\x9B\x03\x02\x02\x02\u03FF\u0403\x05\xA0Q\x02\u0400\u0403" +
+		"\x05\xBA^\x02\u0401\u0403\x05\x9EP\x02\u0402\u03FF\x03\x02\x02\x02\u0402" +
+		"\u0400\x03\x02\x02\x02\u0402\u0401\x03\x02\x02\x02\u0403\x9D\x03\x02\x02" +
+		"\x02\u0404\u0405\x05\xC4c\x02\u0405\u0406\x07)\x02\x02\u0406\u0407\x05" +
+		"\xC4c\x02\u0407\x9F\x03\x02\x02\x02\u0408\u040D\x079\x02\x02\u0409\u040D" +
+		"\x07(\x02\x02\u040A\u040D\x07@\x02\x02\u040B\u040D\x05\xC4c\x02\u040C" +
+		"\u0408\x03\x02\x02\x02\u040C\u0409\x03\x02\x02\x02\u040C\u040A\x03\x02" +
+		"\x02\x02\u040C\u040B\x03\x02\x02\x02\u040D\u041A\x03\x02\x02\x02\u040E" +
+		"\u0410\x07\x1B\x02\x02\u040F\u0411\x05\x9CO\x02\u0410\u040F\x03\x02\x02" +
+		"\x02\u0410\u0411\x03\x02\x02\x02\u0411\u0416\x03\x02\x02\x02\u0412\u0413" +
+		"\x07\x14\x02\x02\u0413\u0415\x05\x9CO\x02\u0414\u0412\x03\x02\x02\x02" +
+		"\u0415\u0418\x03\x02\x02\x02\u0416\u0414\x03\x02\x02\x02\u0416\u0417\x03" +
+		"\x02\x02\x02\u0417\u0419\x03\x02\x02\x02\u0418\u0416\x03\x02\x02\x02\u0419" +
+		"\u041B\x07\x1C\x02\x02\u041A\u040E\x03\x02\x02\x02\u041A\u041B\x03\x02" +
+		"\x02\x02\u041B\xA1\x03\x02\x02\x02\u041C\u041D\x07^\x02\x02\u041D\u0420" +
+		"\x05\xA6T\x02\u041E\u041F\x07_\x02\x02\u041F\u0421\x05\x9CO\x02\u0420" +
+		"\u041E\x03\x02\x02\x02\u0420\u0421\x03\x02\x02\x02\u0421\xA3\x03\x02\x02" +
+		"\x02\u0422\u0423\x05\xA6T\x02\u0423\u0424\x07_\x02\x02\u0424\u0425\x05" +
+		"\x9CO\x02\u0425\xA5\x03\x02\x02\x02\u0426\u042D\x05\xC4c\x02\u0427\u042D" +
+		"\x05\x9EP\x02\u0428\u0429\x07\x1B\x02\x02\u0429\u042A\x05\xA8U\x02\u042A" +
+		"\u042B\x07\x1C\x02\x02\u042B\u042D\x03\x02\x02\x02\u042C\u0426\x03\x02" +
+		"\x02\x02\u042C\u0427\x03\x02\x02\x02\u042C\u0428\x03\x02\x02\x02\u042D" +
+		"\xA7\x03\x02\x02\x02\u042E\u0433\x05\xC4c";
 	private static readonly _serializedATNSegment2: string =
-		"\u0433\x05\xC4c\x02\u042F\u0430\x07\x14\x02\x02\u0430\u0432\x05\xC4c\x02" +
-		"\u0431\u042F\x03\x02\x02\x02\u0432\u0435\x03\x02\x02\x02\u0433\u0431\x03" +
-		"\x02\x02\x02\u0433\u0434\x03\x02\x02\x02\u0434\xA9\x03\x02\x02\x02\u0435" +
-		"\u0433\x03\x02\x02\x02\u0436\u0437\x07a\x02\x02\u0437\u0438\x05\xC4c\x02" +
-		"\u0438\xAB\x03\x02\x02\x02\u0439\u043A\x05\xC4c\x02\u043A\u043B\x076\x02" +
-		"\x02\u043B\xAD\x03\x02\x02\x02\u043C\u043D\x07b\x02\x02\u043D\u0441\x05" +
-		"\x9CO\x02\u043E\u0440\x05\xB0Y\x02\u043F\u043E\x03\x02\x02\x02\u0440\u0443" +
-		"\x03\x02\x02\x02\u0441\u043F\x03\x02\x02\x02\u0441\u0442\x03\x02\x02\x02" +
-		"\u0442\xAF\x03\x02\x02\x02\u0443\u0441\x03\x02\x02\x02\u0444\u0445\x07" +
-		"c\x02\x02\u0445\u0446\x05\xBA^\x02\u0446\u0447\x05\x98M\x02\u0447\u044B" +
-		"\x03\x02\x02\x02\u0448\u0449\x07d\x02\x02\u0449\u044B\x05\x98M\x02\u044A" +
-		"\u0444\x03\x02\x02\x02\u044A\u0448\x03\x02\x02\x02\u044B\xB1\x03\x02\x02" +
-		"\x02\u044C\u044D\x07\"\x02\x02\u044D\u044E\x05\xC4c\x02\u044E\u0450\x07" +
-		"\x1B\x02\x02\u044F\u0451\x05\xA8U\x02\u0450\u044F\x03\x02\x02\x02\u0450" +
-		"\u0451\x03\x02\x02\x02\u0451\u0452\x03\x02\x02\x02\u0452\u0454\x07\x1C" +
-		"\x02\x02\u0453\u0455\x05\xB4[\x02\u0454\u0453\x03\x02\x02\x02\u0454\u0455" +
-		"\x03\x02\x02\x02\u0455\u0456\x03\x02\x02\x02\u0456\u0457\x05\x98M\x02" +
-		"\u0457\xB3\x03\x02\x02\x02\u0458\u0459\x07e\x02\x02\u0459\u045A\x05\xA8" +
-		"U\x02\u045A\xB5\x03\x02\x02\x02\u045B\u045E\x07\x1F\x02\x02\u045C\u045F" +
-		"\x05\x98M\x02\u045D\u045F\x05\x9CO\x02\u045E\u045C\x03\x02\x02\x02\u045E" +
-		"\u045D\x03\x02\x02\x02\u045F\u0460\x03\x02\x02\x02\u0460\u0463\x05\x9C" +
-		"O\x02\u0461\u0464\x05\x98M\x02\u0462\u0464\x05\x9CO\x02\u0463\u0461\x03" +
-		"\x02\x02\x02\u0463\u0462\x03\x02\x02\x02\u0464\u0465\x03\x02\x02\x02\u0465" +
+		"\x02\u042F\u0430\x07\x14\x02\x02\u0430\u0432\x05\xC4c\x02\u0431\u042F" +
+		"\x03\x02\x02\x02\u0432\u0435\x03\x02\x02\x02\u0433\u0431\x03\x02\x02\x02" +
+		"\u0433\u0434\x03\x02\x02\x02\u0434\xA9\x03\x02\x02\x02\u0435\u0433\x03" +
+		"\x02\x02\x02\u0436\u0437\x07`\x02\x02\u0437\u0438\x05\xC4c\x02\u0438\xAB" +
+		"\x03\x02\x02\x02\u0439\u043A\x05\xC4c\x02\u043A\u043B\x076\x02\x02\u043B" +
+		"\xAD\x03\x02\x02\x02\u043C\u043D\x07a\x02\x02\u043D\u0441\x05\x9CO\x02" +
+		"\u043E\u0440\x05\xB0Y\x02\u043F\u043E\x03\x02\x02\x02\u0440\u0443\x03" +
+		"\x02\x02\x02\u0441\u043F\x03\x02\x02\x02\u0441\u0442\x03\x02\x02\x02\u0442" +
+		"\xAF\x03\x02\x02\x02\u0443\u0441\x03\x02\x02\x02\u0444\u0445\x07b\x02" +
+		"\x02\u0445\u0446\x05\xBA^\x02\u0446\u0447\x05\x98M\x02\u0447\u044B\x03" +
+		"\x02\x02\x02\u0448\u0449\x07c\x02\x02\u0449\u044B\x05\x98M\x02\u044A\u0444" +
+		"\x03\x02\x02\x02\u044A\u0448\x03\x02\x02\x02\u044B\xB1\x03\x02\x02\x02" +
+		"\u044C\u044D\x07\"\x02\x02\u044D\u044E\x05\xC4c\x02\u044E\u0450\x07\x1B" +
+		"\x02\x02\u044F\u0451\x05\xA8U\x02\u0450\u044F\x03\x02\x02\x02\u0450\u0451" +
+		"\x03\x02\x02\x02\u0451\u0452\x03\x02\x02\x02\u0452\u0454\x07\x1C\x02\x02" +
+		"\u0453\u0455\x05\xB4[\x02\u0454\u0453\x03\x02\x02\x02\u0454\u0455\x03" +
+		"\x02\x02\x02\u0455\u0456\x03\x02\x02\x02\u0456\u0457\x05\x98M\x02\u0457" +
+		"\xB3\x03\x02\x02\x02\u0458\u0459\x07d\x02\x02\u0459\u045A\x05\xA8U\x02" +
+		"\u045A\xB5\x03\x02\x02\x02\u045B\u045E\x07\x1F\x02\x02\u045C\u045F\x05" +
+		"\x98M\x02\u045D\u045F\x05\x9CO\x02\u045E\u045C\x03\x02\x02\x02\u045E\u045D" +
+		"\x03\x02\x02\x02\u045F\u0460\x03\x02\x02\x02\u0460\u0463\x05\x9CO\x02" +
+		"\u0461\u0464\x05\x98M\x02\u0462\u0464\x05\x9CO\x02\u0463\u0461\x03\x02" +
+		"\x02\x02\u0463\u0462\x03\x02\x02\x02\u0464\u0465\x03\x02\x02\x02\u0465" +
 		"\u0466\x05\x98M\x02\u0466\xB7\x03\x02\x02\x02\u0467\u0468\x07/\x02\x02" +
 		"\u0468\u0469\x05\x9CO\x02\u0469\u046A\x05\x98M\x02\u046A\xB9\x03\x02\x02" +
-		"\x02\u046B\u0470\x05\xCCg\x02\u046C\u0470\x07q\x02\x02\u046D\u0470\x07" +
-		"r\x02\x02\u046E\u0470\x05\xC6d\x02\u046F\u046B\x03\x02\x02\x02\u046F\u046C" +
+		"\x02\u046B\u0470\x05\xCCg\x02\u046C\u0470\x07p\x02\x02\u046D\u0470\x07" +
+		"q\x02\x02\u046E\u0470\x05\xC6d\x02\u046F\u046B\x03\x02\x02\x02\u046F\u046C" +
 		"\x03\x02\x02\x02\u046F\u046D\x03\x02\x02\x02\u046F\u046E\x03\x02\x02\x02" +
 		"\u0470\xBB\x03\x02\x02\x02\u0471\u0472\x077\x02\x02\u0472\u0473\x05\xC4" +
 		"c\x02\u0473\u0474\x05\x98M\x02\u0474\xBD\x03\x02\x02\x02\u0475\u0477\x07" +
@@ -7142,19 +7128,19 @@ export class SolidityParser extends Parser {
 		"\u048E\x03\x02\x02\x02\u048E\u0490\x07\'\x02\x02\u048F\u0475\x03\x02\x02" +
 		"\x02\u048F\u0483\x03\x02\x02\x02\u0490\xBF\x03\x02\x02\x02\u0491\u0494" +
 		"\x05\x84C\x02\u0492\u0494\x05J&\x02\u0493\u0491\x03\x02\x02\x02\u0493" +
-		"\u0492\x03\x02\x02\x02\u0494\xC1\x03\x02\x02\x02\u0495\u0497\t\x10\x02" +
-		"\x02\u0496\u0498\x07s\x02\x02\u0497\u0496\x03\x02\x02\x02\u0497\u0498" +
-		"\x03\x02\x02\x02\u0498\xC3\x03\x02\x02\x02\u0499\u049A\t\x11\x02\x02\u049A" +
-		"\xC5\x03\x02\x02\x02\u049B\u049D\x07t\x02\x02\u049C\u049B\x03\x02\x02" +
+		"\u0492\x03\x02\x02\x02\u0494\xC1\x03\x02\x02\x02\u0495\u0497\t\x0F\x02" +
+		"\x02\u0496\u0498\x07r\x02\x02\u0497\u0496\x03\x02\x02\x02\u0497\u0498" +
+		"\x03\x02\x02\x02\u0498\xC3\x03\x02\x02\x02\u0499\u049A\t\x10\x02\x02\u049A" +
+		"\xC5\x03\x02\x02\x02\u049B\u049D\x07s\x02\x02\u049C\u049B\x03\x02\x02" +
 		"\x02\u049D\u049E\x03\x02\x02\x02\u049E\u049C\x03\x02\x02\x02\u049E\u049F" +
-		"\x03\x02\x02\x02\u049F\xC7\x03\x02\x02\x02\u04A0\u04A1\x07h\x02\x02\u04A1" +
-		"\xC9\x03\x02\x02\x02\u04A2\u04AE\x07i\x02\x02\u04A3\u04A4\x07\x1B\x02" +
+		"\x03\x02\x02\x02\u049F\xC7\x03\x02\x02\x02\u04A0\u04A1\x07g\x02\x02\u04A1" +
+		"\xC9\x03\x02\x02\x02\u04A2\u04AE\x07h\x02\x02\u04A3\u04A4\x07\x1B\x02" +
 		"\x02\u04A4\u04A9\x05J&\x02\u04A5\u04A6\x07\x14\x02\x02\u04A6\u04A8\x05" +
 		"J&\x02\u04A7\u04A5\x03\x02\x02\x02\u04A8\u04AB\x03\x02\x02\x02\u04A9\u04A7" +
 		"\x03\x02\x02\x02\u04A9\u04AA\x03\x02\x02\x02\u04AA\u04AC\x03\x02\x02\x02" +
 		"\u04AB\u04A9\x03\x02\x02\x02\u04AC\u04AD\x07\x1C\x02\x02\u04AD\u04AF\x03" +
 		"\x02\x02\x02\u04AE\u04A3\x03\x02\x02\x02\u04AE\u04AF\x03\x02\x02\x02\u04AF" +
-		"\xCB\x03\x02\x02\x02\u04B0\u04B2\x07\x8D\x02\x02\u04B1\u04B0\x03\x02\x02" +
+		"\xCB\x03\x02\x02\x02\u04B0\u04B2\x07\x8C\x02\x02\u04B1\u04B0\x03\x02\x02" +
 		"\x02\u04B2\u04B3\x03\x02\x02\x02\u04B3\u04B1\x03\x02\x02\x02\u04B3\u04B4" +
 		"\x03\x02\x02\x02\u04B4\xCD\x03\x02\x02\x02\x88\xD7\xD9\xE1\xE7\xEB\xEF" +
 		"\xF4\xFA\xFE\u0101\u0106\u010C\u0113\u0117\u0124\u012C\u0131\u013B\u013E" +
