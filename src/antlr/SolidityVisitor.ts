@@ -21,6 +21,9 @@ import { FileLevelConstantContext } from "./SolidityParser";
 import { CustomErrorDefinitionContext } from "./SolidityParser";
 import { TypeDefinitionContext } from "./SolidityParser";
 import { UsingForDeclarationContext } from "./SolidityParser";
+import { UsingForObjectContext } from "./SolidityParser";
+import { UsingForObjectDirectiveContext } from "./SolidityParser";
+import { UserDefinableOperatorsContext } from "./SolidityParser";
 import { StructDefinitionContext } from "./SolidityParser";
 import { ModifierDefinitionContext } from "./SolidityParser";
 import { ModifierInvocationContext } from "./SolidityParser";
@@ -240,6 +243,27 @@ export interface SolidityVisitor<Result> extends ParseTreeVisitor<Result> {
 	 * @return the visitor result
 	 */
 	visitUsingForDeclaration?: (ctx: UsingForDeclarationContext) => Result;
+
+	/**
+	 * Visit a parse tree produced by `SolidityParser.usingForObject`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitUsingForObject?: (ctx: UsingForObjectContext) => Result;
+
+	/**
+	 * Visit a parse tree produced by `SolidityParser.usingForObjectDirective`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitUsingForObjectDirective?: (ctx: UsingForObjectDirectiveContext) => Result;
+
+	/**
+	 * Visit a parse tree produced by `SolidityParser.userDefinableOperators`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitUserDefinableOperators?: (ctx: UserDefinableOperatorsContext) => Result;
 
 	/**
 	 * Visit a parse tree produced by `SolidityParser.structDefinition`.

@@ -160,7 +160,12 @@ export interface FileLevelConstant extends BaseASTNode {
 export interface UsingForDeclaration extends BaseASTNode {
   type: 'UsingForDeclaration'
   typeName: TypeName | null
-  libraryName: string
+  functions: string[]
+  // for each item in `functions`, the item with the same index in `operators`
+  // will be the defined operator, or null if it's just an attached function
+  operators: Array<string | null>
+  libraryName: string | null
+  isGlobal: boolean;
 }
 export interface StructDefinition extends BaseASTNode {
   type: 'StructDefinition'

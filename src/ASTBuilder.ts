@@ -556,10 +556,49 @@ export class ASTBuilder
       typeName = this.visitTypeName(ctxTypeName)
     }
 
-    const node: AST.UsingForDeclaration = {
-      type: 'UsingForDeclaration',
-      typeName,
-      libraryName: this._toText(ctx.userDefinedTypeName()),
+    const isGlobal = ctx.GlobalKeyword() !== undefined
+
+    const usingForObjectCtx = ctx.usingForObject()
+
+    const userDefinedTypeNameCtx = usingForObjectCtx.userDefinedTypeName()
+
+    let node: AST.UsingForDeclaration
+    if (userDefinedTypeNameCtx !== undefined) {
+      // using Lib for ...
+      node = {
+        type: 'UsingForDeclaration',
+        isGlobal,
+        typeName,
+        libraryName: this._toText(userDefinedTypeNameCtx),
+        functions: [],
+        operators: [],
+      }
+    } else {
+      // using { } for ...
+      const usingForObjectDirectives = usingForObjectCtx.usingForObjectDirective()
+      const functions: string[] = []
+      const operators: Array<string | null> = []
+
+      for (const usingForObjectDirective of usingForObjectDirectives) {
+        functions.push(
+          this._toText(usingForObjectDirective.userDefinedTypeName())
+        )
+        const operator = usingForObjectDirective.userDefinableOperators()
+        if (operator !== undefined) {
+          operators.push(this._toText(operator))
+        } else {
+          operators.push(null)
+        }
+      }
+
+      node = {
+        type: 'UsingForDeclaration',
+        isGlobal,
+        typeName,
+        libraryName: null,
+        functions,
+        operators,
+      }
     }
 
     return this._addMeta(node, ctx)
