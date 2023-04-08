@@ -106,6 +106,7 @@ import { NumberLiteralContext } from "./SolidityParser";
 import { IdentifierContext } from "./SolidityParser";
 import { HexLiteralContext } from "./SolidityParser";
 import { OnBounceKeywordContext } from "./SolidityParser";
+import { OnTickTockKeywordContext } from "./SolidityParser";
 import { OverrideSpecifierContext } from "./SolidityParser";
 import { StringLiteralContext } from "./SolidityParser";
 
@@ -838,6 +839,13 @@ export interface SolidityVisitor<Result> extends ParseTreeVisitor<Result> {
 	 * @return the visitor result
 	 */
 	visitOnBounceKeyword?: (ctx: OnBounceKeywordContext) => Result;
+
+	/**
+	 * Visit a parse tree produced by `SolidityParser.onTickTockKeyword`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitOnTickTockKeyword?: (ctx: OnTickTockKeywordContext) => Result;
 
 	/**
 	 * Visit a parse tree produced by `SolidityParser.overrideSpecifier`.

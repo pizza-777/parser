@@ -304,6 +304,7 @@ export class ASTBuilder
     let isVirtual = false
     let isInline = false
     let isOnBounce = false
+    let isOnTickTock = false
     let isResponsible = false
     let name: string | null = null
     let parameters: any = []
@@ -354,6 +355,14 @@ export class ASTBuilder
         break
       case 'onBounce':
         isOnBounce = true
+        visibility = 'external'
+        parameters = ctx
+          .parameterList()
+          .parameter()
+          .map((x) => this.visit(x))
+        break
+      case 'onTickTock':
+        isOnTickTock = true
         visibility = 'external'
         parameters = ctx
           .parameterList()
@@ -433,6 +442,7 @@ export class ASTBuilder
       isInline,
       isResponsible,
       isOnBounce,
+      isOnTickTock,
       stateMutability,
     }
 

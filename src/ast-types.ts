@@ -202,6 +202,7 @@ export interface FunctionDefinition extends BaseASTNode {
   isInline: boolean
   isOnBounce: boolean
   isResponsible: boolean
+  isOnTickTock: boolean
 }
 
 export interface CustomErrorDefinition extends BaseASTNode {

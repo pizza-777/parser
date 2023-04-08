@@ -106,6 +106,7 @@ import { NumberLiteralContext } from "./SolidityParser";
 import { IdentifierContext } from "./SolidityParser";
 import { HexLiteralContext } from "./SolidityParser";
 import { OnBounceKeywordContext } from "./SolidityParser";
+import { OnTickTockKeywordContext } from "./SolidityParser";
 import { OverrideSpecifierContext } from "./SolidityParser";
 import { StringLiteralContext } from "./SolidityParser";
 
@@ -1247,6 +1248,17 @@ export interface SolidityListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitOnBounceKeyword?: (ctx: OnBounceKeywordContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `SolidityParser.onTickTockKeyword`.
+	 * @param ctx the parse tree
+	 */
+	enterOnTickTockKeyword?: (ctx: OnTickTockKeywordContext) => void;
+	/**
+	 * Exit a parse tree produced by `SolidityParser.onTickTockKeyword`.
+	 * @param ctx the parse tree
+	 */
+	exitOnTickTockKeyword?: (ctx: OnTickTockKeywordContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `SolidityParser.overrideSpecifier`.
