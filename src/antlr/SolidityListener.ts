@@ -61,6 +61,7 @@ import { UncheckedStatementContext } from "./SolidityParser";
 import { ForStatementContext } from "./SolidityParser";
 import { ForRangeStatementContext } from "./SolidityParser";
 import { InlineAssemblyStatementContext } from "./SolidityParser";
+import { InlineAssemblyStatementFlagContext } from "./SolidityParser";
 import { DoWhileStatementContext } from "./SolidityParser";
 import { ContinueStatementContext } from "./SolidityParser";
 import { BreakStatementContext } from "./SolidityParser";
@@ -73,6 +74,7 @@ import { VariableDeclarationListContext } from "./SolidityParser";
 import { IdentifierListContext } from "./SolidityParser";
 import { ElementaryTypeNameContext } from "./SolidityParser";
 import { OptionalTypeNameContext } from "./SolidityParser";
+import { VectorTypeNameContext } from "./SolidityParser";
 import { ExpressionContext } from "./SolidityParser";
 import { PrimaryExpressionContext } from "./SolidityParser";
 import { NameValueBlockStatementContext } from "./SolidityParser";
@@ -99,7 +101,6 @@ import { AssemblyFunctionReturnsContext } from "./SolidityParser";
 import { AssemblyForContext } from "./SolidityParser";
 import { AssemblyIfContext } from "./SolidityParser";
 import { AssemblyLiteralContext } from "./SolidityParser";
-import { SubAssemblyContext } from "./SolidityParser";
 import { TupleExpressionContext } from "./SolidityParser";
 import { TypeNameExpressionContext } from "./SolidityParser";
 import { NumberLiteralContext } from "./SolidityParser";
@@ -755,6 +756,17 @@ export interface SolidityListener extends ParseTreeListener {
 	exitInlineAssemblyStatement?: (ctx: InlineAssemblyStatementContext) => void;
 
 	/**
+	 * Enter a parse tree produced by `SolidityParser.inlineAssemblyStatementFlag`.
+	 * @param ctx the parse tree
+	 */
+	enterInlineAssemblyStatementFlag?: (ctx: InlineAssemblyStatementFlagContext) => void;
+	/**
+	 * Exit a parse tree produced by `SolidityParser.inlineAssemblyStatementFlag`.
+	 * @param ctx the parse tree
+	 */
+	exitInlineAssemblyStatementFlag?: (ctx: InlineAssemblyStatementFlagContext) => void;
+
+	/**
 	 * Enter a parse tree produced by `SolidityParser.doWhileStatement`.
 	 * @param ctx the parse tree
 	 */
@@ -885,6 +897,17 @@ export interface SolidityListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitOptionalTypeName?: (ctx: OptionalTypeNameContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `SolidityParser.vectorTypeName`.
+	 * @param ctx the parse tree
+	 */
+	enterVectorTypeName?: (ctx: VectorTypeNameContext) => void;
+	/**
+	 * Exit a parse tree produced by `SolidityParser.vectorTypeName`.
+	 * @param ctx the parse tree
+	 */
+	exitVectorTypeName?: (ctx: VectorTypeNameContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `SolidityParser.expression`.
@@ -1171,17 +1194,6 @@ export interface SolidityListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitAssemblyLiteral?: (ctx: AssemblyLiteralContext) => void;
-
-	/**
-	 * Enter a parse tree produced by `SolidityParser.subAssembly`.
-	 * @param ctx the parse tree
-	 */
-	enterSubAssembly?: (ctx: SubAssemblyContext) => void;
-	/**
-	 * Exit a parse tree produced by `SolidityParser.subAssembly`.
-	 * @param ctx the parse tree
-	 */
-	exitSubAssembly?: (ctx: SubAssemblyContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `SolidityParser.tupleExpression`.

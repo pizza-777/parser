@@ -1,6 +1,6 @@
 {
   "name": "tvm-solidity-parser",
-  "version": "0.14.74",
+  "version": "0.14.75",
   "description": "The Everscale Solidity parser built from a robust ANTLR 4 grammar",
   "main": "dist/index.cjs.js",
   "browser": {
@@ -64,7 +64,7 @@
     "karma": "^6.3.2",
     "karma-chrome-launcher": "^3.1.0",
     "karma-mocha": "^2.0.1",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "nyc": "^14.1.1",
     "prettier": "^2.2.1",
     "puppeteer": "^9.0.0",

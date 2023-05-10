@@ -61,6 +61,7 @@ import { UncheckedStatementContext } from "./SolidityParser";
 import { ForStatementContext } from "./SolidityParser";
 import { ForRangeStatementContext } from "./SolidityParser";
 import { InlineAssemblyStatementContext } from "./SolidityParser";
+import { InlineAssemblyStatementFlagContext } from "./SolidityParser";
 import { DoWhileStatementContext } from "./SolidityParser";
 import { ContinueStatementContext } from "./SolidityParser";
 import { BreakStatementContext } from "./SolidityParser";
@@ -73,6 +74,7 @@ import { VariableDeclarationListContext } from "./SolidityParser";
 import { IdentifierListContext } from "./SolidityParser";
 import { ElementaryTypeNameContext } from "./SolidityParser";
 import { OptionalTypeNameContext } from "./SolidityParser";
+import { VectorTypeNameContext } from "./SolidityParser";
 import { ExpressionContext } from "./SolidityParser";
 import { PrimaryExpressionContext } from "./SolidityParser";
 import { NameValueBlockStatementContext } from "./SolidityParser";
@@ -99,7 +101,6 @@ import { AssemblyFunctionReturnsContext } from "./SolidityParser";
 import { AssemblyForContext } from "./SolidityParser";
 import { AssemblyIfContext } from "./SolidityParser";
 import { AssemblyLiteralContext } from "./SolidityParser";
-import { SubAssemblyContext } from "./SolidityParser";
 import { TupleExpressionContext } from "./SolidityParser";
 import { TypeNameExpressionContext } from "./SolidityParser";
 import { NumberLiteralContext } from "./SolidityParser";
@@ -526,6 +527,13 @@ export interface SolidityVisitor<Result> extends ParseTreeVisitor<Result> {
 	visitInlineAssemblyStatement?: (ctx: InlineAssemblyStatementContext) => Result;
 
 	/**
+	 * Visit a parse tree produced by `SolidityParser.inlineAssemblyStatementFlag`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitInlineAssemblyStatementFlag?: (ctx: InlineAssemblyStatementFlagContext) => Result;
+
+	/**
 	 * Visit a parse tree produced by `SolidityParser.doWhileStatement`.
 	 * @param ctx the parse tree
 	 * @return the visitor result
@@ -608,6 +616,13 @@ export interface SolidityVisitor<Result> extends ParseTreeVisitor<Result> {
 	 * @return the visitor result
 	 */
 	visitOptionalTypeName?: (ctx: OptionalTypeNameContext) => Result;
+
+	/**
+	 * Visit a parse tree produced by `SolidityParser.vectorTypeName`.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	visitVectorTypeName?: (ctx: VectorTypeNameContext) => Result;
 
 	/**
 	 * Visit a parse tree produced by `SolidityParser.expression`.
@@ -790,13 +805,6 @@ export interface SolidityVisitor<Result> extends ParseTreeVisitor<Result> {
 	 * @return the visitor result
 	 */
 	visitAssemblyLiteral?: (ctx: AssemblyLiteralContext) => Result;
-
-	/**
-	 * Visit a parse tree produced by `SolidityParser.subAssembly`.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	visitSubAssembly?: (ctx: SubAssemblyContext) => Result;
 
 	/**
 	 * Visit a parse tree produced by `SolidityParser.tupleExpression`.

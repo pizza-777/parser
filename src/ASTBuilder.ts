@@ -543,6 +543,10 @@ export class ASTBuilder
       return this.visitOptionalTypeName(ctx.optionalTypeName()!)
     }
 
+    if (ctx.vectorTypeName() !== undefined) {
+      return this.visitVectorTypeName(ctx.vectorTypeName()!)
+    }
+
     throw new Error('Assertion error: unhandled type name case')
   }
 
@@ -779,6 +783,18 @@ export class ASTBuilder
     const args = ctx.typeName().map((x) => this.visitTypeName(x))
     const node: AST.OptionalTypeName = {
       type: 'OptionalTypeName',
+      arguments: args,
+    }
+
+    return this._addMeta(node, ctx)
+  }
+
+  public visitVectorTypeName(
+    ctx: SP.VectorTypeNameContext
+  ): AST.VectorTypeName & WithMeta {
+    const args = ctx.typeName().map((x) => this.visitTypeName(x))
+    const node: AST.VectorTypeName = {
+      type: 'VectorTypeName',
       arguments: args,
     }
 
