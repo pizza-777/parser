@@ -2051,27 +2051,31 @@ export class ASTBuilder
   public visitAssemblyFunctionDefinition(
     ctx: SP.AssemblyFunctionDefinitionContext
   ) {
-    const ctxAssemblyIdentifierList = ctx.assemblyIdentifierList()
-    const args =
-      ctxAssemblyIdentifierList !== undefined
-        ? ctxAssemblyIdentifierList
-          .identifier()
-          .map((x) => this.visitIdentifier(x))
-        : []
+    let parameters: any = []
+    let stateMutability = null
+    let returnParameters: AST.VariableDeclaration[] | null = null
 
-    const ctxAssemblyFunctionReturns = ctx.assemblyFunctionReturns()
-    const returnArgs = ctxAssemblyFunctionReturns
-      ? ctxAssemblyFunctionReturns
-        .assemblyIdentifierList()!
-        .identifier()
-        .map((x) => this.visitIdentifier(x))
-      : []
+    const ctxReturnParameters = ctx.returnParameters()
+      parameters = ctx
+        .parameterList()
+        .parameter()
+        .map((x) => this.visit(x))
+        returnParameters =
+          ctxReturnParameters !== undefined
+            ? this.visitReturnParameters(ctxReturnParameters)
+            : null
 
+            if (ctx.stateMutability().length > 0) {
+              stateMutability = this._stateMutabilityToText(
+                ctx.stateMutability(0)
+              )
+            }
     const node: AST.AssemblyFunctionDefinition = {
       type: 'AssemblyFunctionDefinition',
       name: this._toText(ctx.identifier()),
-      arguments: args,
-      returnArguments: returnArgs,
+      parameters,
+      returnParameters,
+      stateMutability,
       body: this.visitAssemblyBlock(ctx.assemblyBlock()),
     }
 

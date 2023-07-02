@@ -427,8 +427,9 @@ export interface AssemblyCase extends BaseASTNode {
 export interface AssemblyFunctionDefinition extends BaseASTNode {
   type: 'AssemblyFunctionDefinition'
   name: string
-  arguments: Identifier[]
-  returnArguments: Identifier[]
+  parameters: VariableDeclaration[]
+  stateMutability: string | null
+  returnParameters: VariableDeclaration[] | null
   body: AssemblyBlock
 }
 export interface AssemblyFunctionReturns extends BaseASTNode {
