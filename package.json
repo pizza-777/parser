@@ -1,6 +1,6 @@
 {
   "name": "tvm-solidity-parser",
-  "version": "0.14.76",
+  "version": "0.14.77",
   "description": "The Everscale Solidity parser built from a robust ANTLR 4 grammar",
   "main": "dist/index.cjs.js",
   "browser": {
