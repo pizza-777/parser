@@ -7,4 +7,6 @@ scripts/
 .eslintrc
 .editorconfig
 solidity-antlr4/
-testContracts
+test/
+testContracts/
+*.txt

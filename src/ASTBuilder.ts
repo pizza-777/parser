@@ -130,6 +130,11 @@ export class ASTBuilder
       isImmutable = true
     }
 
+    let isNostorage = false
+    if(ctx.NostorageKeyword().length > 0) {
+      isNostorage = true
+    }
+    
     const decl: AST.StateVariableDeclarationVariable = {
       type: 'VariableDeclaration',
       typeName: type,
@@ -143,7 +148,8 @@ export class ASTBuilder
       isImmutable,
       override,
       storageLocation: null,
-      isStatic
+      isStatic,
+      isNostorage
     }
 
     const node: AST.StateVariableDeclaration = {

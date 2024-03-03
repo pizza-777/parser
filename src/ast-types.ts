@@ -247,12 +247,13 @@ export interface VariableDeclaration extends BaseASTNode {
   isDeclaredConst?: boolean
   storageLocation: string | null
   expression: Expression | null
-  visibility?: 'public' | 'private' | 'internal' | 'default'
+  visibility?: 'static' | 'public' | 'private' | 'internal' | 'constant' | 'immutable' | 'nostorage' | 'default'
 }
 export interface StateVariableDeclarationVariable extends VariableDeclaration {
   override: null | UserDefinedTypeName[]
   isImmutable: boolean
-  isStatic: boolean
+  isStatic: boolean,
+  isNostorage: boolean
 }
 export interface ArrayTypeName extends BaseASTNode {
   type: 'ArrayTypeName'
